@@ -1,0 +1,72 @@
+.header {
+	z-index: 100;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	position: relative;
+	.header__logo--container{
+		list-style-type: none;
+		display: flex;
+		padding: 0;
+		margin: 0;
+		.logo-box {
+			width: 50%;
+			display: flex;
+			align-items: center;
+			span{
+				height: 35px;
+				display: flex;
+				align-items: center;
+				padding: 5px;
+				margin: 5px;
+			}
+		}
+		.hamburger-box{
+			width: 50%;
+			display: flex;
+			align-items: center;
+			justify-content: end;
+			transition: all .2s;
+			svg{
+				font-size: 1.2rem;
+				// color: rgb(45, 45, 179);
+				margin: 5px;
+				transition: all .2s;
+			}
+		}
+	}
+	.humburgerMenu__container {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		transition: all .2s;
+		position: absolute;
+		width: 100%;
+		z-index: 100;
+		li{
+			padding: 10px 0 10px 10px;
+			font-size: .7rem;
+			border: none;
+			position: relative;
+		}
+		li:not(:last-child):before{
+			content: "";
+			position: absolute;
+			left: 10px;
+			bottom: 0;
+			height: 1px;
+			width: 95%;
+			border-bottom: 1px solid gray;
+		}
+		li:first-child{
+			background-color: rgb(78,121,172);
+			color: white;
+		}
+		.second-li{
+			background-color: rgb(96,77,141);
+			color: white;
+		}
+		.li-after-second{
+			background-color: rgb(229,229,229);
+		}
+	}
+}

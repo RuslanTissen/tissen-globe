@@ -1,0 +1,71 @@
+.header {
+  z-index: 100;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  position: relative;
+}
+.header .header__logo--container {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.header .header__logo--container .logo-box {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.header .header__logo--container .logo-box span {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+}
+.header .header__logo--container .hamburger-box {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  transition: all 0.2s;
+}
+.header .header__logo--container .hamburger-box svg {
+  font-size: 1.2rem;
+  margin: 5px;
+  transition: all 0.2s;
+}
+.header .humburgerMenu__container {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  transition: all 0.2s;
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+}
+.header .humburgerMenu__container li {
+  padding: 10px 0 10px 10px;
+  font-size: 0.7rem;
+  border: none;
+  position: relative;
+}
+.header .humburgerMenu__container li:not(:last-child):before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+  height: 1px;
+  width: 95%;
+  border-bottom: 1px solid gray;
+}
+.header .humburgerMenu__container li:first-child {
+  background-color: rgb(78, 121, 172);
+  color: white;
+}
+.header .humburgerMenu__container .second-li {
+  background-color: rgb(96, 77, 141);
+  color: white;
+}
+.header .humburgerMenu__container .li-after-second {
+  background-color: rgb(229, 229, 229);
+}/*# sourceMappingURL=Header.css.map */
