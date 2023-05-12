@@ -21,27 +21,29 @@
   align-items: center;
   padding: 5px;
   margin: 5px;
+  font-weight: 300;
 }
 .header .header__logo--container .hamburger-box {
   width: 50%;
   display: flex;
   align-items: center;
   justify-content: end;
-  transition: all 0.2s;
+  transition: all 0.2s ease-in-out;
 }
 .header .header__logo--container .hamburger-box svg {
   font-size: 1.2rem;
   margin: 5px;
-  transition: all 0.2s;
+  transition: all 0.2s ease-in-out;
 }
 .header .humburgerMenu__container {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  transition: all 0.2s;
+  transition: all 0.2s ease-in-out;
   position: absolute;
   width: 100%;
   z-index: 100;
+  top: 40px;
 }
 .header .humburgerMenu__container li {
   padding: 10px 0 10px 10px;
@@ -68,4 +70,71 @@
 }
 .header .humburgerMenu__container .li-after-second {
   background-color: rgb(229, 229, 229);
+}
+.header .header__big-container {
+  display: none;
+}
+@media (min-width: 1020px) {
+  .header .header__logo--container {
+    display: none;
+  }
+  .header .header__big-container {
+    display: block;
+  }
+  .header .header__big-container .first-ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+  }
+  .header .header__big-container .first-ul .li1 {
+    flex: 1 1 80%;
+  }
+  .header .header__big-container .first-ul .li1 span {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    font-weight: 300;
+  }
+  .header .header__big-container .first-ul .lis {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+  }
+  .header .header__big-container .first-ul .li2 {
+    flex: 1 1 80px;
+  }
+  .header .header__big-container .first-ul .li3 {
+    flex: 1 1 100px;
+  }
+  .header .header__big-container .second-ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header .header__big-container .second-ul .lix {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    font-weight: 500;
+  }
+  .header .header__big-container .second-ul .li4 {
+    flex: 1 1 50%;
+  }
+  .header .header__big-container .second-ul .li5 {
+    flex: 1 1 100px;
+  }
+  .header .header__big-container .second-ul .li6 {
+    flex: 1 1 100px;
+  }
+  .header .header__big-container .second-ul .li7 {
+    flex: 1 1 100px;
+  }
+  .header .header__big-container .second-ul .li8 {
+    flex: 1 1 100px;
+  }
 }/*# sourceMappingURL=Header.css.map */

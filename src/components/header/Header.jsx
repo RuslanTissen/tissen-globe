@@ -21,17 +21,32 @@ function Header() {
 					{active ? <RxHamburgerMenu /> : < RxCross1 />}
 				</li>
 			</ul>
-
 			{show && <ul className="humburgerMenu__container">
 				<li>Get Work</li>
 				<li className='second-li'>Hire Help</li>
-				<li className='li-after-second'>About</li>
 				<li className='li-after-second'>API</li>
+				<li className='li-after-second'>About</li>
 				<li className='li-after-second'>Project Help</li>
 				<li className='li-after-second'>Build Team</li>
 				<li className='li-after-second'>Contact</li>
 			</ul>}
 
+
+
+			<div className='header__big-container'>
+				<ul className='first-ul'>
+					<li className='li1 lis'><span>Tissen</span> </li>
+					<li className='li2 lis'>Get Work</li>
+					<li className='li3 lis'>Team Help</li>
+				</ul>
+				<ul className='second-ul'>
+					<li className='li4 lix'>Community</li>
+					<li className='li5 lix'>About</li>
+					<li className='li6 lix'>Project Help</li>
+					<li className='li7 lix'>Build Team</li>
+					<li className='li8 lix'>Contact</li>
+				</ul>
+			</div>
 		</div>
 	)
 }
