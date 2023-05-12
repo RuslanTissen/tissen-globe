@@ -1,0 +1,19 @@
+.introdiuction{
+	font-family: 'Montserrat', sans-serif;
+
+	background-image: url("../../images/intr.jpg");
+	height: 200px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+	h1{
+		text-transform: capitalize;
+		margin: 7%;
+		color: rgb(79, 78, 78);
+		font-weight: 500;
+		font-size: 2rem;
+	}
+}

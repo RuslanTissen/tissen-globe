@@ -3,7 +3,9 @@ import "./Introduction.scss"
 
 function Introduction() {
   return (
-	 <div>Introduction</div>
+	 <div className='introdiuction'>
+		<h1>Let's get success.</h1>
+	 </div>
   )
 }
 
