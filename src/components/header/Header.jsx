@@ -1,12 +1,14 @@
-import React, { useState } from 'react'
+import React, { useState, useContext } from 'react'
 import "./Header.scss"
 import { RxHamburgerMenu } from 'react-icons/rx';
+import {FiChevronRight} from 'react-icons/fi';
 import { RxCross1 } from 'react-icons/rx';
-
+import { Context } from '../Context.js';
 
 function Header() {
 	const [show, setShow] = useState(false)
 	const [active, setActive] = useState(true)
+	const { lang, setLang } = useContext(Context)
 
 	function myFunction() {
 		setActive(!active)
@@ -26,9 +28,16 @@ function Header() {
 				<li className='second-li'>Hire Help</li>
 				<li className='li-after-second'>API</li>
 				<li className='li-after-second'>About</li>
-				<li className='li-after-second'>Project Help</li>
-				<li className='li-after-second'>Build Team</li>
+				<li className='li-after-second'>Help</li>
+				<li className='li-after-second'>Build</li>
 				<li className='li-after-second'>Contact</li>
+				<li className='li-after-second sprachen'>
+						<button className="button-esp" value="es" onClick={(e) => setLang(e.target.value)}>ESP</button>
+						<p>/</p>
+						<button className="button-eng" value="en" onClick={(e) => setLang(e.target.value)}> ENG</button>
+						<p>/</p>
+						<button className="button-ger" value="gr" onClick={(e) => setLang(e.target.value)}>GER</button>
+				</li>
 			</ul>}
 
 
@@ -36,15 +45,22 @@ function Header() {
 			<div className='header__big-container'>
 				<ul className='first-ul'>
 					<li className='li1 lis'><span>Tissen</span> </li>
-					<li className='li2 lis'>Get Work</li>
-					<li className='li3 lis'>Team Help</li>
+					<li className='li2 lis'>Get Work <FiChevronRight/></li>
+					<li className='li3 lis'>Team Help <FiChevronRight/></li>
+					<li className='sprachen'>
+							<button className="button-esp" value="es" onClick={(e) => setLang(e.target.value)}>ESP</button>
+							<p>/</p>
+							<button className="button-eng" value="en" onClick={(e) => setLang(e.target.value)}> ENG</button>
+							<p>/</p>
+							<button className="button-ger" value="gr" onClick={(e) => setLang(e.target.value)}>GER</button>
+					</li>
 				</ul>
 				<ul className='second-ul'>
-					<li className='li4 lix'>Community</li>
-					<li className='li5 lix'>About</li>
-					<li className='li6 lix'>Project Help</li>
-					<li className='li7 lix'>Build Team</li>
-					<li className='li8 lix'>Contact</li>
+					<li className='li4 lix'>Community <FiChevronRight/></li>
+					<li className='li5  lix'>About</li>
+					<li className='li6 short-li lix'>Help</li>
+					<li className='li7 short-li lix'>Build</li>
+					<li className='li8 short-li lix'>Contact</li>
 				</ul>
 			</div>
 		</div>

@@ -70,11 +70,27 @@
 		.li-after-second{
 			background-color: rgb(229,229,229);
 		}
+		.sprachen {
+			display: flex;
+			padding: 0 ;
+			button{
+				padding: 0 10px ;
+				border: none;
+				background-color: rgb(229,229,229);
+				font-size: .7rem;
+			}
+			button:hover{
+				cursor: pointer;
+			}
+		}
 	}
 	.header__big-container {
 		display: none;
 	}
 	@media (min-width:1020px) {
+		.humburgerMenu__container{
+			display: none;
+		}
 		.header__logo--container{
 			display: none;
 		}
@@ -83,9 +99,10 @@
 			.first-ul {
 				display: flex;
 				flex-wrap: wrap;
+				align-items: center;
 				list-style-type: none;
 				.li1 {
-					flex: 1 1 80%;
+					flex: 1 1 60%;
 					span{
 						height: 35px;
 						display: flex;
@@ -100,12 +117,34 @@
 					display: flex;
 					align-items: center;
 					font-weight: 700;
+					svg{
+						margin-left: 5px;
+					}
 				}
-				.li2 {
-					flex: 1 1 80px;
+				.lis:hover{
+					cursor: pointer;
+					opacity: .5;
 				}
+				.li2,
 				.li3 {
-					flex: 1 1 100px;
+					flex: 1 1 110px;
+					max-width: 120px;
+				}
+				.sprachen {
+						flex: 1 1 110px;
+						max-width: 150px;
+						display: flex;
+						button{
+							// height: 35px;
+							background-color: white;
+							border: none;
+							font-size: 1rem;
+							font-weight: 700;
+						}
+						button:hover{
+							cursor: pointer;
+							opacity: .5;
+						}
 				}
 			}
 			.second-ul {
@@ -119,27 +158,30 @@
 					padding: 5px;
 					margin: 5px;
 					font-weight: 500;
+					svg{
+						margin-left: 5px;
+					}
+				}
+				.lix:hover{
+					cursor: pointer;
+					opacity: .5;
 				}
 				.li4 {
 					flex: 1 1 50%;
-				}
-				.li5 {
-					flex: 1 1 100px;
-
-				}
-				.li6 {
-					flex: 1 1 100px;
-
-				}
-				.li7 {
-					flex: 1 1 100px;
-
-				}
-				.li8 {
-					flex: 1 1 100px;
-
 				}
 			}
 		}
 	}
 }
+
+
+
+// .button-esp{
+					
+// }
+// .button-eng{
+
+// }
+// .button-ger{
+
+// }
