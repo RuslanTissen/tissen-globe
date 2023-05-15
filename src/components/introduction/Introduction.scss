@@ -7,21 +7,41 @@
 	background-size: cover;
 	display: flex;
 	flex-wrap: wrap;
-	// justify-content: end;
 	align-items: center;
 	.introdiuction__container{
+		flex: 0 1 50%;
 		max-width: 1600px;
-		margin: 0 auto;
+		margin: 0 0 0 auto;
 		.text__container{
-			flex: 0 1 50%;
 			max-width: 500px;
-			margin: 0 0 0 auto;
+			margin: 0 auto;
 			h1{
 				text-transform: capitalize;
-				color: rgb(79, 78, 78);
-				font-weight: 500;
+				color: black;
+				font-weight: 700;
 				font-size: 2rem;
 			}
 		}
 	}
+	@media (min-width: 900px) {
+	height: 300px;
+		.introdiuction__container{
+			.text__container{
+				h1{
+					font-size: 3rem;
+				}
+			}
+		}
+	}
+	@media (min-width: 1200px) {
+		height: 400px;
+			.introdiuction__container{
+				.text__container{
+					max-width: 600px;
+					h1{
+						font-size: 3.5rem;
+					}
+				}
+			}
+		}
 }
