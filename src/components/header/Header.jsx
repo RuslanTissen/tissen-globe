@@ -46,8 +46,8 @@ function Header() {
 			<div className='header__big-container'>
 				<ul className='first-ul'>
 					<li className='li1 lis'><span>Tissen</span> </li>
-					<li className='li2 lis'>Get Work <FiChevronRight /></li>
-					<li className='li3 lis'>Team Help <FiChevronRight /></li>
+					<li className='li2 lis'><p>Get Work <FiChevronRight /></p> </li>
+					<li className='li3 lis'><p>Team Help <FiChevronRight /></p>  </li>
 					<li className='sprachen'>
 						<button className="button-esp" value="es" onClick={(e) => setLang(e.target.value)}>ESP</button>
 						<p>/</p>
@@ -57,11 +57,11 @@ function Header() {
 					</li>
 				</ul>
 				<ul className='second-ul'>
-					<li className='li4 lix'>Community <FiChevronRight /></li>
-					<li className='li5  lix'>About</li>
-					<li className='li6 short-li lix'>Help</li>
-					<li className='li7 short-li lix'>Build</li>
-					<li className='li8 short-li lix'>Contact</li>
+					<li className='li4 lix'><p>Community <FiChevronRight /> </p> </li>
+					<li className='li5  lix'><p>About</p> </li>
+					<li className='li6 short-li lix'><p>Help</p> </li>
+					<li className='li7 short-li lix'><p>Build</p> </li>
+					<li className='li8 short-li lix'><p>Contact</p> </li>
 				</ul>
 			</div>
 		</div>
