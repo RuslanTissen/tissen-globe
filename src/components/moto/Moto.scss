@@ -18,6 +18,11 @@
 			font-size: 1.7rem;
 			position: relative;
 			color: rgb(77, 76, 76);
+			display: flex;
+			justify-content: center;
+			svg{
+				color: black;
+			}
 		}
 		.icon::before{
 			content: "";
@@ -25,8 +30,10 @@
 			height: 1px;
 			right: 50px;
 			bottom: 50%;
-			width: 25vw;
-			border-bottom: 1px solid rgb(182, 180, 180);
+			width: 15vw;
+			min-width: 100px;
+			max-width: 250px;
+			border-bottom: 1px solid rgb(47, 47, 47);
 		}
 		.icon::after{
 			content: "";
@@ -34,8 +41,10 @@
 			height: 1px;
 			left: 50px;
 			bottom: 50%;
-			width: 25vw;
-			border-bottom: 1px solid rgb(182, 180, 180);
+			width: 15vw;
+			min-width: 100px;
+			max-width: 250px;
+			border-bottom: 1px solid rgb(47, 47, 47);
 		}
 	}
 	&__third-container {
@@ -61,10 +70,10 @@
 				color: rgb(77, 76, 76);
 			}
 			.icon::before{
-				right: 80px;
+				// right: 80px;
 			}
 			.icon::after{
-				left: 80px;
+				// left: 80px;
 			}
 		}
 		&__third-container {

@@ -1,4 +1,5 @@
 .bloks{
+	height: fit-content;
 	display: flex;
 	flex-wrap: wrap;
 	margin: 25px 0 0 0;
@@ -38,6 +39,8 @@
 		}
 	}
 	@media (min-width:1060px) {
+		max-width: 1500px;
+		margin: 30px auto;
 		gap: 3px;
 		.block--container{
 			flex: 1 1 23%;

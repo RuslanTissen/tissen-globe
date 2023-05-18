@@ -20,7 +20,7 @@
 }
 .introdiuction .introdiuction__container .text__container h1 {
   text-transform: capitalize;
-  color: black;
+  color: rgb(97, 95, 95);
   font-weight: 700;
   font-size: 2rem;
 }

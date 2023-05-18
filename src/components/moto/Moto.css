@@ -1,1 +1,73 @@
-/*# sourceMappingURL=Moto.css.map */
+.moto {
+  max-width: 1200px;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  padding: 40px 0 0 0;
+  margin: 0 auto;
+}
+.moto__first-container {
+  font-size: 2rem;
+  font-weight: 500;
+  color: rgb(62, 61, 61);
+}
+.moto__second-container .icon {
+  font-size: 1.7rem;
+  position: relative;
+  color: rgb(77, 76, 76);
+  display: flex;
+  justify-content: center;
+}
+.moto__second-container .icon svg {
+  color: black;
+}
+.moto__second-container .icon::before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  right: 50px;
+  bottom: 50%;
+  width: 15vw;
+  min-width: 100px;
+  max-width: 250px;
+  border-bottom: 1px solid rgb(47, 47, 47);
+}
+.moto__second-container .icon::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  left: 50px;
+  bottom: 50%;
+  width: 15vw;
+  min-width: 100px;
+  max-width: 250px;
+  border-bottom: 1px solid rgb(47, 47, 47);
+}
+.moto__third-container {
+  padding: 40px;
+}
+.moto__third-container p {
+  max-width: 95%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: black;
+}
+@media (min-width: 900px) {
+  .moto__first-container {
+    font-size: 2.2rem;
+  }
+  .moto__second-container .icon {
+    font-size: 1.9rem;
+    position: relative;
+    color: rgb(77, 76, 76);
+  }
+  .moto__third-container p {
+    font-size: 1.5rem;
+  }
+}/*# sourceMappingURL=Moto.css.map */
