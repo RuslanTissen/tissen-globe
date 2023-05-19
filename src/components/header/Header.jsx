@@ -5,6 +5,9 @@ import { FiChevronRight } from 'react-icons/fi';
 import { RxCross1 } from 'react-icons/rx';
 import { Context } from '../Context.js';
 import trans from '../Translate';
+import { NavLink, Outlet, Route, Routes } from 'react-router-dom';
+import About from '../about/About.jsx';
+
 
 function Header() {
 	const [show, setShow] = useState(false)
@@ -45,7 +48,7 @@ function Header() {
 
 			<div className='header__big-container'>
 				<ul className='first-ul'>
-					<li className='li1 lis'><span>Tissen</span> </li>
+					<li className='li1 lis'><NavLink to="main">Tissen</NavLink> </li>
 					<li className='li2 lis'><p>Get Work <FiChevronRight /></p> </li>
 					<li className='li3 lis'><p>Team Help <FiChevronRight /></p>  </li>
 					<li className='sprachen'>
@@ -58,12 +61,16 @@ function Header() {
 				</ul>
 				<ul className='second-ul'>
 					<li className='li4 lix'><p>Community <FiChevronRight /> </p> </li>
-					<li className='li5  lix'><p>About</p> </li>
+					<li className='li5  lix'><NavLink to='about'>About</NavLink> </li>
 					<li className='li6 short-li lix'><p>Help</p> </li>
 					<li className='li7 short-li lix'><p>Build</p> </li>
 					<li className='li8 short-li lix'><p>Contact</p> </li>
 				</ul>
 			</div>
+
+			<Routes>
+				<Route path="about" element={<About />} />
+			</Routes>
 		</div>
 	)
 }

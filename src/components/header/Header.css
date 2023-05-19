@@ -110,13 +110,15 @@
     font-family: "League Gothic", sans-serif;
     font-size: 2rem;
   }
-  .header .header__big-container .first-ul .li1 span {
+  .header .header__big-container .first-ul .li1 a {
+    text-decoration: none;
     height: 35px;
     display: flex;
     align-items: center;
     padding: 5px;
     margin: 5px;
     font-weight: 300;
+    color: black;
   }
   .header .header__big-container .first-ul .lis {
     height: 35px;
@@ -132,7 +134,7 @@
     margin-left: 5px;
   }
   .header .header__big-container .first-ul .lis p:hover,
-  .header .header__big-container .first-ul .li1 span:hover {
+  .header .header__big-container .first-ul .li1 a:hover {
     cursor: pointer;
     opacity: 0.5;
   }
@@ -172,15 +174,19 @@
     margin: 5px;
     font-weight: 500;
   }
-  .header .header__big-container .second-ul .lix p {
+  .header .header__big-container .second-ul .lix p,
+  .header .header__big-container .second-ul .lix a {
+    text-decoration: none;
     display: flex;
     align-items: center;
     color: white;
   }
-  .header .header__big-container .second-ul .lix p svg {
+  .header .header__big-container .second-ul .lix p svg,
+  .header .header__big-container .second-ul .lix a svg {
     margin-left: 5px;
   }
-  .header .header__big-container .second-ul .lix p:hover {
+  .header .header__big-container .second-ul .lix p:hover,
+  .header .header__big-container .second-ul .lix a:hover {
     cursor: pointer;
     opacity: 0.5;
   }
