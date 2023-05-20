@@ -1,1 +1,30 @@
-/*# sourceMappingURL=Technology.css.map */
+.technology .tech__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+.technology .tech__list--block {
+  flex: 1 1 100%;
+  position: relative;
+}
+.technology .tech__list--block .tech-first {
+  display: flex;
+  flex-flow: row;
+}
+.technology .tech__list--block .tech-first img {
+  flex: 0 1 auto;
+}
+.technology .tech__list--block .tech-first span {
+  flex: 0 1 auto;
+}
+.technology .tech__list--block .tech-first div {
+  flex: 1 1 auto;
+  text-align: end;
+}
+.technology .tech__list--block .tech-second {
+  position: absolute;
+  display: none;
+}
+.technology .tech__list--block:hover .tech-second {
+  display: block;
+}/*# sourceMappingURL=Technology.css.map */

@@ -60,7 +60,7 @@ function Header() {
 					</li>
 				</ul>
 				<ul className='second-ul'>
-					<li className='li4 lix'><p>Community <FiChevronRight /> </p> </li>
+					<li className='li4 lix'><p>Login <FiChevronRight /> </p> </li>
 					<li className='li5  lix'><NavLink to='about'>About</NavLink> </li>
 					<li className='li6 short-li lix'><p>Help</p> </li>
 					<li className='li7 short-li lix'><p>Build</p> </li>
