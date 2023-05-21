@@ -4,7 +4,13 @@
 	.technology__nav__container {
 		position: relative;
 		.technology__nav__container__title {
-			height: 50px;
+			// position: -webkit-sticky;
+			// position: -moz-sticky;
+			// position: -ms-sticky;
+			// position: -o-sticky;
+			// position: sticky;
+			// top: 0;
+ 			height: 50px;
 			display: flex;
 			flex-direction: row;
 			justify-content: space-between;
@@ -31,17 +37,17 @@
 			li {
 				width: inherit;
 				height: inherit;
-				padding: 7px;
 				a {
 					display: inline-block;
 					width: inherit;
 					height: inherit;
 					text-decoration: none;
 					color: black;
+					line-height: 1.5rem;
 				}
-				a:active {
-					background-color: rgb(38, 38, 103);
-				}
+				// a:active {
+				// 	background-color: rgb(38, 38, 103);
+				// }
 			}
 		}
 	}

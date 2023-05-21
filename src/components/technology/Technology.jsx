@@ -15,7 +15,7 @@ import { CiMenuKebab } from "react-icons/ci"
 import { NavLink } from 'react-router-dom'
 
 function Technology() {
-	const [active, setActive] = useState(true)
+	const [active, setActive] = useState(false)
 
 	let menuRef = useRef()
 
@@ -26,12 +26,10 @@ function Technology() {
 			}
 		}
 		document.addEventListener("mousedown", handler)
-
 		return () => {
 			document.removeEventListener("mousedown", handler)
 		}
 	})
-
 	function makeActive() {
 		setActive(!active)
 	}

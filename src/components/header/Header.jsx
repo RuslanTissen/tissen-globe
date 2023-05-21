@@ -32,6 +32,22 @@ function Header() {
 		document.addEventListener("mousedown", handler)
 	})
 
+	// document.addEventListener("click", e=>{
+	// 	const isDropdownButton = e.target.matches("[data-dropdown-button]")
+	// 	if(!isDropdownButton && e.target.closest("[data-dropdown]") != null) return
+
+	// 	let currentDropdown
+	// 	if (isDropdownButton){
+	// 		currentDropdown = e.target.closest("[data-dropdown]")
+	// 		currentDropdown.classList.toggle("active")
+	// 	}
+
+	// 	document.querySelectorAll("[data-dropdown].active").forEach(dropdown =>{
+	// 		if(dropdown === currentDropdown) return
+	// 		dropdown.classList.remove("active")
+	// 	})
+	// })
+
 	return (
 		<div className='header'>
 			<ul className="header__logo--container" ref={menuRef}>
@@ -57,13 +73,25 @@ function Header() {
 				</li>
 			</ul>}
 
-
-
 			<div className='header__big-container'>
 				<ul className='first-ul'>
 					<li className='li1 lis'><NavLink to="main">Tissen</NavLink> </li>
-					<li className='li2 lis'><p>Get Work <FiChevronRight /></p> </li>
-					<li className='li3 lis'><p>Team Help <FiChevronRight /></p>  </li>
+					<li className='li2 lis'>
+						<button className='link'>Get Work <FiChevronRight /></button>
+						<div className="dropdown-menu">
+							<NavLink to='about'>About</NavLink>
+							<NavLink>Two</NavLink>
+							<NavLink>Three</NavLink>
+						</div>
+					</li>
+					<li className='li3 lis'>
+						<button className='link' data-dropdown-button>Team Help <FiChevronRight /></button>
+						<div className="dropdown-menu">
+							<NavLink>One</NavLink>
+							<NavLink>Two</NavLink>
+							<NavLink>Three</NavLink>
+						</div>
+					</li>
 					<li className='sprachen'>
 						<button className="button-esp" value="es" onClick={(e) => setLang(e.target.value)}>ES</button>
 						<p>/</p>

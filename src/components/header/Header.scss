@@ -121,17 +121,11 @@
 						color: black;
 					}
 				}
-				li .Dropdown-root {
-					.Dropdown-control {
-						border: none;
-					}
-				}
 				.lis {
 					height: 35px;
 					display: flex;
 					align-items: center;
-					font-weight: 700;
-					p {
+					.link {
 						display: flex;
 						align-items: center;
 						svg {
@@ -139,7 +133,7 @@
 						}
 					}
 				}
-				.lis p:hover,
+				.lis .link:hover,
 				.li1 a:hover {
 					cursor: pointer;
 					opacity: 0.5;
@@ -148,6 +142,42 @@
 				.li3 {
 					flex: 1 1 110px;
 					max-width: 130px;
+					position: relative;
+					.link {
+						font-weight: 300;
+						border: none;
+						background-color: white;
+						font-size: 1rem;
+						font-family: "Montserrat", sans-serif;
+					}
+					.dropdown-menu {
+						position: absolute;
+						left: 0;
+						// top: calc(100% + 0.25rem);
+						top: 100%;
+						background-color: white;
+						padding: 1.5rem;
+						box-shadow: 0 2px 5px 0 rgb(0, 0, 0, 0.1);
+						opacity: 0;
+						// pointer-events: none;
+						display: flex;
+						flex-direction: column;
+						transform: translateY(-10px);
+						transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+						a {
+							text-decoration: none;
+							margin: 5px 0;
+						}
+					}
+					.link:focus + .dropdown-menu {
+						opacity: 1;
+						transform: translateY(0);
+						pointer-events: auto;
+					}
+
+					// .dropdown-menu.active {
+					// 	opacity: 1;
+					// }
 				}
 				.sprachen {
 					flex: 1 1 110px;
@@ -158,7 +188,8 @@
 						background-color: white;
 						border: none;
 						font-size: 1rem;
-						font-weight: 700;
+						font-weight: 300;
+						font-family: "Montserrat", sans-serif;
 					}
 					button:hover {
 						cursor: pointer;
@@ -179,7 +210,7 @@
 					align-items: center;
 					padding: 5px;
 					margin: 5px;
-					font-weight: 500;
+					font-weight: 300;
 					p,
 					a {
 						text-decoration: none;
