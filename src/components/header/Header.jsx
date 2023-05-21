@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react'
+import React, { useState, useContext, useEffect, useRef } from 'react'
 import "./Header.scss"
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { FiChevronRight } from 'react-icons/fi';
@@ -6,7 +6,8 @@ import { RxCross1 } from 'react-icons/rx';
 import { Context } from '../Context.js';
 import trans from '../Translate';
 import { NavLink, Outlet, Route, Routes } from 'react-router-dom';
-import About from '../about/About.jsx';
+import About from '../Routes/about/About.jsx';
+import Services from '../Routes/services/Services';
 
 
 function Header() {
@@ -19,10 +20,22 @@ function Header() {
 		setShow(!show)
 	}
 
+	let menuRef = useRef()
+
+	useEffect(() => {
+		let handler = (e) => {
+			if (!menuRef.current.contains(e.target)) {
+				setShow(false)
+				setActive(true)
+			}
+		}
+		document.addEventListener("mousedown", handler)
+	})
+
 	return (
 		<div className='header'>
-			<ul className="header__logo--container">
-				<li className='logo-box'><span>Tissen</span> </li>
+			<ul className="header__logo--container" ref={menuRef}>
+				<li className='logo-box'><NavLink to="main">Tissen</NavLink> </li>
 				<li className='hamburger-box' onClick={() => myFunction()} >
 					{active ? <RxHamburgerMenu /> : < RxCross1 />}
 				</li>
@@ -36,11 +49,11 @@ function Header() {
 				<li className='li-after-second'>Build</li>
 				<li className='li-after-second'>Contact</li>
 				<li className='li-after-second sprachen'>
-					<button className="button-esp" value="es" onClick={(e) => setLang(e.target.value)}>ESP</button>
+					<button className="button-esp" value="es" onClick={(e) => setLang(e.target.value)}>ES</button>
 					<p>/</p>
-					<button className="button-eng" value="en" onClick={(e) => setLang(e.target.value)}> ENG</button>
+					<button className="button-eng" value="en" onClick={(e) => setLang(e.target.value)}> EN</button>
 					<p>/</p>
-					<button className="button-ger" value="gr" onClick={(e) => setLang(e.target.value)}>GER</button>
+					<button className="button-ger" value="gr" onClick={(e) => setLang(e.target.value)}>DE</button>
 				</li>
 			</ul>}
 
@@ -52,11 +65,11 @@ function Header() {
 					<li className='li2 lis'><p>Get Work <FiChevronRight /></p> </li>
 					<li className='li3 lis'><p>Team Help <FiChevronRight /></p>  </li>
 					<li className='sprachen'>
-						<button className="button-esp" value="es" onClick={(e) => setLang(e.target.value)}>ESP</button>
+						<button className="button-esp" value="es" onClick={(e) => setLang(e.target.value)}>ES</button>
 						<p>/</p>
-						<button className="button-eng" value="en" onClick={(e) => setLang(e.target.value)}> ENG</button>
+						<button className="button-eng" value="en" onClick={(e) => setLang(e.target.value)}> EN</button>
 						<p>/</p>
-						<button className="button-ger" value="gr" onClick={(e) => setLang(e.target.value)}>GER</button>
+						<button className="button-ger" value="gr" onClick={(e) => setLang(e.target.value)}>DE</button>
 					</li>
 				</ul>
 				<ul className='second-ul'>
@@ -70,6 +83,7 @@ function Header() {
 
 			<Routes>
 				<Route path="about" element={<About />} />
+				<Route path='services' element={<Services />} />
 			</Routes>
 		</div>
 	)

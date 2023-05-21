@@ -16,7 +16,9 @@
   display: flex;
   align-items: center;
 }
-.header .header__logo--container .logo-box span {
+.header .header__logo--container .logo-box a {
+  text-decoration: none;
+  color: black;
   height: 35px;
   display: flex;
   align-items: center;
@@ -119,6 +121,9 @@
     margin: 5px;
     font-weight: 300;
     color: black;
+  }
+  .header .header__big-container .first-ul li .Dropdown-root .Dropdown-control {
+    border: none;
   }
   .header .header__big-container .first-ul .lis {
     height: 35px;

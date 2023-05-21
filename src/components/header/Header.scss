@@ -1,20 +1,22 @@
 .header {
 	z-index: 100;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Montserrat", sans-serif;
 	// font-weight: 700;
 	position: relative;
-	.header__logo--container{
+	.header__logo--container {
 		list-style-type: none;
 		display: flex;
 		padding: 0;
 		margin: 0;
 		.logo-box {
 			width: 50%;
-			font-family: 'League Gothic', sans-serif;
+			font-family: "League Gothic", sans-serif;
 			font-size: 1.5rem;
 			display: flex;
 			align-items: center;
-			span{
+			a {
+				text-decoration: none;
+				color: black;
 				height: 35px;
 				display: flex;
 				align-items: center;
@@ -23,17 +25,17 @@
 				font-weight: 300;
 			}
 		}
-		.hamburger-box{
+		.hamburger-box {
 			width: 50%;
 			display: flex;
 			align-items: center;
 			justify-content: end;
-			transition: all .2s ease-in-out;
-			svg{
+			transition: all 0.2s ease-in-out;
+			svg {
 				font-size: 1.2rem;
 				// color: rgb(45, 45, 179);
 				margin: 5px;
-				transition: all .2s ease-in-out;
+				transition: all 0.2s ease-in-out;
 			}
 		}
 	}
@@ -41,18 +43,18 @@
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
-		transition: all .2s ease-in-out;
+		transition: all 0.2s ease-in-out;
 		position: absolute;
 		width: 100%;
 		z-index: 100;
 		top: 40px;
-		li{
+		li {
 			padding: 10px 0 10px 10px;
-			font-size: .7rem;
+			font-size: 0.7rem;
 			border: none;
 			position: relative;
 		}
-		li:not(:last-child):before{
+		li:not(:last-child):before {
 			content: "";
 			position: absolute;
 			left: 10px;
@@ -61,27 +63,27 @@
 			width: 95%;
 			border-bottom: 1px solid gray;
 		}
-		li:first-child{
-			background-color: rgb(78,121,172);
+		li:first-child {
+			background-color: rgb(78, 121, 172);
 			color: white;
 		}
-		.second-li{
-			background-color: rgb(96,77,141);
+		.second-li {
+			background-color: rgb(96, 77, 141);
 			color: white;
 		}
-		.li-after-second{
-			background-color: rgb(229,229,229);
+		.li-after-second {
+			background-color: rgb(229, 229, 229);
 		}
 		.sprachen {
 			display: flex;
-			padding: 0 ;
-			button{
-				padding: 0 10px ;
+			padding: 0;
+			button {
+				padding: 0 10px;
 				border: none;
-				background-color: rgb(229,229,229);
-				font-size: .7rem;
+				background-color: rgb(229, 229, 229);
+				font-size: 0.7rem;
 			}
-			button:hover{
+			button:hover {
 				cursor: pointer;
 			}
 		}
@@ -89,11 +91,11 @@
 	.header__big-container {
 		display: none;
 	}
-	@media (min-width:1020px) {
-		.humburgerMenu__container{
+	@media (min-width: 1020px) {
+		.humburgerMenu__container {
 			display: none;
 		}
-		.header__logo--container{
+		.header__logo--container {
 			display: none;
 		}
 		.header__big-container {
@@ -106,9 +108,9 @@
 				padding: 0 1.5vw 0 0;
 				.li1 {
 					flex: 1 1 60%;
-					font-family: 'League Gothic', sans-serif;
+					font-family: "League Gothic", sans-serif;
 					font-size: 2rem;
-					a{
+					a {
 						text-decoration: none;
 						height: 35px;
 						display: flex;
@@ -116,18 +118,23 @@
 						padding: 5px;
 						margin: 5px;
 						font-weight: 300;
-						color:  black;
+						color: black;
 					}
 				}
-				.lis{
+				li .Dropdown-root {
+					.Dropdown-control {
+						border: none;
+					}
+				}
+				.lis {
 					height: 35px;
 					display: flex;
 					align-items: center;
 					font-weight: 700;
-					p{
+					p {
 						display: flex;
 						align-items: center;
-						svg{
+						svg {
 							margin-left: 5px;
 						}
 					}
@@ -135,7 +142,7 @@
 				.lis p:hover,
 				.li1 a:hover {
 					cursor: pointer;
-					opacity: .5;
+					opacity: 0.5;
 				}
 				.li2,
 				.li3 {
@@ -143,30 +150,30 @@
 					max-width: 130px;
 				}
 				.sprachen {
-						flex: 1 1 110px;
-						max-width: 150px;
-						display: flex;
-						button{
-							// height: 35px;
-							background-color: white;
-							border: none;
-							font-size: 1rem;
-							font-weight: 700;
-						}
-						button:hover{
-							cursor: pointer;
-							opacity: .5;
-						}
+					flex: 1 1 110px;
+					max-width: 150px;
+					display: flex;
+					button {
+						// height: 35px;
+						background-color: white;
+						border: none;
+						font-size: 1rem;
+						font-weight: 700;
+					}
+					button:hover {
+						cursor: pointer;
+						opacity: 0.5;
+					}
 				}
 			}
 			.second-ul {
 				list-style-type: none;
 				display: flex;
 				flex-wrap: wrap;
-				background-color: rgb(0,29,108);
+				background-color: rgb(0, 29, 108);
 				padding: 0 1.5vw 0 0;
 				margin-bottom: 0;
-				.lix{
+				.lix {
 					height: 35px;
 					display: flex;
 					align-items: center;
@@ -174,20 +181,20 @@
 					margin: 5px;
 					font-weight: 500;
 					p,
-					a{
+					a {
 						text-decoration: none;
 						display: flex;
 						align-items: center;
 						color: white;
-						svg{
+						svg {
 							margin-left: 5px;
 						}
 					}
 				}
 				.lix p:hover,
-				.lix a:hover{
+				.lix a:hover {
 					cursor: pointer;
-					opacity: .5;
+					opacity: 0.5;
 				}
 				.li4 {
 					flex: 1 1 50%;
