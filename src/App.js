@@ -13,16 +13,15 @@ function App() {
 
 			<Header />
 
-			<Routes>
+			<Main />
+
+			{/* <Routes>
 				<Route path='main'>
 					<Route index element={<Main />} />
 					<Route path='about' element={<About />} />
 					<Route path='services' element={<Services />} />
-
 				</Route>
-
-			</Routes>
-
+			</Routes> */}
 
 		</div>
 	);

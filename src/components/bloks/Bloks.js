@@ -12,17 +12,17 @@ function Bloks() {
 			</div>
 			<div className='blok__2 block--container'>
 				<h4>Business requirements</h4>
-				<p>Deep analysis of technical requirements and business goal.</p>
+				<p>Analysis of business goal.</p>
 				<div><HiOutlineArrowRight /></div>
 			</div>
 			<div className='blok__3 block--container'>
-				<h4>Business requirements</h4>
-				<p>Deep analysis of technical requirements and business goal.</p>
+				<h4>Technical requirements</h4>
+				<p>Deep analysis of technical requirements.</p>
 				<div><HiOutlineArrowRight /></div>
 			</div>
 			<div className='blok__4 block--container'>
 				<h4>Product Launch</h4>
-				<p>Deep analysis of technical requirements and business goal.</p>
+				<p>Test and launch.</p>
 				<div><HiOutlineArrowRight /></div>
 			</div>
 		</div>

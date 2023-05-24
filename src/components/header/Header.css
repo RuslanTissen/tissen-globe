@@ -38,7 +38,7 @@
   margin: 5px;
   transition: all 0.2s ease-in-out;
 }
-.header .humburgerMenu__container {
+.header .header__logo--container .humburgerMenu__container {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -48,13 +48,13 @@
   z-index: 100;
   top: 40px;
 }
-.header .humburgerMenu__container li {
+.header .header__logo--container .humburgerMenu__container li {
   padding: 10px 0 10px 10px;
   font-size: 0.7rem;
   border: none;
   position: relative;
 }
-.header .humburgerMenu__container li:not(:last-child):before {
+.header .header__logo--container .humburgerMenu__container li:not(:last-child):before {
   content: "";
   position: absolute;
   left: 10px;
@@ -63,28 +63,28 @@
   width: 95%;
   border-bottom: 1px solid gray;
 }
-.header .humburgerMenu__container li:first-child {
+.header .header__logo--container .humburgerMenu__container li:first-child {
   background-color: rgb(78, 121, 172);
   color: white;
 }
-.header .humburgerMenu__container .second-li {
+.header .header__logo--container .humburgerMenu__container .second-li {
   background-color: rgb(96, 77, 141);
   color: white;
 }
-.header .humburgerMenu__container .li-after-second {
+.header .header__logo--container .humburgerMenu__container .li-after-second {
   background-color: rgb(229, 229, 229);
 }
-.header .humburgerMenu__container .sprachen {
+.header .header__logo--container .humburgerMenu__container .sprachen {
   display: flex;
   padding: 0;
 }
-.header .humburgerMenu__container .sprachen button {
+.header .header__logo--container .humburgerMenu__container .sprachen button {
   padding: 0 10px;
   border: none;
   background-color: rgb(229, 229, 229);
   font-size: 0.7rem;
 }
-.header .humburgerMenu__container .sprachen button:hover {
+.header .header__logo--container .humburgerMenu__container .sprachen button:hover {
   cursor: pointer;
 }
 .header .header__big-container {

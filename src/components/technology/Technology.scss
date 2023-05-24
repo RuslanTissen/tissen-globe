@@ -51,7 +51,7 @@
 			}
 		}
 	}
-	.services {
+	.services__wraper {
 		margin-top: 100px;
 		p {
 			font-size: 2.5rem;
@@ -110,14 +110,15 @@
 		}
 	}
 	@media (min-width: 700px) {
-		.services {
+		padding: 0 1rem;
+		.services__wraper {
 			.services__container {
 				// p {
 				// 	font-size: 2.8rem;
 				// }	
 				a {
 					height: 200px;
-					flex: 0 1 48%;
+					flex: 1 1 48%;
 					max-width: 50%;
 					display: flex;
 					flex-direction: column;
@@ -142,7 +143,7 @@
 	}
 	@media (min-width: 1060px) {
 		max-width: 1500px;
-		.services {
+		.services__wraper {
 			.services__container {
 				a {
 					height: 270px;

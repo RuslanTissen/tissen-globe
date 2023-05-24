@@ -1,17 +1,28 @@
 import React from 'react'
-import {Routes,Route} from "react-router-dom"
+import { Routes, Route, Outlet } from "react-router-dom"
 import "./Main.scss"
-import Bloks from '../components/bloks/Bloks';
-import Introduction from '../components/introduction/Introduction.jsx';
-import Moto from '../components/moto/Moto.jsx';
-import Technology from '../components/technology/Technology.jsx';
-
-
+// import Bloks from '../components/bloks/Bloks';
+// import Introduction from '../components/introduction/Introduction.jsx';
+// import Moto from '../components/moto/Moto.jsx';
+// import Technology from '../components/technology/Technology.jsx';
+// import Inside from '../components/inside/Inside.jsx';
+import Start from '../start/Start'
+import About from '../components/Routes/about/About'
+import Services from '../components/Routes/services/Services'
 
 function Main() {
 	return (
 		<main>
-			<Introduction />
+			<Routes>
+				<Route path='*' element={<Start />} />
+				<Route path='about' element={<About />} />
+				<Route path='services' element={<Services />} />
+			</Routes>
+
+			{/* <Outlet />  */}
+
+
+			{/* <Introduction />
 
 			<Moto />
 
@@ -20,6 +31,10 @@ function Main() {
 			<hr></hr>
 
 			<Technology />
+
+			<Inside /> */}
+
+
 		</main>
 	)
 }

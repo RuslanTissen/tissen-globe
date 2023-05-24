@@ -34,7 +34,6 @@
 .technology .technology__nav__container .technology__nav__container__list li {
   width: inherit;
   height: inherit;
-  padding: 7px;
 }
 .technology .technology__nav__container .technology__nav__container__list li a {
   display: inline-block;
@@ -42,9 +41,7 @@
   height: inherit;
   text-decoration: none;
   color: black;
-}
-.technology .technology__nav__container .technology__nav__container__list li a:active {
-  background-color: rgb(38, 38, 103);
+  line-height: 1.5rem;
 }
 .technology .services {
   margin-top: 100px;

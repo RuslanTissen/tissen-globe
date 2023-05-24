@@ -38,60 +38,61 @@
 				transition: all 0.2s ease-in-out;
 			}
 		}
-	}
-	.humburgerMenu__container {
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-		transition: all 0.2s ease-in-out;
-		position: absolute;
-		width: 100%;
-		z-index: 100;
-		top: 40px;
-		li {
-			padding: 10px 0 10px 10px;
-			font-size: 0.7rem;
-			border: none;
-			position: relative;
-		}
-		li:not(:last-child):before {
-			content: "";
-			position: absolute;
-			left: 10px;
-			bottom: 0;
-			height: 1px;
-			width: 95%;
-			border-bottom: 1px solid gray;
-		}
-		li:first-child {
-			background-color: rgb(78, 121, 172);
-			color: white;
-		}
-		.second-li {
-			background-color: rgb(96, 77, 141);
-			color: white;
-		}
-		.li-after-second {
-			background-color: rgb(229, 229, 229);
-		}
-		.sprachen {
-			display: flex;
+		.humburgerMenu__container {
+			list-style-type: none;
+			margin: 0;
 			padding: 0;
-			button {
-				padding: 0 10px;
-				border: none;
-				background-color: rgb(229, 229, 229);
+			transition: all 0.2s ease-in-out;
+			position: absolute;
+			width: 100%;
+			z-index: 100;
+			top: 40px;
+			li {
+				padding: 10px 0 10px 10px;
 				font-size: 0.7rem;
+				border: none;
+				position: relative;
 			}
-			button:hover {
-				cursor: pointer;
+			li:not(:last-child):before {
+				content: "";
+				position: absolute;
+				left: 10px;
+				bottom: 0;
+				height: 1px;
+				width: 95%;
+				border-bottom: 1px solid gray;
+			}
+			li:first-child {
+				background-color: rgb(78, 121, 172);
+				color: white;
+			}
+			.second-li {
+				background-color: rgb(96, 77, 141);
+				color: white;
+			}
+			.li-after-second {
+				background-color: rgb(229, 229, 229);
+			}
+			.sprachen {
+				display: flex;
+				padding: 0;
+				button {
+					padding: 0 10px;
+					border: none;
+					background-color: rgb(229, 229, 229);
+					font-size: 0.7rem;
+				}
+				button:hover {
+					cursor: pointer;
+				}
 			}
 		}
 	}
+	
 	.header__big-container {
 		display: none;
 	}
-	@media (min-width: 1020px) {
+	@media (min-width: 1060px) {
 		.humburgerMenu__container {
 			display: none;
 		}
@@ -105,7 +106,7 @@
 				flex-wrap: wrap;
 				align-items: center;
 				list-style-type: none;
-				padding: 0 1.5vw 0 0;
+				padding:  0 1rem;
 				.li1 {
 					flex: 1 1 60%;
 					font-family: "League Gothic", sans-serif;
@@ -115,17 +116,23 @@
 						height: 35px;
 						display: flex;
 						align-items: center;
-						padding: 5px;
-						margin: 5px;
+						// padding: 5px;
+						// margin: 5px;
 						font-weight: 300;
 						color: black;
 					}
 				}
+				// li .Dropdown-root {
+				// 	.Dropdown-control {
+				// 		border: none;
+				// 	}
+				// }
 				.lis {
 					height: 35px;
 					display: flex;
 					align-items: center;
-					.link {
+					font-weight: 700;
+					p {
 						display: flex;
 						align-items: center;
 						svg {
@@ -133,7 +140,7 @@
 						}
 					}
 				}
-				.lis .link:hover,
+				.lis p:hover,
 				.li1 a:hover {
 					cursor: pointer;
 					opacity: 0.5;
@@ -142,54 +149,18 @@
 				.li3 {
 					flex: 1 1 110px;
 					max-width: 130px;
-					position: relative;
-					.link {
-						font-weight: 300;
-						border: none;
-						background-color: white;
-						font-size: 1rem;
-						font-family: "Montserrat", sans-serif;
-					}
-					.dropdown-menu {
-						position: absolute;
-						left: 0;
-						// top: calc(100% + 0.25rem);
-						top: 100%;
-						background-color: white;
-						padding: 1.5rem;
-						box-shadow: 0 2px 5px 0 rgb(0, 0, 0, 0.1);
-						opacity: 0;
-						// pointer-events: none;
-						display: flex;
-						flex-direction: column;
-						transform: translateY(-10px);
-						transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
-						a {
-							text-decoration: none;
-							margin: 5px 0;
-						}
-					}
-					.link:focus + .dropdown-menu {
-						opacity: 1;
-						transform: translateY(0);
-						pointer-events: auto;
-					}
-
-					// .dropdown-menu.active {
-					// 	opacity: 1;
-					// }
 				}
 				.sprachen {
 					flex: 1 1 110px;
 					max-width: 150px;
 					display: flex;
+					justify-content: flex-end;
 					button {
 						// height: 35px;
 						background-color: white;
 						border: none;
 						font-size: 1rem;
-						font-weight: 300;
-						font-family: "Montserrat", sans-serif;
+						font-weight: 700;
 					}
 					button:hover {
 						cursor: pointer;
@@ -202,15 +173,15 @@
 				display: flex;
 				flex-wrap: wrap;
 				background-color: rgb(0, 29, 108);
-				padding: 0 1.5vw 0 0;
+				padding: 0 11px 0 11px;
 				margin-bottom: 0;
 				.lix {
 					height: 35px;
 					display: flex;
 					align-items: center;
 					padding: 5px;
-					margin: 5px;
-					font-weight: 300;
+					margin: 5px 5px 5px 0;
+					font-weight: 500;
 					p,
 					a {
 						text-decoration: none;
@@ -229,6 +200,7 @@
 				}
 				.li4 {
 					flex: 1 1 50%;
+					visibility: hidden;
 				}
 			}
 		}

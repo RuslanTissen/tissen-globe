@@ -30,6 +30,7 @@ function Technology() {
 			document.removeEventListener("mousedown", handler)
 		}
 	})
+
 	function makeActive() {
 		setActive(!active)
 	}
@@ -42,14 +43,14 @@ function Technology() {
 					<li>Technology</li>
 					<li><CiMenuKebab /></li>
 				</ul>
-				{active && <ul className='technology__nav__container__list'>
-					<li><a href="#services">Services</a> </li>
+				{active && <ul className='technology__nav__container__list' onClick={()=>makeActive()} >
+					<li ><a href="#services">Services</a> </li>
 					<li><a href="#">Inside Tissen</a> </li>
 					<li><a href="#">Consulting</a> </li>
 				</ul>}
 			</div>
 
-			<div className="services">
+			<div className="services__wraper">
 				<p id='services'>Explore Our Services</p>
 
 				<div className="services__container">
