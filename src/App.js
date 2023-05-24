@@ -5,6 +5,7 @@ import Main from './main/Main.jsx';
 import About from './components/Routes/about/About';
 import { useEffect } from 'react';
 import Services from './components/Routes/services/Services.jsx';
+import Footer from './components/footer/Footer';
 
 function App() {
 
@@ -15,16 +16,19 @@ function App() {
 
 			<Main />
 
-			{/* <Routes>
-				<Route path='main'>
-					<Route index element={<Main />} />
-					<Route path='about' element={<About />} />
-					<Route path='services' element={<Services />} />
-				</Route>
-			</Routes> */}
+			<Footer />
 
 		</div>
 	);
 }
 
 export default App;
+
+
+	{/* <Routes>
+				<Route path='main'>
+					<Route index element={<Main />} />
+					<Route path='about' element={<About />} />
+					<Route path='services' element={<Services />} />
+				</Route>
+			</Routes> */}

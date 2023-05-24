@@ -21,22 +21,24 @@ function Main() {
 
 			{/* <Outlet />  */}
 
-
-			{/* <Introduction />
-
-			<Moto />
-
-			<Bloks />
-
-			<hr></hr>
-
-			<Technology />
-
-			<Inside /> */}
-
-
 		</main>
 	)
 }
 
 export default Main
+
+
+
+
+
+{/* <Introduction />
+
+<Moto />
+
+<Bloks />
+
+<hr></hr>
+
+<Technology />
+
+<Inside /> */}

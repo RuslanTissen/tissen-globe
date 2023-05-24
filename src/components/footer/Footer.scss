@@ -1,0 +1,125 @@
+.footer {
+	max-width: 1468px;
+	height: fit-content;
+	margin: 70px auto 0;
+	font-family: "Montserrat", sans-serif;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: black;
+	// padding: 0 1rem;
+	.footer__container__1 {
+		flex: 1 1 17%;
+		list-style-type: none;
+		display: flex;
+		padding: 1rem;
+		a {
+			text-decoration: none;
+			font-family: "League Gothic", sans-serif;
+			color: white;
+			font-weight: 300;
+			font-size: 1.5rem;
+		}
+	}
+	.footer__container__2 {
+		flex: 1 1 27%;
+		padding: 1rem;
+		list-style-type: none;
+		color: white;
+		li {
+			font-size: 0.8rem;
+			font-weight: 500;
+			margin: 8px 0;
+			a {
+				text-decoration: none;
+				font-family: "Montserrat", sans-serif;
+				font-weight: 200;
+				font-size: 0.8rem;
+				color: white;
+				transition: all 0.3s ease-out;
+			}
+			a:hover{
+				text-decoration: underline;
+				color: rgb(123, 123, 240);
+			}
+		}
+	}
+	.footer__container__3 {
+		flex: 1 1 27%;
+		padding: 1rem;
+		list-style-type: none;
+		color: white;
+		li {
+			font-size: 0.8rem;
+			font-weight: 500;
+			margin: 7px 0;
+			a {
+				text-decoration: none;
+				font-family: "Montserrat", sans-serif;
+				color: white;
+				font-weight: 200;
+				font-size: 0.8rem;
+				transition: all 0.3s ease-out;
+			}
+			a:hover{
+				text-decoration: underline;
+				color: rgb(123, 123, 240);
+			}
+		}
+	}
+	.footer__container__4 {
+		flex: 1 1 17%;
+		padding: 1rem;
+		list-style-type: none;
+		li{
+			// font-size: 0.8rem;
+			font-weight: 500;
+			margin: 7px 0;
+			svg{
+				color: white;
+				transition: all 0.3s ease-out;
+			}
+			svg:hover{
+				color: rgb(123, 123, 240);
+			}
+		}
+	}
+	@media (min-width:700px) {
+		padding: 0 3rem;
+		.footer__container__1 {
+			a {
+				font-size: 2rem;
+			}
+		}
+		.footer__container__2,
+		.footer__container__3 {
+			li {
+				font-size: 1rem;
+				a{
+					font-size: inherit;
+				}
+			}
+		}
+	}
+	@media (min-width:1060px) {
+		padding: 0 6rem;
+		.footer__container__1 {
+			a {
+				font-size: 2.5rem;
+			}
+		}
+		.footer__container__2,
+		.footer__container__3 {
+			li {
+				font-size: 1.2rem;
+				a{
+					font-size: inherit;
+				}
+			}
+		}
+		.footer__container__4 {
+			li{
+				font-size: 1.2rem;
+			}
+		}
+	}
+}
