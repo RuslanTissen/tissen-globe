@@ -1,0 +1,46 @@
+.about {
+	font-family: "Montserrat", sans-serif;
+
+	.about__image__container__1 {
+		height: 350px;
+		background-image: url("../../../images/about1.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: grid;
+		place-items: center;
+		p{
+			display: block;
+			min-width: 70%;
+			max-width: 80%;
+			font-size: 2rem;
+			font-weight: 700;
+			color: rgb(251, 249, 249);
+			text-shadow: 0 0 4px black;
+			opacity: .9;
+
+		}
+	}
+	.about__text__container {
+		max-width: 1500px;
+		margin: 0 auto;
+		padding: 0 1rem;
+		color: rgb(55, 54, 54);
+		h3{
+			font-weight: 400;
+		}
+		p{
+			font-weight: 300;
+			font-size: .8rem;
+		}
+		ul{
+			font-style: italic;
+			font-size: .8rem;
+
+		}
+	}
+
+	.about__image__container__2 {
+	}
+	
+}

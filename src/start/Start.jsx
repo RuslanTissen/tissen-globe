@@ -5,24 +5,28 @@ import Introduction from '../components/introduction/Introduction.jsx';
 import Moto from '../components/moto/Moto.jsx';
 import Technology from '../components/technology/Technology.jsx';
 import Inside from '../components/inside/Inside.jsx';
+// import Par from '../components/parallax/Parallax';
 
 
 function Start() {
-  return (
-	 <div>
-		<Introduction />
+	return (
+		<div>
+			<Introduction />
 
 			<Moto />
 
 			<Bloks />
+
+			{/* <Par /> */}
 
 			<hr></hr>
 
 			<Technology />
 
 			<Inside />
-	 </div>
-  )
+
+		</div>
+	)
 }
 
 export default Start

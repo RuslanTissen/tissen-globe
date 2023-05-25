@@ -39,7 +39,7 @@ function Header() {
 				<li className='hamburger-box' onClick={() => myFunction()} >
 					{active ? <RxHamburgerMenu /> : < RxCross1 />}
 				</li>
-				{show && <ul className="humburgerMenu__container">
+				{show && <ul className="humburgerMenu__container" onClick={() => myFunction()}>
 					<li>Get Work</li>
 					<li className='second-li'>Hire Help</li>
 					<li className='li-after-second'>API</li>
