@@ -38,6 +38,7 @@
 			font-family: "Montserrat", sans-serif;
 			display: flex;
 			flex-direction: column;
+			transition: all 0.3s ease-out;
 			h5 {
 				margin: 0;
 				font-weight: 300;
@@ -80,6 +81,7 @@
 			font-weight: 300;
 			display: flex;
 			flex-direction: column;
+			transition: all 0.3s ease-out;
 			svg {
 				margin: auto 0 0 0;
 				color: rgb(15, 98, 254);
