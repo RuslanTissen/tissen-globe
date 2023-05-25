@@ -1,10 +1,9 @@
 import React from 'react'
 import "./About"
 import "./About.scss"
+import {BiChevronRight} from "react-icons/bi"
 
 function About() {
-
-
 	return (
 		<div className='about'>
 
@@ -17,10 +16,10 @@ function About() {
 				<h3>Lorem ipsum dolor sit amet.</h3>
 				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, consectetur iste veniam molestias tempore nulla a corrupti reiciendis officiis quam temporibus tenetur, cum recusandae nobis rem, quia vitae ut minima.</p>
 				<ul>
-					<li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae.</li>
-					<li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae.</li>
-					<li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae.</li>
-					<li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae.</li>
+					<li><BiChevronRight/> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae.</li>
+					<li><BiChevronRight/> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae.</li>
+					<li><BiChevronRight/> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae.</li>
+					<li><BiChevronRight/> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae.</li>
 				</ul>
 
 				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam porro omnis, id quod perferendis eos.</p>
