@@ -47,6 +47,11 @@
 			width: 100%;
 			z-index: 100;
 			top: 40px;
+			.humburgerMenu__container--link{
+				a{
+					text-decoration: none;
+				}
+			}
 			li {
 				padding: 10px 0 10px 10px;
 				font-size: 0.7rem;
@@ -66,12 +71,22 @@
 				background-color: rgb(78, 121, 172);
 				color: white;
 			}
+			.first-li{
+				a{
+					color: white;
+				}
+			}
 			.second-li {
 				background-color: rgb(96, 77, 141);
-				color: white;
+				a{
+					color: white;
+				}
 			}
 			.li-after-second {
 				background-color: rgb(229, 229, 229);
+				a{
+					color: black;
+				}
 			}
 			.sprachen {
 				display: flex;

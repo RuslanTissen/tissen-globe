@@ -40,14 +40,14 @@ function Header() {
 					{active ? <RxHamburgerMenu /> : < RxCross1 />}
 				</li>
 				{show && <ul className="humburgerMenu__container" onClick={() => myFunction()}>
-					<li>Get Work</li>
-					<li className='second-li'>Hire Help</li>
-					<li className='li-after-second'>API</li>
-					<li className='li-after-second'><NavLink to='about'>About</NavLink></li>
-					<li className='li-after-second'>Help</li>
-					<li className='li-after-second'>Build</li>
-					<li className='li-after-second'>Contact</li>
-					<li className='li-after-second sprachen'>
+					<li className='first-li humburgerMenu__container--link'><NavLink>Get Work</NavLink> </li>
+					<li className='second-li humburgerMenu__container--link'><NavLink>Hire Help</NavLink> </li>
+					<li className='li-after-second humburgerMenu__container--link'><NavLink>API</NavLink> </li>
+					<li className='li-after-second humburgerMenu__container--link'><NavLink to='about'>About</NavLink></li>
+					<li className='li-after-second humburgerMenu__container--link'><NavLink>Help</NavLink> </li>
+					<li className='li-after-second humburgerMenu__container--link'><NavLink>Build</NavLink> </li>
+					<li className='li-after-second humburgerMenu__container--link'><NavLink>Contact</NavLink> </li>
+					<li className='li-after-second sprachen humburgerMenu__container--link'>
 						<button className="button-esp" value="es" onClick={(e) => setLang(e.target.value)}>ES</button>
 						<p>/</p>
 						<button className="button-eng" value="en" onClick={(e) => setLang(e.target.value)}> EN</button>

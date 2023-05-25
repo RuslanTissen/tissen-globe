@@ -9,38 +9,53 @@
 		background-size: cover;
 		display: grid;
 		place-items: center;
-		p{
+		p {
 			display: block;
 			min-width: 70%;
 			max-width: 80%;
 			font-size: 2rem;
 			font-weight: 700;
-			color: rgb(251, 249, 249);
-			text-shadow: 0 0 4px black;
-			opacity: .9;
-
+			color: rgb(248, 243, 243);
+			text-shadow:black 0px 0px 50px;
 		}
 	}
-	.about__text__container {
+	.about__text__container__1 {
 		max-width: 1500px;
 		margin: 0 auto;
 		padding: 0 1rem;
 		color: rgb(55, 54, 54);
-		h3{
+		h3 {
 			font-weight: 400;
 		}
-		p{
+		p {
 			font-weight: 300;
-			font-size: .8rem;
+			font-size: 0.8rem;
 		}
-		ul{
+		ul {
 			font-style: italic;
-			font-size: .8rem;
-
+			font-size: 0.8rem;
 		}
 	}
 
 	.about__image__container__2 {
+		height: 200px;
+		background-image: url("../../../images/about2.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
-	
+	.about__text__container__2{
+		max-width: 1500px;
+		margin: 0 auto;
+		padding: 0 1rem;
+		color: rgb(55, 54, 54);
+		h2{
+			font-weight: 400;
+			font-style: italic;
+		}
+		p {
+			font-weight: 300;
+			font-size: 0.8rem;
+		}
+	}
 }

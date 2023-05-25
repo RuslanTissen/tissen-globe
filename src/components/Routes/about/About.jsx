@@ -13,7 +13,7 @@ function About() {
 
 			</div>
 
-			<div className="about__text__container">
+			<div className="about__text__container__1">
 				<h3>Lorem ipsum dolor sit amet.</h3>
 				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, consectetur iste veniam molestias tempore nulla a corrupti reiciendis officiis quam temporibus tenetur, cum recusandae nobis rem, quia vitae ut minima.</p>
 				<ul>
@@ -30,7 +30,14 @@ function About() {
 			</div>
 
 			<div className="about__image__container__2">
-				<p>As Henry Ford we believe that everyone should play his unique role in a company.</p>
+			</div>
+
+			<div className="about__text__container__2">
+				<h2>"As Henry Ford we believe that everyone should play his unique role in a company."</h2>
+				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam porro omnis, id quod perferendis eos.</p>
+				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam porro omnis, id quod perferendis eos.</p>
+				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam porro omnis, id quod perferendis eos.</p>
+
 			</div>
 
 		</div>
