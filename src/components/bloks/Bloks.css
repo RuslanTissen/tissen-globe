@@ -14,6 +14,7 @@
   flex-flow: column;
   border-bottom: 1px solid rgb(193, 191, 191);
   background-color: rgb(248, 247, 247);
+  transition: all 0.3s ease-out;
 }
 .bloks .block--container h4 {
   flex: 0 1 auto;
@@ -36,6 +37,7 @@
 }
 @media (min-width: 700px) {
   .bloks {
+    padding: 0 1rem;
     gap: 3px;
   }
   .bloks .block--container {

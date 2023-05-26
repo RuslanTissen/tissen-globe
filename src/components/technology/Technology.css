@@ -12,7 +12,7 @@
   justify-content: space-between;
   list-style-type: none;
   background-color: rgb(229, 229, 229);
-  padding: 0 10px;
+  padding: 0 1rem;
   border-bottom: 1px solid black;
 }
 .technology .technology__nav__container .technology__nav__container__title li {
@@ -22,7 +22,7 @@
 .technology .technology__nav__container .technology__nav__container__list {
   list-style-type: none;
   width: 100%;
-  padding: 0;
+  padding: 0 1rem;
   position: absolute;
   margin: auto;
   left: 0;
@@ -41,22 +41,22 @@
   height: inherit;
   text-decoration: none;
   color: black;
-  line-height: 1.5rem;
+  line-height: 2rem;
 }
-.technology .services {
+.technology .services__wraper {
   margin-top: 100px;
 }
-.technology .services p {
+.technology .services__wraper p {
   font-size: 2.5rem;
   padding-left: 20px;
   font-weight: 300;
 }
-.technology .services .services__container {
+.technology .services__wraper .services__container {
   display: flex;
   flex-wrap: wrap;
   gap: 2px;
 }
-.technology .services .services__container a {
+.technology .services__wraper .services__container a {
   display: inline-block;
   width: 100%;
   text-decoration: none;
@@ -68,57 +68,61 @@
   align-items: center;
   font-weight: 300;
   background-color: rgb(244, 244, 244);
+  transition: all 0.3s ease-out;
 }
-.technology .services .services__container a svg {
+.technology .services__wraper .services__container a svg {
   margin: 0 0 0 10px;
   font-size: 1.2rem;
 }
-.technology .services .services__container a p {
+.technology .services__wraper .services__container a p {
   width: 100%;
   font-size: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.technology .services .services__container a p svg {
+.technology .services__wraper .services__container a p svg {
   margin: 0 10px 0 auto;
 }
-.technology .services .services__container a:hover {
+.technology .services__wraper .services__container a:hover {
   background-color: rgb(229, 229, 229);
 }
-.technology .services .services__container a:last-child {
+.technology .services__wraper .services__container a:last-child {
   background-color: rgb(15, 98, 254);
 }
-.technology .services .services__container a:last-child svg {
+.technology .services__wraper .services__container a:last-child svg {
   visibility: hidden;
 }
-.technology .services .services__container a:last-child p {
+.technology .services__wraper .services__container a:last-child p {
   color: white;
 }
-.technology .services .services__container a:last-child p svg {
+.technology .services__wraper .services__container a:last-child p svg {
   visibility: visible;
 }
-.technology .services .services__container a:last-child:hover {
+.technology .services__wraper .services__container a:last-child:hover {
   background-color: rgb(13, 84, 217);
 }
 @media (min-width: 700px) {
-  .technology .services .services__container a {
+  .technology {
+    padding: 0 1rem;
+  }
+  .technology .services__wraper .services__container a {
     height: 200px;
-    flex: 0 1 48%;
+    flex: 1 1 48%;
     max-width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
-  .technology .services .services__container a svg {
+  .technology .services__wraper .services__container a svg {
     margin: 20px auto 0 20px;
     font-size: 1.7rem;
   }
-  .technology .services .services__container a p {
+  .technology .services__wraper .services__container a p {
     font-size: 1.5rem;
     margin: 0 20px 30px 20px;
   }
-  .technology .services .services__container a p svg {
+  .technology .services__wraper .services__container a p svg {
     width: 4rem;
     height: 1.5rem;
     margin: auto 0 0 auto;
@@ -128,16 +132,16 @@
   .technology {
     max-width: 1500px;
   }
-  .technology .services .services__container a {
+  .technology .services__wraper .services__container a {
     height: 270px;
     flex: 1 1 31%;
     max-width: 33%;
   }
-  .technology .services .services__container a svg {
+  .technology .services__wraper .services__container a svg {
     margin: 20px auto 0 20px;
     font-size: 2rem;
   }
-  .technology .services .services__container a p {
+  .technology .services__wraper .services__container a p {
     font-size: 1.8rem;
   }
 }/*# sourceMappingURL=Technology.css.map */

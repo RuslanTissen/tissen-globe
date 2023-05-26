@@ -6,12 +6,15 @@ import { NavLink } from 'react-router-dom'
 // import { BsInstagram } from 'react-icons/bs'
 import { FaLinkedinIn, FaTelegram ,FaFacebookF, FaTwitter, FaInstagram} from 'react-icons/fa'
 
+const scrollToTop = () => {
+	window.scrollTo(0, 0)
+}
 
 function Footer() {
 	return (
 		<div className='footer'>
 			<ul className="footer__container__1">
-				<li><NavLink to="main">Tissen</NavLink> </li>
+				<li onClick={scrollToTop}><NavLink to="/">Tissen</NavLink> </li>
 			</ul>
 
 			<ul className="footer__container__2">
@@ -30,11 +33,11 @@ function Footer() {
 				<li><NavLink>About Tissen</NavLink></li>
 			</ul>
 			<ul className="footer__container__4">
-				<li><NavLink><FaFacebookF /></NavLink></li>
-				<li><NavLink><FaTwitter /></NavLink></li>
-				<li><NavLink><FaLinkedinIn /></NavLink></li>
-				<li><NavLink><FaTelegram /></NavLink></li>
-				<li><NavLink><FaInstagram /></NavLink></li>
+				<li><a><FaFacebookF /></a></li>
+				<li><a><FaTwitter /></a></li>
+				<li><a><FaLinkedinIn /></a></li>
+				<li><a><FaTelegram /></a></li>
+				<li><a><FaInstagram /></a></li>
 				
 			</ul>
 		</div>

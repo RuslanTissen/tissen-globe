@@ -19,7 +19,7 @@ function Main() {
 				<Route path='services' element={<Services />} />
 			</Routes>
 
-			{/* <Outlet />  */}
+			<Outlet /> 
 
 		</main>
 	)

@@ -34,6 +34,9 @@ function Technology() {
 	function makeActive() {
 		setActive(!active)
 	}
+	const scrollToTop = () => {
+		window.scroll(0, 0)
+	}
 
 	return (
 		<div className='technology'>
@@ -43,9 +46,9 @@ function Technology() {
 					<li>Technology</li>
 					<li><CiMenuKebab /></li>
 				</ul>
-				{active && <ul className='technology__nav__container__list' onClick={()=>makeActive()} >
+				{active && <ul className='technology__nav__container__list' onClick={() => makeActive()} >
 					<li ><a href="#services">Services</a> </li>
-					<li><a href="#">Inside Tissen</a> </li>
+					<li><a href="#inside">Inside Tissen</a> </li>
 					<li><a href="#">Consulting</a> </li>
 				</ul>}
 			</div>
@@ -53,7 +56,7 @@ function Technology() {
 			<div className="services__wraper">
 				<p id='services'>Explore Our Services</p>
 
-				<div className="services__container">
+				<div className="services__container" onClick={scrollToTop}>
 					<NavLink to="services"><SiJsonwebtokens /> <p>Website development <BsChevronRight /></p> </NavLink>
 					<NavLink to="services"><CgGhost /> <p>Website hosting <BsChevronRight /></p>  </NavLink>
 					<NavLink to="services"><RiMicrosoftLine /><p>Software Development<BsChevronRight /></p>  </NavLink>

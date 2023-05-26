@@ -6,9 +6,9 @@ import { HiOutlineArrowRight } from "react-icons/hi"
 
 function Inside() {
 	return (
-		<div className='inside'>
+		<div className='inside' >
 
-			<h2>Behind the Tissen scene.</h2>
+			<h2 id='inside'>Behind the Tissen scene.</h2>
 
 			<div className="inside__container__1">
 			<div className="inside__container__1__box-one">

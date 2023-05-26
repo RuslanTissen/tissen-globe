@@ -33,7 +33,7 @@ function Header() {
 	})
 
 	return (
-		<div className='header'>
+		<div className='header' id='header'>
 			<ul className="header__logo--container" ref={menuRef}>
 				<li className='logo-box'><NavLink to="/">Tissen</NavLink> </li>
 				<li className='hamburger-box' onClick={() => myFunction()} >

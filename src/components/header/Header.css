@@ -48,6 +48,9 @@
   z-index: 100;
   top: 40px;
 }
+.header .header__logo--container .humburgerMenu__container .humburgerMenu__container--link a {
+  text-decoration: none;
+}
 .header .header__logo--container .humburgerMenu__container li {
   padding: 10px 0 10px 10px;
   font-size: 0.7rem;
@@ -67,12 +70,20 @@
   background-color: rgb(78, 121, 172);
   color: white;
 }
+.header .header__logo--container .humburgerMenu__container .first-li a {
+  color: white;
+}
 .header .header__logo--container .humburgerMenu__container .second-li {
   background-color: rgb(96, 77, 141);
+}
+.header .header__logo--container .humburgerMenu__container .second-li a {
   color: white;
 }
 .header .header__logo--container .humburgerMenu__container .li-after-second {
   background-color: rgb(229, 229, 229);
+}
+.header .header__logo--container .humburgerMenu__container .li-after-second a {
+  color: black;
 }
 .header .header__logo--container .humburgerMenu__container .sprachen {
   display: flex;
@@ -90,7 +101,7 @@
 .header .header__big-container {
   display: none;
 }
-@media (min-width: 1020px) {
+@media (min-width: 1060px) {
   .header .humburgerMenu__container {
     display: none;
   }
@@ -105,7 +116,7 @@
     flex-wrap: wrap;
     align-items: center;
     list-style-type: none;
-    padding: 0 1.5vw 0 0;
+    padding: 0 1rem;
   }
   .header .header__big-container .first-ul .li1 {
     flex: 1 1 60%;
@@ -117,13 +128,8 @@
     height: 35px;
     display: flex;
     align-items: center;
-    padding: 5px;
-    margin: 5px;
     font-weight: 300;
     color: black;
-  }
-  .header .header__big-container .first-ul li .Dropdown-root .Dropdown-control {
-    border: none;
   }
   .header .header__big-container .first-ul .lis {
     height: 35px;
@@ -152,6 +158,7 @@
     flex: 1 1 110px;
     max-width: 150px;
     display: flex;
+    justify-content: flex-end;
   }
   .header .header__big-container .first-ul .sprachen button {
     background-color: white;
@@ -168,7 +175,7 @@
     display: flex;
     flex-wrap: wrap;
     background-color: rgb(0, 29, 108);
-    padding: 0 1.5vw 0 0;
+    padding: 0 11px 0 11px;
     margin-bottom: 0;
   }
   .header .header__big-container .second-ul .lix {
@@ -176,7 +183,7 @@
     display: flex;
     align-items: center;
     padding: 5px;
-    margin: 5px;
+    margin: 5px 5px 5px 0;
     font-weight: 500;
   }
   .header .header__big-container .second-ul .lix p,
@@ -197,5 +204,6 @@
   }
   .header .header__big-container .second-ul .li4 {
     flex: 1 1 50%;
+    visibility: hidden;
   }
 }/*# sourceMappingURL=Header.css.map */
