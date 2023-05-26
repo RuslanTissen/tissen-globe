@@ -14,7 +14,7 @@ function Footer() {
 	return (
 		<div className='footer'>
 			<ul className="footer__container__1">
-				<li onClick={scrollToTop}><NavLink to="/">Tissen</NavLink> </li>
+				<li onClick={scrollToTop}><NavLink to="*">Tissen</NavLink> </li>
 			</ul>
 
 			<ul className="footer__container__2">
