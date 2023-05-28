@@ -4,6 +4,7 @@ import image1 from "../../../images/help2.jpg"
 import image2 from "../../../images/help3.jpg"
 import image3 from "../../../images/help4.jpg"
 import image4 from "../../../images/help5.jpg"
+import image5 from "../../../images/help6.jpg"
 import { HiOutlineArrowRight } from "react-icons/hi"
 
 
@@ -57,7 +58,7 @@ function Help() {
 				</div>
 
 				<div className="help__sort__container__box">
-					<div className="help__sort__image__container"><img src={image4} alt="" /></div>
+					<div className="help__sort__image__container"><img src={image5} alt="" /></div>
 					<div className="help__sort__text__container">
 						<h3>You have an idea but no strategy.</h3>
 						<h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, ratione inventore maxime molestiae a modi!</h4>

@@ -9,19 +9,12 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		// p {
-		// 	width: 85%;
-		// 	max-width: 1000px;
-		// 	font-size: 2rem;
-		// 	font-weight: 700;
-		// 	color: rgb(248, 243, 243);
-		// 	text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
-		// 	text-align: start;
-		// }
 	}
 
 	.help__explanation__container {
-		margin: 2rem 1rem;
+		max-width: 1500px;
+		margin: 2rem auto;
+		padding: 0 1rem;
 		h2 {
 			font-size: 1.5rem;
 			font-weight: 300;
@@ -34,7 +27,8 @@
 	.help__sort__container {
 		max-width: 1500px;
 		height: fit-content;
-		margin: 2rem 0;
+		margin: 2rem auto;
+		padding: 0 1rem;
 		display: flex;
 		flex-wrap: wrap;
 		gap: 1rem;
@@ -44,7 +38,7 @@
 			flex-wrap: wrap;
 			.help__sort__image__container {
 				flex: 1 1 100%;
-				height: 150px;
+				height: 250px;
 				img {
 					width: 100%;
 					height: 100%;
@@ -75,6 +69,95 @@
 			.help__sort__text__container:hover {
 				background-color: rgb(229, 229, 229);
 			}
+		}
+	}
+	@media (min-width:500px) {
+		.help__image__container {
+			height: 370px;
+		}
+		.help__sort__container {
+			.help__sort__container__box {
+				flex: 1 1 100%;
+				.help__sort__image__container {
+					height: 270px;
+				}
+			}
+		}
+	}
+	@media (min-width:600px) {
+		.help__image__container {
+			height: 400px;
+		}
+		.help__sort__container {
+			.help__sort__container__box {
+				flex: 1 1 100%;
+				.help__sort__image__container {
+					height: 300px;
+				}
+			}
+		}
+	}
+	@media (min-width:700px) {
+		.help__image__container {
+			height: 450px;
+		}
+		.help__explanation__container {
+			margin: 3rem auto 2rem;
+		}
+		.help__sort__container {
+			.help__sort__container__box {
+				flex: 1 1 47%;
+				max-width: 49%;
+				.help__sort__image__container {
+					height: 320px;
+				}
+				.help__sort__text__container {
+					height: 250px;
+				}
+			}
+		}
+	}
+	@media (min-width:1060px) {
+		.help__image__container {
+			height: 500px;
+		}
+		.help__explanation__container {
+			margin: 4rem auto 3rem; 
+		}
+		.help__sort__container {
+			.help__sort__container__box {
+				flex: 1 1 20%;
+				max-width: 25%;
+				.help__sort__image__container {
+					height: 270px;
+				}
+				.help__sort__text__container {
+					height: 300px;
+				}
+			}
+		}
+	}
+	@media (min-width:1300px) {
+		.help__image__container {
+			height: 700px;
+		}
+		.help__explanation__container {
+			margin: 5rem auto 4rem; 
+		}
+	}
+	@media (min-width:1500px) {
+		.help__image__container {
+			height: 800px;
+		}
+	}
+	@media (min-width:1750px) {
+		.help__image__container {
+			height: 900px;
+		}
+	}
+	@media (min-width:2000px) {
+		.help__image__container {
+			height: 1000px;
 		}
 	}
 }
