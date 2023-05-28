@@ -6,8 +6,9 @@ import { RxCross1 } from 'react-icons/rx';
 import { Context } from '../Context.js';
 import trans from '../Translate';
 import { NavLink, Outlet, Route, Routes } from 'react-router-dom';
-import About from '../Routes/about/About.jsx';
-import Services from '../Routes/services/Services';
+// import About from '../Routes/about/About.jsx';
+// import Services from '../Routes/services/Services.jsx';
+// import Help from "../../components/Routes/help/Help.jsx"
 
 
 function Header() {
@@ -44,7 +45,7 @@ function Header() {
 					<li className='second-li humburgerMenu__container--link'><NavLink>Hire Help</NavLink> </li>
 					<li className='li-after-second humburgerMenu__container--link'><NavLink>API</NavLink> </li>
 					<li className='li-after-second humburgerMenu__container--link'><NavLink to='about'>About</NavLink></li>
-					<li className='li-after-second humburgerMenu__container--link'><NavLink>Help</NavLink> </li>
+					<li className='li-after-second humburgerMenu__container--link'><NavLink to="help">Help</NavLink> </li>
 					<li className='li-after-second humburgerMenu__container--link'><NavLink>Build</NavLink> </li>
 					<li className='li-after-second humburgerMenu__container--link'><NavLink>Contact</NavLink> </li>
 					<li className='li-after-second sprachen humburgerMenu__container--link'>
@@ -56,24 +57,6 @@ function Header() {
 					</li>
 				</ul>}
 			</ul>
-			{/* {show && <ul className="humburgerMenu__container">
-				<li>Get Work</li>
-				<li className='second-li'>Hire Help</li>
-				<li className='li-after-second'>API</li>
-				<li className='li-after-second'><NavLink to='about'>About</NavLink></li>
-				<li className='li-after-second'>Help</li>
-				<li className='li-after-second'>Build</li>
-				<li className='li-after-second'>Contact</li>
-				<li className='li-after-second sprachen'>
-					<button className="button-esp" value="es" onClick={(e) => setLang(e.target.value)}>ES</button>
-					<p>/</p>
-					<button className="button-eng" value="en" onClick={(e) => setLang(e.target.value)}> EN</button>
-					<p>/</p>
-					<button className="button-ger" value="gr" onClick={(e) => setLang(e.target.value)}>DE</button>
-				</li>
-			</ul>} */}
-
-
 
 			<div className='header__big-container'>
 				<ul className='first-ul'>
@@ -91,16 +74,12 @@ function Header() {
 				<ul className='second-ul'>
 					<li className='li4 lix'><p>Login <FiChevronRight /> </p> </li>
 					<li className='li5  lix'><NavLink to='about'>About</NavLink> </li>
-					<li className='li6 short-li lix'><p>Help</p> </li>
-					<li className='li7 short-li lix'><p>Build</p> </li>
-					<li className='li8 short-li lix'><p>Contact</p> </li>
+					<li className='li6 short-li lix'><NavLink to="help">Help</NavLink> </li>
+					<li className='li7 short-li lix'><NavLink>Build</NavLink> </li>
+					<li className='li8 short-li lix'><NavLink>Contact</NavLink> </li>
 				</ul>
 			</div>
 
-			{/* <Routes>
-				<Route path="about" element={<About />} />
-				<Route path='services' element={<Services />} />
-			</Routes> */}
 		</div>
 	)
 }

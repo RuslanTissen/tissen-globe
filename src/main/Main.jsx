@@ -9,6 +9,7 @@ import "./Main.scss"
 import Start from '../start/Start'
 import About from '../components/Routes/about/About'
 import Services from '../components/Routes/services/Services'
+import Help from '../components/Routes/help/Help'
 
 function Main() {
 	return (
@@ -17,6 +18,7 @@ function Main() {
 				<Route path='*' element={<Start />} />
 				<Route path='about' element={<About />} />
 				<Route path='services' element={<Services />} />
+				<Route path='help' element={<Help />} />
 			</Routes>
 
 			{/* <Outlet />  */}

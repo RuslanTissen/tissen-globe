@@ -186,18 +186,15 @@
     margin: 5px 5px 5px 0;
     font-weight: 500;
   }
-  .header .header__big-container .second-ul .lix p,
   .header .header__big-container .second-ul .lix a {
     text-decoration: none;
     display: flex;
     align-items: center;
     color: white;
   }
-  .header .header__big-container .second-ul .lix p svg,
   .header .header__big-container .second-ul .lix a svg {
     margin-left: 5px;
   }
-  .header .header__big-container .second-ul .lix p:hover,
   .header .header__big-container .second-ul .lix a:hover {
     cursor: pointer;
     opacity: 0.5;
