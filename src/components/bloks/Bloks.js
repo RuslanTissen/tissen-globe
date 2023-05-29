@@ -5,6 +5,7 @@ import { HiOutlineArrowRight } from "react-icons/hi"
 function Bloks() {
 	return (
 		<div className='bloks'>
+
 			<div className='blok__1 block--container'>
 				<h4>Get in touch</h4>
 				<p>First meeting, first discus of requirements. </p>
@@ -25,6 +26,9 @@ function Bloks() {
 				<p>Test and launch.</p>
 				<div><HiOutlineArrowRight /></div>
 			</div>
+
+			{/* <div className="bloks__foto__container">	</div> */}
+
 		</div>
 	)
 }

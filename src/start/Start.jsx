@@ -5,8 +5,7 @@ import Introduction from '../components/introduction/Introduction.jsx';
 import Moto from '../components/moto/Moto.jsx';
 import Technology from '../components/technology/Technology.jsx';
 import Inside from '../components/inside/Inside.jsx';
-// import Par from '../components/parallax/Parallax';
-
+import Animation from '../components/animation/Animation.jsx';
 
 function Start() {
 	return (
@@ -15,9 +14,9 @@ function Start() {
 
 			<Moto />
 
-			<Bloks />
+			{/* <Animation /> */}
 
-			{/* <Par /> */}
+			<Bloks />
 
 			<hr></hr>
 
