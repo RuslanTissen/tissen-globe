@@ -4,12 +4,6 @@
 	.technology__nav__container {
 		position: relative;
 		.technology__nav__container__title {
-			// position: -webkit-sticky;
-			// position: -moz-sticky;
-			// position: -ms-sticky;
-			// position: -o-sticky;
-			// position: sticky;
-			// top: 0;
  			height: 50px;
 			display: flex;
 			flex-direction: row;
@@ -45,9 +39,6 @@
 					color: black;
 					line-height: 2rem;
 				}
-				// a:active {
-				// 	background-color: rgb(38, 38, 103);
-				// }
 			}
 		}
 	}

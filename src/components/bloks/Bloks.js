@@ -27,8 +27,6 @@ function Bloks() {
 				<div><HiOutlineArrowRight /></div>
 			</div>
 
-			{/* <div className="bloks__foto__container">	</div> */}
-
 		</div>
 	)
 }

@@ -1,13 +1,16 @@
 .header {
-	z-index: 100;
 	font-family: "Montserrat", sans-serif;
-	// font-weight: 700;
-	position: relative;
 	.header__logo--container {
+		z-index: 100;
+		width: 100vw ;
+		max-width: 1500px;
+		position: fixed;
+		top: 0;
 		list-style-type: none;
 		display: flex;
 		padding: 0;
 		margin: 0;
+		background-color: rgb(78, 121, 172);
 		.logo-box {
 			width: 50%;
 			font-family: "League Gothic", sans-serif;
@@ -45,7 +48,7 @@
 			transition: all 0.2s ease-in-out;
 			position: absolute;
 			width: 100%;
-			z-index: 100;
+			// z-index: 100;
 			top: 40px;
 			.humburgerMenu__container--link{
 				a{
