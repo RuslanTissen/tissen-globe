@@ -33,10 +33,14 @@ function Header() {
 		document.addEventListener("mousedown", handler)
 	})
 
+	const scrollToTheTop = () => {
+		window.scroll(0, 0)
+	}	
+
 	return (
 		<div className='header' id='header'>
 			<ul className="header__logo--container" ref={menuRef}>
-				<li className='logo-box'><NavLink to="*">Tissen</NavLink> </li>
+				<li className='logo-box'><NavLink to="*" onClick={scrollToTheTop}>Tissen</NavLink> </li>
 				<li className='hamburger-box' onClick={() => myFunction()} >
 					{active ? <RxHamburgerMenu /> : < RxCross1 />}
 				</li>
