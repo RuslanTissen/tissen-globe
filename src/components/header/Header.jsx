@@ -28,7 +28,7 @@ function Header() {
 			if (!menuRef.current.contains(e.target)) {
 				setShow(false)
 				setActive(true)
-			} 
+			}
 		}
 		document.addEventListener("mousedown", handler)
 	})
@@ -41,13 +41,13 @@ function Header() {
 					{active ? <RxHamburgerMenu /> : < RxCross1 />}
 				</li>
 				{show && <ul className="humburgerMenu__container" onClick={() => myFunction()}>
-					<li className='first-li humburgerMenu__container--link'><NavLink>Get Work</NavLink> </li>
-					<li className='second-li humburgerMenu__container--link'><NavLink>Hire Help</NavLink> </li>
-					<li className='li-after-second humburgerMenu__container--link'><NavLink>API</NavLink> </li>
-					<li className='li-after-second humburgerMenu__container--link'><NavLink to='about'>About</NavLink></li>
-					<li className='li-after-second humburgerMenu__container--link'><NavLink to="help">Help</NavLink> </li>
-					<li className='li-after-second humburgerMenu__container--link'><NavLink>Build</NavLink> </li>
+					<li className='first-li humburgerMenu__container--link'><NavLink>What</NavLink> </li>
+					<li className='second-li humburgerMenu__container--link'><NavLink>How</NavLink> </li>
 					<li className='li-after-second humburgerMenu__container--link'><NavLink>Contact</NavLink> </li>
+					{/* <li className='li-after-second humburgerMenu__container--link'><NavLink>API</NavLink> </li> */}
+					<li className='li-after-second humburgerMenu__container--link'><NavLink to='about'>About</NavLink></li>
+					{/* <li className='li-after-second humburgerMenu__container--link'><NavLink to="help">Help</NavLink> </li> */}
+					<li className='li-after-second humburgerMenu__container--link'><NavLink>Career</NavLink> </li>
 					<li className='li-after-second sprachen humburgerMenu__container--link'>
 						<button className="button-esp" value="es" onClick={(e) => setLang(e.target.value)}>ES</button>
 						<p>/</p>
@@ -59,25 +59,29 @@ function Header() {
 			</ul>
 
 			<div className='header__big-container'>
-				<ul className='first-ul'>
-					<li className='li1 lis'><NavLink to="main">Tissen</NavLink> </li>
-					<li className='li2 lis'><p>Get Work <FiChevronRight /></p> </li>
-					<li className='li3 lis'><p>Team Help <FiChevronRight /></p>  </li>
-					<li className='sprachen'>
-						<button className="button-esp" value="es" onClick={(e) => setLang(e.target.value)}>ES</button>
-						<p>/</p>
-						<button className="button-eng" value="en" onClick={(e) => setLang(e.target.value)}> EN</button>
-						<p>/</p>
-						<button className="button-ger" value="gr" onClick={(e) => setLang(e.target.value)}>DE</button>
-					</li>
-				</ul>
-				<ul className='second-ul'>
-					<li className='li4 lix'><p>Login <FiChevronRight /> </p> </li>
-					<li className='li5  lix'><NavLink to='about'>About</NavLink> </li>
-					<li className='li6 short-li lix'><NavLink to="help">Help</NavLink> </li>
-					<li className='li7 short-li lix'><NavLink>Build</NavLink> </li>
-					<li className='li8 short-li lix'><NavLink>Contact</NavLink> </li>
-				</ul>
+				<div className="first__ul__container">
+					<ul className='first-ul'>
+						<li className='li1 lis'><NavLink to="main">Tissen</NavLink> </li>
+						<li className='li2 lis'><NavLink>What <FiChevronRight /></NavLink></li>
+						<li className='li3 lis'><NavLink>How<FiChevronRight /></NavLink></li>
+						<li className='li4 lis'><NavLink>Contact</NavLink> </li>
+					</ul>
+				</div>
+				<div className="second__ul__container">
+					<ul className='second-ul'>
+						<li className='li5  lix'><NavLink to='about'>About</NavLink> </li>
+						<li className='li6  lix'><NavLink to="#">Career</NavLink> </li>
+						{/* <li className='li6 short-li lix'><NavLink to="help">Help</NavLink> </li> */}
+						{/* <li className='li4 lix'><p>Login <FiChevronRight /> </p> </li> */}
+						<li className='sprachen'>
+							<button className="button-esp" value="es" onClick={(e) => setLang(e.target.value)}>ES</button>
+							{/* <p>/</p> */}
+							<button className="button-eng" value="en" onClick={(e) => setLang(e.target.value)}> EN</button>
+							{/* <p>/</p> */}
+							<button className="button-ger" value="gr" onClick={(e) => setLang(e.target.value)}>DE</button>
+						</li>
+					</ul>
+				</div>
 			</div>
 
 		</div>
