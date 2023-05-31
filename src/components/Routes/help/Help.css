@@ -12,7 +12,9 @@
   align-items: center;
 }
 .help .help__explanation__container {
-  margin: 2rem 1rem;
+  max-width: 1500px;
+  margin: 2rem auto;
+  padding: 0 1rem;
 }
 .help .help__explanation__container h2 {
   font-size: 1.5rem;
@@ -25,7 +27,8 @@
   max-width: 1500px;
   height: -moz-fit-content;
   height: fit-content;
-  margin: 2rem 0;
+  margin: 2rem auto;
+  padding: 0 1rem;
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
@@ -37,7 +40,7 @@
 }
 .help .help__sort__container .help__sort__container__box .help__sort__image__container {
   flex: 1 1 100%;
-  height: 150px;
+  height: 250px;
 }
 .help .help__sort__container .help__sort__container__box .help__sort__image__container img {
   width: 100%;
@@ -68,4 +71,85 @@
 }
 .help .help__sort__container .help__sort__container__box .help__sort__text__container:hover {
   background-color: rgb(229, 229, 229);
+}
+@media (min-width: 500px) {
+  .help .help__image__container {
+    height: 370px;
+  }
+  .help .help__sort__container .help__sort__container__box {
+    flex: 1 1 100%;
+  }
+  .help .help__sort__container .help__sort__container__box .help__sort__image__container {
+    height: 270px;
+  }
+}
+@media (min-width: 600px) {
+  .help .help__image__container {
+    height: 400px;
+  }
+  .help .help__sort__container .help__sort__container__box {
+    flex: 1 1 100%;
+  }
+  .help .help__sort__container .help__sort__container__box .help__sort__image__container {
+    height: 300px;
+  }
+}
+@media (min-width: 700px) {
+  .help .help__image__container {
+    height: 450px;
+  }
+  .help .help__explanation__container {
+    margin: 3rem auto 2rem;
+  }
+  .help .help__sort__container .help__sort__container__box {
+    flex: 1 1 47%;
+    max-width: 49%;
+  }
+  .help .help__sort__container .help__sort__container__box .help__sort__image__container {
+    height: 320px;
+  }
+  .help .help__sort__container .help__sort__container__box .help__sort__text__container {
+    height: 250px;
+  }
+}
+@media (min-width: 1060px) {
+  .help .help__image__container {
+    height: 500px;
+  }
+  .help .help__explanation__container {
+    margin: 4rem auto 3rem;
+  }
+  .help .help__sort__container .help__sort__container__box {
+    flex: 1 1 20%;
+    max-width: 25%;
+  }
+  .help .help__sort__container .help__sort__container__box .help__sort__image__container {
+    height: 270px;
+  }
+  .help .help__sort__container .help__sort__container__box .help__sort__text__container {
+    height: 300px;
+  }
+}
+@media (min-width: 1300px) {
+  .help .help__image__container {
+    height: 700px;
+  }
+  .help .help__explanation__container {
+    margin: 5rem auto 4rem;
+  }
+}
+@media (min-width: 1500px) {
+  .help .help__image__container {
+    height: 800px;
+  }
+}
+@media (min-width: 1750px) {
+  .help .help__image__container {
+    height: 900px;
+  }
+}
+@media (min-width: 2000px) {
+  .help .help__image__container {
+    height: 1000px;
+  }
 }/*# sourceMappingURL=Help.css.map */

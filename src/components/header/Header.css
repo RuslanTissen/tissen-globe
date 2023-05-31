@@ -1,24 +1,28 @@
 .header {
-  z-index: 100;
   font-family: "Montserrat", sans-serif;
-  position: relative;
 }
 .header .header__logo--container {
+  z-index: 100;
+  width: 100vw;
+  max-width: 1500px;
+  position: fixed;
+  top: 0;
   list-style-type: none;
   display: flex;
   padding: 0;
   margin: 0;
+  background-color: rgb(78, 121, 172);
 }
 .header .header__logo--container .logo-box {
   width: 50%;
   font-family: "League Gothic", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   display: flex;
   align-items: center;
 }
 .header .header__logo--container .logo-box a {
   text-decoration: none;
-  color: black;
+  color: white;
   height: 35px;
   display: flex;
   align-items: center;
@@ -31,10 +35,11 @@
   display: flex;
   align-items: center;
   justify-content: end;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .header .header__logo--container .hamburger-box svg {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  color: white;
   margin: 5px;
   transition: all 0.2s ease-in-out;
 }
@@ -42,10 +47,9 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
   position: absolute;
   width: 100%;
-  z-index: 100;
   top: 40px;
 }
 .header .header__logo--container .humburgerMenu__container .humburgerMenu__container--link a {
@@ -111,19 +115,27 @@
   .header .header__big-container {
     display: block;
   }
-  .header .header__big-container .first-ul {
+  .header .header__big-container .first__ul__container {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: #e09e50;
+  }
+  .header .header__big-container .first__ul__container .first-ul {
+    height: 40px;
+    max-width: 1500px;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     list-style-type: none;
-    padding: 0 1rem;
   }
-  .header .header__big-container .first-ul .li1 {
+  .header .header__big-container .first__ul__container .first-ul .li1 {
     flex: 1 1 60%;
     font-family: "League Gothic", sans-serif;
     font-size: 2rem;
   }
-  .header .header__big-container .first-ul .li1 a {
+  .header .header__big-container .first__ul__container .first-ul .li1 a {
     text-decoration: none;
     height: 35px;
     display: flex;
@@ -131,76 +143,78 @@
     font-weight: 300;
     color: black;
   }
-  .header .header__big-container .first-ul .lis {
-    height: 35px;
+  .header .header__big-container .first__ul__container .first-ul .lis {
+    height: 0.5rem;
     display: flex;
     align-items: center;
-    font-weight: 700;
+    font-weight: 500;
   }
-  .header .header__big-container .first-ul .lis p {
+  .header .header__big-container .first__ul__container .first-ul .lis a {
     display: flex;
     align-items: center;
+    text-decoration: none;
+    color: black;
   }
-  .header .header__big-container .first-ul .lis p svg {
+  .header .header__big-container .first__ul__container .first-ul .lis a svg {
     margin-left: 5px;
   }
-  .header .header__big-container .first-ul .lis p:hover,
-  .header .header__big-container .first-ul .li1 a:hover {
-    cursor: pointer;
+  .header .header__big-container .first__ul__container .first-ul .lis a:hover {
     opacity: 0.5;
   }
-  .header .header__big-container .first-ul .li2,
-  .header .header__big-container .first-ul .li3 {
+  .header .header__big-container .first__ul__container .first-ul .li2,
+  .header .header__big-container .first__ul__container .first-ul .li3,
+  .header .header__big-container .first__ul__container .first-ul .li4 {
     flex: 1 1 110px;
     max-width: 130px;
   }
-  .header .header__big-container .first-ul .sprachen {
-    flex: 1 1 110px;
-    max-width: 150px;
-    display: flex;
-    justify-content: flex-end;
+  .header .header__big-container .second__ul__container {
+    background-color: rgb(0, 29, 108);
+    width: 100vw;
   }
-  .header .header__big-container .first-ul .sprachen button {
-    background-color: white;
-    border: none;
-    font-size: 1rem;
-    font-weight: 700;
-  }
-  .header .header__big-container .first-ul .sprachen button:hover {
-    cursor: pointer;
-    opacity: 0.5;
-  }
-  .header .header__big-container .second-ul {
+  .header .header__big-container .second__ul__container .second-ul {
+    max-width: 1500px;
+    margin: 40px auto 0;
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(0, 29, 108);
-    padding: 0 11px 0 11px;
-    margin-bottom: 0;
+    justify-content: flex-end;
   }
-  .header .header__big-container .second-ul .lix {
-    height: 35px;
+  .header .header__big-container .second__ul__container .second-ul .lix {
+    flex: 1 1 110px;
+    max-width: 130px;
     display: flex;
     align-items: center;
-    padding: 5px;
-    margin: 5px 5px 5px 0;
     font-weight: 500;
   }
-  .header .header__big-container .second-ul .lix a {
+  .header .header__big-container .second__ul__container .second-ul .lix a {
     text-decoration: none;
     display: flex;
     align-items: center;
     color: white;
   }
-  .header .header__big-container .second-ul .lix a svg {
+  .header .header__big-container .second__ul__container .second-ul .lix a svg {
     margin-left: 5px;
   }
-  .header .header__big-container .second-ul .lix a:hover {
+  .header .header__big-container .second__ul__container .second-ul .sprachen {
+    flex: 1 1 110px;
+    max-width: 130px;
+    display: flex;
+  }
+  .header .header__big-container .second__ul__container .second-ul .sprachen button {
+    background-color: rgb(0, 29, 108);
+    color: white;
+    border: none;
+    font-size: 1rem;
+    padding: 15px 10px 15px 0;
+  }
+  .header .header__big-container .second__ul__container .second-ul .sprachen p {
+    color: white;
+  }
+  .header .header__big-container .second__ul__container .second-ul .sprachen button:hover {
     cursor: pointer;
     opacity: 0.5;
   }
-  .header .header__big-container .second-ul .li4 {
-    flex: 1 1 50%;
-    visibility: hidden;
+  .header .header__big-container .second__ul__container .second-ul .lix a:hover {
+    opacity: 0.5;
   }
 }/*# sourceMappingURL=Header.css.map */

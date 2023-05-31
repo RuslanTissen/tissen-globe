@@ -1,0 +1,26 @@
+.steps {
+  height: -moz-fit-content;
+  height: fit-content;
+  /* ------------------------------ steps__container --------------------------- */
+}
+.steps__container {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.steps__container .steps__container__1 {
+  flex: 1 1 100%;
+  height: 300px;
+}
+.steps__container .steps__container__1 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+}
+.steps__container .steps__container__2 {
+  flex: 1 1 100%;
+  height: 300px;
+}/*# sourceMappingURL=Steps.css.map */

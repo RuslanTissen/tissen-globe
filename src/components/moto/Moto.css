@@ -15,6 +15,9 @@
   font-weight: 500;
   color: rgb(62, 61, 61);
 }
+.moto__second-container {
+  z-index: -1;
+}
 .moto__second-container .icon {
   font-size: 1.7rem;
   position: relative;
