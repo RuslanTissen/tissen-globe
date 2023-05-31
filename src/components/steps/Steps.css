@@ -1,6 +1,7 @@
 .steps {
   height: -moz-fit-content;
   height: fit-content;
+  font-family: "Montserrat", sans-serif;
   /* ------------------------------ steps__container --------------------------- */
 }
 .steps__container {
@@ -23,4 +24,61 @@
 .steps__container .steps__container__2 {
   flex: 1 1 100%;
   height: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+}
+.steps__container .steps__container__2 h3 {
+  font-weight: 500;
+}
+.steps__container .steps__container__2 .circle__container {
+  width: 80%;
+  position: relative;
+  z-index: -1;
+  margin: 0 auto;
+}
+.steps__container .steps__container__2 .circle__container .circule {
+  border: 1px solid black;
+  width: 3rem;
+  height: 3rem;
+  margin: 1rem auto;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 1.5rem;
+}
+.steps__container .steps__container__2 .circle__container::before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  right: 0;
+  bottom: 50%;
+  width: 40%;
+  border-bottom: 1px solid rgb(47, 47, 47);
+}
+.steps__container .steps__container__2 .circle__container::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  left: 0;
+  bottom: 50%;
+  width: 40%;
+  border-bottom: 1px solid rgb(47, 47, 47);
+}
+.steps__container .steps__container__2 p {
+  font-weight: 300;
+}
+@media (min-width: 600px) {
+  .steps__container .steps__container__1 {
+    flex: 1 1 50%;
+    height: 300px;
+  }
+  .steps__container .steps__container__1__revers {
+    order: 2;
+  }
+  .steps__container .steps__container__2 {
+    flex: 1 1 50%;
+    height: 300px;
+  }
 }/*# sourceMappingURL=Steps.css.map */

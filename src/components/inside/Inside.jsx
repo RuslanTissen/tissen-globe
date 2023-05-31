@@ -11,18 +11,13 @@ function Inside() {
 			<h2 id='inside'>Behind the Tissen scene.</h2>
 
 			<div className="inside__container__1">
-			<div className="inside__container__1__box-one">
+				<div className="inside__container__1__box-one">
 				</div>
 
 				<div className="inside__container__1__box-twoo">
 					<h5>Lorem ipsum.</h5>
 					<h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor mollitia suscipit velit odio ipsam ipsum!</h3>
-					<p className='strtagy'>Strategic planning <HiOutlineArrowRight/></p>
-				
-					{/* <h6>Lorem, ipsum dolor.</h6>
-					<p><TiTick /> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-					<p><TiTick /> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-					<p><TiTick /> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p> */}
+					<p className='strtagy'>Strategic planning <HiOutlineArrowRight /></p>
 				</div>
 
 			</div>{/*  */}
@@ -33,41 +28,27 @@ function Inside() {
 				<div className="inside__container__2__box">
 					<h3>Lorem ipsum.</h3>
 					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor mollitia suscipit velit odio ipsam ipsum!</p>
-					<HiOutlineArrowRight/>
-					{/* <h6>Lorem, ipsum dolor.</h6>
-					<p><TiTick /> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-					<p><TiTick /> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-					<p><TiTick /> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p> */}
+					<HiOutlineArrowRight />
 				</div>
 
 				<div className="inside__container__2__box">
 					<h3>Lorem ipsum.</h3>
 					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor mollitia suscipit velit odio ipsam ipsum!</p>
-					<HiOutlineArrowRight/>
-					
-					{/* <h6>Lorem, ipsum dolor.</h6>
-					<p><TiTick /> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-					<p><TiTick /> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-					<p><TiTick /> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p> */}
+					<HiOutlineArrowRight />
 				</div>
 
 				<div className="inside__container__2__box">
 					<h3>Lorem ipsum.</h3>
 					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor mollitia suscipit velit odio ipsam ipsum!</p>
-					<HiOutlineArrowRight/>
-					
-					{/* <h6>Lorem, ipsum dolor.</h6>
-					<p><TiTick /> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-					<p><TiTick /> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-					<p><TiTick /> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p> */}
+					<HiOutlineArrowRight />
 				</div>
 
 				{/* <div className="inside__container__2__box">
 					<h3>Lorem ipsum.</h3>
 					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor mollitia suscipit velit odio ipsam ipsum!</p>
 					<HiOutlineArrowRight/> */}
-					
-					{/* <h6>Lorem, ipsum dolor.</h6>
+
+				{/* <h6>Lorem, ipsum dolor.</h6>
 					<p><TiTick /> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
 					<p><TiTick /> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
 					<p><TiTick /> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p> */}
