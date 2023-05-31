@@ -65,7 +65,7 @@ function Header() {
 			<div className='header__big-container'>
 				<div className="first__ul__container">
 					<ul className='first-ul'>
-						<li className='li1 lis'><NavLink to="main">Tissen</NavLink> </li>
+						<li className='li1 lis'><NavLink to="*" onClick={scrollToTheTop}>Tissen</NavLink> </li>
 						<li className='li2 lis'><NavLink>What <FiChevronRight /></NavLink></li>
 						<li className='li3 lis'><NavLink>How<FiChevronRight /></NavLink></li>
 						<li className='li4 lis'><NavLink>Contact</NavLink> </li>
