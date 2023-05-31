@@ -16,7 +16,7 @@ function Start() {
 
 			<Steps />
 
-			<hr></hr>
+			{/* <hr></hr> */}
 
 			<Technology />
 

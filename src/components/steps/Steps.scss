@@ -1,11 +1,11 @@
 .steps {
+	max-width: 1500px;
+	margin: 0 auto;
 	height: fit-content;
 	font-family: "Montserrat", sans-serif;
 	// padding: 0 1rem;
 	/* ------------------------------ steps__container --------------------------- */
 	&__container {
-		max-width: 1500px;
-		margin: 0 auto;
 		display: flex;
 		flex-wrap: wrap;
 		// gap: 5px;
@@ -30,7 +30,7 @@
 				font-weight: 500;
 			}
 			.circle__container {
-				width: 80%;
+				width: 70%;
 				position: relative;
 				z-index: -1;
 				margin: 0 auto;
@@ -51,7 +51,7 @@
 				height: 1px;
 				right: 0;
 				bottom: 50%;
-				width: 40%;
+				width: 30%;
 				border-bottom: 1px solid rgb(150, 148, 148);
 			}
 			.circle__container::after {
@@ -60,7 +60,7 @@
 				height: 1px;
 				left: 0;
 				bottom: 50%;
-				width: 40%;
+				width: 30%;
 				border-bottom: 1px solid rgb(150, 148, 148);
 			}
 			p {
@@ -69,8 +69,8 @@
 		}
 	}
 	@media (min-width: 600px) {
+		margin-bottom: 2rem;
 		&__container {
-			// gap: 5px;
 			.steps__container__1 {
 				flex: 1 1 50%;
 				height: 300px;
@@ -87,6 +87,26 @@
 			}
 			.steps__container__2__border-bottom{
 				border-bottom: 1px solid black;
+			}
+		}
+	}
+	@media (min-width:700px) {
+		padding: 0 1rem;
+	}
+	@media (min-width: 1000px) {
+		margin-bottom: 3rem;
+		&__container {
+			.steps__container__1,
+			.steps__container__2 {
+				height: 350px;
+			}
+		}
+	}
+	@media (min-width: 1500px) {
+		&__container {
+			.steps__container__1,
+			.steps__container__2 {
+				height: 400px;
 			}
 		}
 	}
