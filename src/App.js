@@ -1,4 +1,3 @@
-import './App.css';
 import Header from './components/header/Header.jsx';
 import { NavLink, Outlet, Route, Routes } from 'react-router-dom';
 import Main from './main/Main.jsx';
