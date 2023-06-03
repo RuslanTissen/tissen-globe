@@ -1,0 +1,68 @@
+.contact {
+	height: fit-content;
+	margin: 45px 0;
+	font-family: "Montserrat", sans-serif;
+	background-color: white;
+	.contact__conatiner {
+		max-width: 1500px;
+		min-height: 500px;
+		padding: 0 1rem 40px;
+		h2 {
+			padding: 3rem 0 0;
+			margin: 0;
+			font-weight: 500;
+		}
+		form {
+			margin: 0 auto;
+			.form__field {
+				display: flex;
+				flex-direction: column;
+				label {
+					margin: 1rem 0 0.5rem;
+				}
+				input {
+					width: 100%;
+					max-width: 900px;
+					height: 3rem;
+					border: 1px solid rgb(177, 176, 176);
+				}
+				textarea {
+					width: 100%;
+					max-width: 900px;
+					height: 150px;
+					border: 1px solid rgb(177, 176, 176);
+				}
+				button {
+					width: 200px;
+					height: 2rem;
+					background-color: #0a62d0;
+					margin: 0 auto;
+					color: white;
+					font-size: 1.2rem;
+					border: none;
+				}
+			}
+			.form__toggle__container {
+				display: flex;
+				flex-direction: column;
+				label {
+					margin: 1rem 0 0.5rem;
+				}
+				#toggleDate {
+					width: fit-content;
+					display: flex;
+					position: relative;
+				}
+				#toggleDate::after {
+					content: "Scale my development team";
+					position: absolute;
+					left: 2rem;
+					width: 300px;
+				}
+			}
+		}
+	}
+	@media (min-width: 1060px) {
+		margin: 40px 0;
+	}
+}

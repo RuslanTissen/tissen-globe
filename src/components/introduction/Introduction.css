@@ -1,50 +1,69 @@
 .introdiuction {
+  max-width: 1500px;
+  margin: 0 auto;
+  height: -moz-fit-content;
+  height: fit-content;
   font-family: "Montserrat", sans-serif;
-  background-image: url("../../images/intr.jpg");
-  height: 300px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   margin-top: 45px;
+  color: white;
+  padding: 0 1rem;
 }
-.introdiuction .introdiuction__container {
-  flex: 0 1 50%;
-  max-width: 1600px;
-  margin: 0 0 0 auto;
+.introdiuction .introdiuction__title__container {
+  flex: 0 1 100%;
+  margin: 3rem auto 1.5rem;
 }
-.introdiuction .introdiuction__container .text__container {
-  max-width: 500px;
+.introdiuction .introdiuction__title__container h1 {
+  color: rgb(219, 218, 218);
+  font-weight: 900;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 5px;
+}
+.introdiuction .introdiuction__title__container h1:nth-child(2) {
+  color: rgb(154, 153, 153);
+}
+.introdiuction .introdiuction__title__container h1:nth-child(3) {
+  color: rgb(105, 104, 104);
+}
+.introdiuction .introdiuction__title__container h1:nth-child(4) {
+  color: rgb(51, 50, 50);
+}
+.introdiuction .introdiuction__benefits__container {
+  flex: 0 1 100%;
   margin: 0 auto;
 }
-.introdiuction .introdiuction__container .text__container h1 {
-  color: rgb(97, 95, 95);
-  font-weight: 700;
-  font-size: 2rem;
+.introdiuction .introdiuction__benefits__container h3 {
+  font-size: 1rem;
+  font-weight: 200;
+  text-align: center;
+  margin: 10px 0;
+}
+.introdiuction .introdiuction__benefits__container h3 mark {
+  background-color: black;
+  color: #0a62d0;
+  font-weight: 600;
+}
+.introdiuction .introdiuction__contact__container {
+  flex: 0 1 100%;
+  margin: 3rem auto;
+  text-align: center;
+}
+.introdiuction .introdiuction__contact__container button {
+  padding: 1rem;
+  font-size: 1.5rem;
+  background-color: black;
+  border: 5px solid white;
+  color: white;
+  cursor: pointer;
 }
 @media (min-width: 900px) {
-  .introdiuction {
-    height: 350px;
+  .introdiuction .introdiuction__title__container {
+    margin: 7rem auto 5rem;
   }
-  .introdiuction .introdiuction__container .text__container h1 {
-    font-size: 3rem;
-  }
-}
-@media (min-width: 1060px) {
-  .introdiuction {
-    margin-top: 0;
-  }
-}
-@media (min-width: 1200px) {
-  .introdiuction {
-    height: 450px;
-  }
-  .introdiuction .introdiuction__container .text__container {
-    max-width: 600px;
-  }
-  .introdiuction .introdiuction__container .text__container h1 {
-    font-size: 3.5rem;
+  .introdiuction .introdiuction__title__container h1 {
+    font-size: 4rem;
   }
 }/*# sourceMappingURL=Introduction.css.map */

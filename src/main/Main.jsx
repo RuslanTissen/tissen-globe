@@ -8,8 +8,7 @@ import "./Main.scss"
 // import Inside from '../components/inside/Inside.jsx';
 import Start from '../start/Start'
 import About from '../components/Routes/about/About'
-import Services from '../components/Routes/services/Services'
-import Help from '../components/Routes/help/Help'
+import Contact from '../components/Routes/contact/Contact'
 
 function Main() {
 	return (
@@ -17,8 +16,8 @@ function Main() {
 			<Routes>
 				<Route path='*' element={<Start />} />
 				<Route path='about' element={<About />} />
-				<Route path='services' element={<Services />} />
-				<Route path='help' element={<Help />} />
+				<Route path='contact' element={<Contact />} />
+				{/* <Route path='help' element={<Help />} /> */}
 			</Routes>
 
 			{/* <Outlet />  */}

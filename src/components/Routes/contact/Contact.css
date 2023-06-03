@@ -1,0 +1,72 @@
+.contact {
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 45px 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+}
+.contact .contact__conatiner {
+  max-width: 1500px;
+  min-height: 500px;
+  padding: 0 1rem 40px;
+}
+.contact .contact__conatiner h2 {
+  padding: 3rem 0 0;
+  margin: 0;
+  font-weight: 500;
+}
+.contact .contact__conatiner form {
+  margin: 0 auto;
+}
+.contact .contact__conatiner form .form__field {
+  display: flex;
+  flex-direction: column;
+}
+.contact .contact__conatiner form .form__field label {
+  margin: 1rem 0 0.5rem;
+}
+.contact .contact__conatiner form .form__field input {
+  width: 100%;
+  max-width: 900px;
+  height: 3rem;
+  border: 1px solid rgb(177, 176, 176);
+}
+.contact .contact__conatiner form .form__field textarea {
+  width: 100%;
+  max-width: 900px;
+  height: 150px;
+  border: 1px solid rgb(177, 176, 176);
+}
+.contact .contact__conatiner form .form__field button {
+  width: 200px;
+  height: 2rem;
+  background-color: #0a62d0;
+  margin: 0 auto;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+}
+.contact .contact__conatiner form .form__toggle__container {
+  display: flex;
+  flex-direction: column;
+}
+.contact .contact__conatiner form .form__toggle__container label {
+  margin: 1rem 0 0.5rem;
+}
+.contact .contact__conatiner form .form__toggle__container #toggleDate {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  position: relative;
+}
+.contact .contact__conatiner form .form__toggle__container #toggleDate::after {
+  content: "Scale my development team";
+  position: absolute;
+  left: 2rem;
+  width: 300px;
+}
+@media (min-width: 1060px) {
+  .contact {
+    margin: 40px 0;
+  }
+}/*# sourceMappingURL=Contact.css.map */

@@ -1,4 +1,6 @@
 .header {
+  padding: 0;
+  margin: 0;
   font-family: "Montserrat", sans-serif;
 }
 .header .header__logo--container {
@@ -7,11 +9,11 @@
   max-width: 1500px;
   position: fixed;
   top: 0;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
   display: flex;
-  padding: 0;
-  margin: 0;
-  background-color: rgb(78, 121, 172);
+  background-color: black;
 }
 .header .header__logo--container .logo-box {
   width: 50%;
@@ -47,59 +49,36 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  transition: all 0.3s ease-in-out;
   position: absolute;
   width: 100%;
   top: 40px;
 }
 .header .header__logo--container .humburgerMenu__container .humburgerMenu__container--link a {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
   text-decoration: none;
+  color: white;
 }
 .header .header__logo--container .humburgerMenu__container li {
-  padding: 10px 0 10px 10px;
-  font-size: 0.7rem;
-  border: none;
-  position: relative;
+  height: 2rem;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.header .header__logo--container .humburgerMenu__container li:not(:last-child):before {
-  content: "";
-  position: absolute;
-  left: 10px;
-  bottom: 0;
-  height: 1px;
-  width: 95%;
-  border-bottom: 1px solid gray;
-}
-.header .header__logo--container .humburgerMenu__container li:first-child {
-  background-color: rgb(78, 121, 172);
-  color: white;
-}
-.header .header__logo--container .humburgerMenu__container .first-li a {
-  color: white;
-}
-.header .header__logo--container .humburgerMenu__container .second-li {
-  background-color: rgb(96, 77, 141);
-}
-.header .header__logo--container .humburgerMenu__container .second-li a {
-  color: white;
-}
-.header .header__logo--container .humburgerMenu__container .li-after-second {
-  background-color: rgb(229, 229, 229);
-}
-.header .header__logo--container .humburgerMenu__container .li-after-second a {
-  color: black;
+.header .header__logo--container .humburgerMenu__container .li__contact a {
+  background-color: blue;
 }
 .header .header__logo--container .humburgerMenu__container .sprachen {
   display: flex;
-  padding: 0;
 }
 .header .header__logo--container .humburgerMenu__container .sprachen button {
-  padding: 0 10px;
   border: none;
-  background-color: rgb(229, 229, 229);
-  font-size: 0.7rem;
-}
-.header .header__logo--container .humburgerMenu__container .sprachen button:hover {
+  background-color: black;
+  color: white;
   cursor: pointer;
 }
 .header .header__big-container {
@@ -115,13 +94,14 @@
   .header .header__big-container {
     display: block;
   }
-  .header .header__big-container .first__ul__container {
+  .header .header__big-container .ul__container {
     position: fixed;
     top: 0;
-    width: 100vw;
-    background-color: #e09e50;
+    width: 100%;
+    background-color: black;
   }
-  .header .header__big-container .first__ul__container .first-ul {
+  .header .header__big-container .ul__container .first-ul {
+    padding: 0 1rem;
     height: 40px;
     max-width: 1500px;
     margin: 0 auto;
@@ -130,91 +110,61 @@
     align-items: center;
     list-style-type: none;
   }
-  .header .header__big-container .first__ul__container .first-ul .li1 {
-    flex: 1 1 60%;
+  .header .header__big-container .ul__container .first-ul .li1 {
+    flex: 1 1 30%;
     font-family: "League Gothic", sans-serif;
     font-size: 2rem;
   }
-  .header .header__big-container .first__ul__container .first-ul .li1 a {
+  .header .header__big-container .ul__container .first-ul .li1 a {
     text-decoration: none;
-    height: 35px;
+    width: -moz-fit-content;
+    width: fit-content;
     display: flex;
     align-items: center;
     font-weight: 300;
-    color: black;
+    color: white;
+    transition: all 0.3s ease-in-out;
   }
-  .header .header__big-container .first__ul__container .first-ul .lis {
-    height: 0.5rem;
+  .header .header__big-container .ul__container .first-ul .li6 {
+    background-color: blue;
+  }
+  .header .header__big-container .ul__container .first-ul .lis {
+    flex: 1 1 85px;
+    max-width: 130px;
+    height: inherit;
     display: flex;
     align-items: center;
     font-weight: 500;
   }
-  .header .header__big-container .first__ul__container .first-ul .lis a {
+  .header .header__big-container .ul__container .first-ul .lis a {
+    height: inherit;
+    width: 100%;
     display: flex;
+    justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: black;
-  }
-  .header .header__big-container .first__ul__container .first-ul .lis a svg {
-    margin-left: 5px;
-  }
-  .header .header__big-container .first__ul__container .first-ul .lis a:hover {
-    opacity: 0.5;
-  }
-  .header .header__big-container .first__ul__container .first-ul .li2,
-  .header .header__big-container .first__ul__container .first-ul .li3,
-  .header .header__big-container .first__ul__container .first-ul .li4 {
-    flex: 1 1 110px;
-    max-width: 130px;
-  }
-  .header .header__big-container .second__ul__container {
-    background-color: rgb(0, 29, 108);
-    width: 100vw;
-  }
-  .header .header__big-container .second__ul__container .second-ul {
-    max-width: 1500px;
-    margin: 40px auto 0;
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-  }
-  .header .header__big-container .second__ul__container .second-ul .lix {
-    flex: 1 1 110px;
-    max-width: 130px;
-    display: flex;
-    align-items: center;
-    font-weight: 500;
-  }
-  .header .header__big-container .second__ul__container .second-ul .lix a {
-    text-decoration: none;
-    display: flex;
-    align-items: center;
     color: white;
+    transition: all 0.3s ease-in-out;
   }
-  .header .header__big-container .second__ul__container .second-ul .lix a svg {
-    margin-left: 5px;
+  .header .header__big-container .ul__container .first-ul .lis a svg {
+    margin-left: 10px;
   }
-  .header .header__big-container .second__ul__container .second-ul .sprachen {
-    flex: 1 1 110px;
-    max-width: 130px;
-    display: flex;
-  }
-  .header .header__big-container .second__ul__container .second-ul .sprachen button {
-    background-color: rgb(0, 29, 108);
-    color: white;
+  .header .header__big-container .ul__container .first-ul .lis button {
+    height: inherit;
+    width: 33.33%;
+    background-color: black;
     border: none;
-    font-size: 1rem;
-    padding: 15px 10px 15px 0;
-  }
-  .header .header__big-container .second__ul__container .second-ul .sprachen p {
     color: white;
-  }
-  .header .header__big-container .second__ul__container .second-ul .sprachen button:hover {
+    font-size: 1rem;
     cursor: pointer;
-    opacity: 0.5;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
   }
-  .header .header__big-container .second__ul__container .second-ul .lix a:hover {
+  .header .header__big-container .ul__container .first-ul .li1 a:hover,
+  .header .header__big-container .ul__container .first-ul .lis a:hover,
+  .header .header__big-container .ul__container .first-ul .lis button:hover {
     opacity: 0.5;
   }
 }/*# sourceMappingURL=Header.css.map */

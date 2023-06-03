@@ -1,15 +1,10 @@
 import React, { useState, useContext, useEffect, useRef } from 'react'
 import "./Header.scss"
 import { RxHamburgerMenu } from 'react-icons/rx';
-import { FiChevronRight } from 'react-icons/fi';
 import { RxCross1 } from 'react-icons/rx';
 import { Context } from '../Context.js';
 import trans from '../Translate';
 import { NavLink, Outlet, Route, Routes } from 'react-router-dom';
-// import About from '../Routes/about/About.jsx';
-// import Services from '../Routes/services/Services.jsx';
-// import Help from "../../components/Routes/help/Help.jsx"
-
 
 function Header() {
 	const [show, setShow] = useState(false)
@@ -49,7 +44,7 @@ function Header() {
 					<li className='second-li humburgerMenu__container--link'><NavLink>How</NavLink> </li>
 					<li className='li__about humburgerMenu__container--link'><NavLink to='about'>About</NavLink></li>
 					<li className='li__career humburgerMenu__container--link'><NavLink>Career</NavLink> </li>
-					<li className='li__contact humburgerMenu__container--link'><NavLink>Contact</NavLink> </li>
+					<li className='li__contact humburgerMenu__container--link'><NavLink to="contact">Contact</NavLink> </li>
 					<li className='li__burger sprachen humburgerMenu__container--link'>
 						<button className="button-esp" value="es" onClick={(e) => setLang(e.target.value)}>ES</button>
 						<button className="button-eng" value="en" onClick={(e) => setLang(e.target.value)}> EN</button>
@@ -63,12 +58,12 @@ function Header() {
 			<div className='header__big-container'>
 				<div className="ul__container">
 					<ul className='first-ul'>
-						<li className='li1 '><NavLink to="*" onClick={scrollToTheTop}>Tissen</NavLink> </li>
-						<li className='li2 lis'><NavLink>What <FiChevronRight /></NavLink></li>
-						<li className='li3 lis'><NavLink>How<FiChevronRight /></NavLink></li>
-						<li className='li4 lis'><NavLink>Contact</NavLink> </li>
-						<li className='li5 lis'><NavLink to='about'>About</NavLink> </li>
-						<li className='li6 lis'><NavLink to="#">Career</NavLink> </li>
+						<li className='li1'><NavLink to="*" onClick={scrollToTheTop}>Tissen</NavLink> </li>
+						<li className='li2 lis'><NavLink>What</NavLink></li>
+						<li className='li3 lis'><NavLink>How</NavLink></li>
+						<li className='li4 lis'><NavLink to='about'>About</NavLink> </li>
+						<li className='li5 lis'><NavLink to="#">Career</NavLink> </li>
+						<li className='li6 lis'><NavLink to="contact">Contact</NavLink> </li>
 						<li className='sprachen lis'>
 							<button className="button-esp" value="es" onClick={(e) => setLang(e.target.value)}>ES</button>
 							<button className="button-eng" value="en" onClick={(e) => setLang(e.target.value)}> EN</button>
