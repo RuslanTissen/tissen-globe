@@ -65,6 +65,13 @@
   left: 2rem;
   width: 300px;
 }
+.contact .contact__conatiner a {
+  margin-top: 2rem;
+}
+.contact .contact__conatiner a svg {
+  width: 30px;
+  height: 30px;
+}
 @media (min-width: 1060px) {
   .contact {
     margin: 40px 0;
