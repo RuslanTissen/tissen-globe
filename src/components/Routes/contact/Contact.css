@@ -46,25 +46,6 @@
   font-size: 1.2rem;
   border: none;
 }
-.contact .contact__conatiner form .form__toggle__container {
-  display: flex;
-  flex-direction: column;
-}
-.contact .contact__conatiner form .form__toggle__container label {
-  margin: 1rem 0 0.5rem;
-}
-.contact .contact__conatiner form .form__toggle__container #toggleDate {
-  width: -moz-fit-content;
-  width: fit-content;
-  display: flex;
-  position: relative;
-}
-.contact .contact__conatiner form .form__toggle__container #toggleDate::after {
-  content: "Scale my development team";
-  position: absolute;
-  left: 2rem;
-  width: 300px;
-}
 .contact .contact__conatiner a {
   margin-top: 2rem;
 }
