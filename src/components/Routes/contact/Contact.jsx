@@ -43,14 +43,6 @@ function Contact() {
 						<label htmlFor="phone">Phone number</label>
 						<input type="text" name='phone' id='phone' />
 					</div>
-					{/* 
-					<div class="form__toggle__container">
-						<label for="toggleDate">I want to:</label>
-						<input type="checkbox" name="toggleDate" id="toggleDate" className='team'/>
-						<input type="checkbox" name="toggleDate" id="toggleDate" className='product' />
-						<input type="checkbox" name="toggleDate" id="toggleDate" className='redesign'/>
-						<input type="checkbox" name="toggleDate" id="toggleDate" className='something'/>
-					</div> */}
 
 					<div className="form__detales__container form__field">
 						<label htmlFor="details">Details</label>
