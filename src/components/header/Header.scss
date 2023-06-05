@@ -1,7 +1,6 @@
 .header {
 	padding: 0;
 	margin: 0;
-	font-family: "Montserrat", sans-serif;
 	.header__logo--container {
 		z-index: 100;
 		width: 100vw;
@@ -15,23 +14,28 @@
 		background-color: black;
 		.logo-box {
 			width: 50%;
-			font-family: "League Gothic", sans-serif;
+			font-family: "Geologica", sans-serif;
 			font-size: 1.8rem;
 			display: flex;
 			align-items: center;
 			a {
 				text-decoration: none;
+				letter-spacing: 3px;
 				color: white;
-				height: 35px;
+				height: 40px;
 				display: flex;
 				align-items: center;
 				padding: 5px;
 				margin: 5px;
 				font-weight: 300;
+				img {
+					width: 45px;
+				}
 			}
 		}
 		.hamburger-box {
 			width: 50%;
+			font-family: "Tomorrow", sans-serif;
 			display: flex;
 			align-items: center;
 			justify-content: end;
@@ -60,18 +64,22 @@
 					padding: 0 2rem;
 					text-decoration: none;
 					color: white;
+					word-spacing: 4px;
 				}
 			}
 			li {
-				height: 2rem;
+				height: 2.2rem;
 				background-color: black;
 				display: flex;
 				justify-content: center;
 				align-items: center;
+				border: 1px black solid;
 			}
 			.li__contact {
 				a {
-					background-color: blue;
+					color: black;
+					background-color: white;
+					font-weight: 700;
 				}
 			}
 			.sprachen {
@@ -99,13 +107,14 @@
 		.header__big-container {
 			display: block;
 			.ul__container {
+				padding-top: 1.5rem;
 				position: fixed;
 				top: 0;
 				width: 100%;
 				background-color: black;
 				.first-ul {
 					padding: 0 1rem;
-					height: 40px;
+					height: 50px;
 					max-width: 1500px;
 					margin: 0 auto;
 					display: flex;
@@ -114,20 +123,49 @@
 					list-style-type: none;
 					.li1 {
 						flex: 1 1 30%;
-						font-family: "League Gothic", sans-serif;
-						font-size: 2rem;
+						font-family: "Geologica", sans-serif;
+						font-size: 1.8rem;
 						a {
+							letter-spacing: 3px;
 							text-decoration: none;
 							width: fit-content;
 							display: flex;
 							align-items: center;
 							font-weight: 300;
-							color: white;	
-							transition: all 0.3s ease-in-out;			
+							color: white;
+							transition: all 0.3s ease-in-out;
+							img {
+								width: 45px;
+							}
 						}
 					}
 					.li6 {
-						background-color: blue;
+						// background-color: white;
+						flex: 1 1 95px;
+						max-width: 130px;
+						height: inherit;
+						display: flex;
+						align-items: center;
+						font-weight: 500;
+						transition: all 0.3s ease-in-out;
+						border: 3px white solid;
+						a {
+							height: inherit;
+							width: 100%;
+							display: flex;
+							justify-content: center;
+							align-items: center;
+							text-decoration: none;
+							transition: all 0.3s ease-in-out;
+							color: white;
+							font-weight: 700;
+						}
+					}
+					.li6:hover {
+						background-color: white;
+						a{
+							color: black;
+						}
 					}
 					.lis {
 						flex: 1 1 85px;
@@ -135,6 +173,7 @@
 						height: inherit;
 						display: flex;
 						align-items: center;
+						justify-content: center;
 						font-weight: 500;
 						a {
 							height: inherit;
@@ -148,6 +187,10 @@
 							svg {
 								margin-left: 10px;
 							}
+						}
+						svg {
+							color: white;
+							font-size: 2rem;
 						}
 						button {
 							height: inherit;
@@ -163,6 +206,68 @@
 							transition: all 0.3s ease-in-out;
 						}
 					}
+					.dropdown {
+						position: relative;
+						.dropdown-menu {
+							width: 100%;
+							height: fit-content;
+							position: absolute;
+							left: 0;
+							// top: calc(100% + 0.25rem);
+							top: 50px;
+							// padding-top: 0.75rem;
+							button {
+								width: inherit;
+								display: flex;
+								align-items: center;
+								justify-content: center;
+								padding: 5px;
+							}
+						}
+					}
+					// .dropdown {
+					// 	position: relative;
+					// 	.active > .link,
+					// 	.link:hover {
+					// 		color: black;
+					// 	}
+					// 	.dropdown-menu {
+					// 		width: 100%;
+					// 		height: fit-content;
+					// 		position: absolute;
+					// 		left: 0;
+					// 		top: calc(100% + 0.25rem);
+					// 		padding-top: 0.75rem;
+					// 		// box-shadow: 0 2px 5px 0 rgba(238, 235, 235, 0.1);
+					// 		// background-color: white;
+					// 		// align-items: center;
+					// 		opacity: 0;
+					// 		pointer-events: none;
+					// 		transform: translateY(-10px);
+					// 		transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+					// 		button {
+					// 			width: inherit;
+					// 			display: flex;
+					// 			align-items: center;
+					// 			justify-content: center;
+					// 			padding: 5px;
+					// 			// background-color: white;
+					// 			// color: black;
+					// 		}
+					// 		// button:hover {
+					// 		// 	opacity: 0.5;
+					// 		// }
+					// 	}
+					// }
+					// .dropdown.active {
+					// 	.link {
+					// 	}
+					// 	.dropdown-menu {
+					// 		opacity: 1;
+					// 		transform: translateY(0);
+					// 		pointer-events: auto;
+					// 	}
+					// }
 					.li1 a:hover,
 					.lis a:hover,
 					.lis button:hover {
