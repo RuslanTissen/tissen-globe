@@ -11,11 +11,11 @@ function Contact() {
 		const formToReset = document.getElementById("contact__form")
 
 		emailjs.sendForm('service_eeerkr9', 'template_jrwx5ew', e.target, 'WC8yJsuVfaL-55OpD')
-		.then((result) => {
-			console.log(result.text);
-		}, (error) => {
-			console.log(error.text);
-		});
+			.then((result) => {
+				console.log(result.text);
+			}, (error) => {
+				console.log(error.text);
+			});
 		formToReset.reset()
 		alert("Form submitted successfully!")
 
@@ -57,7 +57,7 @@ function Contact() {
 						<textarea name="details" id="details"></textarea>
 					</div>
 
-					<div className="form__toggle__container form__field">
+					<div className="form__button__container form__field">
 						<label></label>
 						<button id="submit" type="submit">Submit</button>
 						{/* <button id="reset" type="reset"> Reste</button> */}
@@ -65,14 +65,15 @@ function Contact() {
 					<p id="output"></p>
 				</form>
 
-				<h2>OR</h2>
-
-				<h3>Simply send a message</h3>
-				<button><a href="mailto:rthyssen73@gmail.com">Click to Send an Email</a></button>
-				<br />
-				<a href={`https://wa.me/541164210650?text=Hi`} target="_blank">
-					<BsWhatsapp />
-				</a>
+				<div className="contact__email__and__whatsapp">
+					<h3>Or</h3>
+					<h4>Simply send a message by:</h4>
+					<button><a href="mailto:rthyssen73@gmail.com">Click to Send an Email</a></button>
+					{/* <br /> */}
+					<a href={`https://wa.me/541164210650?text=Hi`} target="_blank">
+						<BsWhatsapp />
+					</a>
+				</div>
 			</div>
 
 		</div>

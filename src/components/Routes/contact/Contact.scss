@@ -1,10 +1,11 @@
 .contact {
 	height: fit-content;
-	margin: 45px 0;
+	margin: 40px 0;
 	font-family: "Montserrat", sans-serif;
 	background-color: white;
 	.contact__conatiner {
 		max-width: 1500px;
+		margin: 0 auto;
 		min-height: 500px;
 		padding: 0 1rem 40px;
 		h2 {
@@ -22,24 +23,29 @@
 				}
 				input {
 					width: 100%;
-					max-width: 900px;
+					max-width: 1060px;
 					height: 3rem;
 					border: 1px solid rgb(177, 176, 176);
 				}
 				textarea {
 					width: 100%;
-					max-width: 900px;
+					max-width: 1060px;
 					height: 150px;
 					border: 1px solid rgb(177, 176, 176);
 				}
+			}
+			.form__button__container {
+				max-width: 1060px;
 				button {
 					width: 200px;
-					height: 2rem;
+					height: 3rem;
 					background-color: #0a62d0;
 					margin: 0 auto;
 					color: white;
 					font-size: 1.2rem;
 					border: none;
+					cursor: pointer;
+					padding: 1rem 3rem;
 				}
 			}
 			// .form__toggle__container {
@@ -72,15 +78,68 @@
 			// 	}
 			// }
 		}
-		a {
+		.contact__email__and__whatsapp {
+			max-width: 1060px;
+			height: fit-content;
+			display: flex;
+			flex-wrap: wrap;
 			margin-top: 2rem;
-			svg {
-				width: 30px;
-				height: 30px;
+			h3 {
+				flex: 1 1 100%;
+				margin: 5px 0;
+				text-align: center;
+				font-weight: 400;
+			}
+			h4 {
+				flex: 1 1 100%;
+				margin: 5px 0 2rem;
+				text-align: center;
+				font-weight: 400;
+				text-decoration: underline;
+			}
+			button {
+				flex: 1 1 100%;
+				// height: 3rem;
+				font-size: 1.2rem;
+				border: none;
+				background-color: white;
+				display: grid;
+				place-items: center;
+				a {
+					// height:100%;
+					background-color: #0a62d0;
+					text-decoration: none;
+					color: white;
+					padding: 1rem 3rem;
+				}
+			}
+			a {
+				flex: 1 1 100%;
+				display: grid;
+				place-items: center;
+				margin: 1rem 0;
+				svg {
+					font-size: 2rem;
+					color: rgb(36, 204, 99);
+				}
+				svg:hover {
+					scale: 1.2;
+				}
 			}
 		}
 	}
 	@media (min-width: 1060px) {
-		margin: 40px 0;
+		.contact__conatiner {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 2rem;
+			form {
+				flex: 1 1 65%;
+			}
+			.contact__email__and__whatsapp {
+				flex: 1 1 30%;
+				margin: auto 0;
+			}
+		}
 	}
 }

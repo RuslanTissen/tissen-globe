@@ -1,12 +1,13 @@
 .contact {
   height: -moz-fit-content;
   height: fit-content;
-  margin: 45px 0;
+  margin: 40px 0;
   font-family: "Montserrat", sans-serif;
   background-color: white;
 }
 .contact .contact__conatiner {
   max-width: 1500px;
+  margin: 0 auto;
   min-height: 500px;
   padding: 0 1rem 40px;
 }
@@ -27,34 +28,89 @@
 }
 .contact .contact__conatiner form .form__field input {
   width: 100%;
-  max-width: 900px;
+  max-width: 1060px;
   height: 3rem;
   border: 1px solid rgb(177, 176, 176);
 }
 .contact .contact__conatiner form .form__field textarea {
   width: 100%;
-  max-width: 900px;
+  max-width: 1060px;
   height: 150px;
   border: 1px solid rgb(177, 176, 176);
 }
-.contact .contact__conatiner form .form__field button {
+.contact .contact__conatiner form .form__button__container {
+  max-width: 1060px;
+}
+.contact .contact__conatiner form .form__button__container button {
   width: 200px;
-  height: 2rem;
+  height: 3rem;
   background-color: #0a62d0;
   margin: 0 auto;
   color: white;
   font-size: 1.2rem;
   border: none;
+  cursor: pointer;
+  padding: 1rem 3rem;
 }
-.contact .contact__conatiner a {
+.contact .contact__conatiner .contact__email__and__whatsapp {
+  max-width: 1060px;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
   margin-top: 2rem;
 }
-.contact .contact__conatiner a svg {
-  width: 30px;
-  height: 30px;
+.contact .contact__conatiner .contact__email__and__whatsapp h3 {
+  flex: 1 1 100%;
+  margin: 5px 0;
+  text-align: center;
+  font-weight: 400;
+}
+.contact .contact__conatiner .contact__email__and__whatsapp h4 {
+  flex: 1 1 100%;
+  margin: 5px 0 2rem;
+  text-align: center;
+  font-weight: 400;
+  text-decoration: underline;
+}
+.contact .contact__conatiner .contact__email__and__whatsapp button {
+  flex: 1 1 100%;
+  font-size: 1.2rem;
+  border: none;
+  background-color: white;
+  display: grid;
+  place-items: center;
+}
+.contact .contact__conatiner .contact__email__and__whatsapp button a {
+  background-color: #0a62d0;
+  text-decoration: none;
+  color: white;
+  padding: 1rem 3rem;
+}
+.contact .contact__conatiner .contact__email__and__whatsapp a {
+  flex: 1 1 100%;
+  display: grid;
+  place-items: center;
+  margin: 1rem 0;
+}
+.contact .contact__conatiner .contact__email__and__whatsapp a svg {
+  font-size: 2rem;
+  color: rgb(36, 204, 99);
+}
+.contact .contact__conatiner .contact__email__and__whatsapp a svg:hover {
+  scale: 1.2;
 }
 @media (min-width: 1060px) {
-  .contact {
-    margin: 40px 0;
+  .contact .contact__conatiner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .contact .contact__conatiner form {
+    flex: 1 1 65%;
+  }
+  .contact .contact__conatiner .contact__email__and__whatsapp {
+    flex: 1 1 30%;
+    margin: auto 0;
   }
 }/*# sourceMappingURL=Contact.css.map */
