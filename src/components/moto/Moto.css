@@ -1,76 +1,79 @@
 .moto {
-  max-width: 1200px;
   height: -moz-fit-content;
   height: fit-content;
+  background-color: white;
+}
+.moto .moto__container {
+  max-width: 1500px;
+  padding: 1.5rem 1rem;
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-wrap: wrap;
+}
+.moto .moto__container .moto__first__container {
+  flex: 1 1 100%;
+  height: 200px;
+  width: inherit;
+  padding: 0 0 0 23px;
+  display: flex;
+  justify-content: flex-start;
   align-items: center;
-  font-family: "Montserrat", sans-serif;
-  padding: 40px 0 0 0;
-  margin: 0 auto;
+  background-image: url("../../images/mirag1.jpg");
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
 }
-.moto__first-container {
-  font-size: 2rem;
-  font-weight: 500;
-  color: rgb(62, 61, 61);
+.moto .moto__container .moto__first__container p {
+  font-family: "Gruppo", sans-serif;
+  font-size: 2.5rem;
+  color: rgb(6, 27, 176);
+  font-weight: 600;
 }
-.moto__second-container {
-  z-index: -1;
+.moto .moto__container .moto__second__container {
+  flex: 1 1 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: inherit;
 }
-.moto__second-container .icon {
-  font-size: 1.7rem;
-  position: relative;
-  color: rgb(77, 76, 76);
-  display: flex;
-  justify-content: center;
+.moto .moto__container .moto__second__container ol li {
+  font-family: "Tomorrow", sans-serif;
+  line-height: 1.5rem;
 }
-.moto__second-container .icon svg {
-  color: black;
+.moto .moto__container .moto__second__container ol li mark {
+  background-color: transparent;
+  font-weight: bold;
 }
-.moto__second-container .icon::before {
-  content: "";
-  position: absolute;
-  height: 1px;
-  right: 50px;
-  bottom: 50%;
-  width: 15vw;
-  min-width: 100px;
-  max-width: 250px;
-  border-bottom: 1px solid rgb(47, 47, 47);
-}
-.moto__second-container .icon::after {
-  content: "";
-  position: absolute;
-  height: 1px;
-  left: 50px;
-  bottom: 50%;
-  width: 15vw;
-  min-width: 100px;
-  max-width: 250px;
-  border-bottom: 1px solid rgb(47, 47, 47);
-}
-.moto__third-container {
-  padding: 40px;
-}
-.moto__third-container p {
-  max-width: 95%;
-  text-align: center;
-  margin: 0 auto;
-  font-size: 1.3rem;
-  font-weight: 300;
-  color: black;
+@media (min-width: 600px) {
+  .moto .moto__container .moto__first__container p {
+    font-size: 3rem;
+  }
 }
 @media (min-width: 900px) {
-  .moto__first-container {
-    font-size: 2.2rem;
+  .moto .moto__container {
+    background-image: url("../../images/mirag1.jpg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
   }
-  .moto__second-container .icon {
-    font-size: 1.9rem;
-    position: relative;
-    color: rgb(77, 76, 76);
+  .moto .moto__container .moto__first__container {
+    height: 200px;
+    background-image: none;
   }
-  .moto__third-container p {
+  .moto .moto__container .moto__first__container p {
+    font-size: 4rem;
+    margin: auto 0 2rem 0;
+  }
+  .moto .moto__container .moto__second__container {
+    height: 300px;
+    width: inherit;
+  }
+  .moto .moto__container .moto__second__container ol li {
+    font-family: "Tomorrow", sans-serif;
+    line-height: 2.5rem;
     font-size: 1.5rem;
+  }
+  .moto .moto__container .moto__second__container ol li mark {
+    background-color: transparent;
+    font-weight: bold;
   }
 }/*# sourceMappingURL=Moto.css.map */

@@ -2,10 +2,9 @@ import React from 'react'
 import "./Start.scss"
 import Introduction from '../components/introduction/Introduction.jsx';
 import Moto from '../components/moto/Moto.jsx';
-import Technology from '../components/technology/Technology.jsx';
 import Inside from '../components/inside/Inside.jsx';
-// import Animation from '../components/animation/Animation.jsx';
 import Steps from '../components/steps/Steps.jsx';
+import Technologies from '../components/technologies/Technologies';
 
 function Start() {
 	return (
@@ -16,9 +15,7 @@ function Start() {
 
 			<Steps />
 
-			{/* <hr></hr> */}
-
-			<Technology />
+			<Technologies />
 
 			<Inside />
 
@@ -29,6 +26,3 @@ function Start() {
 export default Start
 
 
-{/* <Animation /> */ }
-
-{/* <Bloks /> */ }
