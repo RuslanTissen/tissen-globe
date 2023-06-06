@@ -1,85 +1,94 @@
 .moto {
-	max-width: 1200px;
 	height: fit-content;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	font-family: 'Montserrat', sans-serif;
-	padding: 40px 0 0 0;
-	margin: 0 auto;
-	&__first-container {
-		font-size: 2rem;
-		font-weight: 500;
-		color: rgb(62, 61, 61);
-	}
-	&__second-container {
-		z-index: -1;
-		.icon {
-			font-size: 1.7rem;
-			position: relative;
-			color: rgb(77, 76, 76);
+	background-color: white;
+	.moto__container {
+		max-width: 1500px;
+		padding: 1.5rem 1rem;
+		margin: 0 auto;
+		display: flex;
+		flex-wrap: wrap;
+		// background-image: url("../../images/mirag2.jpg");
+		// background-position:right 90% bottom 45%;
+		// background-repeat: none;
+		// background-size: cover;
+		.moto__first__container {
+			flex: 1 1 100%;
+			height: 200px;
+			width: inherit;
+			padding: 0 0 0 23px;
 			display: flex;
-			justify-content: center;
-			svg{
-				color: black;
+			justify-content: flex-start;
+			align-items: center;
+			background-image: url("../../images/mirag1.jpg");
+			background-position: center;
+			background-repeat: none;
+			background-size: cover;
+			p {
+				font-family: "Montserrat", sans-serif;
+				font-size: 2.5rem;
+				color: rgb(6, 27, 176);
+				font-weight: 600;
 			}
 		}
-		.icon::before{
-			content: "";
-			position: absolute;
-			height: 1px;
-			right: 50px;
-			bottom: 50%;
-			width: 15vw;
-			min-width: 100px;
-			max-width: 250px;
-			border-bottom: 1px solid rgb(47, 47, 47);
+		.moto__second__container {
+			flex: 1 1 100%;
+			height: fit-content;
+			width: inherit;
+			ol {
+				li {
+					font-family: "Tomorrow", sans-serif;
+					line-height: 1.5rem;
+					mark {
+						background-color: transparent;
+						font-weight: bold;
+					}
+				}
+			}
 		}
-		.icon::after{
-			content: "";
-			position: absolute;
-			height: 1px;
-			left: 50px;
-			bottom: 50%;
-			width: 15vw;
-			min-width: 100px;
-			max-width: 250px;
-			border-bottom: 1px solid rgb(47, 47, 47);
+		// .moto__third__container {
+		// }
+	}
+	@media (min-width: 600px) {
+		.moto__container {
+			.moto__first__container {
+				p {
+					font-size: 3rem;
+				}
+			}
 		}
 	}
-	&__third-container {
-		padding: 40px;
-		p{
-			max-width: 95%;
-			text-align: center;
-			margin: 0 auto;
-			font-size: 1.3rem;
-			font-weight: 300;
-			color: black;
-		}
-	}
-	@media (min-width:900px) {
-		&__first-container {
-			font-size: 2.2rem;
-			
-		}
-		&__second-container {
-			.icon {
-				font-size: 1.9rem;
-				position: relative;
-				color: rgb(77, 76, 76);
+	@media (min-width: 900px) {
+		.moto__container {
+			background-image: url("../../images/mirag1.jpg");
+			background-position: center;
+			background-repeat: none;
+			background-size: cover;
+			.moto__first__container {
+				height: 200px;
+				background-image: none;
+				p {
+					font-size: 4rem;
+					margin: auto 0 2rem 0;
+				}
 			}
-			.icon::before{
-				// right: 80px;
-			}
-			.icon::after{
-				// left: 80px;
-			}
-		}
-		&__third-container {
-			p{
-				font-size: 1.5rem;
+			.moto__second__container {
+				height: 300px;
+				width: inherit;
+				// background-image: url("../../images/mirag1.jpg");
+				// background-position: center;
+				// background-repeat: none;
+				// background-size: cover;
+				ol {
+					li {
+						font-family: "Tomorrow", sans-serif;
+						line-height: 2.5rem;
+						font-size: 1.5rem;
+						mark {
+							background-color: transparent;
+							font-weight: bold;
+						}
+					}
+				}
 			}
 		}
 	}
