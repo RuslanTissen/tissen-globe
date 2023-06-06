@@ -71,9 +71,9 @@
 					font-size: 3.5rem;
 				}
 			}
-			.introdiuction__box__2 {
-				height: 250px;
-			}
+		}
+		.introdiuction__box__2 {
+			height: 250px;
 		}
 	}
 	@media (min-width: 700px) {
@@ -84,9 +84,9 @@
 					font-size: 4rem;
 				}
 			}
-			.introdiuction__box__2 {
-				height: 300px;
-			}
+		}
+		.introdiuction__box__2 {
+			height: 300px;
 		}
 	}
 	@media (min-width: 800px) {
@@ -97,8 +97,43 @@
 					font-size: 4.5rem;
 				}
 			}
-			.introdiuction__box__2 {
-				height: 350px;
+		}
+		.introdiuction__box__2 {
+			height: 350px;
+		}
+	}
+	@media (min-width: 900px) {
+		.introdiuction__box__1 {
+			height: 500px;
+			.introdiuction__box__1__title__container {
+				h1 {
+					font-size: 4.5rem;
+				}
+			}
+		}
+		.introdiuction__box__2 {
+			height: 400px;
+		}
+	}
+	@media (min-width: 1060px) {
+		background-image: none;
+		height: 600px;
+		.introdiuction__box__1 {
+			flex: 1 1 48%;
+			height: inherit;
+			order: 2;
+			padding: 4rem 0;
+		}
+		.introdiuction__box__2 {
+			flex: 1 1 48%;
+			height: inherit;
+			background-image: url("../../images/points.jpg");
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			align-items: flex-end;
+			.introdiuction__contact__container {
+				height: 25%;
 			}
 		}
 	}
