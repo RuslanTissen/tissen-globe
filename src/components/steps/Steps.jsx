@@ -1,46 +1,55 @@
 import React from 'react'
 import "./Steps.scss"
-import req1 from "../../images/requirements1.jpg"
-import req2 from "../../images/requirement2.jpg"
-import req3 from "../../images/requirements3.jpg"
-import { MdOutlineBusinessCenter } from "react-icons/md"
-import { TbPigMoney } from "react-icons/tb"
-import { GiSandsOfTime } from "react-icons/gi"
+import offer1 from "../../images/offer1.jpg"
+import offer2 from "../../images/offer2.jpg"
+import offer3 from "../../images/offer3.jpg"
+import offer4 from "../../images/offer4.jpg"
+import offer5 from "../../images/offer5.jpg"
+import offer6 from "../../images/offer6.jpg"
 
 function Steps() {
 	return (
 		<div className='steps'>
+
 			<div className="steps__container">
-				<div className="steps__container__1"><img src={req1} alt="" /></div>
-				<div className="steps__container__2 steps__container__2__border-top">
+				{/* <div className="steps__container__1"> */}
+				<h2>What We Offer</h2>
+				{/* </div> */}
+
+				<div className="steps__container__1 steps__boxes">
+					<img src={offer1} />
+					<p>Software Development</p>
+				</div>
+				<div className="steps__container__2 steps__boxes">
+					<img src={offer2}/>
+					<p>Network Security</p>
+				</div>
+				<div className="steps__container__3 steps__boxes">
+					<img src={offer3}/>
+					<p>Cloud Hosting</p>
+				</div>
+				<div className="steps__container__4 steps__boxes">
+					<img src={offer4}/>
+					<p>Web Development</p>
+				</div>
+				<div className="steps__container__5 steps__boxes">
+					<img src={offer5}/>
+					<p>Mobile Develompent</p>
+				</div>
+				<div className="steps__container__6 steps__boxes">
+					<img src={offer6}/>
+					<p>UX/UI</p>
+				</div>
+
+
+				{/* <div className="steps__container__2">
 					<h3>Business requirements.</h3>
 					<div className="circle__container">
 						<div className="circule"><MdOutlineBusinessCenter /></div>
 					</div>
-					<p>Our outsourcing company specializes in delivering comprehensive solutions that perfectly align with the specific business requirements of our clients, ensuring optimal efficiency and success.</p>				</div>
+					<p>Our outsourcing company specializes in delivering comprehensive solutions that perfectly align with the specific business requirements of our clients, ensuring optimal efficiency and success.</p>				</div> */}
 			</div>
 
-			<div className="steps__container">
-				<div className="steps__container__1 steps__container__1__revers"><img src={req2} alt="" /></div>
-				<div className="steps__container__2  steps__container__2__revers">
-					<h3>Budget save.</h3>
-					<div className="circle__container">
-						<div className="circule"><TbPigMoney /></div>
-					</div>
-					<p>Partner with our outsourcing company and experience significant budget savings without compromising on quality.</p>
-				</div>
-			</div>
-
-			<div className="steps__container">
-				<div className="steps__container__1"><img src={req3} alt="" /></div>
-				<div className="steps__container__2 steps__container__2__border-bottom">
-					<h3>Time saving.</h3>
-					<div className="circle__container">
-						<div className="circule"><GiSandsOfTime /></div>
-					</div>
-					<p>We offer expedited development services to accelerate your project timeline and deliver high-quality solutions within tight deadlines.</p>
-				</div>
-			</div>
 		</div>
 	)
 }
