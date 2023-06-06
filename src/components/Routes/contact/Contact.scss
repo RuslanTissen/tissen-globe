@@ -11,7 +11,7 @@
 		h2 {
 			padding: 3rem 0 0;
 			margin: 0;
-			font-weight: 500;
+			font-weight: 600;
 		}
 		form {
 			margin: 0 auto;
@@ -48,7 +48,7 @@
 					padding: 1rem 3rem;
 					transition: all 0.3s ease-in-out;
 				}
-				button:hover{
+				button:hover {
 					opacity: 0.85;
 				}
 			}
@@ -89,7 +89,7 @@
 					padding: 1rem 3rem;
 				}
 			}
-			button:hover{
+			button:hover {
 				opacity: 0.85;
 			}
 			a {
@@ -98,7 +98,7 @@
 				place-items: center;
 				margin: 1rem 0;
 				svg {
-					font-size: 2rem;
+					font-size: 2.5rem;
 					color: rgb(36, 204, 99);
 					transition: all 0.3s ease-in-out;
 				}
@@ -113,12 +113,21 @@
 			display: flex;
 			flex-wrap: wrap;
 			gap: 2rem;
+			h2 {
+				flex: 1 1 100%;
+			}
 			form {
 				flex: 1 1 65%;
 			}
 			.contact__email__and__whatsapp {
 				flex: 1 1 30%;
-				margin: auto 0;
+				// margin: auto 0;
+				h3 {
+					font-size: 1.5rem;
+				}
+				h4 {
+					font-size: 1.1rem;
+				}
 			}
 		}
 	}

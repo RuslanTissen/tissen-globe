@@ -4,22 +4,25 @@ import "./Introduction.scss"
 function Introduction() {
 	return (
 		<div className='introdiuction'>
-			<div className="introdiuction__title__container">
-				<h1>GLOBAL</h1>
-				<h1>IT</h1>
-				<h1>OUTSOURCING</h1>
-				<h1>COMPANY</h1>
-			</div>
-			<div className="introdiuction__benefits__container">
-				<h3><mark>Budget</mark> - save up to 30% of costs</h3>
-				<h3><mark>Time</mark>  - start a project after 14 days</h3>
-				<h3><mark>Innovation</mark>  - get the best technologes</h3>
-			</div>
-
-			<div className="introdiuction__contact__container">
-				<button>Estimate yout project now</button>
+			<div className="introdiuction__box__1">
+				<div className="introdiuction__box__1__title__container">
+					<h1>Global IT</h1>
+					<h1>Outsourcing</h1>
+					<h1>Company</h1>
+				</div>
+				<div className="introdiuction__box__1__button__container">
+					<button>Estimate your project</button>
+				</div>
 			</div>
 
+			<div className="introdiuction__box__2">
+				{/* <div className="introdiuction__benefits__container">	</div> */}
+				<ul className="introdiuction__contact__container">
+					<li>Save up to <mark>30%</mark> of your costs</li>
+					<li>Project starts in <mark>14</mark> days guarantee</li>
+					<li>Get the best <mark>technologies</mark> </li>
+				</ul>
+			</div>
 		</div>
 	)
 }

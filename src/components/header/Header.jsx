@@ -87,7 +87,7 @@ function Header() {
 				</ul>}
 			</ul>
 
-			<div className='header__big-container' ref={languageRef}>
+			<div className='header__big-container' >
 				<div className="ul__container">
 					<ul className='first-ul'>
 						<li className='li1'><NavLink to="*" onClick={scrollToTheTop}><img src={logo} />ISSEN</NavLink> </li>
@@ -97,7 +97,7 @@ function Header() {
 						<li className='li5 lis'><NavLink to="#">CAREERS</NavLink> </li>
 						<li className='li4 lis'><NavLink to='about'>ABOUT</NavLink> </li>
 						<li className='li6 '><NavLink to="contact">CONTACT US</NavLink> </li>
-						<li className="lis li__languages dropdown" data-dropdown onClick={() => languagesFunction()}>
+						<li className="lis li__languages dropdown" ref={languageRef} data-dropdown onClick={() => languagesFunction()}>
 							<button className='link' data-dropdown-button><BsGlobe /></button>
 							{showLanguages && <div className='dropdown-menu'>
 								<button className="button-esp" value="es" onClick={(e) => setLang(e.target.value)}>ES</button>

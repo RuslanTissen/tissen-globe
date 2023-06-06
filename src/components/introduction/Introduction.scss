@@ -2,71 +2,104 @@
 	max-width: 1500px;
 	margin: 0 auto;
 	height: fit-content;
-	font-family: "Montserrat", sans-serif;
 	display: flex;
 	flex-wrap: wrap;
-	align-items: center;
 	margin-top: 45px;
 	color: white;
 	padding: 0 1rem;
-	.introdiuction__title__container {
-		flex: 0 1 100%;
-		margin: 3rem auto 1.5rem;
-		h1 {
-			color: rgb(219, 218, 218);
-			font-weight: 900;
-			font-size: 2rem;
+	background-image: url("../../images/points.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	.introdiuction__box__1 {
+		flex: 1 1 100%;
+		height: 250px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		.introdiuction__box__1__title__container {
 			text-align: center;
-			line-height: 5px;
-		}
-		h1:nth-child(2) {
-			color: rgb(154, 153, 153);
-		}
-		h1:nth-child(3) {
-			color: rgb(105, 104, 104);
-		}
-		h1:nth-child(4) {
-			color: rgb(51, 50, 50);
-		}
-	}
-	.introdiuction__benefits__container {
-		flex: 0 1 100%;
-		margin: 0 auto;
-		h3 {
-			font-size: 1rem;
-			font-weight: 200;
-			text-align: center;
-			margin: 10px 0;
-			mark {
-				background-color: black;
-				color: #0a62d0;
-				font-weight: 600;
-			}
-		}
-	}
-	.introdiuction__contact__container {
-		flex: 0 1 100%;
-		margin: 3rem auto;
-		text-align: center;
-		button {
-			padding: 1rem;
-			font-size: 1.5rem;
-			background-color: black;
-			border: 5px solid white;
-			color: white;
-			cursor: pointer;
-		}
-	}
-	@media (min-width: 900px) {
-		.introdiuction__title__container {
-			margin: 7rem auto 5rem;
 			h1 {
-				font-size: 4rem;
+				font-family: "Kanit", sans-serif;
+				font-weight: 300;
+				font-size: 2.5rem;
+				line-height: 5px;
+			}
+		}
+		.introdiuction__box__1__button__container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			button {
+				font-family: "Tomorrow", sans-serif;
+				font-weight: 500;
+				text-transform: uppercase;
+				padding: 0.7rem 2rem;
+				font-size: 1rem;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color: rgb(6, 27, 176);
 			}
 		}
 	}
-	// @media (min-width: 1060px) {
-	// }
-	// @media (min-width: 1200px) {
-	// }
+	.introdiuction__box__2 {
+		flex: 1 1 100%;
+		height: 150px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.introdiuction__contact__container {
+			font-family: "Tomorrow", sans-serif;
+			font-weight: 400;
+			height: 40%;
+			li {
+				mark {
+					background-color: transparent;
+					font-weight: 700;
+					color: white;
+				}
+			}
+		}
+	}
+	@media (min-width: 600px) {
+		.introdiuction__box__1 {
+			height: 350px;
+			.introdiuction__box__1__title__container {
+				h1 {
+					font-size: 3.5rem;
+				}
+			}
+			.introdiuction__box__2 {
+				height: 250px;
+			}
+		}
+	}
+	@media (min-width: 700px) {
+		.introdiuction__box__1 {
+			height: 400px;
+			.introdiuction__box__1__title__container {
+				h1 {
+					font-size: 4rem;
+				}
+			}
+			.introdiuction__box__2 {
+				height: 300px;
+			}
+		}
+	}
+	@media (min-width: 800px) {
+		.introdiuction__box__1 {
+			height: 450px;
+			.introdiuction__box__1__title__container {
+				h1 {
+					font-size: 4.5rem;
+				}
+			}
+			.introdiuction__box__2 {
+				height: 350px;
+			}
+		}
+	}
 }
