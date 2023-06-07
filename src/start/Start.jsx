@@ -5,6 +5,7 @@ import Moto from '../components/moto/Moto.jsx';
 import Steps from '../components/steps/Steps.jsx';
 import Technologies from '../components/technologies/Technologies';
 import Statement from '../components/statement/Statement';
+import Location from "../components/locaion/Location.jsx"
 
 function Start() {
 	return (
@@ -18,6 +19,8 @@ function Start() {
 			<Technologies />
 
 			<Statement/>
+
+			<Location/>
 
 		</div>
 	)
