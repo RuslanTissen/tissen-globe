@@ -1,6 +1,6 @@
 .about {
 	font-family: "Montserrat", sans-serif;
-
+	background-color: white;
 	.about__image__container__1 {
 		height: 350px;
 		background-image: url("../../../images/about1.jpg");
@@ -63,10 +63,11 @@
 		}
 		p {
 			max-width: 1000px;
-			margin: 2rem auto;
+			margin: 2rem auto 0;
 			font-weight: 400;
 			font-size: 22px;
 			text-align: center;
+			padding-bottom: 3rem;
 		}
 	}
 	.about__image__container__2 {
@@ -112,7 +113,7 @@
 			}
 			p {
 				font-size: 26px;
-				margin: 3rem auto;
+				margin: 3rem auto 0;
 			}
 		}
 		.about__image__container__2,

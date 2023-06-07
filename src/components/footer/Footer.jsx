@@ -6,7 +6,7 @@ import logo from "../../images/logo.png"
 import {BsLinkedin} from "react-icons/bs"
 
 
-const scrollToTop = () => {
+const scrollToTheTop = () => {
 	window.scrollTo(0, 0)
 }
 
@@ -41,17 +41,17 @@ function Footer() {
 					</div>
 					<div className="footer__container__section__1__column">
 						<h2>Company</h2>
-						<div><NavLink>About us</NavLink></div>
+						<div><NavLink to='about' onClick={scrollToTheTop}>About us</NavLink></div>
 						<div><NavLink>Carreers</NavLink></div>
 						<div><NavLink>Why us</NavLink></div>
 						<div><NavLink>How we</NavLink></div>
-						<div><NavLink>Contact Us</NavLink></div>
+						<div><NavLink to="contact" onClick={scrollToTheTop}>Contact Us</NavLink></div>
 					</div>
 				</div>
 
 				<div className="footer__container__section__2">
 					<div className="footer__container__section__2__logos">
-					<NavLink to="*" onClick={scrollToTop}><img src={logo} /></NavLink> 
+					<NavLink to="*" onClick={scrollToTheTop}><img src={logo} /></NavLink> 
 					<a><FaInstagram /></a>
 					<a><FaTwitter /></a>
 					<a><FaFacebookF /></a>
