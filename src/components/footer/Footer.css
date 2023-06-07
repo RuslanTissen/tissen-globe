@@ -21,20 +21,29 @@
 }
 .footer .footer__container .footer__container__section__1 .footer__container__section__1__column {
   flex: 1 1 100%;
+  border-bottom: rgba(153, 152, 152, 0.435) 1px solid;
+  padding-bottom: 2rem;
 }
 .footer .footer__container .footer__container__section__1 .footer__container__section__1__column h2 {
   font-family: "Gruppo", sans-serif;
-  margin-bottom: 0.8rem;
+  margin-bottom: 1.8rem;
   font-size: 2.5rem;
   font-weight: 300;
 }
 .footer .footer__container .footer__container__section__1 .footer__container__section__1__column p {
   margin: 3px 0;
   font-family: "Tomorrow", sans-serif;
+  font-size: 1.2rem;
 }
 .footer .footer__container .footer__container__section__1 .footer__container__section__1__column div a {
   text-decoration: none;
   color: white;
+  font-size: 1.2rem;
+  transition: all 0.3s ease-out;
+}
+.footer .footer__container .footer__container__section__1 .footer__container__section__1__column div a:hover {
+  text-decoration: underline;
+  color: rgb(123, 123, 240);
 }
 .footer .footer__container .footer__container__section__2 {
   flex: 1 1 100%;
@@ -48,17 +57,26 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  border-bottom: rgba(153, 152, 152, 0.435) 1px solid;
+  padding-bottom: 1rem;
 }
 .footer .footer__container .footer__container__section__2 .footer__container__section__2__logos a {
   margin: 0 5px;
   font-size: 1.5rem;
+  transition: all 0.3s ease-out;
 }
 .footer .footer__container .footer__container__section__2 .footer__container__section__2__logos a img {
   height: 1.8rem;
   background-color: rgb(14, 22, 73);
 }
+.footer .footer__container .footer__container__section__2 .footer__container__section__2__logos a:hover {
+  text-decoration: underline;
+  color: rgb(123, 123, 240);
+}
 .footer .footer__container .footer__container__section__2 .footer__container__section__2__email {
   flex: 1 1 100%;
+  border-bottom: rgba(153, 152, 152, 0.435) 1px solid;
+  padding-bottom: 1rem;
 }
 .footer .footer__container .footer__container__section__2 .footer__container__section__2__email h3 {
   font-family: "Gruppo", sans-serif;
@@ -66,9 +84,15 @@
   font-weight: 900;
   margin-bottom: 0.4rem;
 }
-.footer .footer__container .footer__container__section__2 .footer__container__section__2__email p {
-  margin-top: 0;
+.footer .footer__container .footer__container__section__2 .footer__container__section__2__email a {
+  text-decoration: none;
+  color: white;
   font-family: "Tomorrow", sans-serif;
+  transition: all 0.3s ease-out;
+}
+.footer .footer__container .footer__container__section__2 .footer__container__section__2__email a:hover {
+  text-decoration: underline;
+  color: rgb(123, 123, 240);
 }
 .footer .footer__container .footer__container__section__2 .footer__container__section__2__phone {
   flex: 1 1 100%;
@@ -84,34 +108,78 @@
   font-family: "Tomorrow", sans-serif;
   font-size: 0.8rem;
 }
-@media (min-width: 600px) {
+@media (min-width: 650px) {
+  .footer .footer__container .footer__container__section__1 {
+    gap: 1.5rem;
+  }
   .footer .footer__container .footer__container__section__1 .footer__container__section__1__column {
-    flex: 1 1 50%;
+    flex: 1 1 48%;
+    max-width: 50%;
+  }
+  .footer .footer__container .footer__container__section__2 {
+    gap: 1.5rem;
   }
   .footer .footer__container .footer__container__section__2 .footer__container__section__2__logos {
-    flex: 1 1 50%;
+    flex: 1 1 48%;
     max-width: 50%;
   }
   .footer .footer__container .footer__container__section__2 .footer__container__section__2__email {
-    flex: 1 1 50%;
+    flex: 1 1 48%;
     max-width: 50%;
   }
   .footer .footer__container .footer__container__section__2 .footer__container__section__2__phone {
-    flex: 1 1 50%;
+    flex: 1 1 48%;
     max-width: 50%;
   }
 }
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
+  .footer .footer__container .footer__container__section__1 {
+    gap: 2rem;
+    border-bottom: rgba(153, 152, 152, 0.435) 1px solid;
+    padding-bottom: 1rem;
+  }
   .footer .footer__container .footer__container__section__1 .footer__container__section__1__column {
-    flex: 1 1 33.33%;
+    flex: 1 1 29%;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  .footer .footer__container .footer__container__section__2 {
+    gap: 2rem;
   }
   .footer .footer__container .footer__container__section__2 .footer__container__section__2__logos {
-    flex: 1 1 33.33%;
+    flex: 1 1 29%;
+    border-bottom: none;
+    padding-bottom: 0;
   }
   .footer .footer__container .footer__container__section__2 .footer__container__section__2__email {
-    flex: 1 1 33.33%;
+    flex: 1 1 29%;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  .footer .footer__container .footer__container__section__2 .footer__container__section__2__email h3 {
+    font-size: 2.3rem;
+  }
+  .footer .footer__container .footer__container__section__2 .footer__container__section__2__email a {
+    font-size: 1.1rem;
   }
   .footer .footer__container .footer__container__section__2 .footer__container__section__2__phone {
-    flex: 1 1 33.33%;
+    flex: 1 1 29%;
+  }
+  .footer .footer__container .footer__container__section__2 .footer__container__section__2__phone h3 {
+    font-size: 2.3rem;
+  }
+  .footer .footer__container .footer__container__section__2 .footer__container__section__2__phone p {
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 1300px) {
+  .footer .footer__container .footer__container__section__2 .footer__container__section__2__logos {
+    flex: 1 1 60%;
+  }
+  .footer .footer__container .footer__container__section__2 .footer__container__section__2__email {
+    flex: 1 1 15%;
+  }
+  .footer .footer__container .footer__container__section__2 .footer__container__section__2__phone {
+    flex: 1 1 15%;
   }
 }/*# sourceMappingURL=Footer.css.map */

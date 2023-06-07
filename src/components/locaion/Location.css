@@ -77,7 +77,7 @@
     order: 2;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1100px) {
   .location .location__container {
     gap: 2rem;
   }
@@ -86,7 +86,7 @@
     margin-bottom: 0;
   }
   .location .location__container .location__container__boxes {
-    flex: 1 1 29%;
+    flex: 1 1 31%;
     max-width: 50%;
   }
   .location .location__container .location__container__boxes img {

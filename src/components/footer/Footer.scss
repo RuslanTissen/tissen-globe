@@ -17,33 +17,32 @@
 
 			.footer__container__section__1__column {
 				flex: 1 1 100%;
+				border-bottom: rgba(153, 152, 152, 0.435) 1px solid;
+				padding-bottom: 2rem;
 				h2 {
 					font-family: "Gruppo", sans-serif;
-					margin-bottom: 0.8rem;
+					margin-bottom: 1.8rem;
 					font-size: 2.5rem;
 					font-weight: 300;
 				}
 				p {
 					margin: 3px 0;
 					font-family: "Tomorrow", sans-serif;
+					font-size: 1.2rem;
 				}
 				div {
 					a {
 						text-decoration: none;
 						color: white;
+						font-size: 1.2rem;
+						transition: all 0.3s ease-out;
+					}
+					a:hover {
+						text-decoration: underline;
+						color: rgb(123, 123, 240);
 					}
 				}
 			}
-			// .footer__container__section__1__column-2 {
-			// flex: 1 1 100%;
-			// 	// max-width: 50%;
-
-			// }
-			// .footer__container__section__1__column-3 {
-			// flex: 1 1 100%;
-			// 	// max-width: 50%;
-
-			// }
 		}
 		// ----------------------- SECTION 2 ------------------------------------------
 
@@ -58,26 +57,41 @@
 				flex-direction: row;
 				justify-content: flex-start;
 				align-items: center;
+				border-bottom: rgba(153, 152, 152, 0.435) 1px solid;
+				padding-bottom: 1rem;
 				a {
 					margin: 0 5px;
 					font-size: 1.5rem;
+					transition: all 0.3s ease-out;
 					img {
 						height: 1.8rem;
 						background-color: rgb(14, 22, 73);
 					}
 				}
+				a:hover {
+					text-decoration: underline;
+					color: rgb(123, 123, 240);
+				}
 			}
 			.footer__container__section__2__email {
 				flex: 1 1 100%;
+				border-bottom: rgba(153, 152, 152, 0.435) 1px solid;
+				padding-bottom: 1rem;
 				h3 {
 					font-family: "Gruppo", sans-serif;
 					font-size: 2rem;
 					font-weight: 900;
 					margin-bottom: 0.4rem;
 				}
-				p {
-					margin-top: 0;
+				a {
+					text-decoration: none;
+					color: white;
 					font-family: "Tomorrow", sans-serif;
+					transition: all 0.3s ease-out;
+				}
+				a:hover {
+					text-decoration: underline;
+					color: rgb(123, 123, 240);
 				}
 			}
 			.footer__container__section__2__phone {
@@ -96,47 +110,87 @@
 			}
 		}
 	}
-	@media (min-width: 600px) {
+	@media (min-width: 650px) {
 		.footer__container {
 			.footer__container__section__1 {
+				gap: 1.5rem;
 				.footer__container__section__1__column {
-					flex: 1 1 50%;
+					flex: 1 1 48%;
+					max-width: 50%;
 				}
 			}
 			//	----------------------- SECTION 2 ------------------------------------------
 			.footer__container__section__2 {
+				gap: 1.5rem;
 				.footer__container__section__2__logos {
-					flex: 1 1 50%;
+					flex: 1 1 48%;
 					max-width: 50%;
 				}
 				.footer__container__section__2__email {
-					flex: 1 1 50%;
+					flex: 1 1 48%;
 					max-width: 50%;
 				}
 				.footer__container__section__2__phone {
-					flex: 1 1 50%;
+					flex: 1 1 48%;
 					max-width: 50%;
 				}
 			}
 		}
 	}
-	@media (min-width: 900px) {
+	@media (min-width: 1000px) {
 		.footer__container {
 			.footer__container__section__1 {
+				gap: 2rem;
+				border-bottom: rgba(153, 152, 152, 0.435) 1px solid;
+				padding-bottom: 1rem;
 				.footer__container__section__1__column {
-					flex: 1 1 33.33%;
+					flex: 1 1 29%;
+					border-bottom: none;
+					padding-bottom: 0;
 				}
 			}
 			//	----------------------- SECTION 2 ------------------------------------------
 			.footer__container__section__2 {
+				gap: 2rem;
 				.footer__container__section__2__logos {
-					flex: 1 1 33.33%;
+					flex: 1 1 29%;
+					border-bottom: none;
+					padding-bottom: 0;
 				}
 				.footer__container__section__2__email {
-					flex: 1 1 33.33%;
+					flex: 1 1 29%;
+					border-bottom: none;
+					padding-bottom: 0;
+					h3 {
+						font-size: 2.3rem;
+					}
+					a {
+						font-size: 1.1rem;
+					}
 				}
 				.footer__container__section__2__phone {
-					flex: 1 1 33.33%;
+					flex: 1 1 29%;
+					h3 {
+						font-size: 2.3rem;
+					}
+					p {
+						font-size: 0.9rem;
+					}
+				}
+			}
+		}
+	}
+	@media (min-width: 1300px) {
+		.footer__container {
+			.footer__container__section__2 {
+				.footer__container__section__2__logos {
+					flex: 1 1 60%;
+				}
+				.footer__container__section__2__email {
+					flex: 1 1 15%;
+				}
+				.footer__container__section__2__phone {
+					flex: 1 1 15%;
 				}
 			}
 		}

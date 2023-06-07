@@ -59,7 +59,7 @@ function Footer() {
 					</div>
 					<div className="footer__container__section__2__email">
 						<h3>Email</h3>
-						<p>info@tissen.com</p>
+						<a href="mailto:rthyssen73@gmail.com">info@tissen.com</a>
 					</div>
 					<div className="footer__container__section__2__phone">
 						<h3>Phone</h3>
