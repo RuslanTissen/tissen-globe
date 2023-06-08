@@ -15,8 +15,23 @@ const trans = {
 		project3: "days guarenteed.",
 		technologies1: "with the best",
 		technologies2: "technologies.",
-
-
+		tissenWay: "Tissen Way",
+		innovativeSolutions1: "Expertise and ",
+		innovativeSolutions2: "innovative solutions.",
+		personalizedApproach1: "Personalized approach ",
+		personalizedApproach2: "tailored to specific needs.",
+		successfulImplementations1: "Proven track record of ",
+		successfulImplementations2: "successful implementations.",
+		comprehensivePortfolio1: "Comprehensive portfolio ",
+		comprehensivePortfolio2: "of services for various technological needs.",
+		customerRelationships1: "Consumer-centric approach and ",
+		customerRelationships2: "strong customer relationships.",
+		byServices: "By Services",
+		softwareDevelopment: "Software Development",
+		seguridadInformatica: "Network Security",
+		cloudHosting: "Cloud Hosting",
+		desarrolloWeb: "Web Development ",
+		desarrolloMobile: "Mobile Develompent",
 
 
 	},
@@ -36,8 +51,23 @@ const trans = {
 		project3: "dias garantizado.",
 		technologies1: "Con la mejor",
 		technologies2: "Tecnologia",
-
-
+		tissenWay: "Tissen estilo",
+		innovativeSolutions1: "Pericia y ",
+		innovativeSolutions2: "soluciones innovadoras.",
+		personalizedApproach1: "Enfoque personalizado",
+		personalizedApproach2: "adaptado a las necesidades específicas.",
+		successfulImplementations1: "Historial comprobado de ",
+		successfulImplementations2: "implementaciones exitosas.",
+		comprehensivePortfolio1: "Portafolio integral de servicios ",
+		comprehensivePortfolio2: "para diversas necesidades tecnológicas.",
+		customerRelationships1: "Enfoque centrado en el consumidor y ",
+		customerRelationships2: "relaciones sólidas con los clientes.",
+		byServices: "Por Servicio",
+		softwareDevelopment: "Desarrollo Software ",
+		seguridadInformatica: "Seguridad Informatica",
+		cloudHosting: "Cloud Hosting",
+		desarrolloWeb: "Desarrollo Web ",
+		desarrolloMobile: "Desarrollo Mobile",
 
 	},
 
@@ -57,8 +87,23 @@ const trans = {
 		project3: "",
 		technologies1: "",
 		technologies2: "",
-
-
+		tissenWay: "",
+		innovativeSolutions1: "",
+		innovativeSolutions2: "",
+		personalizedApproach1: "",
+		personalizedApproach2: "",
+		successfulImplementations1: "",
+		successfulImplementations2: "",
+		comprehensivePortfolio1: "",
+		comprehensivePortfolio2: "",
+		customerRelationships1: "",
+		customerRelationships2: "",
+		byServices: "",
+		softwareDevelopment: "",
+		seguridadInformatica: "",
+		cloudHosting: "",
+		desarrolloWeb: " ",
+		desarrolloMobile: "",
 
 
 

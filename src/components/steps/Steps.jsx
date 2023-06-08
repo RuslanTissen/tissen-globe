@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import "./Steps.scss"
 import offer1 from "../../images/offer1.jpg"
 import offer2 from "../../images/offer2.jpg"
@@ -6,35 +6,36 @@ import offer3 from "../../images/offer3.jpg"
 import offer4 from "../../images/offer4.jpg"
 import offer5 from "../../images/offer5.jpg"
 import offer6 from "../../images/offer6.jpg"
+import trans from '../Translate'
+import { Context } from '../Context'
 
 function Steps() {
+const {lang, setLang} =useContext(Context)
 	return (
 		<div className='steps'>
 
 			<div className="steps__container">
-				{/* <div className="steps__container__1"> */}
-				<h2>What We Offer</h2>
-				{/* </div> */}
+				<h2>{trans[lang].byServices}</h2>
 
 				<div className="steps__container__1 steps__boxes">
 					<img src={offer1} />
-					<p>Software Development</p>
+					<p>{trans[lang].softwareDevelopment}</p>
 				</div>
 				<div className="steps__container__2 steps__boxes">
 					<img src={offer2}/>
-					<p>Network Security</p>
+					<p>{trans[lang].seguridadInformatica}</p>
 				</div>
 				<div className="steps__container__3 steps__boxes">
 					<img src={offer3}/>
-					<p>Cloud Hosting</p>
+					<p>{trans[lang].cloudHosting}</p>
 				</div>
 				<div className="steps__container__4 steps__boxes">
 					<img src={offer4}/>
-					<p>Web Development</p>
+					<p>{trans[lang].desarrolloWeb}</p>
 				</div>
 				<div className="steps__container__5 steps__boxes">
 					<img src={offer5}/>
-					<p>Mobile Develompent</p>
+					<p>{trans[lang].desarrolloMobile}</p>
 				</div>
 				<div className="steps__container__6 steps__boxes">
 					<img src={offer6}/>
