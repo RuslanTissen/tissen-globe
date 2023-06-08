@@ -119,13 +119,13 @@
     height: 600px;
   }
   .introdiuction .introdiuction__box__1 {
-    flex: 1 1 48%;
+    flex: 1 1 42%;
     height: inherit;
     order: 2;
     padding: 4rem 0;
   }
   .introdiuction .introdiuction__box__2 {
-    flex: 1 1 48%;
+    flex: 1 1 55%;
     height: inherit;
     background-image: url("../../images/points.jpg");
     background-position: center;
@@ -134,6 +134,6 @@
     align-items: flex-end;
   }
   .introdiuction .introdiuction__box__2 .introdiuction__contact__container {
-    height: 25%;
+    height: 27%;
   }
 }/*# sourceMappingURL=Introduction.css.map */

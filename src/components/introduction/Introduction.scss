@@ -126,13 +126,13 @@
 		background-image: none;
 		height: 600px;
 		.introdiuction__box__1 {
-			flex: 1 1 48%;
+			flex: 1 1 42%;
 			height: inherit;
 			order: 2;
 			padding: 4rem 0;
 		}
 		.introdiuction__box__2 {
-			flex: 1 1 48%;
+			flex: 1 1 55%;
 			height: inherit;
 			background-image: url("../../images/points.jpg");
 			background-position: center;
@@ -140,7 +140,7 @@
 			background-size: cover;
 			align-items: flex-end;
 			.introdiuction__contact__container {
-				height: 25%;
+				height: 27%;
 			}
 		}
 	}

@@ -1,26 +1,31 @@
 import React from 'react'
 import "./Introduction.scss"
+import trans from '../Translate'
+import { Context } from '../Context'
+import { useContext } from 'react'
 
 function Introduction() {
+	const { lang, setLang } = useContext(Context)
+
 	return (
 		<div className='introdiuction'>
 			<div className="introdiuction__box__1">
 				<div className="introdiuction__box__1__title__container">
 					<h1>Global IT</h1>
 					<h1>Outsourcing</h1>
-					<h1>Company</h1>
+					{/* <h1>Company</h1> */}
 				</div>
 				<div className="introdiuction__box__1__button__container">
-					<button>Estimate your project</button>
+					<button>{trans[lang].estimate}</button>
 				</div>
 			</div>
 
 			<div className="introdiuction__box__2">
 				{/* <div className="introdiuction__benefits__container">	</div> */}
 				<ul className="introdiuction__contact__container">
-					<li>Save up to <mark>30%</mark> of your costs</li>
-					<li>Project starts in <mark>14</mark> days guarantee</li>
-					<li>Get the best <mark>technologies</mark> </li>
+					<li>{trans[lang].save1}<mark>{trans[lang].save2} </mark> {trans[lang].save3}</li>
+					<li>{trans[lang].project1} <mark>{trans[lang].project2}</mark> {trans[lang].project3}</li>
+					<li>{trans[lang].technologies1} <mark>{trans[lang].technologies2}</mark> </li>
 				</ul>
 			</div>
 		</div>
