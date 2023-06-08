@@ -120,7 +120,7 @@
     list-style-type: none;
   }
   .header .header__big-container .ul__container .first-ul .li1 {
-    flex: 1 1 30%;
+    flex: 1 1 10%;
     font-family: "Geologica", sans-serif;
     font-size: 1.8rem;
   }
@@ -166,8 +166,8 @@
     color: black;
   }
   .header .header__big-container .ul__container .first-ul .lis {
-    flex: 1 1 85px;
-    max-width: 130px;
+    text-transform: uppercase;
+    flex: 1 1 auto;
     height: inherit;
     display: flex;
     align-items: center;
@@ -184,28 +184,23 @@
     color: white;
     transition: all 0.3s ease-in-out;
   }
-  .header .header__big-container .ul__container .first-ul .lis a svg {
-    margin-left: 10px;
-  }
-  .header .header__big-container .ul__container .first-ul .lis svg {
-    color: white;
-    font-size: 2rem;
-  }
-  .header .header__big-container .ul__container .first-ul .lis button {
+  .header .header__big-container .ul__container .first-ul .dropdown {
+    flex: 0 1 50px;
     height: inherit;
-    width: 33.33%;
-    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .header .header__big-container .ul__container .first-ul .dropdown .link {
+    background-color: transparent;
     border: none;
     color: white;
-    font-size: 1rem;
-    cursor: pointer;
+    font-size: 2rem;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    transition: all 0.3s ease-in-out;
-  }
-  .header .header__big-container .ul__container .first-ul .dropdown {
-    position: relative;
+    margin: 0 1rem;
   }
   .header .header__big-container .ul__container .first-ul .dropdown .dropdown-menu {
     width: 100%;
@@ -221,10 +216,15 @@
     align-items: center;
     justify-content: center;
     padding: 5px;
+    background-color: transparent;
+    color: white;
+    border: none;
   }
   .header .header__big-container .ul__container .first-ul .li1 a:hover,
   .header .header__big-container .ul__container .first-ul .lis a:hover,
-  .header .header__big-container .ul__container .first-ul .lis button:hover {
+  .header .header__big-container .ul__container .first-ul .lis button:hover,
+  .header .header__big-container .ul__container .first-ul .dropdown .link:hover,
+  .header .header__big-container .ul__container .first-ul .dropdown-menu button:hover {
     opacity: 0.5;
   }
 }/*# sourceMappingURL=Header.css.map */

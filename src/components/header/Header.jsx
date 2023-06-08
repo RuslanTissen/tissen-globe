@@ -3,7 +3,7 @@ import "./Header.scss"
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { RxCross1 } from 'react-icons/rx';
 import { Context } from '../Context.js';
-import trans from '../Translate';
+import trans from '../Translate.js';
 import { NavLink, Outlet, Route, Routes } from 'react-router-dom';
 import logo from "../../images/logo.png"
 import { BsGlobe } from "react-icons/bs"
@@ -49,22 +49,6 @@ function Header() {
 		document.addEventListener("mousedown", handler)
 	})
 
-	// document.addEventListener("click", e => {
-	// 	const isDropdownButton = e.target.matches("[data-dropdown-button]")
-	// 	if (!isDropdownButton && e.target.closest("[data-dropdown]") != null) return
-
-	// 	let currentDropdown
-	// 	if (isDropdownButton) {
-	// 		currentDropdown = e.target.closest("[data-dropdown]")
-	// 		currentDropdown.classList.toggle("active")
-	// 	}
-
-	// 	document.querySelectorAll("[data-dropdown].active").forEach(dropdown => {
-	// 		if (dropdown === currentDropdown) return
-	// 		dropdown.classList.remove("active")
-	// 	})
-	// })
-
 	return (
 		<div className='header' id='header'>
 			<ul className="header__logo--container" ref={menuRef}>
@@ -73,12 +57,12 @@ function Header() {
 					{active ? <RxHamburgerMenu /> : < RxCross1 />}
 				</li>
 				{show && <ul className="humburgerMenu__container" onClick={() => myFunction()}>
-					<li className='first-li humburgerMenu__container--link'><NavLink>SERVICES</NavLink> </li>
-					<li className='first-li humburgerMenu__container--link'><NavLink>WHAT WE</NavLink> </li>
-					<li className='second-li humburgerMenu__container--link'><NavLink>HOW WE</NavLink> </li>
-					<li className='li__career humburgerMenu__container--link'><NavLink>CAREERS</NavLink> </li>
-					<li className='li__about humburgerMenu__container--link'><NavLink to='about'>ABOUT</NavLink></li>
-					<li className='li__contact humburgerMenu__container--link'><NavLink to="contact">CONTACT US</NavLink> </li>
+					<li className='first-li humburgerMenu__container--link'><NavLink>{trans[lang].services}</NavLink> </li>
+					<li className='first-li humburgerMenu__container--link'><NavLink>{trans[lang].what}</NavLink> </li>
+					<li className='second-li humburgerMenu__container--link'><NavLink>{trans[lang].how}</NavLink> </li>
+					<li className='li__career humburgerMenu__container--link'><NavLink>{trans[lang].carreers}</NavLink> </li>
+					<li className='li__about humburgerMenu__container--link'><NavLink to='about'>{trans[lang].about}</NavLink></li>
+					<li className='li__contact humburgerMenu__container--link'><NavLink to="contact">{trans[lang].contact}</NavLink> </li>
 					<li className='li__burger sprachen humburgerMenu__container--link'>
 						<button className="button-esp" value="es" onClick={(e) => setLang(e.target.value)}>ES</button>
 						<button className="button-eng" value="en" onClick={(e) => setLang(e.target.value)}>EN</button>
@@ -91,13 +75,13 @@ function Header() {
 				<div className="ul__container">
 					<ul className='first-ul'>
 						<li className='li1'><NavLink to="*" onClick={scrollToTheTop}><img src={logo} />ISSEN</NavLink> </li>
-						<li className='li2 lis'><NavLink>SERVICES</NavLink></li>
-						<li className='li2 lis'><NavLink>WHAT WE</NavLink></li>
-						<li className='li3 lis'><NavLink>HOW WE</NavLink></li>
-						<li className='li5 lis'><NavLink to="#">CAREERS</NavLink> </li>
-						<li className='li4 lis'><NavLink to='about'>ABOUT</NavLink> </li>
-						<li className='li6 '><NavLink to="contact">CONTACT US</NavLink> </li>
-						<li className="lis li__languages dropdown" ref={languageRef} data-dropdown onClick={() => languagesFunction()}>
+						<li className='li2 lis'><NavLink>{trans[lang].services}</NavLink></li>
+						<li className='li2 lis'><NavLink>{trans[lang].what}</NavLink></li>
+						<li className='li3 lis'><NavLink>{trans[lang].how}</NavLink></li>
+						<li className='li5 lis'><NavLink to="#">{trans[lang].carreers}</NavLink> </li>
+						<li className='li4 lis'><NavLink to='about'>{trans[lang].about}</NavLink> </li>
+						<li className='li6 '><NavLink to="contact">{trans[lang].contact}</NavLink> </li>
+						<li className="dropdown" ref={languageRef} data-dropdown onClick={() => languagesFunction()}>
 							<button className='link' data-dropdown-button><BsGlobe /></button>
 							{showLanguages && <div className='dropdown-menu'>
 								<button className="button-esp" value="es" onClick={(e) => setLang(e.target.value)}>ES</button>
@@ -114,3 +98,21 @@ function Header() {
 }
 
 export default Header
+
+
+
+// document.addEventListener("click", e => {
+	// 	const isDropdownButton = e.target.matches("[data-dropdown-button]")
+	// 	if (!isDropdownButton && e.target.closest("[data-dropdown]") != null) return
+
+	// 	let currentDropdown
+	// 	if (isDropdownButton) {
+	// 		currentDropdown = e.target.closest("[data-dropdown]")
+	// 		currentDropdown.classList.toggle("active")
+	// 	}
+
+	// 	document.querySelectorAll("[data-dropdown].active").forEach(dropdown => {
+	// 		if (dropdown === currentDropdown) return
+	// 		dropdown.classList.remove("active")
+	// 	})
+	// })

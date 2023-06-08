@@ -123,7 +123,7 @@
 					align-items: center;
 					list-style-type: none;
 					.li1 {
-						flex: 1 1 30%;
+						flex: 1 1 10%;
 						font-family: "Geologica", sans-serif;
 						font-size: 1.8rem;
 						a {
@@ -141,7 +141,6 @@
 						}
 					}
 					.li6 {
-						// background-color: white;
 						flex: 1 1 95px;
 						max-width: 130px;
 						height: inherit;
@@ -164,13 +163,13 @@
 					}
 					.li6:hover {
 						background-color: white;
-						a{
+						a {
 							color: black;
 						}
 					}
 					.lis {
-						flex: 1 1 85px;
-						max-width: 130px;
+						text-transform: uppercase;
+						flex: 1 1 auto;
 						height: inherit;
 						display: flex;
 						align-items: center;
@@ -185,48 +184,85 @@
 							text-decoration: none;
 							color: white;
 							transition: all 0.3s ease-in-out;
-							svg {
-								margin-left: 10px;
-							}
-						}
-						svg {
-							color: white;
-							font-size: 2rem;
-						}
-						button {
-							height: inherit;
-							width: 33.33%;
-							background-color: black;
-							border: none;
-							color: white;
-							font-size: 1rem;
-							cursor: pointer;
-							display: flex;
-							justify-content: flex-end;
-							align-items: center;
-							transition: all 0.3s ease-in-out;
 						}
 					}
 					.dropdown {
+						flex: 0 1 50px;
+						height: inherit;
+						display: flex;
+						justify-content: center;
+						align-items: center;
 						position: relative;
+						.link {
+							background-color: transparent;
+							border: none;
+							color: white;
+							font-size: 2rem;
+							display: flex;
+							justify-content: center;
+							align-items: center;
+							margin: 0 1rem;
+						}
 						.dropdown-menu {
 							width: 100%;
 							height: fit-content;
 							position: absolute;
 							left: 0;
-							// top: calc(100% + 0.25rem);
 							top: 50px;
-							// padding-top: 0.75rem;
 							button {
 								width: inherit;
 								display: flex;
 								align-items: center;
 								justify-content: center;
 								padding: 5px;
+								background-color: transparent;
+								color: white;
+								border: none;
 							}
 						}
 					}
-					// .dropdown {
+					
+					.li1 a:hover,
+					.lis a:hover,
+					.lis button:hover,
+					.dropdown .link:hover,
+					.dropdown-menu button:hover{
+						opacity: 0.5;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+	// svg {
+						// 	color: white;
+						// 	font-size: 2rem;
+						// }
+						// button {
+						// 	height: inherit;
+						// 	width: fit-content;
+						// 	background-color: black;
+						// 	border: none;
+						// 	color: white;
+						// 	font-size: 1rem;
+						// 	cursor: pointer;
+						// 	display: flex;
+						// 	justify-content: flex-end;
+						// 	align-items: center;
+						// 	transition: all 0.3s ease-in-out;
+						// 	padding: 0 2px;
+						// }
+
+
+
+
+
+// .dropdown {
 					// 	position: relative;
 					// 	.active > .link,
 					// 	.link:hover {
@@ -269,13 +305,3 @@
 					// 		pointer-events: auto;
 					// 	}
 					// }
-					.li1 a:hover,
-					.lis a:hover,
-					.lis button:hover {
-						opacity: 0.5;
-					}
-				}
-			}
-		}
-	}
-}

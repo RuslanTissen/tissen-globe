@@ -45,6 +45,12 @@
   justify-content: center;
   align-items: center;
   color: rgb(6, 27, 176);
+  border: none;
+  transition: all 0.3s ease-out;
+}
+.introdiuction .introdiuction__box__1 .introdiuction__box__1__button__container button:hover {
+  color: white;
+  background-color: rgb(6, 27, 176);
 }
 .introdiuction .introdiuction__box__2 {
   flex: 1 1 100%;
