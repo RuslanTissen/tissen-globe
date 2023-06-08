@@ -17,15 +17,15 @@ function Technologies() {
 			<div className="technologies__container">
 				<h2>{trans[lang].byTechnologie}</h2>
 				<div className="technologies__boxes"><SiRedux />Redux</div>
-				<div className="technologies__boxes martin"><img src={martin} /></div>
 				<div className="technologies__boxes"><SiTypescript />TypeScript</div>
-				<div className="technologies__boxes"><img src={net} /></div>
 				<div className="technologies__boxes"><SiNestjs /> nest</div>
 				<div className="technologies__boxes js"><img src={js} /></div>
 				<div className="technologies__boxes php"><SiPhp /></div>
 				<div className="technologies__boxes"><DiRuby />Ruby</div>
+				<div className="technologies__boxes martin"><img src={martin} /></div>
 				<div className="technologies__boxes"><FaReact />React</div>
 				<div className="technologies__boxes golang"><img src={go} /></div>
+				<div className="technologies__boxes"><img src={net} /></div>
 				<div className="technologies__boxes"><FaPython />python</div>
 				<div className="technologies__boxes nodejs"><DiNodejs /></div>
 			</div>

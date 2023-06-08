@@ -1,0 +1,56 @@
+.steps .steps__container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.steps .steps__container h2 {
+  flex: 1 1 100%;
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "Gruppo", sans-serif;
+  font-weight: 500;
+}
+.steps .steps__container .steps__boxes {
+  flex: 1 1 47%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.steps .steps__container .steps__boxes img {
+  width: 20%;
+}
+.steps .steps__container .steps__boxes p {
+  color: white;
+  font-family: "Tomorrow", sans-serif;
+  text-align: center;
+  font-weight: 300;
+}
+@media (min-width: 600px) {
+  .steps .steps__container h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 700px) {
+  .steps .steps__container h2 {
+    font-size: 3.5rem;
+  }
+}
+@media (min-width: 900px) {
+  .steps .steps__container h2 {
+    font-size: 5rem;
+  }
+  .steps .steps__container .steps__boxes {
+    flex: 1 1 30%;
+  }
+  .steps .steps__container .steps__boxes p {
+    font-size: 1.5rem;
+  }
+}/*# sourceMappingURL=StepsForServices.css.map */
