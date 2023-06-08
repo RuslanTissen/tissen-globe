@@ -27,7 +27,9 @@ function Contact() {
 	return (
 		<div className='contact'>
 			<div className="contact__conatiner">
+
 				<h2>Give us some detales about your project.</h2>
+
 				<form onSubmit={sendEmail} id='contact__form'>
 					<div className="form__name__container form__field">
 						<label htmlFor="name">Name</label>
@@ -66,8 +68,15 @@ function Contact() {
 						<BsWhatsapp />
 					</a>
 				</div>
-			</div>
 
+				<div className="contact__conatiner__phone__container">
+					<h2>Of couse you can call directly:</h2>
+					{/* <h4>USA: </h4> */}
+					<h4>Argentina: (+54) 11-6601-4163</h4>
+					<h4>Germany:  (+49) 176-8315-7254</h4>
+				</div>
+
+			</div>
 		</div>
 	)
 }

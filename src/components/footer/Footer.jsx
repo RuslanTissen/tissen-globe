@@ -1,31 +1,34 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import "./Footer.scss"
 import { NavLink } from 'react-router-dom'
 import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa'
 import logo from "../../images/logo.png"
 import {BsLinkedin} from "react-icons/bs"
-
+import trans from '../Translate.js';
+import { Context } from '../Context'
 
 const scrollToTheTop = () => {
 	window.scrollTo(0, 0)
 }
 
 function Footer() {
+	const { lang, setLang } = useContext(Context)
+
 	return (
 		<div className='footer'>
 			<div className="footer__container">
 				<div className="footer__container__section__1">
 					<div className="footer__container__section__1__column">
-						<h2>Services</h2>
-						<p>Software Development</p>
-						<p>Network Security</p>
-						<p>Opercloud Hosting </p>
-						<p>Web Development</p>
-						<p>Mobile Development</p>
+						<h2>{trans[lang].footerServices}</h2>
+						<p>{trans[lang].footerSoftware}</p>
+						<p>{trans[lang].footerSecurity}</p>
+						<p>{trans[lang].footerCloud} </p>
+						<p>{trans[lang].footerWeb}</p>
+						<p>{trans[lang].footerMobile}</p>
 						<p>UX/UI</p>
 					</div>
 					<div className="footer__container__section__1__column">
-						<h2>Tech Stack</h2>
+						<h2>{trans[lang].footerTechnologies}</h2>
 						<p>JS</p>
 						<p>HTML</p>
 						<p>CSS/SCSS</p>
@@ -40,12 +43,12 @@ function Footer() {
 						<p>React Native</p>
 					</div>
 					<div className="footer__container__section__1__column">
-						<h2>Company</h2>
-						<div><NavLink to='about' onClick={scrollToTheTop}>About us</NavLink></div>
-						<div><NavLink>Carreers</NavLink></div>
-						<div><NavLink>Why us</NavLink></div>
-						<div><NavLink>How we</NavLink></div>
-						<div><NavLink to="contact" onClick={scrollToTheTop}>Contact Us</NavLink></div>
+						<h2>{trans[lang].footerCompany}</h2>
+						<div><NavLink to='about' onClick={scrollToTheTop}>{trans[lang].footerAbout}</NavLink></div>
+						<div><NavLink>{trans[lang].footerCarrers}</NavLink></div>
+						<div><NavLink>{trans[lang].footerWhy}</NavLink></div>
+						<div><NavLink>{trans[lang].footerHow}</NavLink></div>
+						<div><NavLink to="contact" onClick={scrollToTheTop}>{trans[lang].footerContact}</NavLink></div>
 					</div>
 				</div>
 
@@ -58,11 +61,11 @@ function Footer() {
 					<a><BsLinkedin /></a>
 					</div>
 					<div className="footer__container__section__2__email">
-						<h3>Email</h3>
+						<h3>{trans[lang].footerEmail}</h3>
 						<a href="mailto:rthyssen73@gmail.com">info@tissen.com</a>
 					</div>
 					<div className="footer__container__section__2__phone">
-						<h3>Phone</h3>
+						<h3>{trans[lang].footerPhone}</h3>
 						<p>AR (+54) 11-6601-4163 </p>
 						<p>DE (+49) 176-8315-7254 </p>
 					</div>

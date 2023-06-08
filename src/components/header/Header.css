@@ -103,11 +103,13 @@
     display: block;
   }
   .header .header__big-container .ul__container {
-    padding-top: 1.5rem;
+    padding-top: 1.3rem;
+    padding-bottom: 0.2rem;
     position: fixed;
     top: 0;
     width: 100%;
     background-color: black;
+    z-index: 100;
   }
   .header .header__big-container .ul__container .first-ul {
     padding: 0 1rem;
@@ -219,6 +221,7 @@
     background-color: transparent;
     color: white;
     border: none;
+    text-shadow: black 0px 0px 1px;
   }
   .header .header__big-container .ul__container .first-ul .li1 a:hover,
   .header .header__big-container .ul__container .first-ul .lis a:hover,

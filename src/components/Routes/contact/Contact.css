@@ -51,11 +51,10 @@
   font-size: 1.2rem;
   border: none;
   cursor: pointer;
-  padding: 1rem 3rem;
   transition: all 0.3s ease-in-out;
 }
 .contact .contact__conatiner form .form__button__container button:hover {
-  opacity: 0.85;
+  background-color: #4a87d0;
 }
 .contact .contact__conatiner .contact__email__and__whatsapp {
   max-width: 1060px;
@@ -85,16 +84,16 @@
   background-color: white;
   display: grid;
   place-items: center;
-  transition: all 0.3s ease-in-out;
 }
 .contact .contact__conatiner .contact__email__and__whatsapp button a {
   background-color: #0a62d0;
   text-decoration: none;
   color: white;
   padding: 1rem 3rem;
+  transition: all 0.3s ease-in-out;
 }
-.contact .contact__conatiner .contact__email__and__whatsapp button:hover {
-  opacity: 0.85;
+.contact .contact__conatiner .contact__email__and__whatsapp button a:hover {
+  background-color: #4a87d0;
 }
 .contact .contact__conatiner .contact__email__and__whatsapp a {
   flex: 1 1 100%;
@@ -109,6 +108,16 @@
 }
 .contact .contact__conatiner .contact__email__and__whatsapp a svg:hover {
   scale: 1.2;
+  z-index: 1;
+}
+.contact .contact__conatiner .contact__conatiner__phone__container {
+  width: 100%;
+  border-top: 1px solid rgb(149, 148, 148);
+  margin-top: 3rem;
+}
+.contact .contact__conatiner .contact__conatiner__phone__container h2 {
+  margin: 0 0 2.5rem 0;
+  font-weight: 300;
 }
 @media (min-width: 1060px) {
   .contact .contact__conatiner {

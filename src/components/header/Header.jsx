@@ -80,7 +80,7 @@ function Header() {
 						<li className='li3 lis'><NavLink>{trans[lang].how}</NavLink></li>
 						<li className='li5 lis'><NavLink to="#">{trans[lang].carreers}</NavLink> </li>
 						<li className='li4 lis'><NavLink to='about'>{trans[lang].about}</NavLink> </li>
-						<li className='li6 '><NavLink to="contact">{trans[lang].contact}</NavLink> </li>
+						<li className='li6 '><NavLink to="contact" onClick={scrollToTheTop}>{trans[lang].contact}</NavLink> </li>
 						<li className="dropdown" ref={languageRef} data-dropdown onClick={() => languagesFunction()}>
 							<button className='link' data-dropdown-button><BsGlobe /></button>
 							{showLanguages && <div className='dropdown-menu'>

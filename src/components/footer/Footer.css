@@ -83,6 +83,7 @@
   font-size: 2rem;
   font-weight: 900;
   margin-bottom: 0.4rem;
+  text-transform: uppercase;
 }
 .footer .footer__container .footer__container__section__2 .footer__container__section__2__email a {
   text-decoration: none;
@@ -102,6 +103,7 @@
   font-size: 2rem;
   font-weight: 900;
   margin-bottom: 0.4rem;
+  text-transform: uppercase;
 }
 .footer .footer__container .footer__container__section__2 .footer__container__section__2__phone p {
   margin: 0 0 4px;

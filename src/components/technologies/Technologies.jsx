@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import "./Technologies.scss"
 import { SiNestjs, SiRedux, SiTypescript, SiPhp } from "react-icons/si"
 import { DiRuby, DiNodejs } from "react-icons/di"
@@ -7,12 +7,15 @@ import martin from "../../images/martin.jpg"
 import net from "../../images/net.jpg"
 import js from "../../images/js.jpg"
 import go from "../../images/golang.jpg"
+import trans from '../Translate'
+import { Context } from '../Context'
 
 function Technologies() {
+	const {lang, setLang} =useContext(Context)
 	return (
 		<div className="technologies">
 			<div className="technologies__container">
-				<h2>Our Technologies</h2>
+				<h2>{trans[lang].byTechnologie}</h2>
 				<div className="technologies__boxes"><SiRedux />Redux</div>
 				<div className="technologies__boxes martin"><img src={martin} /></div>
 				<div className="technologies__boxes"><SiTypescript />TypeScript</div>
