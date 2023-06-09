@@ -3,9 +3,14 @@ import "./Introduction.scss"
 import trans from '../Translate'
 import { Context } from '../Context'
 import { useContext } from 'react'
+import { NavLink } from 'react-router-dom';
 
 function Introduction() {
 	const { lang, setLang } = useContext(Context)
+
+	const scrollToTheTop = () => {
+		window.scroll(0, 0)
+	}
 
 	return (
 		<div className='introdiuction'>
@@ -16,7 +21,8 @@ function Introduction() {
 					{/* <h1>Company</h1> */}
 				</div>
 				<div className="introdiuction__box__1__button__container">
-					<button>{trans[lang].estimate}</button>
+					{/* <button>{trans[lang].estimate}</button> */}
+					<NavLink to="contact" onClick={scrollToTheTop}>{trans[lang].estimate}</NavLink>
 				</div>
 			</div>
 

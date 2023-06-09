@@ -26,16 +26,17 @@
   font-size: 1.8rem;
   text-align: center;
 }
-.service .service__image2__container button {
+.service .service__image2__container a {
   color: rgb(6, 27, 176);
   border: 3px solid black;
   padding: 0.5rem 3rem;
   font-size: 0.8rem;
   transition: all 0.3s ease-out;
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 700;
+  text-decoration: none;
 }
-.service .service__image2__container button:hover {
+.service .service__image2__container a:hover {
   color: white;
   background-color: rgb(6, 27, 176);
   border: 3px solid rgb(6, 27, 176);
@@ -48,7 +49,7 @@
   .service .service__image2__container h2 {
     font-size: 2rem;
   }
-  .service .service__image2__container button {
+  .service .service__image2__container a {
     padding: 0.6rem 3.2rem;
     font-size: 0.9rem;
   }
@@ -61,7 +62,7 @@
   .service .service__image2__container h2 {
     font-size: 2.5rem;
   }
-  .service .service__image2__container button {
+  .service .service__image2__container a {
     padding: 0.7rem 3.5rem;
     font-size: 1rem;
   }
@@ -74,7 +75,7 @@
   .service .service__image2__container h2 {
     font-size: 2.7rem;
   }
-  .service .service__image2__container button {
+  .service .service__image2__container a {
     padding: 0.7rem 3.5rem;
     font-size: 1.1rem;
   }
@@ -87,13 +88,14 @@
   .service .service__image2__container h2 {
     font-size: 2.8rem;
   }
-  .service .service__image2__container button {
+  .service .service__image2__container a {
     padding: 0.8rem 4.2rem;
     font-size: 1.2rem;
-    border: 4px solid black;
+    border: 5px solid rgb(27, 26, 26);
+    background-color: white;
   }
-  .service .service__image2__container button:hover {
-    border: 4px solid rgb(6, 27, 176);
+  .service .service__image2__container a:hover {
+    border: 5px solid rgb(6, 27, 176);
   }
 }
 @media (min-width: 1000px) {
@@ -107,7 +109,7 @@
   .service .service__image2__container h2 {
     font-size: 2.9rem;
   }
-  .service .service__image2__container button {
+  .service .service__image2__container a {
     padding: 1rem 5rem;
     font-size: 1.3rem;
   }
@@ -123,7 +125,7 @@
   .service .service__image2__container h2 {
     font-size: 3.5rem;
   }
-  .service .service__image2__container button {
+  .service .service__image2__container a {
     padding: 1.2rem 6.5rem;
     font-size: 1.5rem;
   }

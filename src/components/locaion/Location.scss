@@ -29,6 +29,11 @@
 				display: block;
 				margin: 0 auto;
 				order: 1;
+				opacity: .60;
+				transition: all 0.3s ease-in-out;
+			}
+			img:hover{
+				opacity: 1;
 			}
 			p {
 				font-family: "Tomorrow", sans-serif;

@@ -35,6 +35,11 @@
   display: block;
   margin: 0 auto;
   order: 1;
+  opacity: 0.6;
+  transition: all 0.3s ease-in-out;
+}
+.location .location__container .location__container__boxes img:hover {
+  opacity: 1;
 }
 .location .location__container .location__container__boxes p {
   font-family: "Tomorrow", sans-serif;

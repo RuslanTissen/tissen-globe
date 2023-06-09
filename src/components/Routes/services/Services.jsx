@@ -5,9 +5,14 @@ import StepsForServices from '../stepsForServices/StepsForServices'
 import trans from '../../Translate'
 import { Context } from '../../Context'
 import Points from '../points/Points'
+import { NavLink } from 'react-router-dom';
 
 function Services() {
 	const { lang, setLang } = useContext(Context)
+
+	const scrollToTheTop = () => {
+		window.scroll(0, 0)
+	}
 
 	return (
 		<div className='service'>
@@ -26,8 +31,8 @@ function Services() {
 			<div className="service__image2__container">
 				<div className="image2__box">
 					<h2>Excellence in service, exceeding expectations every time.</h2>
-
-					<button>Lets meet</button>
+					<NavLink	to="/contact" onClick={scrollToTheTop}>Lets meet</NavLink>
+					{/* <button>Lets meet</button> */}
 				</div>
 			</div>
 
