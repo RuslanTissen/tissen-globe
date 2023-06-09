@@ -44,7 +44,7 @@
   transition: all 0.3s ease-in-out;
 }
 .header .header__logo--container .hamburger-box svg {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: white;
   margin: 5px;
   transition: all 0.2s ease-in-out;
@@ -123,7 +123,7 @@
     list-style-type: none;
   }
   .header .header__big-container .ul__container .first-ul .li1 {
-    flex: 1 1 10%;
+    flex: 1 1 20%;
     font-family: "Geologica", sans-serif;
     font-size: 1.8rem;
   }
@@ -142,8 +142,7 @@
     width: 45px;
   }
   .header .header__big-container .ul__container .first-ul .li6 {
-    flex: 1 1 95px;
-    max-width: 130px;
+    flex: 1 1 auto;
     height: inherit;
     display: flex;
     align-items: center;
@@ -188,7 +187,8 @@
     transition: all 0.3s ease-in-out;
   }
   .header .header__big-container .ul__container .first-ul .dropdown {
-    flex: 0 1 50px;
+    flex: 1 1 auto;
+    max-width: 100px;
     height: inherit;
     display: flex;
     justify-content: center;
