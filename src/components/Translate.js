@@ -57,7 +57,8 @@ const trans = {
 		footerContact: "Contact us",
 		footerEmail: "Email",
 		footerPhone: "Phones",
-
+		// Services
+		servicesRouter: "Services"
 
 	},
 	es: {
@@ -118,7 +119,8 @@ const trans = {
 		footerContact: "Contactanos",
 		footerEmail: "Mail",
 		footerPhone: "Telefonos",
-
+		// Services
+		servicesRouter: "Servicios"
 
 	},
 
@@ -171,7 +173,8 @@ const trans = {
 		footerContact: "",
 		footerEmail: "",
 		footerPhone: "",
-
+		// Services
+		servicesRouter: ""
 
 	}
 }

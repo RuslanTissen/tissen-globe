@@ -1,15 +1,23 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import "./Services.scss"
 import Technologies from '../../technologies/Technologies'
 import StepsForServices from '../stepsForServices/StepsForServices'
+import trans from '../../Translate'
+import { Context } from '../../Context'
+import Points from '../points/Points'
 
 function Services() {
+	const { lang, setLang } = useContext(Context)
+
 	return (
 		<div className='service'>
 
-			<div className="service__image__container">
-				<h2>Services</h2>
-			</div>
+			<Points
+				textTitle={<h2>{trans[lang].servicesRouter}</h2>}
+			/>
+
+			{/* <div className="service__image__container">
+			</div> */}
 
 			<Technologies />
 
