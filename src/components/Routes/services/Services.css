@@ -1,22 +1,6 @@
 .service {
   font-family: "Gruppo", sans-serif;
 }
-.service .service__image__container {
-  max-width: 1500px;
-  margin: 71px auto 1rem;
-  height: 300px;
-  background-image: url("../../../images/points.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: grid;
-  place-items: center;
-}
-.service .service__image__container h2 {
-  color: white;
-  font-weight: 600;
-  font-size: 2.5rem;
-}
 .service .service__image2__container {
   background-color: white;
   padding: 2rem 1rem;
@@ -57,12 +41,6 @@
   border: 3px solid rgb(6, 27, 176);
 }
 @media (min-width: 600px) {
-  .service .service__image__container {
-    height: 400px;
-  }
-  .service .service__image__container h2 {
-    font-size: 3rem;
-  }
   .service .service__image2__container .image2__box {
     padding: 2.2rem;
     height: 400px;
@@ -76,12 +54,6 @@
   }
 }
 @media (min-width: 700px) {
-  .service .service__image__container {
-    height: 450px;
-  }
-  .service .service__image__container h2 {
-    font-size: 3.5rem;
-  }
   .service .service__image2__container .image2__box {
     padding: 2.3rem;
     height: 450px;
@@ -95,13 +67,6 @@
   }
 }
 @media (min-width: 800px) {
-  .service .service__image__container {
-    height: 500px;
-  }
-  .service .service__image__container h2 {
-    font-size: 3.7rem;
-    font-weight: 500;
-  }
   .service .service__image2__container .image2__box {
     padding: 2.5rem;
     height: 500px;
@@ -115,12 +80,6 @@
   }
 }
 @media (min-width: 900px) {
-  .service .service__image__container {
-    height: 550px;
-  }
-  .service .service__image__container h2 {
-    font-size: 4rem;
-  }
   .service .service__image2__container .image2__box {
     padding: 5rem;
     height: 550px;
@@ -138,12 +97,6 @@
   }
 }
 @media (min-width: 1000px) {
-  .service .service__image__container {
-    height: 600px;
-  }
-  .service .service__image__container h2 {
-    font-size: 4.5rem;
-  }
   .service .service__image2__container {
     padding: 4rem 1rem 5rem;
   }
@@ -160,12 +113,6 @@
   }
 }
 @media (min-width: 1100px) {
-  .service .service__image__container {
-    height: 700px;
-  }
-  .service .service__image__container h2 {
-    font-size: 5rem;
-  }
   .service .service__image2__container {
     padding: 4rem 1rem 5rem;
   }

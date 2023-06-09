@@ -13,7 +13,7 @@ function Services() {
 		<div className='service'>
 
 			<Points
-				textTitle={<h2>{trans[lang].servicesRouter}</h2>}
+				textTitle={trans[lang].servicesRouter}
 			/>
 
 			{/* <div className="service__image__container">

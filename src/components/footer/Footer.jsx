@@ -44,10 +44,10 @@ function Footer() {
 					</div>
 					<div className="footer__container__section__1__column">
 						<h2>{trans[lang].footerCompany}</h2>
+						<div><NavLink to="services" onClick={scrollToTheTop}>{trans[lang].services}</NavLink></div>
+						<div><NavLink to="#" onClick={scrollToTheTop}>{trans[lang].footerHow}</NavLink></div>
+						<div><NavLink to="#" onClick={scrollToTheTop}>{trans[lang].footerCarrers}</NavLink></div>
 						<div><NavLink to='about' onClick={scrollToTheTop}>{trans[lang].footerAbout}</NavLink></div>
-						<div><NavLink>{trans[lang].footerCarrers}</NavLink></div>
-						<div><NavLink>{trans[lang].footerWhy}</NavLink></div>
-						<div><NavLink>{trans[lang].footerHow}</NavLink></div>
 						<div><NavLink to="contact" onClick={scrollToTheTop}>{trans[lang].footerContact}</NavLink></div>
 					</div>
 				</div>

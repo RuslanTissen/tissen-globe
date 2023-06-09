@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Points.scss"
 
 function Points(props) {
 	let { textTitle } = props
