@@ -8,12 +8,20 @@ function Services() {
 		<div className='service'>
 
 			<div className="service__image__container">
-				<p>Target & Method</p>
+				<h2>Services</h2>
 			</div>
 
 			<Technologies />
 
 			<StepsForServices />
+
+			<div className="service__image2__container">
+				<div className="image2__box">
+					<h2>Excellence in service, exceeding expectations every time.</h2>
+
+					<button>Lets meet</button>
+				</div>
+			</div>
 
 		</div>
 	)
