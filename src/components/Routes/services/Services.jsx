@@ -6,6 +6,7 @@ import trans from '../../Translate'
 import { Context } from '../../Context'
 import Points from '../points/Points'
 import { NavLink } from 'react-router-dom';
+import LetsContact from '../letsContact/LetsContact'
 
 function Services() {
 	const { lang, setLang } = useContext(Context)
@@ -28,19 +29,27 @@ function Services() {
 
 			<StepsForServices />
 
-			<div className="service__image2__container">
+			<LetsContact
+				contactTitle={"Excellence in service, exceeding expectations every time."}
+				contactButton={"Lets meet"}
+			/>
+
+			{/* <div className="service__image2__container">
 				<div className="image2__box">
 					<h2>Excellence in service, exceeding expectations every time.</h2>
-					<NavLink	to="/contact" onClick={scrollToTheTop}>Lets meet</NavLink>
+					<NavLink to="/contact" onClick={scrollToTheTop}>Lets meet</NavLink> */}
 					{/* <button>Lets meet</button> */}
-				</div>
-			</div>
+				{/* </div>
+			</div> */}
 
 		</div>
 	)
 }
 
 export default Services
+
+
+
 
 
 
