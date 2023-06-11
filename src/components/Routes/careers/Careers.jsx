@@ -3,6 +3,7 @@ import "./Careers.scss"
 import PointsCareers from '../pointsCareers/PointsCareers.jsx'
 import LetsContactCareers from '../letsContactCareers/LetsContactCareers.jsx'
 import Choose from '../choose/Choose.jsx'
+import Welcome from '../welcome/Welcome'
 
 function Careers() {
 	return (
@@ -14,6 +15,8 @@ function Careers() {
 			/>
 
 			<Choose />
+
+			<Welcome/>
 
 			<LetsContactCareers
 				contactTitle={"Do you have something else to contribute?"}
