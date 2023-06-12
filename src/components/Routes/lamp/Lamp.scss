@@ -1,0 +1,90 @@
+.lamp {
+	// background-image: url(../../../images/background-career.jpg);
+	background-color: white;
+	.lamp__container {
+		max-width: 1500px;
+		margin: 0 auto;
+		display: flex;
+		flex-wrap: wrap;
+		padding: 1rem 1rem;
+		color: black;
+		.lamp__container__animation__box {
+			flex: 1 1 100%;
+			height: 300px;
+			display: grid;
+			place-items: center;
+			img {
+				height: inherit;
+			}
+		}
+		q {
+			width: 80%;
+			max-width: 1000px;
+			font-size: 1.4rem;
+			font-family: "Tomorrow", sans-serif;
+			font-weight: 400;
+			text-align: center;
+			margin: 1rem auto;
+		}
+	}
+	@media (min-width: 500px) {
+		.lamp__container {
+			.lamp__container__animation__box {
+				height: 325px;
+			}
+			q {
+				// width: 80%;
+				// max-width: 1000px;
+				font-size: 1.6rem;
+			}
+		}
+	}
+	@media (min-width: 600px) {
+		.lamp__container {
+			.lamp__container__animation__box {
+				height: 350px;
+			}
+			q {
+				// width: 80%;
+				// max-width: 1000px;
+				font-size: 2rem;
+			}
+		}
+	}
+	@media (min-width: 700px) {
+		.lamp__container {
+			.lamp__container__animation__box {
+				height: 375px;
+			}
+			q {
+				// width: 80%;
+				// max-width: 1000px;
+				font-size: 2.25rem;
+			}
+		}
+	}
+	@media (min-width: 800px) {
+		.lamp__container {
+			.lamp__container__animation__box {
+				height: 400px;
+			}
+			q {
+				// width: 80%;
+				// max-width: 1000px;
+				font-size: 2.5rem;
+			}
+		}
+	}
+	@media (min-width: 900px) {
+		.lamp__container {
+			.lamp__container__animation__box {
+				height: 450px;
+			}
+			q {
+				// width: 80%;
+				// max-width: 1000px;
+				font-size: 2.5rem;
+			}
+		}
+	}
+}
