@@ -8,7 +8,7 @@ import Lamp from '../lamp/Lamp'
 
 function Careers() {
 	return (
-		<div>
+		<div className='careers'>
 
 			<PointsCareers
 				textTitle={"Join Our Team"}

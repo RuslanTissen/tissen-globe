@@ -1,0 +1,36 @@
+.services__branches {
+  background-color: white;
+}
+.services__branches .services__branches__coontainer {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.services__branches .services__branches__coontainer .services__branches__coontainer__boxes {
+  flex: 1 1 29%;
+  min-width: 280px;
+  border: none;
+}
+.services__branches .services__branches__coontainer .services__branches__coontainer__boxes .card-img {
+  margin: 0 auto;
+  width: 22%;
+}
+.services__branches .services__branches__coontainer .services__branches__coontainer__boxes .card-body {
+  text-align: center;
+  padding: 0;
+}
+.services__branches .services__branches__coontainer .services__branches__coontainer__boxes .card-body .card-title {
+  font-weight: 600;
+  font-family: "Gruppo", sans-serif;
+}
+.services__branches .services__branches__coontainer .services__branches__coontainer__boxes .card-body .card-text {
+  max-width: 600px;
+  font-family: "Tomorrow", sans-serif;
+  line-height: 1.1em;
+  font-weight: 300;
+}
+.services__branches .services__branches__coontainer .services__branches__coontainer__boxes:hover {
+  background-color: rgb(245, 244, 244);
+}/*# sourceMappingURL=ServicesBranches.css.map */

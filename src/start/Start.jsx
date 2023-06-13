@@ -9,7 +9,7 @@ import Location from "../components/locaion/Location.jsx"
 
 function Start() {
 	return (
-		<div>
+		<div className='starts'>
 			<Introduction />
 
 			<Moto />

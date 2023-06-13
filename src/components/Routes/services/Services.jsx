@@ -7,6 +7,7 @@ import { Context } from '../../Context'
 import Points from '../points/Points'
 import { NavLink } from 'react-router-dom';
 import LetsContact from '../letsContact/LetsContact'
+import ServicesBranches from '../servicesBranches/ServicesBranches'
 
 function Services() {
 	const { lang, setLang } = useContext(Context)
@@ -22,10 +23,7 @@ function Services() {
 				textTitle={trans[lang].servicesRouter}
 			/>
 
-			{/* <div className="service__image__container">
-			</div> */}
-
-			<Technologies />
+			<ServicesBranches />
 
 			<StepsForServices />
 
@@ -33,14 +31,6 @@ function Services() {
 				contactTitle={"Excellence in service, exceeding expectations every time."}
 				contactButton={"Lets meet"}
 			/>
-
-			{/* <div className="service__image2__container">
-				<div className="image2__box">
-					<h2>Excellence in service, exceeding expectations every time.</h2>
-					<NavLink to="/contact" onClick={scrollToTheTop}>Lets meet</NavLink> */}
-					{/* <button>Lets meet</button> */}
-				{/* </div>
-			</div> */}
 
 		</div>
 	)

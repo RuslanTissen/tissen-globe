@@ -1,0 +1,39 @@
+.services__branches {
+	background-color: white;
+	.services__branches__coontainer {
+		max-width: 1500px;
+		margin: 0 auto;
+		padding: 2rem;
+		display: flex;
+		flex-wrap: wrap;
+		// row-gap: 1rem;
+		// column-gap: 5rem;
+		.services__branches__coontainer__boxes {
+			flex: 1 1 29%;
+			min-width: 280px;
+			border: none;
+			.card-img {
+				margin:  0 auto;
+				width: 22%;
+			}
+			.card-body {
+				text-align: center;
+				padding: 0;
+				.card-title {
+					font-weight: 600;
+					font-family: "Gruppo", sans-serif;
+				}
+				.card-text {
+					max-width: 600px;
+					// margin: 0 auto;
+					font-family: "Tomorrow", sans-serif;
+					line-height: 1.1em;
+					font-weight: 300;
+				}
+			}
+		}
+		.services__branches__coontainer__boxes:hover{
+			background-color: rgb(245, 244, 244);
+		}
+	}
+}

@@ -1,0 +1,69 @@
+.lamp {
+  background-color: white;
+}
+.lamp .lamp__container {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 1rem;
+  color: black;
+}
+.lamp .lamp__container .lamp__container__animation__box {
+  flex: 1 1 100%;
+  height: 300px;
+  display: grid;
+  place-items: center;
+}
+.lamp .lamp__container .lamp__container__animation__box img {
+  height: inherit;
+}
+.lamp .lamp__container q {
+  width: 80%;
+  max-width: 1000px;
+  font-size: 1.4rem;
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin: 1rem auto;
+}
+@media (min-width: 500px) {
+  .lamp .lamp__container .lamp__container__animation__box {
+    height: 325px;
+  }
+  .lamp .lamp__container q {
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 600px) {
+  .lamp .lamp__container .lamp__container__animation__box {
+    height: 350px;
+  }
+  .lamp .lamp__container q {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 700px) {
+  .lamp .lamp__container .lamp__container__animation__box {
+    height: 375px;
+  }
+  .lamp .lamp__container q {
+    font-size: 2.25rem;
+  }
+}
+@media (min-width: 800px) {
+  .lamp .lamp__container .lamp__container__animation__box {
+    height: 400px;
+  }
+  .lamp .lamp__container q {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 900px) {
+  .lamp .lamp__container .lamp__container__animation__box {
+    height: 450px;
+  }
+  .lamp .lamp__container q {
+    font-size: 2.5rem;
+  }
+}/*# sourceMappingURL=Lamp.css.map */

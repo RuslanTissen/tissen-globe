@@ -5,6 +5,7 @@ import About from './components/Routes/about/About';
 import { useEffect } from 'react';
 // import Services from './components/Routes/services/Services.jsx';
 import Footer from './components/footer/Footer';
+import "./App.scss"
 
 function App() {
 

@@ -16,8 +16,8 @@ function Introduction() {
 		<div className='introdiuction'>
 			<div className="introdiuction__box__1">
 				<div className="introdiuction__box__1__title__container">
-					<h1>Global IT</h1>
-					<h1>Outsourcing</h1>
+					<h1>Global IT <br /> Outsourcing</h1>
+					{/* <h1></h1> */}
 					{/* <h1>Company</h1> */}
 				</div>
 				<div className="introdiuction__box__1__button__container">

@@ -28,7 +28,11 @@
   font-family: "Gruppo", sans-serif;
   font-weight: 500;
   font-size: 2.5rem;
-  line-height: 5px;
+  transition: all 0.3s ease-in-out;
+  margin: 2.5rem 0 0;
+}
+.introdiuction .introdiuction__box__1 .introdiuction__box__1__title__container h1:hover {
+  scale: 1.05;
 }
 .introdiuction .introdiuction__box__1 .introdiuction__box__1__button__container {
   display: flex;
