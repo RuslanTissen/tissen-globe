@@ -37,6 +37,7 @@
 .letContact__image__container a:hover {
   color: white;
   background-color: rgb(6, 27, 176);
+  text-decoration: none;
 }
 @media (min-width: 700px) {
   .letContact__image__container .letContact__image__box {

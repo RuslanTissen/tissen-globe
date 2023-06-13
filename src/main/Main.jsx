@@ -12,10 +12,10 @@ function Main() {
 		<main>
 			<Routes>
 				<Route path='*' element={<Start />} />
-				<Route path='about' element={<About />} />
-				<Route path='contact' element={<Contact />} />
-				<Route path='services' element={<Services />} />
-				<Route path='careers' element={<Careers />} />
+				<Route path='About' element={<About />} />
+				<Route path='Contact' element={<Contact />} />
+				<Route path='Services' element={<Services />} />
+				<Route path='Careers' element={<Careers />} />
 			</Routes>
 
 			{/* <Outlet />  */}

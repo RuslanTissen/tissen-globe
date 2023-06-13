@@ -14,7 +14,7 @@ let {contactTitle, contactButton} = props
 		<div className="letContact__image__container">
 			<div className="letContact__image__box">
 				<h2>{contactTitle}</h2>
-				<NavLink to="/contact" onClick={scrollToTheTop}>{contactButton}</NavLink>
+				<NavLink to="/Contact" onClick={scrollToTheTop}>{contactButton}</NavLink>
 			</div>
 		</div>
 	)

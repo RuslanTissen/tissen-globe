@@ -22,7 +22,7 @@ function Introduction() {
 				</div>
 				<div className="introdiuction__box__1__button__container">
 					{/* <button>{trans[lang].estimate}</button> */}
-					<NavLink to="contact" onClick={scrollToTheTop}>{trans[lang].estimate}</NavLink>
+					<NavLink to="Contact" onClick={scrollToTheTop}>{trans[lang].estimate}</NavLink>
 				</div>
 			</div>
 
