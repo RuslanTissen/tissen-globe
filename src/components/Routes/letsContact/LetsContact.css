@@ -26,7 +26,6 @@
 .contact__image__container a button {
   text-transform: uppercase;
   font-family: "Tomorrow", sans-serif;
-  padding: 0.7rem 5rem;
   font-weight: 500;
 }
 @media (min-width: 700px) {

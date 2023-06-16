@@ -12,18 +12,19 @@
 			flex: 1 1 29%;
 			min-width: 280px;
 			border: none;
-			.card-img {
-				margin:  0 auto;
+			transition: all 0.3s ease-out;
+			text-align: center;
+			img {
+				// margin:  0 auto;
 				width: 22%;
 			}
-			.card-body {
-				text-align: center;
+			.text__boxes {
 				padding: 0;
-				.card-title {
+				h3 {
 					font-weight: 600;
 					font-family: "Gruppo", sans-serif;
 				}
-				.card-text {
+				p {
 					max-width: 600px;
 					// margin: 0 auto;
 					font-family: "Tomorrow", sans-serif;

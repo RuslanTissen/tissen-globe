@@ -12,20 +12,20 @@
   flex: 1 1 29%;
   min-width: 280px;
   border: none;
+  transition: all 0.3s ease-out;
+  text-align: center;
 }
-.services__branches .services__branches__coontainer .services__branches__coontainer__boxes .card-img {
-  margin: 0 auto;
+.services__branches .services__branches__coontainer .services__branches__coontainer__boxes img {
   width: 22%;
 }
-.services__branches .services__branches__coontainer .services__branches__coontainer__boxes .card-body {
-  text-align: center;
+.services__branches .services__branches__coontainer .services__branches__coontainer__boxes .text__boxes {
   padding: 0;
 }
-.services__branches .services__branches__coontainer .services__branches__coontainer__boxes .card-body .card-title {
+.services__branches .services__branches__coontainer .services__branches__coontainer__boxes .text__boxes h3 {
   font-weight: 600;
   font-family: "Gruppo", sans-serif;
 }
-.services__branches .services__branches__coontainer .services__branches__coontainer__boxes .card-body .card-text {
+.services__branches .services__branches__coontainer .services__branches__coontainer__boxes .text__boxes p {
   max-width: 600px;
   font-family: "Tomorrow", sans-serif;
   line-height: 1.1em;
