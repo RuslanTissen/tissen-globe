@@ -1,10 +1,10 @@
 import React from 'react'
 import "./Careers.scss"
-import PointsCareers from '../pointsCareers/PointsCareers.jsx'
-import LetsContactCareers from '../letsContactCareers/LetsContactCareers.jsx'
-import Choose from '../choose/Choose.jsx'
-import Welcome from '../welcome/Welcome'
-import Lamp from '../lamp/Lamp'
+import PointsCareers from './pointsCareers/PointsCareers.jsx'
+import LetsContactCareers from './letsContactCareers/LetsContactCareers.jsx'
+import Choose from './choose/Choose.jsx'
+import Welcome from './welcome/Welcome'
+import Lamp from './lamp/Lamp'
 
 function Careers() {
 	return (

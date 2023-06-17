@@ -80,9 +80,9 @@
 				h3 {
 					font-family: "Gruppo", sans-serif;
 					font-size: 2rem;
-					font-weight: 900;
+					font-weight: 400;
 					margin-bottom: 0.4rem;
-					text-transform: uppercase;
+					// text-transform: uppercase;
 				}
 				a {
 					text-decoration: none;
@@ -100,9 +100,9 @@
 				h3 {
 					font-family: "Gruppo", sans-serif;
 					font-size: 2rem;
-					font-weight: 900;
+					font-weight: 400;
 					margin-bottom: 0.4rem;
-					text-transform: uppercase;
+					// text-transform: uppercase;
 				}
 				p {
 					margin: 0 0 4px;
@@ -182,21 +182,21 @@
 			}
 		}
 	}
-	@media (min-width: 1300px) {
-		.footer__container {
-			.footer__container__section__2 {
-				.footer__container__section__2__logos {
-					flex: 1 1 60%;
-				}
-				.footer__container__section__2__email {
-					flex: 1 1 15%;
-				}
-				.footer__container__section__2__phone {
-					flex: 1 1 15%;
-				}
-			}
-		}
-	}
+	// @media (min-width: 1300px) {
+	// 	.footer__container {
+	// 		.footer__container__section__2 {
+	// 			.footer__container__section__2__logos {
+	// 				flex: 1 1 60%;
+	// 			}
+	// 			.footer__container__section__2__email {
+	// 				flex: 1 1 15%;
+	// 			}
+	// 			.footer__container__section__2__phone {
+	// 				flex: 1 1 15%;
+	// 			}
+	// 		}
+	// 	}
+	// }
 }
 
 // .footer {

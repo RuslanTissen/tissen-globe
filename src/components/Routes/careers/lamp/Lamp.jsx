@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Lamp.scss"
-import gif from "../../../images/gif-career.gif"
+import gif from "../../../../images/gif-career.gif"
 
 function Lamp() {
 

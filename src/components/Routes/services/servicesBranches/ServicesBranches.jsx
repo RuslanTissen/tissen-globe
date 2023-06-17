@@ -1,12 +1,12 @@
 import React from 'react'
 import "./ServicesBranches.scss"
 // import Card from 'react-bootstrap/Card';
-import card1 from "../../../images/services-card1.png"
-import card2 from "../../../images/services-card2.png"
-import card3 from "../../../images/services-card3.png"
-import card4 from "../../../images/services-card4.png"
-import card5 from "../../../images/services-card5.png"
-import card6 from "../../../images/services-card6.png"
+import card1 from "../../../../images/services-card1.png"
+import card2 from "../../../../images/services-card2.png"
+import card3 from "../../../../images/services-card3.png"
+import card4 from "../../../../images/services-card4.png"
+import card5 from "../../../../images/services-card5.png"
+import card6 from "../../../../images/services-card6.png"
 
 function ServicesBranches() {
 	return (

@@ -1,10 +1,10 @@
 import React from 'react'
 import "./Choose.scss"
-import chosse1 from "../../../images/choose1.jpg"
-import chosse2 from "../../../images/choose2.jpg"
-import chosse3 from "../../../images/choose3.jpg"
-import chosse4 from "../../../images/choose4.jpg"
-import chosse5 from "../../../images/choose5.jpg"
+import chosse1 from "../../../../images/choose1.jpg"
+import chosse2 from "../../../../images/choose2.jpg"
+import chosse3 from "../../../../images/choose3.jpg"
+import chosse4 from "../../../../images/choose4.jpg"
+import chosse5 from "../../../../images/choose5.jpg"
 
 function Choose() {
 	return (
