@@ -27,6 +27,13 @@
 			font-family: "Tomorrow", sans-serif;
 			padding: .7rem 5rem;
 			font-weight: 500;
+			text-decoration: none;
+			background-color: #0a62d0;
+			color: white;
+			transition: all 0.3s ease-in-out;
+	}
+	a:hover{
+		background-color:  #4a87d0;
 	}
 	// a {
 	// 	color: rgb(6, 27, 176);
