@@ -1,1 +1,44 @@
-/*# sourceMappingURL=App.css.map */
+.title__include {
+  font-size: calc(1.375rem + 1.5vw);
+}
+@media (min-width: 1200px) {
+  .title__include {
+    font-size: 2.5rem;
+  }
+}
+
+.title__midle__include {
+  font-size: calc(1.325rem + 0.9vw);
+}
+@media (min-width: 1200px) {
+  .title__midle__include {
+    font-size: 2rem;
+  }
+}
+
+.title__picture__include {
+  font-size: calc(1.625rem + 4.5vw);
+}
+@media (min-width: 1200px) {
+  .title__picture__include {
+    font-size: 5rem;
+  }
+}
+
+.title__super__include {
+  font-size: calc(1.725rem + 5.7vw);
+}
+@media (min-width: 1200px) {
+  .title__super__include {
+    font-size: 6rem;
+  }
+}
+
+.text__include {
+  font-size: calc(1.275rem + 0.3vw);
+}
+@media (min-width: 1200px) {
+  .text__include {
+    font-size: 1.5rem;
+  }
+}/*# sourceMappingURL=App.css.map */

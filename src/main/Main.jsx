@@ -6,19 +6,21 @@ import About from '../components/Routes/about/About'
 import Contact from '../components/Routes/contact/Contact'
 import Services from '../components/Routes/services/Services'
 import Careers from '../components/Routes/careers/Careers'
+import How from '../components/Routes/how/How'
 
 function Main() {
 	return (
 		<main>
 			<Routes>
 				<Route path='*' element={<Start />} />
+				<Route path='Services' element={<Services />} />
+				<Route path='How' element={<How />} />
+				<Route path='Careers' element={<Careers />} />
 				<Route path='About' element={<About />} />
 				<Route path='Contact' element={<Contact />} />
-				<Route path='Services' element={<Services />} />
-				<Route path='Careers' element={<Careers />} />
 			</Routes>
 
-			{/* <Outlet />  */}
+			<Outlet /> 
 
 		</main>
 	)

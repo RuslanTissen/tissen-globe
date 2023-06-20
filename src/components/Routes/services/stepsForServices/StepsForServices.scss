@@ -15,7 +15,7 @@
 				display: flex;
 				justify-content: center;
 				align-items: center;
-				span {
+				.animation__span {
 					display: block;
 					width: 6rem;
 					font-size: 5rem;
@@ -25,21 +25,33 @@
 					margin: 0 auto;
 					display: flex;
 					justify-content: center;
-					align-items: center;				}
+					align-items: center;
+					animation: rotate;
+					animation-duration: 5s;
+					animation-iteration-count: infinite;
+					animation-play-state: paused;
+				}
+				.rotate{
+					animation-play-state: running;
+				}
+				@keyframes rotate {
+					0%{transform: rotateY(0);}
+					100%{transform: rotateY(360deg);}
+				}
 			}
 			.steps__container__boxes__text {
 				flex: 1 1 70%;
-				h2{
-					line-height: .7;
+				h2 {
+					line-height: 0.7;
 					font-family: "Gruppo", sans-serif;
 					// margin: 0;
 				}
-				h3{
-					margin:1rem 0 0;
+				h3 {
+					margin: 1rem 0 0;
 					font-family: "Tomorrow", sans-serif;
 				}
-				p{
-					margin: .5rem 0  0;
+				p {
+					margin: 0.5rem 0 0;
 					font-family: "Tomorrow", sans-serif;
 				}
 			}

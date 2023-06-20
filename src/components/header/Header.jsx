@@ -58,7 +58,7 @@ function Header() {
 				</li>
 				{show && <ul className="humburgerMenu__container" onClick={() => myFunction()}>
 					<li className='first-li humburgerMenu__container--link'><NavLink to="Services" onClick={scrollToTheTop}>{trans[lang].services}</NavLink> </li>
-					<li className='second-li humburgerMenu__container--link'><NavLink to="*" onClick={scrollToTheTop}>{trans[lang].how}</NavLink> </li>
+					<li className='second-li humburgerMenu__container--link'><NavLink to="How" onClick={scrollToTheTop}>{trans[lang].how}</NavLink> </li>
 					<li className='li__career humburgerMenu__container--link'><NavLink to="Careers" onClick={scrollToTheTop}>{trans[lang].carreers}</NavLink> </li>
 					<li className='li__about humburgerMenu__container--link'><NavLink to='About' onClick={scrollToTheTop}>{trans[lang].about}</NavLink></li>
 					<li className='li__contact humburgerMenu__container--link'><NavLink to="Contact" onClick={scrollToTheTop}>{trans[lang].contact}</NavLink> </li>
@@ -75,7 +75,7 @@ function Header() {
 					<ul className='first-ul'>
 						<li className='li1'><NavLink to="*" onClick={scrollToTheTop}><img src={logo} />ISSEN</NavLink> </li>
 						<li className='li2 lis'><NavLink to="Services" onClick={scrollToTheTop}>{trans[lang].services}</NavLink></li>
-						<li className='li3 lis'><NavLink to="*" onClick={scrollToTheTop}>{trans[lang].how}</NavLink></li>
+						<li className='li3 lis'><NavLink to="How" onClick={scrollToTheTop}>{trans[lang].how}</NavLink></li>
 						<li className='li5 lis'><NavLink to="Careers" onClick={scrollToTheTop}>{trans[lang].carreers}</NavLink> </li>
 						<li className='li4 lis'><NavLink to='About' onClick={scrollToTheTop}>{trans[lang].about}</NavLink> </li>
 						<li className='li6 '><NavLink to="Contact" onClick={scrollToTheTop}>{trans[lang].contact}</NavLink> </li>

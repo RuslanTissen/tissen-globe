@@ -43,6 +43,15 @@ function ServicesBranches() {
 						<p className='text__include'>Deliver exceptional user experiences with our UX/UI design services. Our designers combine aesthetics, usability, and functionality to create interfaces that engage users and drive customer satisfaction.		</p>
 				</div>
 
+			</div>
+
+		</div>
+	)
+}
+
+export default ServicesBranches
+
+
 
 
 
@@ -81,10 +90,3 @@ function ServicesBranches() {
 						<p></p>
 					</div>
 				</div> */}
-			</div>
-
-		</div>
-	)
-}
-
-export default ServicesBranches

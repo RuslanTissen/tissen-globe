@@ -9,6 +9,10 @@
 	@include font-size(2rem)
 }
 
+.title__picture__include{
+	@include font-size(5rem)
+}
+
 .title__super__include{
 	@include font-size(6rem)
 }
