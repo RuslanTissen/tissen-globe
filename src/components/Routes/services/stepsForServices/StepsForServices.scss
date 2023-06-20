@@ -2,65 +2,76 @@
 	.steps__container {
 		max-width: 1500px;
 		margin: 0 auto;
-		padding: 2rem 1rem;
+		padding: 2rem 1rem 5rem;
 		height: fit-content;
 		display: flex;
-		flex-wrap: wrap;
-		gap: 1rem;
-		h2 {
-			flex: 1 1 100%;
-			color: white;
-			text-align: center;
-			// margin: 2rem 0 3rem 0;
-			font-size: 2.5rem;
-			// font-family: "Kanit", sans-serif;
-			font-family: "Gruppo", sans-serif;
-			font-weight: 500;
-		}
-		.steps__boxes {
-			flex: 1 1 47%;
+		flex-direction: column;
+		color: white;
+		.steps__container__boxes {
 			display: flex;
-			flex-direction: column;
-			justify-content: space-around;
-			align-items: center;
-			img {
-				width: 20%;
+			flex-wrap: wrap;
+			.steps__container__boxes__count {
+				flex: 1 1 30%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				span {
+					display: block;
+					width: 6rem;
+					font-size: 5rem;
+					font-weight: 900;
+					border: 10px solid white;
+					border-radius: 50%;
+					margin: 0 auto;
+					display: flex;
+					justify-content: center;
+					align-items: center;				}
 			}
-			p {
-				color: white;
-				font-family: "Tomorrow", sans-serif;
-				text-align: center;
-				font-weight: 300;
+			.steps__container__boxes__text {
+				flex: 1 1 70%;
+				h2{
+					line-height: .7;
+					font-family: "Gruppo", sans-serif;
+					// margin: 0;
+				}
+				h3{
+					margin:1rem 0 0;
+					font-family: "Tomorrow", sans-serif;
+				}
+				p{
+					margin: .5rem 0  0;
+					font-family: "Tomorrow", sans-serif;
+				}
 			}
 		}
 	}
 	@media (min-width: 600px) {
-		.steps__container {
-			h2 {
-				font-size: 3rem;
-				margin-bottom: 2rem;
-			}
-		}
+		// .steps__container {
+		// 	h2 {
+		// 		font-size: 3rem;
+		// 		margin-bottom: 2rem;
+		// 	}
+		// }
 	}
 	@media (min-width: 700px) {
-		.steps__container {
-			h2 {
-				font-size: 3.5rem;
-			}
-		}
+		// .steps__container {
+		// 	h2 {
+		// 		font-size: 3.5rem;
+		// 	}
+		// }
 	}
 	@media (min-width: 900px) {
-		.steps__container {
-			h2 {
-				font-size: 5rem;
-			}
-			.steps__boxes {
-				flex: 1 1 30%;
-				p {
-					font-size: 1.5rem;
-				}
-			}
-		}
+		// .steps__container {
+		// 	h2 {
+		// 		font-size: 5rem;
+		// 	}
+		// 	.steps__boxes {
+		// 		flex: 1 1 30%;
+		// 		p {
+		// 			font-size: 1.5rem;
+		// 		}
+		// 	}
+		// }
 	}
 	@media (min-width: 1500px) {
 	}

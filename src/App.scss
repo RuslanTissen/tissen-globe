@@ -5,6 +5,14 @@
 	@include font-size(2.5rem)
 }
 
+.title__midle__include{
+	@include font-size(2rem)
+}
+
+.title__super__include{
+	@include font-size(6rem)
+}
+
 .text__include{
 	@include font-size(1.5rem)
 }
