@@ -13,7 +13,12 @@
 .howGlobePicture .howGlobePicture__container h2 {
   color: white;
   font-family: "Tomorrow", sans-serif;
-  font-weight: 500;
+  font-weight: 300;
+}
+.howGlobePicture .howGlobePicture__container h2 mark {
+  background-color: transparent;
+  color: white;
+  font-weight: 700;
 }
 @media (min-width: 600px) {
   .howGlobePicture .howGlobePicture__container {
