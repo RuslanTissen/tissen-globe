@@ -1,65 +1,41 @@
-.steps {
-	.steps__container {
+.stepsMain {
+	.stepsMain__container {
 		max-width: 1500px;
 		margin: 0 auto;
-		padding: 2rem 1rem;
-		height: fit-content;
 		display: flex;
 		flex-wrap: wrap;
-		gap: 1rem;
+		padding: 1rem;
 		h2 {
-			flex: 1 1 100%;
 			color: white;
+			flex: 1 1 100%;
 			text-align: center;
-			font-size: 2.5rem;
 			font-family: "Gruppo", sans-serif;
 			font-weight: 500;
+			transition: all 0.3s ease-out;
 		}
-		.steps__boxes {
-			flex: 1 1 47%;
+		h2:hover{
+			scale: 1.05;
+		}
+		.stepsMain__container__boxes {
+			flex: 1 1 33%;
+			min-width: 280px;
+
 			display: flex;
 			flex-direction: column;
-			justify-content: space-around;
-			align-items: center;
+			text-align: center;
 			img {
-				width: 20%;
+				width: 22%;
+				min-width: 4rem;
+				max-width: 7rem;
+				margin: auto;
+				display: block;
 			}
 			p {
 				color: white;
-				font-family: "Tomorrow", sans-serif;
-				text-align: center;
-				font-weight: 300;
 			}
 		}
 	}
-	@media (min-width: 600px) {
-		.steps__container {
-			h2 {
-				font-size: 3rem;
-				margin-bottom: 2rem;
-			}
-		}
-	}
-	@media (min-width: 700px) {
-		.steps__container {
-			h2 {
-				font-size: 3.5rem;
-			}
-		}
-	}
-	@media (min-width: 900px) {
-		.steps__container {
-			h2 {
-				font-size: 5rem;
-			}
-			.steps__boxes {
-				flex: 1 1 30%;
-				p {
-					font-size: 1.5rem;
-				}
-			}
-		}
-	}
-	@media (min-width: 1500px) {
+	.stepsMain__container__boxes:hover>p{
+	color: rgb(186, 184, 184);
 	}
 }

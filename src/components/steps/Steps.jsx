@@ -12,43 +12,35 @@ import { Context } from '../Context'
 function Steps() {
 const {lang, setLang} =useContext(Context)
 	return (
-		<div className='steps'>
+		<div className='stepsMain'>
 
-			<div className="steps__container">
-				<h2>{trans[lang].byServices}</h2>
+			<div className="stepsMain__container">
+				<h2 className='title__picture__include'>{trans[lang].byServices}</h2>
 
-				<div className="steps__container__1 steps__boxes">
+				<div className="stepsMain__container__boxes">
 					<img src={offer1} />
-					<p>{trans[lang].softwareDevelopment}</p>
+					<p className='text__include'>{trans[lang].softwareDevelopment}</p>
 				</div>
-				<div className="steps__container__2 steps__boxes">
+				<div className="stepsMain__container__boxes">
 					<img src={offer2}/>
-					<p>{trans[lang].seguridadInformatica}</p>
+					<p className='text__include'>{trans[lang].seguridadInformatica}</p>
 				</div>
-				<div className="steps__container__3 steps__boxes">
+				<div className="stepsMain__container__boxes">
 					<img src={offer3}/>
-					<p>{trans[lang].cloudHosting}</p>
+					<p className='text__include'>{trans[lang].cloudHosting}</p>
 				</div>
-				<div className="steps__container__4 steps__boxes">
+				<div className="stepsMain__container__boxes">
 					<img src={offer4}/>
-					<p>{trans[lang].desarrolloWeb}</p>
+					<p className='text__include'>{trans[lang].desarrolloWeb}</p>
 				</div>
-				<div className="steps__container__5 steps__boxes">
+				<div className="stepsMain__container__boxes">
 					<img src={offer5}/>
-					<p>{trans[lang].desarrolloMobile}</p>
+					<p className='text__include'>{trans[lang].desarrolloMobile}</p>
 				</div>
-				<div className="steps__container__6 steps__boxes">
+				<div className="stepsMain__container__boxes">
 					<img src={offer6}/>
-					<p>UX/UI</p>
+					<p className='text__include'>UX/UI</p>
 				</div>
-
-
-				{/* <div className="steps__container__2">
-					<h3>Business requirements.</h3>
-					<div className="circle__container">
-						<div className="circule"><MdOutlineBusinessCenter /></div>
-					</div>
-					<p>Our outsourcing company specializes in delivering comprehensive solutions that perfectly align with the specific business requirements of our clients, ensuring optimal efficiency and success.</p>				</div> */}
 			</div>
 
 		</div>
@@ -56,3 +48,12 @@ const {lang, setLang} =useContext(Context)
 }
 
 export default Steps
+
+
+
+{/* <div className="steps__container__2">
+	<h3>Business requirements.</h3>
+	<div className="circle__container">
+		<div className="circule"><MdOutlineBusinessCenter /></div>
+	</div>
+	<p>Our outsourcing company specializes in delivering comprehensive solutions that perfectly align with the specific business requirements of our clients, ensuring optimal efficiency and success.</p>				</div> */}
