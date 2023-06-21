@@ -5,6 +5,7 @@ import HowPicture from './howPicture/HowPicture.jsx'
 import HowSteps from './howSteps/HowSteps'
 import HowGlobePicture from './howGlobePicture/HowGlobePicture.jsx'
 import HowSkills from './howSkills/HowSkills'
+import HowAdvantages from './howAdvantages/HowAdvantages'
 
 function How() {
 	const { lang, setLang } = useContext(Context)
@@ -24,6 +25,8 @@ function How() {
 			<HowGlobePicture />
 
 			<HowSkills />
+
+			<HowAdvantages />
 
 		</div>
 	)

@@ -1,0 +1,48 @@
+.howAdvantages {
+  background-color: black;
+}
+.howAdvantages .howAdvantages__container {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+.howAdvantages .howAdvantages__container h2 {
+  flex: 1 1 100%;
+  text-align: center;
+  font-family: "Gruppo", sans-serif;
+  margin: 4rem 0 0;
+  font-weight: 600;
+  color: white;
+}
+.howAdvantages .howAdvantages__container .howAdvantages__container__boxes {
+  flex: 1 1 48%;
+  min-width: 280px;
+  transition: all 0.3s ease-out;
+  text-align: center;
+  padding: 5%;
+}
+.howAdvantages .howAdvantages__container .howAdvantages__container__boxes img {
+  margin: 0 auto 1rem;
+  width: 22%;
+  min-width: 4rem;
+  max-width: 7rem;
+  display: block;
+}
+.howAdvantages .howAdvantages__container .howAdvantages__container__boxes h3 {
+  font-weight: 600;
+  font-family: "Gruppo", sans-serif;
+  margin: 0;
+  color: white;
+}
+.howAdvantages .howAdvantages__container .howAdvantages__container__boxes p {
+  max-width: 600px;
+  font-family: "Tomorrow", sans-serif;
+  line-height: 1.1em;
+  font-weight: 300;
+  color: white;
+}
+.howAdvantages .howAdvantages__container .services__branches__coontainer__boxes:hover {
+  background-color: rgb(245, 244, 244);
+}/*# sourceMappingURL=HowAdvantages.css.map */
