@@ -12,7 +12,11 @@
 			text-align: center;
 			font-family: "Gruppo", sans-serif;
 			margin: 4rem 0 0;
-			font-weight: 600;
+			font-weight: 500;
+			transition: all 0.3s ease-out;
+		}
+		h2:hover{
+			scale: 1.05;
 		}
 		.howSteps__coontainer__boxes {
 			flex: 1 1 48%;

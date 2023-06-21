@@ -3,6 +3,7 @@ import "./About"
 import "./About.scss"
 import { BsFillBoxFill } from 'react-icons/bs'
 import AboutPicture from './aboutPicture/AboutPicture'
+import AboutText from './aboutText/AboutText'
 
 
 function About() {
@@ -11,6 +12,8 @@ function About() {
 
 			<AboutPicture />
 
+			<AboutText />
+
 		</div>
 	)
 }
@@ -18,4 +21,3 @@ function About() {
 export default About
 
 
-{/* <h2>"As Henry Ford we believe that everyone should play his unique role in a company."</h2> */ }
