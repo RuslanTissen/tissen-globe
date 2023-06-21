@@ -1,0 +1,116 @@
+.howSkills {
+	background-color: rgb(231,231,231);
+	.howSkills__container {
+		max-width: 1500px;
+		height: 400px;
+		margin: 0 auto;
+		background-image: url("../../../../images/howSkills.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0 1rem;
+		.howSkills__container__text__box {
+			flex: 1 1 50%;
+			h2 {
+				width: 50%;
+				text-align: center;
+				font-family: "Tomorrow", sans-serif;
+				font-weight: 300;
+				// padding: 2rem;
+				font-size: 1rem;
+				mark {
+					background-color: transparent;
+					color: black;
+					font-weight: 700;
+				}
+			}
+		}
+	}
+	@media (min-width: 600px) {
+		.howSkills__container {
+			height: 450px;
+			.howSkills__container__text__box {
+				h2 {
+					font-size: 1.1rem;
+					margin: 1rem;
+				}
+			}
+		}
+	}
+	@media (min-width: 700px) {
+		.howSkills__container {
+			height: 600px;
+			.howSkills__container__text__box {
+				h2 {
+					font-size: 1.5rem;
+					margin: 1.5rem;
+				}
+			}
+		}
+	}
+	@media (min-width: 800px) {
+		.howSkills__container {
+			height: 650px;
+			.howSkills__container__text__box {
+				h2 {
+					font-size: 1.6rem;
+					margin: 1.6rem;
+				}
+			}
+		}
+	}
+	@media (min-width: 900px) {
+		.howSkills__container {
+			height: 700px;
+			.howSkills__container__text__box {
+				h2 {
+					font-size: 1.7rem;
+					margin: 1.7rem;
+				}
+			}
+		}
+	}
+	@media (min-width: 1000px) {
+		.howSkills__container {
+			height: 750px;
+			.howSkills__container__text__box {
+				h2 {
+					font-size: 1.8rem;
+					margin: 1.8rem;
+				}
+			}
+		}
+	}
+	@media (min-width: 1100px) {
+		.howSkills__container {
+			height: 800px;
+			.howSkills__container__text__box {
+				h2 {
+					font-size: 2rem;
+					margin: 2rem;
+				}
+			}
+		}
+	}
+	@media (min-width: 1300px) {
+		.howSkills__container {
+			.howSkills__container__text__box {
+				h2 {
+					font-size: 2.2rem;
+					// margin: 2.2rem;
+				}
+			}
+		}
+	}
+	@media (min-width: 1500px) {
+		.howSkills__container {
+			.howSkills__container__text__box {
+				h2 {
+					font-size: 2.5rem;
+				}
+			}
+		}
+	}
+}
