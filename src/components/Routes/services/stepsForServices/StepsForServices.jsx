@@ -26,13 +26,13 @@ function StepsForServices() {
 	return (
 		<div className='steps'>
 			<div className="steps__container">
-				<div className="steps__container__boxes">
+				{/* <div className="steps__container__boxes"> */}
 					{/* <div className="steps__container__boxes__count"></div> */}
-					<div className="steps__container__boxes__text">
-						<h2 className='title__super__include'>Tissen Working Process</h2>
+					{/* <div className="steps__container__boxes__text"> */}
+						<h2 className='title__picture__include'>Tissen Working Process</h2>
 						{/* <p></p> */}
-					</div>
-				</div>
+					{/* </div> */}
+				{/* </div> */}
 				<div className="steps__container__boxes">
 					<div className="steps__container__boxes__count"><span className='animation__span'>1</span></div>
 					<div className="steps__container__boxes__text">

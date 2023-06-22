@@ -61,7 +61,7 @@
   background-color: #0a62d0;
   color: white;
   transition: all 0.3s ease-in-out;
-  margin: 0 auto;
+  margin: 2rem auto;
 }
 .howSteps .howSteps__coontainer a:hover {
   background-color: #4a87d0;

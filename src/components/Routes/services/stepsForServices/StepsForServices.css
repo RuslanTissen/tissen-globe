@@ -8,6 +8,14 @@
   flex-direction: column;
   color: white;
 }
+.steps .steps__container h2 {
+  text-align: center;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+.steps .steps__container h2:hover {
+  scale: 1.05;
+}
 .steps .steps__container .steps__container__boxes {
   display: flex;
   flex-wrap: wrap;

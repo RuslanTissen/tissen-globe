@@ -13,6 +13,11 @@
 			font-family: "Gruppo", sans-serif;
 			font-size: 2.3rem;
 			text-align: center;
+			font-weight: 500;
+			transition: all .3s ease-in-out;
+		}
+		h2:hover{
+			scale: 1.05;
 		}
 		.choose__boxes {
 			flex: 1 1 100%;

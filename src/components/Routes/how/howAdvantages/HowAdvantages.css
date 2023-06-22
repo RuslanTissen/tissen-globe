@@ -13,8 +13,12 @@
   text-align: center;
   font-family: "Gruppo", sans-serif;
   margin: 4rem 0 0;
-  font-weight: 600;
+  font-weight: 500;
   color: white;
+  transition: all 0.3s ease-in-out;
+}
+.howAdvantages .howAdvantages__container h2:hover {
+  scale: 1.05;
 }
 .howAdvantages .howAdvantages__container .howAdvantages__container__boxes {
   flex: 1 1 48%;

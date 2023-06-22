@@ -1,7 +1,5 @@
 import React from 'react'
 import "./AboutText.scss"
-// import aboutText1 from "../../../../images/aboutText1.jpg"
-// import aboutText2 from "../../../../images/aboutText2.jpg"
 
 function AboutText() {
 	return (

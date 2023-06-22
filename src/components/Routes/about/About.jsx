@@ -5,6 +5,8 @@ import { BsFillBoxFill } from 'react-icons/bs'
 import AboutPicture from './aboutPicture/AboutPicture'
 import AboutText from './aboutText/AboutText'
 import AboutVision from './aboutVision/AboutVision'
+import LetsContact from '../services/letsContact/LetsContact'
+import AboutWorking from './aboutWorking/AboutWorking'
 
 
 function About() {
@@ -16,6 +18,13 @@ function About() {
 			<AboutText />
 
 			<AboutVision />
+
+			<LetsContact
+				contactTitle={"Empowering Technology, Supporting Users."}
+				contactButton={"Lets meet"}
+			/>
+
+			<AboutWorking />
 
 		</div>
 	)

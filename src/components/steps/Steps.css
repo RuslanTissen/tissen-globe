@@ -3,7 +3,8 @@
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  padding: 1rem;
+  padding: 1rem 0 3rem;
+  gap: 2rem;
 }
 .stepsMain .stepsMain__container h2 {
   color: white;
@@ -17,7 +18,7 @@
   scale: 1.05;
 }
 .stepsMain .stepsMain__container .stepsMain__container__boxes {
-  flex: 1 1 33%;
+  flex: 1 1 31%;
   min-width: 280px;
   display: flex;
   flex-direction: column;

@@ -5,7 +5,7 @@ function AboutPicture() {
   return (
 	 <div className='aboutPicture'>
 		<div className="aboutPicture__container">
-			<h2 className='title__picture__include'>About</h2>
+			<h2 className='title__super__include'>About</h2>
 		</div>
 	 </div>
   )
