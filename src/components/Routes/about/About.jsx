@@ -4,6 +4,7 @@ import "./About.scss"
 import { BsFillBoxFill } from 'react-icons/bs'
 import AboutPicture from './aboutPicture/AboutPicture'
 import AboutText from './aboutText/AboutText'
+import AboutVision from './aboutVision/AboutVision'
 
 
 function About() {
@@ -13,6 +14,8 @@ function About() {
 			<AboutPicture />
 
 			<AboutText />
+
+			<AboutVision />
 
 		</div>
 	)
