@@ -5,12 +5,12 @@ import StepsForServices from './stepsForServices/StepsForServices'
 import trans from '../../Translate'
 import { Context } from '../../Context'
 import Points from '../points/Points'
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 import LetsContact from './letsContact/LetsContact'
 import ServicesBranches from './servicesBranches/ServicesBranches'
 
 function Services() {
-	const { lang, setLang } = useContext(Context)
+	const { lang } = useContext(Context)
 
 	const scrollToTheTop = () => {
 		window.scroll(0, 0)
@@ -28,7 +28,7 @@ function Services() {
 			<StepsForServices />
 
 			<LetsContact
-				contactTitle={"Excellence in service, exceeding expectations every time."}
+				contactTitle={`${trans[lang].servicesExcellenceInServiceTitle}`}
 				contactButton={"Lets meet"}
 			/>
 

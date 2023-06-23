@@ -21,72 +21,66 @@ import { Context } from '../../../Context'
 // 	})
 // })
 function StepsForServices() {
-	const { lang, setLang } = useContext(Context)
+	const { lang } = useContext(Context)
 
 	return (
 		<div className='steps'>
 			<div className="steps__container">
-				{/* <div className="steps__container__boxes"> */}
-					{/* <div className="steps__container__boxes__count"></div> */}
-					{/* <div className="steps__container__boxes__text"> */}
-						<h2 className='title__picture__include'>Tissen Working Process</h2>
-						{/* <p></p> */}
-					{/* </div> */}
-				{/* </div> */}
+				<h2 className='title__picture__include'>{trans[lang].servicesWorkingProcessTitle}</h2>
 				<div className="steps__container__boxes">
 					<div className="steps__container__boxes__count"><span className='animation__span'>1</span></div>
 					<div className="steps__container__boxes__text">
-						<h3 className='title__midle__include'>Requirements Gathering</h3>
-						<p className='text__include'>Gathering and analyzing the project requirements, understanding the objectives, and defining the scope of the project.</p>
+						<h3 className='title__midle__include'>{trans[lang].servicesRequermentsTitle}</h3>
+						<p className='text__include'>{trans[lang].servicesRequermentsText}</p>
 					</div>
 				</div>
 				<div className="steps__container__boxes">
 					<div className="steps__container__boxes__count"><span className='animation__span'>2</span></div>
 					<div className="steps__container__boxes__text">
-						<h3 className='title__midle__include'>System Design</h3>
-						<p className='text__include'>Creating a detailed system design that outlines the architecture, components, and functionalities of the IT solution.</p>
+						<h3 className='title__midle__include'>{trans[lang].servicesSystemDesignTitle}</h3>
+						<p className='text__include'>{trans[lang].servicesSystemDesignText}</p>
 					</div>
 				</div>
 				<div className="steps__container__boxes">
 					<div className="steps__container__boxes__count"><span className='animation__span'>3</span></div>
 					<div className="steps__container__boxes__text">
-						<h3 className='title__midle__include'>Development</h3>
-						<p className='text__include'>Writing the code and implementing the system design, using the chosen programming languages, frameworks, and tools.</p>
+						<h3 className='title__midle__include'>{trans[lang].servicesDevelopmentTitle}</h3>
+						<p className='text__include'>{trans[lang].servicesDevelopmentText}</p>
 					</div>
 				</div>
 				<div className="steps__container__boxes">
 					<div className="steps__container__boxes__count"><span className='animation__span'>4</span></div>
 					<div className="steps__container__boxes__text">
-						<h3 className='title__midle__include'>Testing</h3>
-						<p className='text__include'>Conducting various testing activities, such as unit testing, integration testing, and system testing, to identify and fix any bugs or issues.</p>
+						<h3 className='title__midle__include'>{trans[lang].servicesTestingTitle}</h3>
+						<p className='text__include'>{trans[lang].servicesTestingText}</p>
 					</div>
 				</div>
 				<div className="steps__container__boxes">
 					<div className="steps__container__boxes__count"><span className='animation__span'>5</span></div>
 					<div className="steps__container__boxes__text">
-						<h3 className='title__midle__include'>Deployment</h3>
-						<p className='text__include'>Deploying the developed software or system to the production environment or making it available to users.</p>
+						<h3 className='title__midle__include'>{trans[lang].servicesDeploymentTitle}</h3>
+						<p className='text__include'>{trans[lang].servicesDeploymentText}</p>
 					</div>
 				</div>
 				<div className="steps__container__boxes">
 					<div className="steps__container__boxes__count"><span className='animation__span'>6</span></div>
 					<div className="steps__container__boxes__text">
-						<h3 className='title__midle__include'>Maintenance and Support</h3>
-						<p className='text__include'>Providing ongoing maintenance and support for the developed IT solution, including bug fixes, updates, and user assistance.</p>
+						<h3 className='title__midle__include'>{trans[lang].servicesMaintenenceTitle}</h3>
+						<p className='text__include'>{trans[lang].servicesMaintenenceText}</p>
 					</div>
 				</div>
 				<div className="steps__container__boxes">
 					<div className="steps__container__boxes__count"><span className='animation__span'> 7</span></div>
 					<div className="steps__container__boxes__text">
-						<h3 className='title__midle__include'>Documentation</h3>
-						<p className='text__include'>Documenting the system, code, and user manuals to ensure proper understanding, maintenance, and future enhancements.</p>
+						<h3 className='title__midle__include'>{trans[lang].servicesDocumentationTitle}</h3>
+						<p className='text__include'>{trans[lang].servicesDocumentationText}</p>
 					</div>
 				</div>
 				<div className="steps__container__boxes">
 					<div className="steps__container__boxes__count"><span className='animation__span'>8</span></div>
 					<div className="steps__container__boxes__text">
-						<h3 className='title__midle__include'>Continuous Improvement</h3>
-						<p className='text__include'>Continuously monitoring and evaluating the IT solution's performance, gathering feedback, and making improvements to enhance its functionality and efficiency.</p>
+						<h3 className='title__midle__include'>{trans[lang].servicesContinuousTitle}</h3>
+						<p className='text__include'>{trans[lang].servicesContinuousText}</p>
 					</div>
 				</div>
 

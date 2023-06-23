@@ -11,6 +11,7 @@ import { Context } from '../Context'
 
 function Steps() {
 const {lang, setLang} =useContext(Context)
+
 	return (
 		<div className='stepsMain'>
 
