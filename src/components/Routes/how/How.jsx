@@ -7,9 +7,10 @@ import HowGlobePicture from './howGlobePicture/HowGlobePicture.jsx'
 import HowSkills from './howSkills/HowSkills'
 import HowAdvantages from './howAdvantages/HowAdvantages'
 import HowDecisions from './howDecisions/HowDecisions'
+import trans from '../../Translate'
 
 function How() {
-	const { lang, setLang } = useContext(Context)
+	const { lang } = useContext(Context)
 
 	const scrollToTheTop = () => {
 		window.scroll(0, 0)
