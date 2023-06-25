@@ -3,12 +3,12 @@ import "./Technologies.scss"
 import { SiNestjs, SiRedux, SiTypescript, SiPhp } from "react-icons/si"
 import { DiRuby, DiNodejs } from "react-icons/di"
 import { FaReact, FaPython } from "react-icons/fa"
-import martin from "../../images/martin.jpg"
-import net from "../../images/net.jpg"
-import js from "../../images/js.jpg"
-import go from "../../images/golang.jpg"
-import trans from '../Translate'
-import { Context } from '../Context'
+import martin from "../../../images/martin.jpg"
+import net from "../../../images/net.jpg"
+import js from "../../../images/js.jpg"
+import go from "../../../images/golang.jpg"
+import trans from '../../Translate'
+import { Context } from '../../Context'
 
 function Technologies() {
 	const {lang, setLang} =useContext(Context)

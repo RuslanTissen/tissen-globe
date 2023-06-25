@@ -1,8 +1,8 @@
 import React, { useContext } from 'react'
 import "./Statement.scss"
-import statement from "../../images/statement.jpg"
-import trans from '../Translate.js';
-import { Context } from '../Context';
+import statement from "../../../images/statement.jpg"
+import trans from '../../Translate';
+import { Context } from '../../Context';
 
 
 function Statement() {

@@ -20,7 +20,7 @@
 		.stepsMain__container__boxes {
 			flex: 1 1 31%;
 			min-width: 280px;
-
+			text-decoration: none;
 			display: flex;
 			flex-direction: column;
 			text-align: center;
@@ -36,7 +36,7 @@
 			}
 		}
 	}
-	.stepsMain__container__boxes:hover>p{
-	color: rgb(186, 184, 184);
+	.stepsMain__container__boxes:hover{
+	background-color: rgb(12, 12, 12);
 	}
 }

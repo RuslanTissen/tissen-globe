@@ -1,10 +1,10 @@
 import React, { useContext } from 'react'
 import "./Location.scss"
-import north_america from "../../images/north_america.jpg"
-import europa from "../../images/europa.jpg"
-import south_america from "../../images/south_america.jpg"
-import trans from '../Translate.js';
-import { Context } from '../Context'
+import north_america from "../../../images/north_america.jpg"
+import europa from "../../../images/europa.jpg"
+import south_america from "../../../images/south_america.jpg"
+import trans from '../../Translate'
+import { Context } from '../../Context'
 
 
 function Location() {

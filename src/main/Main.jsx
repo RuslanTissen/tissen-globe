@@ -1,12 +1,13 @@
 import React from 'react'
 import { Routes, Route, Outlet } from "react-router-dom"
 import "./Main.scss"
-import Start from '../start/Start'
+import Start from '../components/start/Start'
 import About from '../components/Routes/about/About'
 import Contact from '../components/Routes/contact/Contact'
 import Services from '../components/Routes/services/Services'
 import Careers from '../components/Routes/careers/Careers'
 import How from '../components/Routes/how/How'
+import SoftwareDevelopment from '../components/RoutesByServices/softwareDevelopment/SoftwareDevelopment'
 
 function Main() {
 	return (
@@ -18,6 +19,7 @@ function Main() {
 				<Route path="Careers" element={<Careers />} />
 				<Route path="About" element={<About />} />
 				<Route path="Contact" element={<Contact />} />
+				<Route path='SoftwareDevelopment' element={<SoftwareDevelopment />} />
 			</Routes>
 
 			{/* <Outlet />  */}
