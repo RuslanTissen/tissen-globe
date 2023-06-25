@@ -21,7 +21,7 @@ function How() {
 			<HowPicture />
 
 			<HowSteps
-				contactButton={"Know us"}
+				contactButton={`${trans[lang].howKnowUs}`}
 			/>
 
 			<HowGlobePicture />

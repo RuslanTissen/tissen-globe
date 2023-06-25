@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import "./About"
 import "./About.scss"
 import { BsFillBoxFill } from 'react-icons/bs'
@@ -7,9 +7,12 @@ import AboutText from './aboutText/AboutText'
 import AboutVision from './aboutVision/AboutVision'
 import LetsContact from '../services/letsContact/LetsContact'
 import AboutWorking from './aboutWorking/AboutWorking'
-
+import trans from '../../Translate'
+import { Context } from '../../Context'
 
 function About() {
+const {lang} = useContext(Context)
+
 	return (
 		<div className='about' >
 
@@ -20,8 +23,8 @@ function About() {
 			<AboutVision />
 
 			<LetsContact
-				contactTitle={"Empowering Technology, Supporting Users."}
-				contactButton={"Lets meet"}
+				contactTitle={`${trans[lang].aboutEmpowering}`}
+				contactButton={`${trans[lang].aboutLetsMeet}`}
 			/>
 
 			<AboutWorking />

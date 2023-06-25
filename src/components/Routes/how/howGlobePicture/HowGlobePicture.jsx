@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import "./HowGlobePicture.scss"
+import trans from '../../../Translate'
+import { Context } from '../../../Context'
 
 function HowGlobePicture() {
+	const {lang, setLang} = useContext(Context)
 	return (
 		<div className='howGlobePicture'>
 			<div className="howGlobePicture__container">
-				<h2>According to a survey by Deloitte, approximately <mark>53%</mark>  of organizations worldwide <mark>outsource some or all of their IT functions.</mark>  (Source: Deloitte Global Outsourcing Survey)</h2>
+				<h2>{trans[lang].howAccording} <mark>{trans[lang].howAccording53} </mark>  {trans[lang].howOrganizations}  <mark>{trans[lang].howOutsource} </mark>  {trans[lang].howSourceDeloitte} </h2>
 			</div>
 		</div>
 	)

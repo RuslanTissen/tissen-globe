@@ -12,15 +12,15 @@ function Main() {
 	return (
 		<main>
 			<Routes>
-				<Route path='*' element={<Start />} />
-				<Route path='Services' element={<Services />} />
-				<Route path='How' element={<How />} />
-				<Route path='Careers' element={<Careers />} />
-				<Route path='About' element={<About />} />
-				<Route path='Contact' element={<Contact />} />
+				<Route path="*" element={<Start />} />
+				<Route path="Services" element={<Services />} />
+				<Route path="How" element={<How />} />
+				<Route path="Careers" element={<Careers />} />
+				<Route path="About" element={<About />} />
+				<Route path="Contact" element={<Contact />} />
 			</Routes>
 
-			<Outlet /> 
+			{/* <Outlet />  */}
 
 		</main>
 	)

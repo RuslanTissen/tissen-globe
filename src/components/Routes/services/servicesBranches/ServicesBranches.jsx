@@ -7,10 +7,10 @@ import card4 from "../../../../images/services-card4.png"
 import card5 from "../../../../images/services-card5.png"
 import card6 from "../../../../images/services-card6.png"
 import trans from '../../../Translate'
-import Context from 'react-bootstrap/esm/AccordionContext'
+import { Context } from '../../../Context'
 
 function ServicesBranches() {
-const {lang} = useContext(Context)
+	const { lang, setLang } = useContext(Context)
 
 	return (
 		<div className='services__branches'>
@@ -53,6 +53,9 @@ const {lang} = useContext(Context)
 }
 
 export default ServicesBranches
+
+
+// 
 
 
 

@@ -1,17 +1,21 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import "./AboutWorking.scss"
+import trans from '../../../Translate'
+import { Context } from '../../../Context'
 
 function AboutWorking() {
+const {lang} = useContext(Context)
+
   return (
 	 <div className='aboutWorking'>
 		<div className="aboutWorking__container">
-		<h2 className='title__picture__include'>Tissen Working Staff</h2>
+		<h2 className='title__picture__include'>{trans[lang].aboutWorkingTitle}</h2>
 				<div className="aboutWorking__container__boxes1 aboutWorking__container__boxes">
 					<div className="aboutWorkingbox"></div>
-					<p>With our IT outsourcing services, you can reduce costs significantly while gaining access to a team of skilled professionals who stay ahead of the latest trends and best practices. We provide round-the-clock support, ensuring your systems run smoothly and addressing issues before they impact your operations.</p>
+					<p>{trans[lang].aboutWorkingText}</p>
 				</div>
 				<div className="aboutWorking__container__boxes2 aboutWorking__container__boxes">
-					<p>Our flexible and scalable services adapt to your evolving needs, and we prioritize security and compliance, safeguarding your data and meeting industry standards. By partnering with us, you can focus on your core business objectives while we handle your IT needs.</p>
+					<p>{trans[lang].aboutWorkingText2}</p>
 					<div className="aboutWorkingbox"></div>
 				</div>
 		</div>

@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import "./HowDecisions.scss"
+import trans from '../../../Translate'
+import { Context } from '../../../Context'
 
 function HowDecisions() {
+	const {lang, setLang} = useContext(Context)
   return (
 	 <div className='howDecisions'>
 		<div className="howDecisions__container">
-			<h2>Las razones principales por las que las organizaciones optan por subcontratar las funciones de TI incluyen <mark>la reducción de costos </mark> (64 %), <mark>el acceso a habilidades especializadas </mark> (51 %), <mark>mejorar el enfoque en el negocio principal </mark> (46 %) y <mark> mejorar la calidad del servicio</mark> (34 %). (Fuente: Encuesta Global de Subcontratación de Deloitte)</h2>
+			<h2>{trans[lang].howThePrimaryText}<mark>{trans[lang].howCostReduction}</mark>{trans[lang].how64}<mark>{trans[lang].howAccessing}</mark> {trans[lang].how51}<mark>{trans[lang].howImproving}</mark> {trans[lang].how46and}<mark> {trans[lang].howEnhancing}</mark> {trans[lang].how34Source}</h2>
 		</div>
 	 </div>
   )

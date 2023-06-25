@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import "./Lamp.scss"
 import gif from "../../../../images/gif-career.gif"
+import trans from '../../../Translate'
+import { Context } from '../../../Context'
 
 function Lamp() {
-
+const {lang} = useContext(Context)
 
 	return (
 		<div className='lamp'>
@@ -13,7 +15,7 @@ function Lamp() {
 					<img src={gif} alt="" />
 				</div>
 
-				<q>Stronger Together, Achieving Greatness as One Team.</q>
+				<q>{trans[lang].carreersStrongerTogether}</q>
 
 			</div>
 		</div>

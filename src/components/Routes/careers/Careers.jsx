@@ -15,8 +15,8 @@ function Careers() {
 		<div className='careers'>
 
 			<PointsCareers
-				textTitle={"Join Our Team"}
-				textP={"Passionate about technology and looking for exciting career opportunities? At Tissen, we're a leading IT outsourcing company offering a range of rewarding roles. Join our team of experts dedicated to solving complex business challenges with talent and innovation."}
+				textTitle={`${trans[lang].carreersJoinOurTeamTitle}`}
+				textP={`${trans[lang].carreersJoinOurTeamText}`}
 			/>
 
 			<Choose />
@@ -26,8 +26,8 @@ function Careers() {
 			<Lamp />
 
 			<LetsContactCareers
-				contactTitle={"Do you have something else to contribute?"}
-				contactButton={"Lets talk"}
+				contactTitle={`${trans[lang].carreersDoYouHave}`}
+				contactButton={`${trans[lang].carreersLetsTalk}`}
 			/>
 
 
