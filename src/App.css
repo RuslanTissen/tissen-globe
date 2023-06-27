@@ -41,4 +41,27 @@
   .text__include {
     font-size: 1.5rem;
   }
+}
+
+.title {
+  font-size: calc(1.525rem + 3.3vw);
+}
+
+@media (min-width: 1200px) {
+  .title {
+    font-size: 4rem;
+  }
+}
+.test_h2_mixin {
+  font-size: 1.3rem;
+}
+@media (min-width: 480px) {
+  .test_h2_mixin {
+    font-size: calc( 20.8px + (28.8 - 20.8) * ((100vw - 480px) / (1024 - 480)));
+  }
+}
+@media (min-width: 1024px) {
+  .test_h2_mixin {
+    font-size: 1.8rem;
+  }
 }/*# sourceMappingURL=App.css.map */

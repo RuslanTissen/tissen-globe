@@ -2,6 +2,11 @@
   font-family: "Tomorrow", sans-serif;
   padding: 1rem;
 }
-.softwareVideo .softwareVideo__container .card-title {
+.softwareVideo .softwareVideo__container h2 {
   padding: 3rem 1rem 1rem 24px;
+  font-weight: 300;
+}
+.softwareVideo .softwareVideo__container ol li {
+  padding-right: 1rem;
+  font-family: "Tomorrow", sans-serif;
 }/*# sourceMappingURL=SoftwareVideo.css.map */

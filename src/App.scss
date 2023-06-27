@@ -21,6 +21,46 @@
 	@include font-size(1.5rem)
 }
 
+.title {
+	font-size: calc(1.525rem + 3.3vw);
+ }
+ 
+ @media (min-width: 1200px) {
+	.title {
+	  font-size: 4rem;
+	}
+ }
+
+// ------------------------- MIXIN FONT SISE ------------------------
+
+$remBase: 16; //set base font size. unitless value in pixels.
+$widthMin: 480; //set small breakpoint. unitless value in pixels.
+$widthMax: 1024; //set large breakpoint. unitless value in pixels.
+
+@mixin font-size($valueMin, $valueMax) {
+	// turn mixin parameters into rem value.
+	$fontMin: $valueMin * $remBase;
+	$fontMax: $valueMax * $remBase;
+	
+	// set minimum font size. give it rem value.
+	font-size: $valueMin * 1rem;
+	
+	// set font size between min and max breakpoints.
+	@media (min-width: #{$widthMin}px) {
+		font-size: calc( #{$fontMin}px + (#{$fontMax} - #{$fontMin}) * ((100vw - #{$widthMin}px) / (#{$widthMax} - #{$widthMin})));
+	}
+
+	// set font size above max breakpoint
+	@media (min-width: #{$widthMax}px) {
+		font-size: $valueMax * 1rem;
+	}
+}
+
+.test_h2_mixin{
+	@include font-size(1.3, 1.8);
+}
+
+// ----------------------- END MIXIN FONT SISE ------------------
 
 // .card-title{
 // 	@include font-size(2.5rem);
