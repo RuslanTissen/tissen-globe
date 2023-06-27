@@ -9,6 +9,8 @@
 }
 .title__include {
 	@include font-size(2.5rem);
+	font-family: "Tomorrow", sans-serif;
+	text-align: center;
 }
 .title__midle__include {
 	@include font-size(2rem);
