@@ -11,7 +11,9 @@ import SoftwareLastPicture from './softwareLastPicture/SoftwareLastPicture'
 function SoftwareDevelopment() {
 	return (
 		<div className='softwareDevelopment'>
-			<SoftwarePicture />
+			<SoftwarePicture 
+			title={"Software Development"}
+			/>
 
 			<SoftwareTextBox1 />
 

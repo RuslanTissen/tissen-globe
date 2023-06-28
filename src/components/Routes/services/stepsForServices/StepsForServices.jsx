@@ -1,11 +1,11 @@
 import React, { useContext } from 'react'
 import "./StepsForServices.scss"
-import offer1 from "../../../../images/offer1.jpg"
-import offer2 from "../../../../images/offer2.jpg"
-import offer3 from "../../../../images/offer3.jpg"
-import offer4 from "../../../../images/offer4.jpg"
-import offer5 from "../../../../images/offer5.jpg"
-import offer6 from "../../../../images/offer6.jpg"
+import offer1 from "../../../../images/offer1.png"
+import offer2 from "../../../../images/offer2.png"
+import offer3 from "../../../../images/offer3.png"
+import offer4 from "../../../../images/offer4.png"
+import offer5 from "../../../../images/offer5.png"
+import offer6 from "../../../../images/offer6.png"
 import trans from '../../../Translate'
 import { Context } from '../../../Context'
 

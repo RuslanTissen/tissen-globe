@@ -8,6 +8,7 @@ import Services from '../components/Routes/services/Services'
 import Careers from '../components/Routes/careers/Careers'
 import How from '../components/Routes/how/How'
 import SoftwareDevelopment from '../components/RoutesByServices/softwareDevelopment/SoftwareDevelopment'
+import NetworkSecurity from '../components/RoutesByServices/networkSecurity/NetworkSecurity'
 
 function Main() {
 	return (
@@ -20,6 +21,7 @@ function Main() {
 				<Route path="About" element={<About />} />
 				<Route path="Contact" element={<Contact />} />
 				<Route path='SoftwareDevelopment' element={<SoftwareDevelopment />} />
+				<Route path='NetworkSecurity' element={<NetworkSecurity />} />
 			</Routes>
 
 			{/* <Outlet />  */}

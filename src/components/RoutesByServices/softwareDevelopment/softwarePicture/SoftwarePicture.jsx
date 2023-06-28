@@ -1,14 +1,17 @@
 import React from 'react'
 import "./SoftwarePicture.scss"
+import { ContainerMainPicture } from '../../../../styledComponents/ContainerMainPicture'
 
-function SoftwarePicture() {
-  return (
-	 <div className='pointsSoftware'>
-		<div className="pointsSoftware__container">
-			<h2>Software Development</h2>
-		</div>
-	 </div>
-  )
-}
+function SoftwarePicture(props) {
+		let { title } = props
+
+		return (
+			<div className='pointsSoftware'>
+				<ContainerMainPicture className="pointsSoftware__container">
+					<h2 className='title__super__include'>{title}</h2>
+				</ContainerMainPicture>
+			</div>
+		)
+	}
 
 export default SoftwarePicture
