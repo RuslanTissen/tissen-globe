@@ -31,11 +31,11 @@ const scrollToTheTop = () => {
 					<img src={offer2}/>
 					<p className='text__include'>{trans[lang].seguridadInformatica}</p>
 				</NavLink>
-				<NavLink to="#" onClick={scrollToTheTop}className="stepsMain__container__boxes">
+				<NavLink to="CloudHosting" onClick={scrollToTheTop}className="stepsMain__container__boxes">
 					<img src={offer3}/>
 					<p className='text__include'>{trans[lang].cloudHosting}</p>
 				</NavLink>
-				<NavLink to="#" onClick={scrollToTheTop}className="stepsMain__container__boxes">
+				<NavLink to="WebDevelopment" onClick={scrollToTheTop}className="stepsMain__container__boxes">
 					<img src={offer4}/>
 					<p className='text__include'>{trans[lang].desarrolloWeb}</p>
 				</NavLink>

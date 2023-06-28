@@ -1,12 +1,10 @@
 import React from 'react'
-import styled from 'styled-components'
-import SoftwarePicture from './softwarePicture/SoftwarePicture'
-import SoftwareTextBox1 from './softwareTextBox1/SoftwareTextBox1'
-import SoftwareTextBox2 from './softwareTextBox2/SoftwareTextBox2'
-import SoftwareVideo from './softwareVideo/SoftwareVideo'
-import SoftwareLastPicture from './softwareLastPicture/SoftwareLastPicture'
-// import { ContainerDiv } from '../../../styledComponents/Container.styled'
-import softwareVideo from "../../../videos/softwareVideo.mp4"
+import SoftwarePicture from './softwareDevelopment/softwarePicture/SoftwarePicture'
+import SoftwareTextBox1 from './softwareDevelopment/softwareTextBox1/SoftwareTextBox1'
+import SoftwareTextBox2 from './softwareDevelopment/softwareTextBox2/SoftwareTextBox2'
+import SoftwareVideo from './softwareDevelopment/softwareVideo/SoftwareVideo'
+import SoftwareLastPicture from './softwareDevelopment/softwareLastPicture/SoftwareLastPicture'
+import softwareVideo from "../../videos/softwareVideo.mp4"
 
 function SoftwareDevelopment() {
 	return (
