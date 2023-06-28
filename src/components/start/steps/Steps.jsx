@@ -39,11 +39,11 @@ const scrollToTheTop = () => {
 					<img src={offer4}/>
 					<p className='text__include'>{trans[lang].desarrolloWeb}</p>
 				</NavLink>
-				<NavLink to="#" onClick={scrollToTheTop}className="stepsMain__container__boxes">
+				<NavLink to="MobileDevelopment" onClick={scrollToTheTop}className="stepsMain__container__boxes">
 					<img src={offer5}/>
 					<p className='text__include'>{trans[lang].desarrolloMobile}</p>
 				</NavLink>
-				<NavLink to="#" onClick={scrollToTheTop}className="stepsMain__container__boxes">
+				<NavLink to="UX_UI" onClick={scrollToTheTop}className="stepsMain__container__boxes">
 					<img src={offer6}/>
 					<p className='text__include'>UX/UI</p>
 				</NavLink>

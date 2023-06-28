@@ -11,6 +11,8 @@ import SoftwareDevelopment from '../components/RoutesByServices/SoftwareDevelopm
 import NetworkSecurity from '../components/RoutesByServices/networkSecurity/NetworkSecurity'
 import CloudHosting from '../components/RoutesByServices/cloudHosting/CloudHosting'
 import WebDevelopment from '../components/RoutesByServices/webDevelopment/WebDevelopment'
+import MobileDevelopment from '../components/RoutesByServices/mobileDevelopment/MobileDevelopment'
+import UX_UI from '../components/RoutesByServices/ux-ui/UX_UI'
 
 function Main() {
 	return (
@@ -26,6 +28,8 @@ function Main() {
 				<Route path='NetworkSecurity' element={<NetworkSecurity />} />
 				<Route path='CloudHosting' element={<CloudHosting />} />
 				<Route path='WebDevelopment' element={<WebDevelopment />} />
+				<Route path='MobileDevelopment' element={<MobileDevelopment />} />
+				<Route path='UX_UI' element={<UX_UI />} />
 			</Routes>
 
 			{/* <Outlet />  */}
