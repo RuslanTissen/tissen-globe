@@ -1,6 +1,6 @@
 import React from 'react'
 import "./SoftwarePicture.scss"
-import { ContainerMainPicture } from '../../../../styledComponents/ContainerMainPicture'
+import { ContainerMainPicture } from '../../../../styledComponents/ContainerMainPicture.styled'
 
 function SoftwarePicture(props) {
 		let { title } = props
