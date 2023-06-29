@@ -1,10 +1,10 @@
 import React, { useContext } from 'react'
-import SoftwarePicture from './modulesForByServices/modelPicture/ModelPicture'
-import SoftwareTextBox1 from './modulesForByServices/modelTextBox1/ModelTextBox1'
-import SoftwareTextBox2 from './modulesForByServices/modelTextBox2/ModelTextBox2'
-import SoftwareVideo from './modulesForByServices/modelVideo/ModelVideo'
+import ModelPicture from './modulesForByServices/modelPicture/ModelPicture'
+import ModelTextBox1 from './modulesForByServices/modelTextBox1/ModelTextBox1'
+import ModelTextBox2 from './modulesForByServices/modelTextBox2/ModelTextBox2'
+import ModelVideo from './modulesForByServices/modelVideo/ModelVideo'
 import securityVideo from "../../videos/securetyVideo.mp4"
-import SoftwareLastPicture from './modulesForByServices/modelLastPicture/ModelLastPicture'
+import ModelLastPicture from './modulesForByServices/modelLastPicture/ModelLastPicture'
 import trans from '../Translate.js'
 import { Context } from '../Context'
 
@@ -14,21 +14,21 @@ function NetworkSecurity() {
 	return (
 		<div className='networkSecurity'>
 
-			<SoftwarePicture
+			<ModelPicture
 				title={`${trans[lang].networkSecurityTitle}`}
 			/>
 
-			<SoftwareTextBox1
+			<ModelTextBox1
 				titleH3={`${trans[lang].networkSecurityBoldTitle}`}
 				textP={`${trans[lang].networkSecurityText}`}
 				titleH2={`${trans[lang].networkSecurity80}`}
 			/>
 
-			<SoftwareTextBox2
+			<ModelTextBox2
 				text={`${trans[lang].networkSecurityBlackBoxText}`}
 			/>
 
-			<SoftwareVideo
+			<ModelVideo
 				videoSRC={securityVideo}
 				titleH3={`${trans[lang].networkSecurityVideoTitle}`}
 				text1={`${trans[lang].networkSecurityText1}`}
@@ -38,7 +38,7 @@ function NetworkSecurity() {
 				text5={`${trans[lang].networkSecurityText5}`}
 			/>
 
-			<SoftwareLastPicture
+			<ModelLastPicture
 				titleH3={`${trans[lang].networkSecurityLastStatement}`}
 				contact={`${trans[lang].networkSecurityContact}`}
 			/>

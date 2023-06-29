@@ -521,7 +521,7 @@ const trans = {
 		cloudHostingText5: "Servicios administrados y soporte: nuestros servicios de alojamiento en la nube incluyen servicios administrados y soporte dedicado, manejo de administración de servidores, monitoreo, copias de seguridad y optimización del rendimiento.",
 		cloudHostingLastStatement: "Obtenga su presupuesto de Cloud Hosting Project ahora",
 		cloudHostingContact: "vamos a conocernos",
-	// WEB DEVELOPMENT
+		// WEB DEVELOPMENT
 		webDevelopmentTitle: "Desarrollo web",
 		webDevelopmentBoldTitle: "Su sitio web es la cara digital de su negocio, y en Tissen, nos especializamos en crear soluciones web impactantes y personalizadas.",
 		webDevelopmentText: "Nuestro hábil equipo de desarrolladores web combina la experiencia técnica con un estilo creativo para ofrecer sitios web que cautiven al público y generen resultados. Ya sea que necesite un sitio web corporativo elegante y profesional, una plataforma de comercio electrónico dinámica o una aplicación web de vanguardia, tenemos la experiencia y las capacidades para hacer realidad su visión. Seguimos las mejores prácticas de la industria y los estándares web más recientes para garantizar que su sitio web responda, sea fácil de usar y esté optimizado para el rendimiento en todos los dispositivos. Desde el desarrollo front-end utilizando marcos modernos hasta la programación back-end y la integración del sistema de gestión de contenido, aprovechamos nuestra experiencia para crear sitios web que mejoren su marca, atraigan a sus usuarios y logren sus objetivos comerciales.",
@@ -816,7 +816,7 @@ const trans = {
 		cloudHostingText5: "Verwaltete Dienste und Support: Unsere Cloud-Hosting-Services umfassen Managed Services und dedizierten Support, der sich um Servermanagement, Überwachung, Backups und Leistungsoptimierung kümmert.",
 		cloudHostingLastStatement: "Erhalten Sie jetzt einen Kostenvoranschlag für Cloud Hosting Projekt",
 		cloudHostingContact: "Einen Termin Vereinbaren",
-	// WEB DEVELOPMENT
+		// WEB DEVELOPMENT
 		webDevelopmentTitle: "Web Development",
 		webDevelopmentBoldTitle: "Ihre Website ist das digitale Gesicht Ihres Unternehmens, und wir bei Tissen sind darauf spezialisiert, wirkungsvolle und individuelle Weblösungen zu entwickeln.",
 		webDevelopmentText: "Unser erfahrenes Team von Webentwicklern kombiniert technisches Know-how mit kreativem Gespür, um Websites zu erstellen, welche die Aufmerksamkeit erregen  und zu Ergebnissen führen. Ganz gleich, ob Sie eine elegante und professionelle Unternehmenswebsite, eine dynamische E-Commerce-Plattform oder eine hochmoderne Webanwendung benötigen - wir haben die Erfahrung und die Fähigkeiten, um Ihre Vision zum Leben zu erwecken. Wir befolgen die besten Praktiken der Branche und die neuesten Webstandards, um sicherzustellen, dass Ihre Website responsive, benutzerfreundlich und für die Leistung auf allen Geräten optimiert ist. Von der Front-End-Entwicklung unter Verwendung moderner Frameworks bis hin zur Back-End-Programmierung und der Integration von Content-Management-Systemen setzen wir unser Fachwissen ein, um Websites zu erstellen, die Ihre Marke stärken, Ihre Benutzer ansprechen und Ihre Geschäftsziele erreichen.",
