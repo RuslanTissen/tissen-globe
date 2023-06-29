@@ -1,5 +1,5 @@
 import React from 'react'
-import "./SoftwareTextBox2.scss"
+import "./ModelTextBox2.scss"
 import { ContainerDiv } from '../../../../styledComponents/ContainerDiv.styled'
 
 function SoftwareTextBox2(props) {

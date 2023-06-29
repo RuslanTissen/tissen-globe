@@ -1,5 +1,5 @@
 import React from 'react'
-import "./SoftwareVideo.scss"
+import "./ModelVideo.scss"
 import { ContainerDiv } from '../../../../styledComponents/ContainerDiv.styled'
 // import softwareVideo from "../../../../videos/softwareVideo.mp4"
 import ReactPlayer from 'react-player'

@@ -1,10 +1,10 @@
 import React from 'react'
-import SoftwarePicture from '../softwareDevelopment/softwarePicture/SoftwarePicture'
-import SoftwareTextBox1 from '../softwareDevelopment/softwareTextBox1/SoftwareTextBox1'
-import SoftwareTextBox2 from '../softwareDevelopment/softwareTextBox2/SoftwareTextBox2'
-import SoftwareVideo from '../softwareDevelopment/softwareVideo/SoftwareVideo'
-import SoftwareLastPicture from '../softwareDevelopment/softwareLastPicture/SoftwareLastPicture'
-import mobileDevelopmentVideo from "../../../videos/mobileDevelopmentVideo.mp4"
+import SoftwarePicture from './modulesForByServices/modelPicture/ModelPicture'
+import SoftwareTextBox1 from './modulesForByServices/modelTextBox1/ModelTextBox1'
+import SoftwareTextBox2 from './modulesForByServices/modelTextBox2/ModelTextBox2'
+import SoftwareVideo from './modulesForByServices/modelVideo/ModelVideo'
+import SoftwareLastPicture from './modulesForByServices/modelLastPicture/ModelLastPicture'
+import mobileDevelopmentVideo from "../../videos/mobileDevelopmentVideo.mp4"
 
 function MobileDevelopment() {
 	return (

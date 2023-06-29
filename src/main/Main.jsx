@@ -8,11 +8,11 @@ import Services from '../components/Routes/services/Services'
 import Careers from '../components/Routes/careers/Careers'
 import How from '../components/Routes/how/How'
 import SoftwareDevelopment from '../components/RoutesByServices/SoftwareDevelopment'
-import NetworkSecurity from '../components/RoutesByServices/networkSecurity/NetworkSecurity'
-import CloudHosting from '../components/RoutesByServices/cloudHosting/CloudHosting'
-import WebDevelopment from '../components/RoutesByServices/webDevelopment/WebDevelopment'
-import MobileDevelopment from '../components/RoutesByServices/mobileDevelopment/MobileDevelopment'
-import UX_UI from '../components/RoutesByServices/ux-ui/UX_UI'
+import NetworkSecurity from '../components/RoutesByServices/NetworkSecurity'
+import CloudHosting from '../components/RoutesByServices/CloudHosting'
+import WebDevelopment from '../components/RoutesByServices/WebDevelopment'
+import MobileDevelopment from '../components/RoutesByServices/MobileDevelopment'
+import UX_UI from '../components/RoutesByServices/UX_UI'
 
 function Main() {
 	return (
