@@ -1,25 +1,14 @@
 import React, { useContext } from 'react'
 import "./StepsForServices.scss"
-import offer1 from "../../../../images/offer1.png"
-import offer2 from "../../../../images/offer2.png"
-import offer3 from "../../../../images/offer3.png"
-import offer4 from "../../../../images/offer4.png"
-import offer5 from "../../../../images/offer5.png"
-import offer6 from "../../../../images/offer6.png"
+// import offer1 from "../../../../images/offer1.png"
+// import offer2 from "../../../../images/offer2.png"
+// import offer3 from "../../../../images/offer3.png"
+// import offer4 from "../../../../images/offer4.png"
+// import offer5 from "../../../../images/offer5.png"
+// import offer6 from "../../../../images/offer6.png"
 import trans from '../../../Translate'
 import { Context } from '../../../Context'
 
-// function rotate(element) {
-// 	element.classList.toggle("rotate")
-// }
-
-// document.querySelectorAll("span").forEach(span => {
-// 	span.addEventListener("click", event => {
-// 		rotate(span)
-// 		// event.target.style.background= "red"
-// 		console.log("Check")
-// 	})
-// })
 function StepsForServices() {
 	const { lang } = useContext(Context)
 
@@ -30,57 +19,57 @@ function StepsForServices() {
 				<div className="steps__container__boxes">
 					<div className="steps__container__boxes__count"><span className='animation__span'>1</span></div>
 					<div className="steps__container__boxes__text">
-						<h3 className='title__midle__include'>{trans[lang].servicesRequermentsTitle}</h3>
-						<p className='text__include'>{trans[lang].servicesRequermentsText}</p>
+						<h3 className='h3_mixin_bold'>{trans[lang].servicesRequermentsTitle}</h3>
+						<p className='regular_text_mixin '>{trans[lang].servicesRequermentsText}</p>
 					</div>
 				</div>
 				<div className="steps__container__boxes">
 					<div className="steps__container__boxes__count"><span className='animation__span'>2</span></div>
 					<div className="steps__container__boxes__text">
-						<h3 className='title__midle__include'>{trans[lang].servicesSystemDesignTitle}</h3>
-						<p className='text__include'>{trans[lang].servicesSystemDesignText}</p>
+						<h3 className='h3_mixin_bold'>{trans[lang].servicesSystemDesignTitle}</h3>
+						<p className='regular_text_mixin'>{trans[lang].servicesSystemDesignText}</p>
 					</div>
 				</div>
 				<div className="steps__container__boxes">
 					<div className="steps__container__boxes__count"><span className='animation__span'>3</span></div>
 					<div className="steps__container__boxes__text">
-						<h3 className='title__midle__include'>{trans[lang].servicesDevelopmentTitle}</h3>
-						<p className='text__include'>{trans[lang].servicesDevelopmentText}</p>
+						<h3 className='h3_mixin_bold'>{trans[lang].servicesDevelopmentTitle}</h3>
+						<p className='regular_text_mixin'>{trans[lang].servicesDevelopmentText}</p>
 					</div>
 				</div>
 				<div className="steps__container__boxes">
 					<div className="steps__container__boxes__count"><span className='animation__span'>4</span></div>
 					<div className="steps__container__boxes__text">
-						<h3 className='title__midle__include'>{trans[lang].servicesTestingTitle}</h3>
-						<p className='text__include'>{trans[lang].servicesTestingText}</p>
+						<h3 className='h3_mixin_bold'>{trans[lang].servicesTestingTitle}</h3>
+						<p className='regular_text_mixin'>{trans[lang].servicesTestingText}</p>
 					</div>
 				</div>
 				<div className="steps__container__boxes">
 					<div className="steps__container__boxes__count"><span className='animation__span'>5</span></div>
 					<div className="steps__container__boxes__text">
-						<h3 className='title__midle__include'>{trans[lang].servicesDeploymentTitle}</h3>
-						<p className='text__include'>{trans[lang].servicesDeploymentText}</p>
+						<h3 className='h3_mixin_bold'>{trans[lang].servicesDeploymentTitle}</h3>
+						<p className='regular_text_mixin'>{trans[lang].servicesDeploymentText}</p>
 					</div>
 				</div>
 				<div className="steps__container__boxes">
 					<div className="steps__container__boxes__count"><span className='animation__span'>6</span></div>
 					<div className="steps__container__boxes__text">
-						<h3 className='title__midle__include'>{trans[lang].servicesMaintenenceTitle}</h3>
-						<p className='text__include'>{trans[lang].servicesMaintenenceText}</p>
+						<h3 className='h3_mixin_bold'>{trans[lang].servicesMaintenenceTitle}</h3>
+						<p className='regular_text_mixin'>{trans[lang].servicesMaintenenceText}</p>
 					</div>
 				</div>
 				<div className="steps__container__boxes">
 					<div className="steps__container__boxes__count"><span className='animation__span'> 7</span></div>
 					<div className="steps__container__boxes__text">
-						<h3 className='title__midle__include'>{trans[lang].servicesDocumentationTitle}</h3>
-						<p className='text__include'>{trans[lang].servicesDocumentationText}</p>
+						<h3 className='h3_mixin_bold'>{trans[lang].servicesDocumentationTitle}</h3>
+						<p className='regular_text_mixin'>{trans[lang].servicesDocumentationText}</p>
 					</div>
 				</div>
 				<div className="steps__container__boxes">
 					<div className="steps__container__boxes__count"><span className='animation__span'>8</span></div>
 					<div className="steps__container__boxes__text">
-						<h3 className='title__midle__include'>{trans[lang].servicesContinuousTitle}</h3>
-						<p className='text__include'>{trans[lang].servicesContinuousText}</p>
+						<h3 className='h3_mixin_bold'>{trans[lang].servicesContinuousTitle}</h3>
+						<p className='regular_text_mixin'>{trans[lang].servicesContinuousText}</p>
 					</div>
 				</div>
 

@@ -36,55 +36,50 @@ $widthMin: 480; //set small breakpoint. unitless value in pixels.
 $widthMax: 1024; //set large breakpoint. unitless value in pixels.
 
 @mixin font-size($valueMin, $valueMax) {
-	// turn mixin parameters into rem value.
 	$fontMin: $valueMin * $remBase;
 	$fontMax: $valueMax * $remBase;
 
-	// set minimum font size. give it rem value.
 	font-size: $valueMin * 1rem;
 
-	// set font size between min and max breakpoints.
 	@media (min-width: #{$widthMin}px) {
 		font-size: calc(
 			#{$fontMin}px + (#{$fontMax} - #{$fontMin}) * ((100vw - #{$widthMin}px) / (#{$widthMax} - #{$widthMin}))
 		);
 	}
 
-	// set font size above max breakpoint
 	@media (min-width: #{$widthMax}px) {
 		font-size: $valueMax * 1rem;
 	}
 }
-// @mixin h2_import {
-// 	line-height: 34px;
-// 	letter-spacing: -0.8px;
-//  }
 
 .h2_mixin {
 	@include font-size(1.125, 1.875);
-	// line-height: 34px;
-	// letter-spacing: -0.8px;
 }
+
 .h3_mixin_bold {
 	@include font-size(1.125, 1.5);
-	@include padding-top(3rem);
-	@include padding-right(1rem);
-	@include padding-bottom(1rem);
-	@include padding-left(1rem);
 	font-weight: 600;
 	font-family: "Tomorrow", sans-serif;
+}
 
-	// line-height: 26px;
-	// letter-spacing: -0.5px;
+.h3_mixin_bold_with_padding {
+	@include font-size(1.125, 1.5);
+	padding-top: 3rem;
+	padding-bottom: 1rem;
+	padding-inline: 1rem;
+	font-weight: 600;
+	font-family: "Tomorrow", sans-serif;
 }
 .regular_text_mixin {
+	@include font-size(1, 1.25);
+	font-weight: 300;
+	font-family: "Tomorrow", sans-serif;
+}
+.regular_text_mixin_With_padding {
 	@include font-size(1, 1.25);
 	@include padding(0.5rem);
 	font-weight: 300;
 	font-family: "Tomorrow", sans-serif;
-
-	// line-height: 30px;
-	// letter-spacing: -0.25px;
 }
 
 // ----------------------- END MIXIN FONT SISE ------------------

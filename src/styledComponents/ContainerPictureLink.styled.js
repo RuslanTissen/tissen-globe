@@ -16,7 +16,7 @@ const ContainerPictureLink = styled.div`
 		width: fit-content;
 		text-transform: uppercase;
 		font-family: "Tomorrow", sans-serif;
-		padding: 0.7rem 5rem;
+		padding: clamp(.3rem, 2vw, .7rem) clamp(1.8rem, 5vw, 5rem);
 		font-weight: 500;
 		text-decoration: none;
 		background-color: #0a62d0;

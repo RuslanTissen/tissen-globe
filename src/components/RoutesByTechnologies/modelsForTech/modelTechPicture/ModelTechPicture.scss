@@ -1,0 +1,7 @@
+.modelTechPicture{
+	background-color: black;
+	padding: 2rem 1rem clamp(.5rem, 2vw, 2rem);
+	.modelTechPicture__container {
+		background-image: url("../../../../images/techmainPic.png");
+	}
+}

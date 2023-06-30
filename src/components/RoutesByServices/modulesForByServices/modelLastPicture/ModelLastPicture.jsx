@@ -4,13 +4,12 @@ import "./ModelLastPicture.scss"
 import { ContainerPictureLink } from '../../../../styledComponents/ContainerPictureLink.styled.js'
 import { NavLink } from 'react-router-dom';
 
+function SoftwareLastPicture(props) {
+let{titleH3, contact} =props
 
 const scrollToTheTop = () => {
 	window.scroll(0, 0)
 }
-
-function SoftwareLastPicture(props) {
-let{titleH3, contact} =props
 
 	return (
 		<div className='softwareLastPicture'>

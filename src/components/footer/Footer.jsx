@@ -3,7 +3,7 @@ import "./Footer.scss"
 import { NavLink } from 'react-router-dom'
 import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa'
 import logo from "../../images/logo.png"
-import {BsLinkedin} from "react-icons/bs"
+import { BsLinkedin } from "react-icons/bs"
 import trans from '../Translate.js';
 import { Context } from '../Context'
 
@@ -14,51 +14,55 @@ const scrollToTheTop = () => {
 function Footer() {
 	const { lang, setLang } = useContext(Context)
 
+	const scrollToTheTop = () => {
+		window.scroll(0, 0)
+	}
+
 	return (
 		<div className='footer'>
 			<div className="footer__container">
 				<div className="footer__container__section__1">
 					<div className="footer__container__section__1__column">
 						<h2>{trans[lang].footerServices}</h2>
-						<p>{trans[lang].footerSoftware}</p>
-						<p>{trans[lang].footerSecurity}</p>
-						<p>{trans[lang].footerCloud} </p>
-						<p>{trans[lang].footerWeb}</p>
-						<p>{trans[lang].footerMobile}</p>
-						<p>UX/UI</p>
+						<NavLink to="SoftwareDevelopment" onClick={scrollToTheTop}>{trans[lang].footerSoftware}</NavLink>
+						<NavLink to="NetworkSecurity" onClick={scrollToTheTop}>{trans[lang].footerSecurity}</NavLink>
+						<NavLink to="CloudHosting" onClick={scrollToTheTop}>{trans[lang].footerCloud} </NavLink>
+						<NavLink to="WebDevelopment" onClick={scrollToTheTop}>{trans[lang].footerWeb}</NavLink>
+						<NavLink to="MobileDevelopment" onClick={scrollToTheTop}>{trans[lang].footerMobile}</NavLink>
+						<NavLink to="UX_UI" onClick={scrollToTheTop}>UX/UI</NavLink>
 					</div>
 					<div className="footer__container__section__1__column">
 						<h2>{trans[lang].footerTechnologies}</h2>
-						<p>JS</p>
-						<p>HTML</p>
-						<p>CSS/SCSS</p>
-						<p>Python</p>
-						<p>Ruby</p>
-						<p>PHP</p>
-						<p>Node.js</p>
-						<p>C++</p>
-						<p>SQL</p>
-						<p>Oracle</p>
-						<p>GO</p>
-						<p>React Native</p>
+						<NavLink to="JS" onClick={scrollToTheTop}>JS</NavLink>
+						<NavLink to="#" onClick={scrollToTheTop}>HTML</NavLink>
+						<NavLink to="#" onClick={scrollToTheTop}>CSS/SCSS</NavLink>
+						<NavLink to="#" onClick={scrollToTheTop}>Python</NavLink>
+						<NavLink to="#" onClick={scrollToTheTop}>Ruby</NavLink>
+						<NavLink to="#" onClick={scrollToTheTop}>PHP</NavLink>
+						<NavLink to="#" onClick={scrollToTheTop}>Node.js</NavLink>
+						<NavLink to="#" onClick={scrollToTheTop}>C++</NavLink>
+						<NavLink to="#" onClick={scrollToTheTop}>SQL</NavLink>
+						<NavLink to="#" onClick={scrollToTheTop}>Oracle</NavLink>
+						<NavLink to="#" onClick={scrollToTheTop}>GO</NavLink>
+						<NavLink to="#" onClick={scrollToTheTop}>React Native</NavLink>
 					</div>
 					<div className="footer__container__section__1__column">
 						<h2>{trans[lang].footerCompany}</h2>
-						<div><NavLink to="services" onClick={scrollToTheTop}>{trans[lang].services}</NavLink></div>
-						<div><NavLink to="#" onClick={scrollToTheTop}>{trans[lang].footerHow}</NavLink></div>
-						<div><NavLink to="#" onClick={scrollToTheTop}>{trans[lang].footerCarrers}</NavLink></div>
-						<div><NavLink to='about' onClick={scrollToTheTop}>{trans[lang].footerAbout}</NavLink></div>
-						<div><NavLink to="contact" onClick={scrollToTheTop}>{trans[lang].footerContact}</NavLink></div>
+						<NavLink to="services" onClick={scrollToTheTop}>{trans[lang].services}</NavLink>
+						<NavLink to="#" onClick={scrollToTheTop}>{trans[lang].footerHow}</NavLink>
+						<NavLink to="#" onClick={scrollToTheTop}>{trans[lang].footerCarrers}</NavLink>
+						<NavLink to='about' onClick={scrollToTheTop}>{trans[lang].footerAbout}</NavLink>
+						<NavLink to="contact" onClick={scrollToTheTop}>{trans[lang].footerContact}</NavLink>
 					</div>
 				</div>
 
 				<div className="footer__container__section__2">
 					<div className="footer__container__section__2__logos">
-					<NavLink to="*" onClick={scrollToTheTop}><img src={logo} /></NavLink> 
-					<a><FaInstagram /></a>
-					<a><FaTwitter /></a>
-					<a><FaFacebookF /></a>
-					<a><BsLinkedin /></a>
+						<NavLink to="*" onClick={scrollToTheTop}><img src={logo} /></NavLink>
+						<a><FaInstagram /></a>
+						<a><FaTwitter /></a>
+						<a><FaFacebookF /></a>
+						<a><BsLinkedin /></a>
 					</div>
 					<div className="footer__container__section__2__email">
 						<h3>{trans[lang].footerEmail}</h3>
