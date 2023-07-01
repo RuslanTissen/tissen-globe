@@ -5,7 +5,7 @@
 		margin: 0 auto;
 		display: flex;
 		flex-wrap: wrap;
-		// gap: 1rem;
+		gap: clamp(0.5rem, 2vw, 1rem);
 		padding: 1rem;
 		h2 {
 			flex: 1 1 100%;
@@ -14,41 +14,35 @@
 			margin: 4rem 0 0;
 			font-weight: 500;
 			color: white;
-			transition: all .3s ease-in-out;
+			transition: all 0.3s ease-in-out;
 		}
-		h2:hover{
+		h2:hover {
 			scale: 1.05;
 		}
 		.howAdvantages__container__boxes {
-			flex: 1 1 48%;
-			min-width: 280px;
-			// border: none;
+			flex: 1 1 49%;
 			transition: all 0.3s ease-out;
 			text-align: center;
-			padding: 5%;
+			padding: clamp(1rem, 1vw, 2rem) clamp(1rem, 3vw, 3rem);
 			img {
 				margin: 0 auto 1rem;
-				width: 22%;
-				min-width: 4rem;
-				max-width: 7rem;
+				width: clamp(5rem, 22%, 7rem);
 				display: block;
 			}
 			h3 {
-				font-weight: 600;
+				font-weight: 500;
 				font-family: "Gruppo", sans-serif;
-				// font-size: 2.5rem;
+				font-size: clamp(2rem, 4vw, 3.5rem);
 				margin: 0;
 				color: white;
 			}
 			p {
-				max-width: 600px;
 				font-family: "Tomorrow", sans-serif;
 				line-height: 1.1em;
-				// font-size: 1.3rem;
+				font-size: clamp(0.8rem, 2vw, 1.3rem);
 				font-weight: 300;
 				color: white;
 			}
-			// }
 		}
 		.services__branches__coontainer__boxes:hover {
 			background-color: rgb(245, 244, 244);
