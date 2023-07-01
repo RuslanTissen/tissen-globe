@@ -2,9 +2,15 @@ import React from 'react'
 import ReactPlayer from 'react-player'
 import "./ModelVideoTech.scss"
 import { One_TwoBlocksContainer } from '../../../../styledComponents/One+TwoBlocksContainer'
+import { NavLink } from 'react-router-dom'
 
 function ModelVideoTech(props) {
-	let { videoSRC } = props
+	let { videoSRC, contact } = props
+
+	const scrollToTheTop = () => {
+		window.scroll(0, 0)
+	}
+	
 	return (
 		<One_TwoBlocksContainer className='modelVideoTech '>
 			<div className="modelVideoTech__container">
@@ -17,7 +23,7 @@ function ModelVideoTech(props) {
 					height="100%"
 				/>
 
-				<a href="#">get more information</a>
+				<NavLink to="/Contact" onClick={scrollToTheTop}>{contact}</NavLink>
 
 			</div>
 		</One_TwoBlocksContainer>

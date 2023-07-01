@@ -18,6 +18,7 @@ function JS() {
 
 			<ModelVideoTech
 				videoSRC={techVideo}
+				contact={"get more information"}
 			/>
 
 			<ModelTechPicture2
