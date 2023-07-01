@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 const One_TwoBlocksContainer = styled.div`
 	background-color: white;
 	div {
@@ -26,7 +25,7 @@ const One_TwoBlocksContainer = styled.div`
 			text-transform: uppercase;
 			font-family: "Tomorrow", sans-serif;
 			padding: clamp(.3rem, 1vw, .8rem) clamp(1.8rem, 5vw, 4rem);
-			font-size: clamp(.8rem, 1vw, 1.2rem);
+			font-size: clamp(.7rem, 1vw, 1.2rem);
 			font-weight: 600;
 			letter-spacing: 1px;
 			text-decoration: none;
