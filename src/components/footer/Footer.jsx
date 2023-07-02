@@ -7,10 +7,6 @@ import { BsLinkedin } from "react-icons/bs"
 import trans from '../Translate.js';
 import { Context } from '../Context'
 
-const scrollToTheTop = () => {
-	window.scrollTo(0, 0)
-}
-
 function Footer() {
 	const { lang, setLang } = useContext(Context)
 
@@ -77,46 +73,8 @@ function Footer() {
 
 			</div>
 
-
-
-
-
-
-
-
-
 		</div>
 	)
 }
 
 export default Footer
-
-
-
-{/* <ul className="footer__container__1">
-				<li onClick={scrollToTop}><NavLink to="*">Tissen</NavLink> </li>
-			</ul>
-
-			<ul className="footer__container__2">
-				<li>Discover</li>
-				<li><NavLink>Products</NavLink></li>
-				<li><NavLink>Services</NavLink></li>
-				<li><NavLink>Support</NavLink></li>
-			</ul>
-
-			<ul className="footer__container__3">
-				<li>About</li>
-				<li><NavLink>Career</NavLink></li>
-				<li><NavLink>Business Partners</NavLink></li>
-				<li><NavLink>Latest news</NavLink></li>
-				<li><NavLink>Blogs</NavLink></li>
-				<li><NavLink>About Tissen</NavLink></li>
-			</ul>
-			<ul className="footer__container__4">
-				<li><a><FaFacebookF /></a></li>
-				<li><a><FaTwitter /></a></li>
-				<li><a><FaLinkedinIn /></a></li>
-				<li><a><FaTelegram /></a></li>
-				<li><a><FaInstagram /></a></li>
-				
-			</ul> */}
