@@ -1,9 +1,11 @@
 import React from 'react'
+import { One_TwoImagesContainer } from '../../../../styledComponents/One_TwoImagesContainer'
+// import "./ModelLastBlock.scss"
 
 function ModelLastBlock(props) {
 	let { h3Text, chart, logo } = props
 	return (
-		<div className='modelLastBlock'>
+		<One_TwoImagesContainer className='modelLastBlock'>
 			<div className="modelLastBlock__container">
 				<h3>{h3Text}</h3>
 
@@ -16,7 +18,7 @@ function ModelLastBlock(props) {
 				</div>
 			</div>
 
-		</div>
+		</One_TwoImagesContainer>
 	)
 }
 

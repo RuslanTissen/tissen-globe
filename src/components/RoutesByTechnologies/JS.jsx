@@ -8,7 +8,7 @@ import pic2 from "../../images/techPicture2Small2.png"
 import pic3 from "../../images/techPicture2Small3.png"
 import pic4 from "../../images/techPicture2Small4.png"
 import ModelLastBlock from './modelsForTech/modelLastBlock/ModelLastBlock.jsx'
-import chart  from "../../images/jsChart.jpg"
+import chart from "../../images/jsChart.jpg"
 import logo from "../../images/jsLogo.png"
 
 function JS() {
@@ -20,7 +20,7 @@ function JS() {
 			/>
 
 			<ModelVideoTech
-			h3Text={"JavaScript is a high-level, interpreted programming language that is primarily used for developing dynamic and interactive web applications. It is often referred to as the language of the web because it enables developers to add functionality and interactivity 	to websites."}
+				h3Text={"JavaScript is a high-level, interpreted programming language that is primarily used for developing dynamic and interactive web applications. It is often referred to as the language of the web because it enables developers to add functionality and interactivity 	to websites."}
 				videoSRC={techVideo}
 				contact={"get more information"}
 			/>
@@ -36,11 +36,11 @@ function JS() {
 				text4={"Client-side scripting: JavaScript code runs on the client-side (in the user's web browser) and can interact with the Document Object Model (DOM) to manipulate webpage elements, handle user events, and dynamically update the content of web pages."}
 			/>
 
-<ModelLastBlock
-h3Text={"JavaScript continues to evolve with new features and enhancements being added regularly. It is a powerful language for web development, enabling developers to create interactive and engaging web applications."}
-chart={chart}
-logo={logo}
-/>
+			<ModelLastBlock
+				h3Text={"JavaScript continues to evolve with new features and enhancements being added regularly. It is a powerful language for web development, enabling developers to create interactive and engaging web applications."}
+				chart={chart}
+				logo={logo}
+			/>
 
 		</div>
 	)

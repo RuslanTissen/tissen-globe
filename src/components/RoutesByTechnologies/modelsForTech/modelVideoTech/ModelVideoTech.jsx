@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactPlayer from 'react-player'
 import "./ModelVideoTech.scss"
-import { One_TwoBlocksContainer } from '../../../../styledComponents/One+TwoBlocksContainer'
+import { One_TwoBlocksVideoContainer } from '../../../../styledComponents/One+TwoBlocksVideoContainer'
 import { NavLink } from 'react-router-dom'
 
 function ModelVideoTech(props) {
@@ -12,7 +12,7 @@ function ModelVideoTech(props) {
 	}
 
 	return (
-		<One_TwoBlocksContainer className='modelVideoTech '>
+		<One_TwoBlocksVideoContainer className='modelVideoTech '>
 			<div className="modelVideoTech__container">
 				<h3>{h3Text}</h3>
 
@@ -26,7 +26,7 @@ function ModelVideoTech(props) {
 				<NavLink to="/Contact" onClick={scrollToTheTop}>{contact}</NavLink>
 
 			</div>
-		</One_TwoBlocksContainer>
+		</One_TwoBlocksVideoContainer>
 	)
 }
 

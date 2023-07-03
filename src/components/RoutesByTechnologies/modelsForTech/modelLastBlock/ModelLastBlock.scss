@@ -1,0 +1,35 @@
+.modelLastBlock {
+	background-color: white;
+	div {
+		max-width: 1500px;
+		height: fit-content;
+		margin: 0 auto;
+		padding: clamp(1rem, 2vw, 3rem) clamp(1rem, 5vw, 5rem);
+		display: flex;
+		flex-wrap: wrap;
+		gap: clamp(1rem, 1vw, 2rem);
+		h3 {
+			flex: 1 1 100%;
+			font-family: "Tomorrow", sans-serif;
+			font-size: clamp(1rem, 4vw, 3rem);
+			font-weight: 400;
+			text-align: center;
+			padding: clamp(1rem, 2vw, 3rem) clamp(1rem, 5vw, 5rem);
+		}
+		.modelLastBlock__container__chart_box {
+			flex: 1 1 64%;
+			img{
+				width: 100%;
+				margin: auto;
+			}
+		}
+		.modelLastBlock__container__logo_box {
+			flex: 1 1 34%;
+			margin: auto;
+			img {
+				width: clamp(2.5rem, 15vw, 10rem);
+				margin: auto;
+			}
+		}
+	}
+}
