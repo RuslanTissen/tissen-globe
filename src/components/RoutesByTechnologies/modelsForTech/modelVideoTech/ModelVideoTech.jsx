@@ -5,16 +5,16 @@ import { One_TwoBlocksContainer } from '../../../../styledComponents/One+TwoBloc
 import { NavLink } from 'react-router-dom'
 
 function ModelVideoTech(props) {
-	let { videoSRC, contact } = props
+	let { videoSRC, contact, h3Text } = props
 
 	const scrollToTheTop = () => {
 		window.scroll(0, 0)
 	}
-	
+
 	return (
 		<One_TwoBlocksContainer className='modelVideoTech '>
 			<div className="modelVideoTech__container">
-				<h3>JavaScript is a high-level, interpreted programming language that is primarily used for developing dynamic and interactive web applications. It is often referred to as the language of the web because it enables developers to add functionality and interactivity to websites.</h3>
+				<h3>{h3Text}</h3>
 
 				<ReactPlayer
 					url={videoSRC}
