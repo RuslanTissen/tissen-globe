@@ -30,7 +30,7 @@ function Footer() {
 					<div className="footer__container__section__1__column">
 						<h2>{trans[lang].footerTechnologies}</h2>
 						<NavLink to="JS" onClick={scrollToTheTop}>JS</NavLink>
-						<NavLink to="#" onClick={scrollToTheTop}>HTML</NavLink>
+						<NavLink to="GCP" onClick={scrollToTheTop}>GCP</NavLink>
 						<NavLink to="#" onClick={scrollToTheTop}>CSS/SCSS</NavLink>
 						<NavLink to="#" onClick={scrollToTheTop}>Python</NavLink>
 						<NavLink to="#" onClick={scrollToTheTop}>Ruby</NavLink>

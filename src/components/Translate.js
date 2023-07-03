@@ -272,6 +272,32 @@ const trans = {
 		uxUiText5: "Usability Testing and Iteration: We conduct rigorous testing and gather user feedback to continuously improve the UX/UI design.",
 		uxUiLastStatement: "Get your UX/UI Project estimate now",
 		uxUiContact: "Lets meet",
+		// JS
+		JSTitle: "Javascript",
+		JSText1: "JavaScript is a high-level, interpreted programming language that is primarily used for developing dynamic and interactive web applications. It is often referred to as the language of the web because it enables developers to add functionality and interactivity to websites.",
+		TechContact: "get more information",
+		JSSmallText1: "Object-oriented: JavaScript supports object-oriented programming (OOP) principles, allowing developers to create and work with objects, classes, and inheritance.",
+		JSSmallText2: "Rich ecosystem: JavaScript has a vast ecosystem of libraries, frameworks, and tools that extend its capabilities and simplify development. Popular frameworks include React.js, AngularJS, and Vue.js.",
+		JSSmallText3: "Versatility: JavaScript is a versatile language that can be used for a wide range of applications, including web development, mobile app development, game development, server-side scripting, and more.",
+		JSSmallText4: "Client-side scripting: JavaScript code runs on the client-side (in the user's web browser) and can interact with the Document Object Model (DOM) to manipulate webpage elements, handle user events, and dynamically update the content of web pages.",
+		JSText2: "JavaScript continues to evolve with new features and enhancements being added regularly. It is a powerful language for web development, enabling developers to create interactive and engaging web applications.",
+		// GCP
+		GCPTitle: "GCP",
+		GCPText1: "GCP is a cloud computing platform offered by Google, providing a range of services and tools, including computing, storage, databases, artificial intelligence, and more, to host and operate applications and websites.",
+		GCPSmallText1: "Scalability and Flexibility: GCP offers a highly scalable and flexible infrastructure that allows businesses to expand or reduce their resources as needed. This enables e-commerce companies to adapt to changing demands and optimize the performance of their applications.",
+		GCPSmallText2: "Wide Range of Services: GCP provides a broad range of services, including computing, storage, databases, artificial intelligence, machine learning, security, and analytics. These services support the development and operation of e-commerce applications and offer extensive opportunities for scaling and managing data.",
+		GCPSmallText3: "Reliability and Security: GCP places a strong emphasis on reliability and security. The platform offers high availability with service level agreements (SLAs) and enables redundant data storage. Additionally, advanced security measures such as encryption, access controls, firewalls, and monitoring tools are provided to ensure data integrity and privacy.",
+		GCPSmallText4: "Integration with Other Google Services: GCP seamlessly integrates with other Google services, such as Google Analytics, Google Ads, and Google Maps. This integration allows e-commerce companies to create comprehensive solutions that leverage analytics, advertising, and geographical features to enhance the customer experience and optimize business outcomes.",
+		GCPText2: "GCP (Google Cloud Platform) offers high scalability, reliability, and security through its global infrastructure of data centers. With services like Compute Engine, Cloud Storage, BigQuery, and Machine Learning, GCP enables the processing of large amounts of data, the development of intelligent applications, and much more.",
+		//
+		Title: "",
+		Text1: "",
+		SmallText1: "",
+		SmallText2: "",
+		SmallText3: "",
+		SmallText4: "",
+		Text2: "",
+
 
 
 
@@ -563,8 +589,23 @@ const trans = {
 		uxUiText5: "Pruebas e iteraciones de usabilidad: realizamos pruebas rigurosas y recopilamos comentarios de los usuarios para mejorar continuamente el diseño de UX/UI.",
 		uxUiLastStatement: "Obtenga su presupuesto de projecto UX/UI ahora",
 		uxUiContact: "vamos a conocernos",
-
-
+		// JS
+		JSTitle: "Javascript",
+		JSText1: "JavaScript es un lenguaje de programación interpretado de alto nivel que se utiliza principalmente para desarrollar aplicaciones web dinámicas e interactivas. A menudo se lo conoce como el lenguaje de la web porque permite a los desarrolladores agregar funcionalidad e interactividad a los sitios web.",
+		TechContact: "Obtener mas informacion",
+		JSSmallText1: "Orientado a objetos: JavaScript admite los principios de la programación orientada a objetos (POO), lo que permite a los desarrolladores crear y trabajar con objetos, clases y herencia.",
+		JSSmallText2: "Rico ecosistema: JavaScript tiene un vasto ecosistema de bibliotecas, marcos y herramientas que amplían sus capacidades y simplifican el desarrollo. Los marcos populares incluyen React.js, AngularJS y Vue.js.",
+		JSSmallText3: "Versatilidad: JavaScript es un lenguaje versátil que se puede usar para una amplia gama de aplicaciones, incluido el desarrollo web, el desarrollo de aplicaciones móviles, el desarrollo de juegos, las secuencias de comandos del lado del servidor y más.",
+		JSSmallText4: "Secuencias de comandos del lado del cliente: el código JavaScript se ejecuta en el lado del cliente (en el navegador web del usuario) y puede interactuar con el modelo de objetos de documento (DOM) para manipular elementos de la página web, manejar eventos del usuario y actualizar dinámicamente el contenido de las páginas web.",
+		JSText2: "JavaScript continúa evolucionando con nuevas características y mejoras que se agregan regularmente. Es un lenguaje poderoso para el desarrollo web, que permite a los desarrolladores crear aplicaciones web interactivas y atractivas.",
+		// GCP
+		GCPTitle: "GCP",
+		GCPText1: "Node.js es un entorno de tiempo de ejecución del lado del servidor de código abierto que permite a los desarrolladores ejecutar código JavaScript en el servidor. Utiliza el motor JavaScript V8, que es el mismo motor que impulsa Google Chrome, para ejecutar código JavaScript fuera del contexto del navegador. Node.js permite a los desarrolladores crear aplicaciones escalables, eficientes y de alto rendimiento, especialmente servidores web y herramientas de red.",
+		GCPSmallText1: "Ecosistema NPM: Node Package Manager (NPM) es un administrador de paquetes que viene incluido con Node.js. Brinda acceso a un amplio ecosistema de bibliotecas y módulos reutilizables, lo que facilita la integración de funciones de terceros en las aplicaciones de Node.js.",
+		GCPSmallText2: "Escalabilidad y rendimiento: Node.js es conocido por su capacidad para manejar una gran cantidad de conexiones simultáneas con un bajo consumo de recursos. Está diseñado para ser altamente escalable, lo que permite que las aplicaciones manejen cargas de alto tráfico de manera eficiente.",
+		GCPSmallText3: "JavaScript en el servidor: Node.js permite a los desarrolladores usar JavaScript tanto en el lado del cliente (en el navegador) como en el lado del servidor, lo que brinda coherencia y agiliza el proceso de desarrollo.",
+		GCPSmallText4: "Asincrónico y basado en eventos: Node.js opera en una arquitectura sin bloqueos y basada en eventos, lo que le permite manejar una gran cantidad de conexiones simultáneas sin bloquearse. Esto lo hace ideal para crear aplicaciones en tiempo real y manejar tareas intensivas de E/S.",
+		GCPText2: "Node.js es ampliamente adoptado en la industria y se ha utilizado para crear muchas aplicaciones y marcos populares, incluidos Express.js, Nest.js y Socket.io. Permite a los desarrolladores crear aplicaciones del lado del servidor escalables y de alto rendimiento utilizando JavaScript.",
 
 
 
@@ -858,8 +899,23 @@ const trans = {
 		uxUiText5: "Usability-Tests und Iteration: Wir führen strenge Tests durch und sammeln Nutzerfeedback, um das UX/UI-Design kontinuierlich zu verbessern.",
 		uxUiLastStatement: "Erhalten Sie jetzt einen Kostenvoranschlag für Ihr UX/UI Projekt",
 		uxUiContact: "Einen Termin Vereinbaren",
-
-
+		// JS
+		JSTitle: "Javascript",
+		JSText1: "JavaScript ist eine hochrangige, interpretierte Programmiersprache, die hauptsächlich für die Entwicklung dynamischer und interaktiver Webanwendungen verwendet wird. Sie wird oft als die Sprache des Webs bezeichnet, da sie Entwicklern ermöglicht, Funktionalität und Interaktivität zu Websites hinzuzufügen.",
+		TechContact: "Mehr informationen",
+		JSSmallText1: "Objektorientiert: JavaScript unterstützt objektorientierte Programmierung (OOP) und ermöglicht es Entwicklern, Objekte, Klassen und Vererbung zu erstellen und damit zu arbeiten.",
+		JSSmallText2: "Umfangreiches Ökosystem: JavaScript verfügt über ein umfangreiches Ökosystem von Bibliotheken, Frameworks und Tools, die seine Möglichkeiten erweitern und die Entwicklung vereinfachen. Beliebte Frameworks sind React.js, AngularJS und Vue.js.",
+		JSSmallText3: "Vielseitigkeit: JavaScript ist eine vielseitige Sprache, die für eine Vielzahl von Anwendungen verwendet werden kann, einschließlich Webentwicklung, Entwicklung von mobilen Apps, Spieleentwicklung, serverseitigem Skripting und vielem mehr.",
+		JSSmallText4: "Clientseitiges Skripting: JavaScript-Code wird auf der Clientseite (im Webbrowser des Benutzers) ausgeführt und kann mit dem Document Object Model (DOM) interagieren, um Webseitenelemente zu manipulieren, Benutzerereignisse zu verarbeiten und den Inhalt von Webseiten dynamisch zu aktualisieren.",
+		JSText2: "JavaScript entwickelt sich ständig weiter und wird regelmäßig um neue Funktionen und Erweiterungen ergänzt. Es ist eine leistungsstarke Sprache für die Webentwicklung, die es Entwicklern ermöglicht, interaktive und ansprechende Webanwendungen zu erstellen.",
+		// GCP
+		GCPTitle: "GCP",
+		GCPText1: "GCP ist eine Cloud-Computing-Plattform von Google, die eine Vielzahl von Diensten und Tools zur Verfügung stellt, darunter Computing, Speicherung, Datenbanken, künstliche Intelligenz und vieles mehr, um Anwendungen und Websites zu hosten und zu betreiben.",
+		GCPSmallText1: "Skalierbarkeit und Flexibilität: GCP bietet eine hoch skalierbare und flexible Infrastruktur, die es Unternehmen ermöglicht, ihre Ressourcen nach Bedarf zu erweitern oder zu reduzieren. Dadurch können E-Commerce-Unternehmen auf sich ändernde Anforderungen reagieren und die Leistung ihrer Anwendungen optimieren.",
+		GCPSmallText2: "Breites Dienstangebot: GCP stellt eine breite Palette von Diensten zur Verfügung, darunter Computing, Speicherung, Datenbanken, künstliche Intelligenz, maschinelles Lernen, Sicherheit und Analysen. Diese Dienste unterstützen die Entwicklung und den Betrieb von E-Commerce-Anwendungen und bieten umfangreiche Möglichkeiten für die Skalierung und Verwaltung von Daten.",
+		GCPSmallText3: "Zuverlässigkeit und Sicherheit: GCP legt großen Wert auf Zuverlässigkeit und Sicherheit. Die Plattform bietet eine hohe Verfügbarkeit mit SLAs (Service Level Agreements) und ermöglicht die redundante Speicherung von Daten. Darüber hinaus werden fortschrittliche Sicherheitsmaßnahmen wie Verschlüsselung,Zugriffskontrollen, Firewalls und Überwachungstools bereitgestellt, um die Datenintegrität und den Datenschutz zu gewährleisten. GCP erfüllt auch verschiedene Compliance-Standards und bietet Tools zur Überwachung und Verwaltung der Sicherheit von Anwendungen.",
+		GCPSmallText4: "Integration mit anderen Google-Diensten: GCP lässt sich nahtlos in andere Google-Dienste wie Google Analytics, Google Ads und Google Maps integrieren. Diese Integration ermöglicht es E-Commerce-Unternehmen, umfassende Lösungen zu schaffen, die Analytik, Werbung und geografische Funktionen nutzen, um das Kundenerlebnis zu verbessern und Geschäftsergebnisse zu optimieren.",
+		GCPText2: "Die GCP bietet eine hohe Skalierbarkeit, Zuverlässigkeit und Sicherheit durch ihre globale Infrastruktur von Rechenzentren. Mit Services wie Compute Engine, Cloud Storage, BigQuery und Machine Learning ermöglicht die GCP die Verarbeitung großer Datenmengen, die Entwicklung intelligenter Anwendungen und vieles mehr.",
 
 
 

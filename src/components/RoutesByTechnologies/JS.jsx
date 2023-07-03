@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import ModelTechPicture from './modelsForTech/modelTechPicture/ModelTechPicture.jsx'
 import ModelVideoTech from './modelsForTech/modelVideoTech/ModelVideoTech.jsx'
 import techVideo from "../../videos/techVideo.mp4"
@@ -10,19 +10,24 @@ import pic4 from "../../images/techPicture2Small4.png"
 import ModelLastBlock from './modelsForTech/modelLastBlock/ModelLastBlock.jsx'
 import chart from "../../images/jsChart.jpg"
 import logo from "../../images/jsLogo.png"
+import trans from '../Translate'
+import { Context } from '../Context'
+
 
 function JS() {
+	const {lang} = useContext(Context)
+
 	return (
 		<div>
 
 			<ModelTechPicture
-				title={"Javascript"}
+				title={`${trans[lang].JSTitle}`}
 			/>
 
 			<ModelVideoTech
-				h3Text={"JavaScript is a high-level, interpreted programming language that is primarily used for developing dynamic and interactive web applications. It is often referred to as the language of the web because it enables developers to add functionality and interactivity 	to websites."}
+				h3Text={`${trans[lang].JSText1}`}
 				videoSRC={techVideo}
-				contact={"get more information"}
+				contact={`${trans[lang].TechContact}`}
 			/>
 
 			<ModelTechPicture2
@@ -30,14 +35,14 @@ function JS() {
 				pic2={pic2}
 				pic3={pic3}
 				pic4={pic4}
-				text1={"Object-oriented: JavaScript supports object-oriented programming (OOP) principles, allowing developers to create and work with objects, classes, and inheritance."}
-				text2={"Rich ecosystem: JavaScript has a vast ecosystem of libraries, frameworks, and tools that extend its capabilities and simplify development. Popular frameworks include React.js, AngularJS, and Vue.js."}
-				text3={"Versatility: JavaScript is a versatile language that can be used for a wide range of applications, including web development, mobile app development, game development, server-side scripting, and more."}
-				text4={"Client-side scripting: JavaScript code runs on the client-side (in the user's web browser) and can interact with the Document Object Model (DOM) to manipulate webpage elements, handle user events, and dynamically update the content of web pages."}
+				text1={`${trans[lang].JSSmallText1}`}
+				text2={`${trans[lang].JSSmallText2}`}
+				text3={`${trans[lang].JSSmallText3}`}
+				text4={`${trans[lang].JSSmallText4}`}
 			/>
 
 			<ModelLastBlock
-				h3Text={"JavaScript continues to evolve with new features and enhancements being added regularly. It is a powerful language for web development, enabling developers to create interactive and engaging web applications."}
+				h3Text={`${trans[lang].JSText2}`}
 				chart={chart}
 				logo={logo}
 			/>
