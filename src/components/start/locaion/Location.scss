@@ -13,9 +13,9 @@
 			flex: 1 1 100%;
 			width: inherit;
 			font-family: "Gruppo", sans-serif;
-			font-size: 2.5rem;
 			color: rgb(6, 27, 176);
 			font-weight: 500;
+			margin: 1rem auto;
 			text-align: center;
 			transition: all .3s ease-in-out;
 		}
@@ -57,9 +57,6 @@
 	@media (min-width: 650px) {
 		.location__container {
 			gap: 1.5rem;
-			h2 {
-				font-size: 3rem;
-			}
 			.location__container__boxes {
 				flex: 1 1 48%;
 				height: fit-content;
@@ -79,18 +76,11 @@
 					order: 2;
 				}
 			}
-			// .location__container__boxes:not(:last-child) {
-			// 	border-bottom: none;
-			// }
 		}
 	}
 	@media (min-width: 1100px) {
 		.location__container {
 			gap: 2rem;
-			h2 {
-				font-size: 5rem;
-				margin-bottom: 0;
-			}
 			.location__container__boxes {
 				flex: 1 1 31%;
 				max-width: 50%;

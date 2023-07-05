@@ -1,6 +1,6 @@
 import React from 'react'
 
-function TypeScript() {
+function Angular() {
   return (
 	 <div>
 
@@ -12,4 +12,4 @@ function TypeScript() {
   )
 }
 
-export default TypeScript
+export default Angular

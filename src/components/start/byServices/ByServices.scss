@@ -11,8 +11,8 @@
 			h2 {
 				color: white;
 				width: fit-content;
-				margin-inline: auto;
-				// text-align: center;
+				margin: 1rem auto;
+				text-align: center;
 				font-family: "Gruppo", sans-serif;
 				font-weight: 500;
 				transition: all 0.3s ease-out;
@@ -31,9 +31,6 @@
 			padding: 1rem;
 			img {
 				width: clamp(4rem, 10vw, 7rem);
-				// width: 22%;
-				// min-width: 4rem;
-				// max-width: 7rem;
 				margin: auto;
 				display: block;
 			}
@@ -43,6 +40,6 @@
 		}
 	}
 	.stepsMain__container__boxes:hover {
-		background-color: rgb(12, 12, 12);
+		background-color: rgb(31, 30, 30);
 	}
 }

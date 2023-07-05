@@ -29,7 +29,7 @@ function Footer() {
 					</div>
 					<div className="footer__container__section__1__column">
 						<h2>{trans[lang].footerTechnologies}</h2>
-						<NavLink to="#" onClick={scrollToTheTop}>Angular</NavLink>
+						<NavLink to="Angular" onClick={scrollToTheTop}>Angular</NavLink>
 						<NavLink to="#" onClick={scrollToTheTop}>Vue.js</NavLink>
 						<NavLink to="#" onClick={scrollToTheTop}>React Native</NavLink>
 						<NavLink to="JS" onClick={scrollToTheTop}>JavaScript</NavLink>

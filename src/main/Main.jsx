@@ -15,6 +15,7 @@ import MobileDevelopment from '../components/RoutesByServices/MobileDevelopment'
 import UX_UI from '../components/RoutesByServices/UX_UI'
 import JS from '../components/RoutesByTechnologies/JS.jsx'
 import GCP from '../components/RoutesByTechnologies/Microsoft_Azure'
+import Angular from '../components/RoutesByTechnologies/Angular'
 
 function Main() {
 	return (
@@ -33,7 +34,8 @@ function Main() {
 				<Route path='MobileDevelopment' element={<MobileDevelopment />} />
 				<Route path='UX_UI' element={<UX_UI />} />
 				<Route path='JS' element={<JS />} />
-				<Route path='Microsoft_Azure' element={<GCP/>}/>
+				<Route path='Microsoft_Azure' element={<GCP />} />
+				<Route path='Angular' element={<Angular />} />
 			</Routes>
 
 			{/* <Outlet />  */}

@@ -13,7 +13,7 @@ function Location() {
 	return (
 		<div className="location">
 			<div className="location__container">
-				<h2>{trans[lang].whereAreWe}</h2>
+				<h2 className='title__picture__include'>{trans[lang].whereAreWe}</h2>
 				<div className="location__container__boxes">
 					<img src={south_america} />
 					<p>{trans[lang].theTissen}</p>
