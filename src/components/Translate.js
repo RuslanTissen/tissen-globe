@@ -289,6 +289,25 @@ const trans = {
 		Microsoft_AzureSmallText3: "Global Presence: Azure has an extensive network of data centers worldwide, enabling global availability and low latency. Companies can host their applications and services close to their users or customers to ensure optimal performance.",
 		Microsoft_AzureSmallText4: "Integrated Services and Tools: Azure offers a wide range of integrated services and tools, including databases, artificial intelligence, analytics, security, and identity management. These services allow businesses to efficiently develop, deploy, and manage their applications and business processes.",
 		Microsoft_AzureText2: "With a robust infrastructure, strong security measures, and a wide range of services, Azure is a powerful solution for companies looking to drive their digital transformation and improve their business outcomes.",
+		// Angular
+		AngularTitle: "Angular",
+		AngularText1: "Angular is a TypeScript-based framework developed by Google for building single-page applications (SPAs) and creating interactive web applications.",
+		AngularSmallText1: "Structured Development: Angular provides a clear structure and consistent conventions that make web application development easier. By utilizing components, services, and modules, the code can be better organized and maintained.",
+		AngularSmallText2: "Extensive Functionality: Angular offers a wide range of features that facilitate the development of complex web applications. These include data binding, dependency injection, routing, form validation, animations, and testing. Using these features saves development time and increases productivity.",
+		AngularSmallText3: "Powerful Ecosystem: Angular has a large and active ecosystem maintained by Google and the developer community. There are a variety of extensions, libraries, and tools that simplify and extend development with Angular. Additionally, there is extensive documentation and an active community that provides support for questions and issues.",
+		AngularSmallText4: "Cross-Platform Support: Angular is not limited to web applications; it also allows for the development of mobile applications for iOS and Android. With tools like Ionic or NativeScript, developers can create cross-platform mobile applications using the same codebase.",
+		AngularText2: "Angular is a popular JavaScript framework for web development. It provides a structured approach and enables the construction of robust and scalable web applications. With features like data binding and routing, Angular is ideal for building dynamic and interactive applications.",
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		//
 		Title: "",
 		Text1: "",
@@ -606,7 +625,14 @@ const trans = {
 		Microsoft_AzureSmallText3: "JavaScript en el servidor: Node.js permite a los desarrolladores usar JavaScript tanto en el lado del cliente (en el navegador) como en el lado del servidor, lo que brinda coherencia y agiliza el proceso de desarrollo.",
 		Microsoft_AzureSmallText4: "Asincrónico y basado en eventos: Node.js opera en una arquitectura sin bloqueos y basada en eventos, lo que le permite manejar una gran cantidad de conexiones simultáneas sin bloquearse. Esto lo hace ideal para crear aplicaciones en tiempo real y manejar tareas intensivas de E/S.",
 		Microsoft_AzureText2: "Node.js es ampliamente adoptado en la industria y se ha utilizado para crear muchas aplicaciones y marcos populares, incluidos Express.js, Nest.js y Socket.io. Permite a los desarrolladores crear aplicaciones del lado del servidor escalables y de alto rendimiento utilizando JavaScript.",
-
+// Angular
+AngularTitle: "Angular",
+AngularText1: "Angular ist ein von Google entwickeltes TypeScript-basiertes Framework für die Entwicklung von Single-Page-Anwendungen (SPA) und die Erstellung von interaktiven Webanwendungen.",
+AngularSmallText1: "Strukturierte Entwicklung: Angular bietet eine klare Struktur und einheitliche Konventionen, die die Entwicklung von Webanwendungen erleichtern. Durch die Verwendung von Komponenten, Services und Modulen kann der Code besser organisiert und gewartet werden.",
+AngularSmallText2: "Umfangreiche Funktionalität: Angular bietet eine breite Palette von Funktionen, die die Entwicklung komplexer Webanwendungen erleichtern. Dazu gehören Datenbindung, Dependency Injection, Routing, Formularvalidierung, Animationen und Testing. Die Verwendung dieser Funktionen spart Entwicklungszeit und erhöht die Produktivität.",
+AngularSmallText3: "Leistungsstarkes Ökosystem: Angular verfügt über ein großes und aktives Ökosystem, das von Google und der Entwicklergemeinschaft gepflegt wird. Es gibt eine Vielzahl von Erweiterungen, Bibliotheken und Tools, die die Entwicklung mit Angular vereinfachen und erweitern. Außerdem gibt es eine umfangreiche Dokumentation und eine aktive Community, die bei Fragen und Problemen Unterstützung bietet.",
+AngularSmallText4: "Plattformübergreifende Unterstützung: Angular ist nicht nur auf Webanwendungen beschränkt, sondern ermöglicht auch die Entwicklung von mobilen Anwendungen für iOS und Android. Mit Tools wie Ionic oder NativeScript können Entwickler plattformübergreifende mobile Anwendungen erstellen und dabei dieselbe Codebasis nutzen.",
+AngularText2: "Angular ist ein beliebtes JavaScript-Framework für Webentwicklung. Es bietet eine strukturierte Herangehensweise und ermöglicht den Bau robuster und skalierbarer Webanwendungen. Mit Funktionen wie Datenbindung und Routing ist Angular ideal für dynamische und interaktive Anwendungen.",
 
 
 
@@ -916,7 +942,14 @@ const trans = {
 		Microsoft_AzureSmallText3: "Zuverlässigkeit und Sicherheit: GCP legt großen Wert auf Zuverlässigkeit und Sicherheit. Die Plattform bietet eine hohe Verfügbarkeit mit SLAs (Service Level Agreements) und ermöglicht die redundante Speicherung von Daten. Darüber hinaus werden fortschrittliche Sicherheitsmaßnahmen wie Verschlüsselung,Zugriffskontrollen, Firewalls und Überwachungstools bereitgestellt, um die Datenintegrität und den Datenschutz zu gewährleisten. GCP erfüllt auch verschiedene Compliance-Standards und bietet Tools zur Überwachung und Verwaltung der Sicherheit von Anwendungen.",
 		Microsoft_AzureSmallText4: "Integration mit anderen Google-Diensten: GCP lässt sich nahtlos in andere Google-Dienste wie Google Analytics, Google Ads und Google Maps integrieren. Diese Integration ermöglicht es E-Commerce-Unternehmen, umfassende Lösungen zu schaffen, die Analytik, Werbung und geografische Funktionen nutzen, um das Kundenerlebnis zu verbessern und Geschäftsergebnisse zu optimieren.",
 		Microsoft_AzureText2: "Die GCP bietet eine hohe Skalierbarkeit, Zuverlässigkeit und Sicherheit durch ihre globale Infrastruktur von Rechenzentren. Mit Services wie Compute Engine, Cloud Storage, BigQuery und Machine Learning ermöglicht die GCP die Verarbeitung großer Datenmengen, die Entwicklung intelligenter Anwendungen und vieles mehr.",
-
+// Angular
+AngularTitle: "",
+AngularText1: "",
+AngularSmallText1: "",
+AngularSmallText2: "",
+AngularSmallText3: "",
+AngularSmallText4: "",
+AngularText2: "",
 
 
 
