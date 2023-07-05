@@ -8,7 +8,7 @@ import ModelLastPicture from './modulesForByServices/modelLastPicture/ModelLastP
 import trans from '../Translate.js'
 import { Context } from '../Context'
 
-function NetworkSecurity() {
+function E_Commerce() {
 	const {lang} = useContext(Context)
 
 	return (
@@ -47,4 +47,4 @@ function NetworkSecurity() {
 	)
 }
 
-export default NetworkSecurity
+export default E_Commerce

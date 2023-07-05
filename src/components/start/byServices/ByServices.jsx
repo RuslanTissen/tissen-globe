@@ -27,9 +27,9 @@ const scrollToTheTop = () => {
 					<img src={offer1} />
 					<p className='text__include'>{trans[lang].softwareDevelopment}</p>
 				</NavLink>
-				<NavLink to="NetworkSecurity" onClick={scrollToTheTop}className="stepsMain__container__boxes">
+				<NavLink to="E_Commerce" onClick={scrollToTheTop}className="stepsMain__container__boxes">
 					<img src={offer2}/>
-					<p className='text__include'>{trans[lang].seguridadInformatica}</p>
+					<p className='text__include'>{trans[lang].e_commerceDevelopment}</p>
 				</NavLink>
 				<NavLink to="CloudHosting" onClick={scrollToTheTop}className="stepsMain__container__boxes">
 					<img src={offer3}/>

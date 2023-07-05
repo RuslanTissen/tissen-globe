@@ -8,7 +8,7 @@ import Services from '../components/Routes/services/Services'
 import Careers from '../components/Routes/careers/Careers'
 import How from '../components/Routes/how/How'
 import SoftwareDevelopment from '../components/RoutesByServices/SoftwareDevelopment'
-import NetworkSecurity from '../components/RoutesByServices/NetworkSecurity'
+import E_Commerce from '../components/RoutesByServices/E-Commerce'
 import CloudHosting from '../components/RoutesByServices/CloudHosting'
 import WebDevelopment from '../components/RoutesByServices/WebDevelopment'
 import MobileDevelopment from '../components/RoutesByServices/MobileDevelopment'
@@ -27,7 +27,7 @@ function Main() {
 				<Route path="About" element={<About />} />
 				<Route path="Contact" element={<Contact />} />
 				<Route path='SoftwareDevelopment' element={<SoftwareDevelopment />} />
-				<Route path='NetworkSecurity' element={<NetworkSecurity />} />
+				<Route path='E_Commerce' element={<E_Commerce />} />
 				<Route path='CloudHosting' element={<CloudHosting />} />
 				<Route path='WebDevelopment' element={<WebDevelopment />} />
 				<Route path='MobileDevelopment' element={<MobileDevelopment />} />
