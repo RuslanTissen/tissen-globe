@@ -12,10 +12,11 @@ import chart from "../../images/jsChart.jpg"
 import logo from "../../images/jsLogo.png"
 import trans from '../Translate'
 import { Context } from '../Context'
+import { TbBrandJavascript } from "react-icons/tb"
 
 
 function JS() {
-	const {lang} = useContext(Context)
+	const { lang } = useContext(Context)
 
 	return (
 		<div>
@@ -44,7 +45,7 @@ function JS() {
 			<ModelLastBlock
 				h3Text={`${trans[lang].JSText2}`}
 				chart={chart}
-				logo={logo}
+				logo={<TbBrandJavascript />}
 			/>
 
 		</div>

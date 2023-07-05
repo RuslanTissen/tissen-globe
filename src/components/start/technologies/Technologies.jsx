@@ -11,6 +11,11 @@ import { NavLink } from 'react-router-dom'
 
 function Technologies() {
 	const { lang, setLang } = useContext(Context)
+
+	const scrollToTheTop = () => {
+		window.scroll(0, 0)
+	}
+
 	return (
 		<div className="technologies">
 			<div className="technologies__container">
@@ -18,17 +23,17 @@ function Technologies() {
 					<h2 className='title__picture__include'>{trans[lang].byTechnologie}</h2>
 				</div>
 				<NavLink className="technologies__boxes"><TbBrandAngular /></NavLink>
-				<div className="technologies__boxes"><FaSwift /></div>
-				<div className="technologies__boxes"><TbBrandVue /></div>
-				<div className="technologies__boxes"><TbBrandReactNative /></div>
-				<div className="technologies__boxes"><TbBrandJavascript /></div>
-				<div className="technologies__boxes"><FaAws /></div>
-				<div className="technologies__boxes"><TbBrandFigma /></div>
-				<div className="technologies__boxes"><SiMui /></div>
-				<div className="technologies__boxes"><SiMicrosoftazure /></div>
-				<div className="technologies__boxes"><SiTableau /></div>
-				<div className="technologies__boxes"><FaPython /></div>
-				<div className="technologies__boxes"><GrMysql /></div>
+				<NavLink className="technologies__boxes"><FaSwift /></NavLink>
+				<NavLink className="technologies__boxes"><TbBrandVue /></NavLink>
+				<NavLink className="technologies__boxes"><TbBrandReactNative /></NavLink>
+				<NavLink to="JS" onClick={scrollToTheTop} className="technologies__boxes"><TbBrandJavascript /></NavLink>
+				<NavLink className="technologies__boxes"><FaAws /></NavLink>
+				<NavLink className="technologies__boxes"><TbBrandFigma /></NavLink>
+				<NavLink className="technologies__boxes"><SiMui /></NavLink>
+				<NavLink to="Microsoft_Azure" onClick={scrollToTheTop} className="technologies__boxes"><SiMicrosoftazure /></NavLink>
+				<NavLink className="technologies__boxes"><SiTableau /></NavLink>
+				<NavLink className="technologies__boxes"><FaPython /></NavLink>
+				<NavLink className="technologies__boxes"><GrMysql /></NavLink>
 			</div>
 		</div>
 	)
