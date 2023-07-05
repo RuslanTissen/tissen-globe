@@ -14,7 +14,7 @@ function ModelLastBlock(props) {
 				</div>
 
 				<div className="modelLastBlock__container__logo_box">
-					<img className='logoTechnologies' src={logo} alt="" />
+					{logo}
 				</div>
 			</div>
 

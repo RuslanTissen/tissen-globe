@@ -29,18 +29,18 @@ function Footer() {
 					</div>
 					<div className="footer__container__section__1__column">
 						<h2>{trans[lang].footerTechnologies}</h2>
-						<NavLink to="JS" onClick={scrollToTheTop}>JS</NavLink>
-						<NavLink to="GCP" onClick={scrollToTheTop}>GCP</NavLink>
-						<NavLink to="#" onClick={scrollToTheTop}>CSS/SCSS</NavLink>
-						<NavLink to="#" onClick={scrollToTheTop}>Python</NavLink>
-						<NavLink to="#" onClick={scrollToTheTop}>Ruby</NavLink>
-						<NavLink to="#" onClick={scrollToTheTop}>PHP</NavLink>
-						<NavLink to="#" onClick={scrollToTheTop}>Node.js</NavLink>
-						<NavLink to="#" onClick={scrollToTheTop}>C++</NavLink>
-						<NavLink to="#" onClick={scrollToTheTop}>SQL</NavLink>
-						<NavLink to="#" onClick={scrollToTheTop}>Oracle</NavLink>
-						<NavLink to="#" onClick={scrollToTheTop}>GO</NavLink>
+						<NavLink to="#" onClick={scrollToTheTop}>Angular</NavLink>
+						<NavLink to="#" onClick={scrollToTheTop}>Vue.js</NavLink>
 						<NavLink to="#" onClick={scrollToTheTop}>React Native</NavLink>
+						<NavLink to="JS" onClick={scrollToTheTop}>JavaScript</NavLink>
+						<NavLink to="#" onClick={scrollToTheTop}>AWS</NavLink>
+						<NavLink to="Microsoft_Azure" onClick={scrollToTheTop}>Microsoft Azure</NavLink>
+						<NavLink to="#" onClick={scrollToTheTop}>Figma</NavLink>
+						<NavLink to="#" onClick={scrollToTheTop}>Python</NavLink>
+						<NavLink to="#" onClick={scrollToTheTop}>Material-UI</NavLink>
+						<NavLink to="#" onClick={scrollToTheTop}>Swift</NavLink>
+						<NavLink to="#" onClick={scrollToTheTop}>MySQL</NavLink>
+						<NavLink to="#" onClick={scrollToTheTop}>Tableau</NavLink>
 					</div>
 					<div className="footer__container__section__1__column">
 						<h2>{trans[lang].footerCompany}</h2>

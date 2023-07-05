@@ -14,7 +14,7 @@ import WebDevelopment from '../components/RoutesByServices/WebDevelopment'
 import MobileDevelopment from '../components/RoutesByServices/MobileDevelopment'
 import UX_UI from '../components/RoutesByServices/UX_UI'
 import JS from '../components/RoutesByTechnologies/JS.jsx'
-import GCP from '../components/RoutesByTechnologies/GCP'
+import GCP from '../components/RoutesByTechnologies/Microsoft_Azure'
 
 function Main() {
 	return (
@@ -33,7 +33,7 @@ function Main() {
 				<Route path='MobileDevelopment' element={<MobileDevelopment />} />
 				<Route path='UX_UI' element={<UX_UI />} />
 				<Route path='JS' element={<JS />} />
-				<Route path='GCP' element={<GCP/>}/>
+				<Route path='Microsoft_Azure' element={<GCP/>}/>
 			</Routes>
 
 			{/* <Outlet />  */}

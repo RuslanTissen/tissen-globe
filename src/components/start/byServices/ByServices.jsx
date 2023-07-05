@@ -11,40 +11,42 @@ import { Context } from '../../Context'
 import { NavLink } from 'react-router-dom'
 
 function Steps() {
-const {lang, setLang} =useContext(Context)
+	const { lang, setLang } = useContext(Context)
 
-const scrollToTheTop = () => {
-	window.scroll(0, 0)
-}
+	const scrollToTheTop = () => {
+		window.scroll(0, 0)
+	}
 
 	return (
 		<div className='stepsMain'>
 
 			<div className="stepsMain__container">
-				<h2 className='title__picture__include'>{trans[lang].byServices}</h2>
+				<div className="stepsMain__container__title_box">
+					<h2 className='title__picture__include'>{trans[lang].byServices}</h2>
+				</div>
 
 				<NavLink to="SoftwareDevelopment" onClick={scrollToTheTop} className="stepsMain__container__boxes">
 					<img src={offer1} />
 					<p className='text__include'>{trans[lang].softwareDevelopment}</p>
 				</NavLink>
-				<NavLink to="E_Commerce" onClick={scrollToTheTop}className="stepsMain__container__boxes">
-					<img src={offer2}/>
+				<NavLink to="E_Commerce" onClick={scrollToTheTop} className="stepsMain__container__boxes">
+					<img src={offer2} />
 					<p className='text__include'>{trans[lang].e_commerceDevelopment}</p>
 				</NavLink>
-				<NavLink to="CloudHosting" onClick={scrollToTheTop}className="stepsMain__container__boxes">
-					<img src={offer3}/>
+				<NavLink to="CloudHosting" onClick={scrollToTheTop} className="stepsMain__container__boxes">
+					<img src={offer3} />
 					<p className='text__include'>{trans[lang].cloudHosting}</p>
 				</NavLink>
-				<NavLink to="WebDevelopment" onClick={scrollToTheTop}className="stepsMain__container__boxes">
-					<img src={offer4}/>
+				<NavLink to="WebDevelopment" onClick={scrollToTheTop} className="stepsMain__container__boxes">
+					<img src={offer4} />
 					<p className='text__include'>{trans[lang].desarrolloWeb}</p>
 				</NavLink>
-				<NavLink to="MobileDevelopment" onClick={scrollToTheTop}className="stepsMain__container__boxes">
-					<img src={offer5}/>
+				<NavLink to="MobileDevelopment" onClick={scrollToTheTop} className="stepsMain__container__boxes">
+					<img src={offer5} />
 					<p className='text__include'>{trans[lang].desarrolloMobile}</p>
 				</NavLink>
-				<NavLink to="UX_UI" onClick={scrollToTheTop}className="stepsMain__container__boxes">
-					<img src={offer6}/>
+				<NavLink to="UX_UI" onClick={scrollToTheTop} className="stepsMain__container__boxes">
+					<img src={offer6} />
 					<p className='text__include'>UX/UI</p>
 				</NavLink>
 			</div>

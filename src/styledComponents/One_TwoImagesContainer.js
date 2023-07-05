@@ -20,7 +20,7 @@ background-color: white;
 				margin-bottom: clamp(.1rem, 1vw, 1rem);
 			}
 			.modelLastBlock__container__chart_box {
-				flex: 1 1 65%;
+				flex: 1 1 54%;
 				img{
 					width: 100%;
 					margin: auto;
@@ -28,8 +28,8 @@ background-color: white;
 			}
 			.modelLastBlock__container__logo_box {
 				margin: auto;
-				img {
-					width: clamp(2.5rem, 15vw, 10rem);
+				svg {
+					font-size: clamp(2.5rem, 15vw, 15rem);
 					margin: auto;
 				}
 			}
