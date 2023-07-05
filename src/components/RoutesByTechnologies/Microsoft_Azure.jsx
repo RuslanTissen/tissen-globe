@@ -1,10 +1,10 @@
 import React, { useContext } from 'react'
-import techVideo from "../../videos/GCPVideo.mp4"
-import pic1 from "../../images/GCP1smallImage.png"
-import pic2 from "../../images/GCP2smallImage.png"
-import pic3 from "../../images/GCP3smallImage.png"
-import pic4 from "../../images/GCP4smallImage.png"
-import chart from "../../images/GCPLastBlockBigImg.png"
+import techVideo from "../../videos/MicrosoftVideo.mp4"
+import pic1 from "../../images/Microsoft1smallImage.png"
+import pic2 from "../../images/Microsoft2smallImage.png"
+import pic3 from "../../images/Microsoft3smallImage.png"
+import pic4 from "../../images/Microsoft4smallImage.png"
+import chart from "../../images/MicrosoftChart.png"
 import ModelTechPicture from './modelsForTech/modelTechPicture/ModelTechPicture'
 import ModelVideoTech from './modelsForTech/modelVideoTech/ModelVideoTech'
 import ModelTechPicture2 from './modelsForTech/modelTechPicture2/ModelTechPicture2'
