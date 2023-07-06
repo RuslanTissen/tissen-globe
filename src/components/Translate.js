@@ -305,14 +305,14 @@ const trans = {
 		JSSmallText3: "Versatility: JavaScript is a versatile language that can be used for a wide range of applications, including web development, mobile app development, game development, server-side scripting, and more.",
 		JSSmallText4: "Client-side scripting: JavaScript code runs on the client-side (in the user's web browser) and can interact with the Document Object Model (DOM) to manipulate webpage elements, handle user events, and dynamically update the content of web pages.",
 		JSText2: "JavaScript continues to evolve with new features and enhancements being added regularly. It is a powerful language for web development, enabling developers to create interactive and engaging web applications.",
-// AWS
-AWSTitle: "AWS",
-AWSText1: "AWS is a comprehensive cloud computing platform provided by Amazon, offering a variety of services, including computing, storage, databases, artificial intelligence, analytics, and more. It enables businesses to host and manage their applications and services in the cloud.",
-AWSSmallText1: "Scalability and Flexibility: AWS offers a scalable infrastructure that allows e-commerce companies to adjust their resources based on demand. By leveraging cloud computing services, businesses can easily scale their applications and workloads while saving costs.",
-AWSSmallText2: "Wide Range of Services: AWS provides a wide range of services, including computing, storage, databases, content delivery, artificial intelligence, and security. These services offer extensive capabilities for e-commerce application development and help businesses meet their requirements.",
-AWSSmallText3: "Reliability and High Availability: AWS places a strong emphasis on reliability and high availability. Through AWS's global infrastructure, businesses can host their applications in multiple regions, ensuring fault tolerance and high availability.",
-AWSSmallText4: "Security: AWS offers robust security measures to ensure data integrity and privacy. These include data encryption, access controls, firewalls, DDoS protection, identity and access management, and compliance certifications. AWS also provides tools and services for monitoring, analyzing, and responding to security incidents.",
-AWSText2: "With AWS, businesses can access a scalable and flexible infrastructure to efficiently manage their workloads. The platform is known for its high reliability, security, and global availability, thanks to its extensive network of data centers worldwide.",
+		// AWS
+		AWSTitle: "AWS",
+		AWSText1: "AWS is a comprehensive cloud computing platform provided by Amazon, offering a variety of services, including computing, storage, databases, artificial intelligence, analytics, and more. It enables businesses to host and manage their applications and services in the cloud.",
+		AWSSmallText1: "Scalability and Flexibility: AWS offers a scalable infrastructure that allows e-commerce companies to adjust their resources based on demand. By leveraging cloud computing services, businesses can easily scale their applications and workloads while saving costs.",
+		AWSSmallText2: "Wide Range of Services: AWS provides a wide range of services, including computing, storage, databases, content delivery, artificial intelligence, and security. These services offer extensive capabilities for e-commerce application development and help businesses meet their requirements.",
+		AWSSmallText3: "Reliability and High Availability: AWS places a strong emphasis on reliability and high availability. Through AWS's global infrastructure, businesses can host their applications in multiple regions, ensuring fault tolerance and high availability.",
+		AWSSmallText4: "Security: AWS offers robust security measures to ensure data integrity and privacy. These include data encryption, access controls, firewalls, DDoS protection, identity and access management, and compliance certifications. AWS also provides tools and services for monitoring, analyzing, and responding to security incidents.",
+		AWSText2: "With AWS, businesses can access a scalable and flexible infrastructure to efficiently manage their workloads. The platform is known for its high reliability, security, and global availability, thanks to its extensive network of data centers worldwide.",
 		// Microsoft_Azure
 		Microsoft_AzureTitle: "Microsoft Azure",
 		Microsoft_AzureText1: "Microsoft Azure is a cloud computing platform provided by Microsoft that offers a variety of cloud services such as virtual machines, storage, databases, and artificial intelligence. Businesses can use Azure to develop, deploy, and scale applications and manage their IT infrastructure in the cloud.",
@@ -321,16 +321,22 @@ AWSText2: "With AWS, businesses can access a scalable and flexible infrastructur
 		Microsoft_AzureSmallText3: "Global Presence: Azure has an extensive network of data centers worldwide, enabling global availability and low latency. Companies can host their applications and services close to their users or customers to ensure optimal performance.",
 		Microsoft_AzureSmallText4: "Integrated Services and Tools: Azure offers a wide range of integrated services and tools, including databases, artificial intelligence, analytics, security, and identity management. These services allow businesses to efficiently develop, deploy, and manage their applications and business processes.",
 		Microsoft_AzureText2: "With a robust infrastructure, strong security measures, and a wide range of services, Azure is a powerful solution for companies looking to drive their digital transformation and improve their business outcomes.",
-// Figma
-FigmaTitle: "Figma",
-FigmaText1: "Figma is a browser-based design and prototyping tool that allows designers to collaborate, create UI designs, prototype interactions, and seamlessly share the design with developers.",
-FigmaSmallText1: "Collaborative Design Platform: Figma is a collaborative design platform that allows designers to collaborate in real-time. Multiple users can work on a project simultaneously, provide feedback, and make changes, enhancing collaboration and efficiency.",
-FigmaSmallText2: "Prototyping and Interactions: Figma offers powerful prototyping features that enable designers to create interactive and user-friendly interfaces. By creating prototypes, users can test the design before development and optimize the user experience.",
-FigmaSmallText3: "User-Friendly Interface: Figma has a user-friendly interface and intuitive operation. The tool is easy to learn and provides a variety of features that facilitate design work, such as pre-built UI components, automatic adjustments, and drawing tools.",
-FigmaSmallText4: "Cross-Platform Availability: Figma is a browser-based application and can be used on various operating systems and devices. It allows access and collaboration from anywhere as long as there is an internet connection, providing flexibility for designers to work and collaborate from different locations.",
-FigmaText2: "Figma offers a variety of design features, including vector editing, layout grids, interactive components, and design libraries. It enables designers to create interactive prototypes and animations to test and validate their design ideas.",
-
-
+		// Figma
+		FigmaTitle: "Figma",
+		FigmaText1: "Figma is a browser-based design and prototyping tool that allows designers to collaborate, create UI designs, prototype interactions, and seamlessly share the design with developers.",
+		FigmaSmallText1: "Collaborative Design Platform: Figma is a collaborative design platform that allows designers to collaborate in real-time. Multiple users can work on a project simultaneously, provide feedback, and make changes, enhancing collaboration and efficiency.",
+		FigmaSmallText2: "Prototyping and Interactions: Figma offers powerful prototyping features that enable designers to create interactive and user-friendly interfaces. By creating prototypes, users can test the design before development and optimize the user experience.",
+		FigmaSmallText3: "User-Friendly Interface: Figma has a user-friendly interface and intuitive operation. The tool is easy to learn and provides a variety of features that facilitate design work, such as pre-built UI components, automatic adjustments, and drawing tools.",
+		FigmaSmallText4: "Cross-Platform Availability: Figma is a browser-based application and can be used on various operating systems and devices. It allows access and collaboration from anywhere as long as there is an internet connection, providing flexibility for designers to work and collaborate from different locations.",
+		FigmaText2: "Figma offers a variety of design features, including vector editing, layout grids, interactive components, and design libraries. It enables designers to create interactive prototypes and animations to test and validate their design ideas.",
+		// Python
+		PythonTitle: "Python",
+		PythonText1: "Python is a user-friendly programming language with a simple syntax and high readability. With a wide range of applications such as web development, data analysis, and machine learning, Python is a popular choice for developers due to its efficiency and versatility.",
+		PythonSmallText1: "Third-Party Libraries and Frameworks: Python has a rich ecosystem of third-party libraries and frameworks that extend its capabilities. Popular libraries like NumPy, pandas, matplotlib, and TensorFlow provide powerful tools for data analysis, scientific computing, and machine learning. Frameworks like Django and Flask are widely used for web development.",
+		PythonSmallText2: "Broad Range of Applications: Python is a general-purpose programming language, which means it can be used to develop a wide variety of applications. It is commonly used for web development, data analysis, artificial intelligence, machine learning, scientific computing, automation, and more.",
+		PythonSmallText3: "Extensive Standard Library: Python comes with a vast standard library that provides a wide range of pre-built modules and functions. These modules cover various areas such as string manipulation, file handling, networking, database access, and more. The standard library allows developers to leverage existing code and accelerate development.",
+		PythonSmallText4: "Easy to Learn and Readable Syntax: Python has a clean and intuitive syntax that emphasizes readability. Its code structure is designed to be easily understood, making it a beginner-friendly language and allowing developers to write code more quickly and efficiently.",
+		PythonText2: "Python is supported by a large and active community that continuously develops new modules and tools and provides a wealth of resources and support. It offers extensive libraries and frameworks that enable developers to efficiently build applications, analyze data, implement machine learning, and much more.",
 
 
 
@@ -672,14 +678,14 @@ FigmaText2: "Figma offers a variety of design features, including vector editing
 		JSSmallText3: "Versatilidad: JavaScript es un lenguaje versátil que se puede usar para una amplia gama de aplicaciones, incluido el desarrollo web, el desarrollo de aplicaciones móviles, el desarrollo de juegos, las secuencias de comandos del lado del servidor y más.",
 		JSSmallText4: "Secuencias de comandos del lado del cliente: el código JavaScript se ejecuta en el lado del cliente (en el navegador web del usuario) y puede interactuar con el modelo de objetos de documento (DOM) para manipular elementos de la página web, manejar eventos del usuario y actualizar dinámicamente el contenido de las páginas web.",
 		JSText2: "JavaScript continúa evolucionando con nuevas características y mejoras que se agregan regularmente. Es un lenguaje poderoso para el desarrollo web, que permite a los desarrolladores crear aplicaciones web interactivas y atractivas.",
-// AWS
-AWSTitle: "",
-AWSText1: "",
-AWSSmallText1: "",
-AWSSmallText2: "",
-AWSSmallText3: "",
-AWSSmallText4: "",
-AWSText2: "",
+		// AWS
+		AWSTitle: "",
+		AWSText1: "",
+		AWSSmallText1: "",
+		AWSSmallText2: "",
+		AWSSmallText3: "",
+		AWSSmallText4: "",
+		AWSText2: "",
 		// Microsoft_Azure
 		Microsoft_AzureTitle: "GCP",
 		Microsoft_AzureText1: "Node.js es un entorno de tiempo de ejecución del lado del servidor de código abierto que permite a los desarrolladores ejecutar código JavaScript en el servidor. Utiliza el motor JavaScript V8, que es el mismo motor que impulsa Google Chrome, para ejecutar código JavaScript fuera del contexto del navegador. Node.js permite a los desarrolladores crear aplicaciones escalables, eficientes y de alto rendimiento, especialmente servidores web y herramientas de red.",
@@ -688,15 +694,22 @@ AWSText2: "",
 		Microsoft_AzureSmallText3: "JavaScript en el servidor: Node.js permite a los desarrolladores usar JavaScript tanto en el lado del cliente (en el navegador) como en el lado del servidor, lo que brinda coherencia y agiliza el proceso de desarrollo.",
 		Microsoft_AzureSmallText4: "Asincrónico y basado en eventos: Node.js opera en una arquitectura sin bloqueos y basada en eventos, lo que le permite manejar una gran cantidad de conexiones simultáneas sin bloquearse. Esto lo hace ideal para crear aplicaciones en tiempo real y manejar tareas intensivas de E/S.",
 		Microsoft_AzureText2: "Node.js es ampliamente adoptado en la industria y se ha utilizado para crear muchas aplicaciones y marcos populares, incluidos Express.js, Nest.js y Socket.io. Permite a los desarrolladores crear aplicaciones del lado del servidor escalables y de alto rendimiento utilizando JavaScript.",
-// Figma
-FigmaTitle: "",
-FigmaText1: "",
-FigmaSmallText1: "",
-FigmaSmallText2: "",
-FigmaSmallText3: "",
-FigmaSmallText4: "",
-FigmaText2: "",
-
+		// Figma
+		FigmaTitle: "",
+		FigmaText1: "",
+		FigmaSmallText1: "",
+		FigmaSmallText2: "",
+		FigmaSmallText3: "",
+		FigmaSmallText4: "",
+		FigmaText2: "",
+// Python
+PythonTitle: "Python",
+PythonText1: "Python es un lenguaje de programación fácil de usar con una sintaxis sencilla y alta legibilidad. Con una amplia gama de aplicaciones como desarrollo web, análisis de datos y aprendizaje automático, Python es una opción popular para los desarrolladores debido a su eficiencia y versatilidad.",
+PythonSmallText1: "Bibliotecas y marcos de trabajo de terceros: Python tiene un rico ecosistema de bibliotecas y marcos de trabajo de terceros que amplían sus capacidades. Las bibliotecas populares como NumPy, pandas, matplotlib y TensorFlow brindan herramientas poderosas para el análisis de datos, la computación científica y el aprendizaje automático. Frameworks como Django y Flask son ampliamente utilizados para el desarrollo web.",
+PythonSmallText2: "Amplia gama de aplicaciones: Python es un lenguaje de programación de propósito general, lo que significa que se puede utilizar para desarrollar una amplia variedad de aplicaciones. Se usa comúnmente para desarrollo web, análisis de datos, inteligencia artificial, aprendizaje automático, computación científica, automatización y más.",
+PythonSmallText3: "Amplia biblioteca estándar: Python viene con una amplia biblioteca estándar que proporciona una amplia gama de módulos y funciones preconstruidos. Estos módulos cubren varias áreas, como manipulación de cadenas, manejo de archivos, redes, acceso a bases de datos y más. La biblioteca estándar permite a los desarrolladores aprovechar el código existente y acelerar el desarrollo.",
+PythonSmallText4: "Sintaxis fácil de aprender y legible: Python tiene una sintaxis limpia e intuitiva que enfatiza la legibilidad. Su estructura de código está diseñada para que se entienda fácilmente, lo que lo convierte en un lenguaje fácil de usar para principiantes y permite a los desarrolladores escribir código de manera más rápida y eficiente.",
+PythonText2: "Python cuenta con una comunidad grande y activa que desarrolla continuamente nuevos módulos y herramientas y brinda una gran cantidad de recursos y soporte. Ofrece amplias bibliotecas y frameworks que permiten a los desarrolladores construir aplicaciones de manera eficiente, analizar datos, implementar aprendizaje automático y mucho más.",
 
 
 
@@ -1020,14 +1033,14 @@ FigmaText2: "",
 		JSSmallText3: "Vielseitigkeit: JavaScript ist eine vielseitige Sprache, die für eine Vielzahl von Anwendungen verwendet werden kann, einschließlich Webentwicklung, Entwicklung von mobilen Apps, Spieleentwicklung, serverseitigem Skripting und vielem mehr.",
 		JSSmallText4: "Clientseitiges Skripting: JavaScript-Code wird auf der Clientseite (im Webbrowser des Benutzers) ausgeführt und kann mit dem Document Object Model (DOM) interagieren, um Webseitenelemente zu manipulieren, Benutzerereignisse zu verarbeiten und den Inhalt von Webseiten dynamisch zu aktualisieren.",
 		JSText2: "JavaScript entwickelt sich ständig weiter und wird regelmäßig um neue Funktionen und Erweiterungen ergänzt. Es ist eine leistungsstarke Sprache für die Webentwicklung, die es Entwicklern ermöglicht, interaktive und ansprechende Webanwendungen zu erstellen.",
-// AWS
-AWSTitle: "AWS",
-AWSText1: "Mit AWS können Unternehmen auf eine skalierbare und flexible Infrastruktur zugreifen, um ihre Workloads effizient zu verwalten. Die Plattform zeichnet sich durch hohe Zuverlässigkeit, Sicherheit und globale Verfügbarkeit aus, da sie über ein umfangreiches Netzwerk von Rechenzentren auf der ganzen Welt verfügt.",
-AWSSmallText1: "Skalierbarkeit und Flexibilität: AWS bietet eine skalierbare Infrastruktur, mit der E-Commerce-Unternehmen ihre Ressourcen je nach Bedarf anpassen können. Durch die Nutzung von Cloud Computing-Diensten können Unternehmen ihre Anwendungen und Workloads problemlos skalieren und gleichzeitig Kosten sparen.",
-AWSSmallText2: "Breites Dienstangebot: AWS stellt eine breite Palette von Diensten bereit, darunter Computing, Speicherung, Datenbanken, Content Delivery, künstliche Intelligenz und Sicherheit. Diese Dienste bieten umfangreiche Möglichkeiten für die Entwicklung und den Betrieb von E-Commerce-Anwendungen und unterstützen Unternehmen dabei, ihre Anforderungen zu erfüllen.",
-AWSSmallText3: "Zuverlässigkeit und Hochverfügbarkeit: AWS legt großen Wert auf Zuverlässigkeit und Hochverfügbarkeit. Durch die globale Infrastruktur von AWS können Unternehmen ihre Anwendungen in verschiedenen Regionen hosten und so Ausfallsicherheit und eine hohe Verfügbarkeit gewährleisten.",
-AWSSmallText4: "Sicherheit: AWS bietet robuste Sicherheitsmaßnahmen, um die Datenintegrität und den Datenschutz zu gewährleisten. Dazu gehören Verschlüsselung von Daten, Zugriffskontrollen, Firewalls, DDoS-Schutz, Identitäts- und Zugriffsmanagement sowie Compliance-Zertifizierungen. AWS stellt auch Tools und Services bereit, um Sicherheitsvorfälle zu überwachen, zu analysieren und darauf zu reagieren.",
-AWSText2: " Mit AWS können Unternehmen auf eine skalierbare und flexible Infrastruktur zugreifen, um ihre Workloads effizient zu verwalten. Die Plattform zeichnet sich durch hohe Zuverlässigkeit, Sicherheit und globale Verfügbarkeit aus, da sie über ein umfangreiches Netzwerk von Rechenzentren auf der ganzen Welt verfügt.",
+		// AWS
+		AWSTitle: "AWS",
+		AWSText1: "Mit AWS können Unternehmen auf eine skalierbare und flexible Infrastruktur zugreifen, um ihre Workloads effizient zu verwalten. Die Plattform zeichnet sich durch hohe Zuverlässigkeit, Sicherheit und globale Verfügbarkeit aus, da sie über ein umfangreiches Netzwerk von Rechenzentren auf der ganzen Welt verfügt.",
+		AWSSmallText1: "Skalierbarkeit und Flexibilität: AWS bietet eine skalierbare Infrastruktur, mit der E-Commerce-Unternehmen ihre Ressourcen je nach Bedarf anpassen können. Durch die Nutzung von Cloud Computing-Diensten können Unternehmen ihre Anwendungen und Workloads problemlos skalieren und gleichzeitig Kosten sparen.",
+		AWSSmallText2: "Breites Dienstangebot: AWS stellt eine breite Palette von Diensten bereit, darunter Computing, Speicherung, Datenbanken, Content Delivery, künstliche Intelligenz und Sicherheit. Diese Dienste bieten umfangreiche Möglichkeiten für die Entwicklung und den Betrieb von E-Commerce-Anwendungen und unterstützen Unternehmen dabei, ihre Anforderungen zu erfüllen.",
+		AWSSmallText3: "Zuverlässigkeit und Hochverfügbarkeit: AWS legt großen Wert auf Zuverlässigkeit und Hochverfügbarkeit. Durch die globale Infrastruktur von AWS können Unternehmen ihre Anwendungen in verschiedenen Regionen hosten und so Ausfallsicherheit und eine hohe Verfügbarkeit gewährleisten.",
+		AWSSmallText4: "Sicherheit: AWS bietet robuste Sicherheitsmaßnahmen, um die Datenintegrität und den Datenschutz zu gewährleisten. Dazu gehören Verschlüsselung von Daten, Zugriffskontrollen, Firewalls, DDoS-Schutz, Identitäts- und Zugriffsmanagement sowie Compliance-Zertifizierungen. AWS stellt auch Tools und Services bereit, um Sicherheitsvorfälle zu überwachen, zu analysieren und darauf zu reagieren.",
+		AWSText2: " Mit AWS können Unternehmen auf eine skalierbare und flexible Infrastruktur zugreifen, um ihre Workloads effizient zu verwalten. Die Plattform zeichnet sich durch hohe Zuverlässigkeit, Sicherheit und globale Verfügbarkeit aus, da sie über ein umfangreiches Netzwerk von Rechenzentren auf der ganzen Welt verfügt.",
 		// Microsoft_Azure
 		Microsoft_AzureText1: "GCP ist eine Cloud-Computing-Plattform von Google, die eine Vielzahl von Diensten und Tools zur Verfügung stellt, darunter Computing, Speicherung, Datenbanken, künstliche Intelligenz und vieles mehr, um Anwendungen und Websites zu hosten und zu betreiben.",
 		Microsoft_AzureSmallText1: "Skalierbarkeit und Flexibilität: GCP bietet eine hoch skalierbare und flexible Infrastruktur, die es Unternehmen ermöglicht, ihre Ressourcen nach Bedarf zu erweitern oder zu reduzieren. Dadurch können E-Commerce-Unternehmen auf sich ändernde Anforderungen reagieren und die Leistung ihrer Anwendungen optimieren.",
@@ -1036,15 +1049,22 @@ AWSText2: " Mit AWS können Unternehmen auf eine skalierbare und flexible Infras
 		Microsoft_AzureSmallText3: "Zuverlässigkeit und Sicherheit: GCP legt großen Wert auf Zuverlässigkeit und Sicherheit. Die Plattform bietet eine hohe Verfügbarkeit mit SLAs (Service Level Agreements) und ermöglicht die redundante Speicherung von Daten. Darüber hinaus werden fortschrittliche Sicherheitsmaßnahmen wie Verschlüsselung,Zugriffskontrollen, Firewalls und Überwachungstools bereitgestellt, um die Datenintegrität und den Datenschutz zu gewährleisten. GCP erfüllt auch verschiedene Compliance-Standards und bietet Tools zur Überwachung und Verwaltung der Sicherheit von Anwendungen.",
 		Microsoft_AzureSmallText4: "Integration mit anderen Google-Diensten: GCP lässt sich nahtlos in andere Google-Dienste wie Google Analytics, Google Ads und Google Maps integrieren. Diese Integration ermöglicht es E-Commerce-Unternehmen, umfassende Lösungen zu schaffen, die Analytik, Werbung und geografische Funktionen nutzen, um das Kundenerlebnis zu verbessern und Geschäftsergebnisse zu optimieren.",
 		Microsoft_AzureText2: "Die GCP bietet eine hohe Skalierbarkeit, Zuverlässigkeit und Sicherheit durch ihre globale Infrastruktur von Rechenzentren. Mit Services wie Compute Engine, Cloud Storage, BigQuery und Machine Learning ermöglicht die GCP die Verarbeitung großer Datenmengen, die Entwicklung intelligenter Anwendungen und vieles mehr.",
-// Figma
-FigmaTitle: "Figma",
-FigmaText1: "Figma ist ein browserbasiertes Design- und Prototyping-Tool, das es Designern ermöglicht, zusammenzuarbeiten, UI-Designs zu erstellen, Interaktionen zu prototypen und das Design nahtlos mit Entwicklern zu teilen.",
-FigmaSmallText1: "Kollaborative Designplattform: Figma ist eine kollaborative Designplattform, die es Designern ermöglicht, in Echtzeit zusammenzuarbeiten. Mehrere Benutzer können gleichzeitig an einem Projekt arbeiten, Feedback geben und Änderungen vornehmen, was die Zusammenarbeit und Effizienz verbessert.",
-FigmaSmallText2: "Prototyping und Interaktionen: Figma bietet leistungsstarke Prototyping-Funktionen, mit denen Designer interaktive und benutzerfreundliche Benutzeroberflächen erstellen können. Durch die Erstellung von Prototypen können Benutzer das Design vor der Entwicklung testen und das Benutzererlebnis optimieren.",
-FigmaSmallText3: "Benutzerfreundliche Oberfläche: Figma verfügt über eine benutzerfreundliche Oberfläche und eine intuitive Bedienung. Das Tool ist einfach zu erlernen und bietet eine Vielzahl von Funktionen, die die Designarbeit erleichtern, wie beispielsweise vorgefertigte UI-Komponenten, automatische Anpassungen und Zeichenwerkzeuge.",
-FigmaSmallText4: "Plattformübergreifende Verfügbarkeit: Figma ist eine browserbasierte Anwendung und kann auf verschiedenen Betriebssystemen und Geräten verwendet werden. Es ermöglicht den Zugriff und die Zusammenarbeit von überall aus, solange eine Internetverbindung besteht. Dadurch können Designer flexibel arbeiten und von verschiedenen Standorten aus zusammenarbeiten.",
-FigmaText2: "Figma verfügt über eine Vielzahl von Designfunktionen, darunter Vektorbearbeitung, Layoutraster, interaktive Komponenten und Design-Bibliotheken. Es ermöglicht Designern die Erstellung interaktiver Prototypen und Animationen, um ihre Designideen zu testen und zu validieren. ",
-
+		// Figma
+		FigmaTitle: "Figma",
+		FigmaText1: "Figma ist ein browserbasiertes Design- und Prototyping-Tool, das es Designern ermöglicht, zusammenzuarbeiten, UI-Designs zu erstellen, Interaktionen zu prototypen und das Design nahtlos mit Entwicklern zu teilen.",
+		FigmaSmallText1: "Kollaborative Designplattform: Figma ist eine kollaborative Designplattform, die es Designern ermöglicht, in Echtzeit zusammenzuarbeiten. Mehrere Benutzer können gleichzeitig an einem Projekt arbeiten, Feedback geben und Änderungen vornehmen, was die Zusammenarbeit und Effizienz verbessert.",
+		FigmaSmallText2: "Prototyping und Interaktionen: Figma bietet leistungsstarke Prototyping-Funktionen, mit denen Designer interaktive und benutzerfreundliche Benutzeroberflächen erstellen können. Durch die Erstellung von Prototypen können Benutzer das Design vor der Entwicklung testen und das Benutzererlebnis optimieren.",
+		FigmaSmallText3: "Benutzerfreundliche Oberfläche: Figma verfügt über eine benutzerfreundliche Oberfläche und eine intuitive Bedienung. Das Tool ist einfach zu erlernen und bietet eine Vielzahl von Funktionen, die die Designarbeit erleichtern, wie beispielsweise vorgefertigte UI-Komponenten, automatische Anpassungen und Zeichenwerkzeuge.",
+		FigmaSmallText4: "Plattformübergreifende Verfügbarkeit: Figma ist eine browserbasierte Anwendung und kann auf verschiedenen Betriebssystemen und Geräten verwendet werden. Es ermöglicht den Zugriff und die Zusammenarbeit von überall aus, solange eine Internetverbindung besteht. Dadurch können Designer flexibel arbeiten und von verschiedenen Standorten aus zusammenarbeiten.",
+		FigmaText2: "Figma verfügt über eine Vielzahl von Designfunktionen, darunter Vektorbearbeitung, Layoutraster, interaktive Komponenten und Design-Bibliotheken. Es ermöglicht Designern die Erstellung interaktiver Prototypen und Animationen, um ihre Designideen zu testen und zu validieren. ",
+// Python
+PythonTitle: "Python",
+PythonText1: "Python ist eine benutzerfreundliche Programmiersprache mit einer einfachen Syntax und hoher Lesbarkeit. Mit einer breiten Palette an Anwendungsbereichen wie Webentwicklung, Datenanalyse und maschinellem Lernen ist Python eine beliebte Wahl für Entwickler aufgrund seiner Effizienz und Vielseitigkeit.",
+PythonSmallText1: "Bibliotheken und Frameworks von Drittanbietern: Python verfügt über ein reichhaltiges Ökosystem an Bibliotheken und Frameworks von Drittanbietern, die seine Fähigkeiten erweitern. Beliebte Bibliotheken wie NumPy, Pandas, Matplotlib und TensorFlow bieten leistungsstarke Werkzeuge für Datenanalyse, wissenschaftliche Berechnungen und maschinelles Lernen. Frameworks wie Django und Flask werden häufig für die Webentwicklung verwendet.",
+PythonSmallText2: "Breites Spektrum an Anwendungen: Python ist eine Allzweckprogrammiersprache, d. h. sie kann für die Entwicklung einer Vielzahl von Anwendungen eingesetzt werden. Sie wird häufig für Webentwicklung, Datenanalyse, künstliche Intelligenz, maschinelles Lernen, wissenschaftliche Berechnungen, Automatisierung und vieles mehr verwendet.",
+PythonSmallText3: "Umfangreiche Standardbibliothek: Python verfügt über eine umfangreiche Standardbibliothek, die eine breite Palette an vorgefertigten Modulen und Funktionen bietet. Diese Module decken verschiedene Bereiche wie String-Manipulation, Dateiverarbeitung, Netzwerke, Datenbankzugriff und mehr ab. Die Standardbibliothek ermöglicht es Entwicklern, vorhandenen Code zu nutzen und die Entwicklung zu beschleunigen.",
+PythonSmallText4: "Leicht zu erlernende und lesbare Syntax: Python hat eine saubere und intuitive Syntax, bei der die Lesbarkeit im Vordergrund steht. Die Codestruktur ist so konzipiert, dass sie leicht zu verstehen ist, was sie zu einer anfängerfreundlichen Sprache macht und es Entwicklern ermöglicht, Code schneller und effizienter zu schreiben.",
+PythonText2: "Python wird von einer großen und aktiven Community unterstützt, die kontinuierlich neue Module und Tools entwickelt und eine Fülle von Ressourcen und Support bietet. Es bietet umfangreiche Bibliotheken und Frameworks, die Entwicklern ermöglichen, effizient Anwendungen zu entwickeln, Daten zu analysieren, maschinelles Lernen zu implementieren und vieles mehr.",
 
 
 

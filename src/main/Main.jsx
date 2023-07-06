@@ -20,6 +20,7 @@ import Vue from '../components/RoutesByTechnologies/Vue'
 import React_Native from '../components/RoutesByTechnologies/React_Native'
 import AWS from '../components/RoutesByTechnologies/AWS'
 import Figma from '../components/RoutesByTechnologies/Figma'
+import Python from '../components/RoutesByTechnologies/Python'
 
 function Main() {
 	return (
@@ -45,6 +46,7 @@ function Main() {
 				<Route path='AWS' element={<AWS />} />
 				<Route path='AWS' element={<AWS />} />
 				<Route path='Figma' element={<Figma />} />
+				<Route path='Python' element={<Python />} />
 			</Routes>
 
 			{/* <Outlet />  */}

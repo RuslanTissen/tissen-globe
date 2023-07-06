@@ -32,7 +32,7 @@ function Technologies() {
 				<NavLink onClick={scrollToTheTop} className="technologies__boxes"><SiMui /></NavLink>
 				<NavLink to="Microsoft_Azure" onClick={scrollToTheTop} className="technologies__boxes"><SiMicrosoftazure /></NavLink>
 				<NavLink onClick={scrollToTheTop} className="technologies__boxes"><SiTableau /></NavLink>
-				<NavLink onClick={scrollToTheTop} className="technologies__boxes"><FaPython /></NavLink>
+				<NavLink to="Python" onClick={scrollToTheTop} className="technologies__boxes"><FaPython /></NavLink>
 				<NavLink onClick={scrollToTheTop} className="technologies__boxes"><GrMysql /></NavLink>
 			</div>
 		</div>

@@ -36,7 +36,7 @@ function Footer() {
 						<NavLink to="AWS" onClick={scrollToTheTop}>AWS</NavLink>
 						<NavLink to="Microsoft_Azure" onClick={scrollToTheTop}>Microsoft Azure</NavLink>
 						<NavLink to="Figma" onClick={scrollToTheTop}>Figma</NavLink>
-						<NavLink to="#" onClick={scrollToTheTop}>Python</NavLink>
+						<NavLink to="Python" onClick={scrollToTheTop}>Python</NavLink>
 						<NavLink to="#" onClick={scrollToTheTop}>Material-UI</NavLink>
 						<NavLink to="#" onClick={scrollToTheTop}>Swift</NavLink>
 						<NavLink to="#" onClick={scrollToTheTop}>MySQL</NavLink>
