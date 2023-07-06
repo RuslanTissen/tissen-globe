@@ -272,6 +272,25 @@ const trans = {
 		uxUiText5: "Usability Testing and Iteration: We conduct rigorous testing and gather user feedback to continuously improve the UX/UI design.",
 		uxUiLastStatement: "Get your UX/UI Project estimate now",
 		uxUiContact: "Lets meet",
+		// Angular
+		AngularTitle: "Angular",
+		AngularText1: "Angular is a TypeScript-based framework developed by Google for building single-page applications (SPAs) and creating interactive web applications.",
+		AngularSmallText1: "Structured Development: Angular provides a clear structure and consistent conventions that make web application development easier. By utilizing components, services, and modules, the code can be better organized and maintained.",
+		AngularSmallText2: "Extensive Functionality: Angular offers a wide range of features that facilitate the development of complex web applications. These include data binding, dependency injection, routing, form validation, animations, and testing. Using these features saves development time and increases productivity.",
+		AngularSmallText3: "Powerful Ecosystem: Angular has a large and active ecosystem maintained by Google and the developer community. There are a variety of extensions, libraries, and tools that simplify and extend development with Angular. Additionally, there is extensive documentation and an active community that provides support for questions and issues.",
+		AngularSmallText4: "Cross-Platform Support: Angular is not limited to web applications; it also allows for the development of mobile applications for iOS and Android. With tools like Ionic or NativeScript, developers can create cross-platform mobile applications using the same codebase.",
+		AngularText2: "Angular is a popular JavaScript framework for web development. It provides a structured approach and enables the construction of robust and scalable web applications. With features like data binding and routing, Angular is ideal for building dynamic and interactive applications.",
+// Vue.js
+VueTitle: "Vue.js",
+VueText1: "Vue.js is an open-source JavaScript framework for developing user-friendly and responsive web applications. It focuses on easy integration and offers a flexible architecture.",
+VueSmallText1: "Easy Integration: Vue.js excels in easy integration. It can be incrementally introduced into existing projects without requiring a complete rewrite. Developers can also use Vue.js as a single widget within an existing web page.",
+VueSmallText2: "Lightweight and Fast: Vue.js is a lightweight framework that loads quickly and provides a responsive user experience. Compared to other frameworks, Vue.js is lighter and has a lower learning curve, which speeds up development.",
+VueSmallText3: "Flexibility and Adaptability: Vue.js offers a flexible architecture that allows developers to adjust the functionality and complexity of their applications as needed. The component-based structure enables modular development and code reusability.",
+VueSmallText4: "Community and Documentation: Vue.js has a growing developer community and extensive documentation, making it easier to get started and receive support. There are a wealth of resources, tutorials, and examples to help learn and effectively use Vue.js.",
+VueText2: "Vue.js is an open-source JavaScript framework for developing user-friendly and responsive web applications. It emphasizes easy integration and offers a flexible architecture.",
+
+
+
 		// JS
 		JSTitle: "Javascript",
 		JSText1: "JavaScript is a high-level, interpreted programming language that is primarily used for developing dynamic and interactive web applications. It is often referred to as the language of the web because it enables developers to add functionality and interactivity to websites.",
@@ -281,6 +300,11 @@ const trans = {
 		JSSmallText3: "Versatility: JavaScript is a versatile language that can be used for a wide range of applications, including web development, mobile app development, game development, server-side scripting, and more.",
 		JSSmallText4: "Client-side scripting: JavaScript code runs on the client-side (in the user's web browser) and can interact with the Document Object Model (DOM) to manipulate webpage elements, handle user events, and dynamically update the content of web pages.",
 		JSText2: "JavaScript continues to evolve with new features and enhancements being added regularly. It is a powerful language for web development, enabling developers to create interactive and engaging web applications.",
+
+
+
+
+
 		// Microsoft_Azure
 		Microsoft_AzureTitle: "Microsoft Azure",
 		Microsoft_AzureText1: "Microsoft Azure is a cloud computing platform provided by Microsoft that offers a variety of cloud services such as virtual machines, storage, databases, and artificial intelligence. Businesses can use Azure to develop, deploy, and scale applications and manage their IT infrastructure in the cloud.",
@@ -289,25 +313,17 @@ const trans = {
 		Microsoft_AzureSmallText3: "Global Presence: Azure has an extensive network of data centers worldwide, enabling global availability and low latency. Companies can host their applications and services close to their users or customers to ensure optimal performance.",
 		Microsoft_AzureSmallText4: "Integrated Services and Tools: Azure offers a wide range of integrated services and tools, including databases, artificial intelligence, analytics, security, and identity management. These services allow businesses to efficiently develop, deploy, and manage their applications and business processes.",
 		Microsoft_AzureText2: "With a robust infrastructure, strong security measures, and a wide range of services, Azure is a powerful solution for companies looking to drive their digital transformation and improve their business outcomes.",
-		// Angular
-		AngularTitle: "Angular",
-		AngularText1: "Angular is a TypeScript-based framework developed by Google for building single-page applications (SPAs) and creating interactive web applications.",
-		AngularSmallText1: "Structured Development: Angular provides a clear structure and consistent conventions that make web application development easier. By utilizing components, services, and modules, the code can be better organized and maintained.",
-		AngularSmallText2: "Extensive Functionality: Angular offers a wide range of features that facilitate the development of complex web applications. These include data binding, dependency injection, routing, form validation, animations, and testing. Using these features saves development time and increases productivity.",
-		AngularSmallText3: "Powerful Ecosystem: Angular has a large and active ecosystem maintained by Google and the developer community. There are a variety of extensions, libraries, and tools that simplify and extend development with Angular. Additionally, there is extensive documentation and an active community that provides support for questions and issues.",
-		AngularSmallText4: "Cross-Platform Support: Angular is not limited to web applications; it also allows for the development of mobile applications for iOS and Android. With tools like Ionic or NativeScript, developers can create cross-platform mobile applications using the same codebase.",
-		AngularText2: "Angular is a popular JavaScript framework for web development. It provides a structured approach and enables the construction of robust and scalable web applications. With features like data binding and routing, Angular is ideal for building dynamic and interactive applications.",
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
+
+
+
+
 		//
 		Title: "",
 		Text1: "",
@@ -608,6 +624,25 @@ const trans = {
 		uxUiText5: "Pruebas e iteraciones de usabilidad: realizamos pruebas rigurosas y recopilamos comentarios de los usuarios para mejorar continuamente el diseño de UX/UI.",
 		uxUiLastStatement: "Obtenga su presupuesto de projecto UX/UI ahora",
 		uxUiContact: "vamos a conocernos",
+		// Angular
+		AngularTitle: "",
+		AngularText1: "",
+		AngularSmallText1: "",
+		AngularSmallText2: "",
+		AngularSmallText3: "",
+		AngularSmallText4: "",
+		AngularText2: "",
+// Vue.js
+VueTitle: "",
+VueText1: "",
+VueSmallText1: "",
+VueSmallText2: "",
+VueSmallText3: "",
+VueSmallText4: "",
+VueText2: "",
+
+
+
 		// JS
 		JSTitle: "Javascript",
 		JSText1: "JavaScript es un lenguaje de programación interpretado de alto nivel que se utiliza principalmente para desarrollar aplicaciones web dinámicas e interactivas. A menudo se lo conoce como el lenguaje de la web porque permite a los desarrolladores agregar funcionalidad e interactividad a los sitios web.",
@@ -617,6 +652,10 @@ const trans = {
 		JSSmallText3: "Versatilidad: JavaScript es un lenguaje versátil que se puede usar para una amplia gama de aplicaciones, incluido el desarrollo web, el desarrollo de aplicaciones móviles, el desarrollo de juegos, las secuencias de comandos del lado del servidor y más.",
 		JSSmallText4: "Secuencias de comandos del lado del cliente: el código JavaScript se ejecuta en el lado del cliente (en el navegador web del usuario) y puede interactuar con el modelo de objetos de documento (DOM) para manipular elementos de la página web, manejar eventos del usuario y actualizar dinámicamente el contenido de las páginas web.",
 		JSText2: "JavaScript continúa evolucionando con nuevas características y mejoras que se agregan regularmente. Es un lenguaje poderoso para el desarrollo web, que permite a los desarrolladores crear aplicaciones web interactivas y atractivas.",
+
+
+
+
 		// Microsoft_Azure
 		Microsoft_AzureTitle: "GCP",
 		Microsoft_AzureText1: "Node.js es un entorno de tiempo de ejecución del lado del servidor de código abierto que permite a los desarrolladores ejecutar código JavaScript en el servidor. Utiliza el motor JavaScript V8, que es el mismo motor que impulsa Google Chrome, para ejecutar código JavaScript fuera del contexto del navegador. Node.js permite a los desarrolladores crear aplicaciones escalables, eficientes y de alto rendimiento, especialmente servidores web y herramientas de red.",
@@ -625,14 +664,6 @@ const trans = {
 		Microsoft_AzureSmallText3: "JavaScript en el servidor: Node.js permite a los desarrolladores usar JavaScript tanto en el lado del cliente (en el navegador) como en el lado del servidor, lo que brinda coherencia y agiliza el proceso de desarrollo.",
 		Microsoft_AzureSmallText4: "Asincrónico y basado en eventos: Node.js opera en una arquitectura sin bloqueos y basada en eventos, lo que le permite manejar una gran cantidad de conexiones simultáneas sin bloquearse. Esto lo hace ideal para crear aplicaciones en tiempo real y manejar tareas intensivas de E/S.",
 		Microsoft_AzureText2: "Node.js es ampliamente adoptado en la industria y se ha utilizado para crear muchas aplicaciones y marcos populares, incluidos Express.js, Nest.js y Socket.io. Permite a los desarrolladores crear aplicaciones del lado del servidor escalables y de alto rendimiento utilizando JavaScript.",
-// Angular
-AngularTitle: "Angular",
-AngularText1: "Angular ist ein von Google entwickeltes TypeScript-basiertes Framework für die Entwicklung von Single-Page-Anwendungen (SPA) und die Erstellung von interaktiven Webanwendungen.",
-AngularSmallText1: "Strukturierte Entwicklung: Angular bietet eine klare Struktur und einheitliche Konventionen, die die Entwicklung von Webanwendungen erleichtern. Durch die Verwendung von Komponenten, Services und Modulen kann der Code besser organisiert und gewartet werden.",
-AngularSmallText2: "Umfangreiche Funktionalität: Angular bietet eine breite Palette von Funktionen, die die Entwicklung komplexer Webanwendungen erleichtern. Dazu gehören Datenbindung, Dependency Injection, Routing, Formularvalidierung, Animationen und Testing. Die Verwendung dieser Funktionen spart Entwicklungszeit und erhöht die Produktivität.",
-AngularSmallText3: "Leistungsstarkes Ökosystem: Angular verfügt über ein großes und aktives Ökosystem, das von Google und der Entwicklergemeinschaft gepflegt wird. Es gibt eine Vielzahl von Erweiterungen, Bibliotheken und Tools, die die Entwicklung mit Angular vereinfachen und erweitern. Außerdem gibt es eine umfangreiche Dokumentation und eine aktive Community, die bei Fragen und Problemen Unterstützung bietet.",
-AngularSmallText4: "Plattformübergreifende Unterstützung: Angular ist nicht nur auf Webanwendungen beschränkt, sondern ermöglicht auch die Entwicklung von mobilen Anwendungen für iOS und Android. Mit Tools wie Ionic oder NativeScript können Entwickler plattformübergreifende mobile Anwendungen erstellen und dabei dieselbe Codebasis nutzen.",
-AngularText2: "Angular ist ein beliebtes JavaScript-Framework für Webentwicklung. Es bietet eine strukturierte Herangehensweise und ermöglicht den Bau robuster und skalierbarer Webanwendungen. Mit Funktionen wie Datenbindung und Routing ist Angular ideal für dynamische und interaktive Anwendungen.",
 
 
 
@@ -925,6 +956,24 @@ AngularText2: "Angular ist ein beliebtes JavaScript-Framework für Webentwicklun
 		uxUiText5: "Usability-Tests und Iteration: Wir führen strenge Tests durch und sammeln Nutzerfeedback, um das UX/UI-Design kontinuierlich zu verbessern.",
 		uxUiLastStatement: "Erhalten Sie jetzt einen Kostenvoranschlag für Ihr UX/UI Projekt",
 		uxUiContact: "Einen Termin Vereinbaren",
+		// Angular
+		AngularTitle: "Angular",
+		AngularText1: "Angular ist ein von Google entwickeltes TypeScript-basiertes Framework für die Entwicklung von Single-Page-Anwendungen (SPA) und die Erstellung von interaktiven Webanwendungen.",
+		AngularSmallText1: "Strukturierte Entwicklung: Angular bietet eine klare Struktur und einheitliche Konventionen, die die Entwicklung von Webanwendungen erleichtern. Durch die Verwendung von Komponenten, Services und Modulen kann der Code besser organisiert und gewartet werden.",
+		AngularSmallText2: "Umfangreiche Funktionalität: Angular bietet eine breite Palette von Funktionen, die die Entwicklung komplexer Webanwendungen erleichtern. Dazu gehören Datenbindung, Dependency Injection, Routing, Formularvalidierung, Animationen und Testing. Die Verwendung dieser Funktionen spart Entwicklungszeit und erhöht die Produktivität.",
+		AngularSmallText3: "Leistungsstarkes Ökosystem: Angular verfügt über ein großes und aktives Ökosystem, das von Google und der Entwicklergemeinschaft gepflegt wird. Es gibt eine Vielzahl von Erweiterungen, Bibliotheken und Tools, die die Entwicklung mit Angular vereinfachen und erweitern. Außerdem gibt es eine umfangreiche Dokumentation und eine aktive Community, die bei Fragen und Problemen Unterstützung bietet.",
+		AngularSmallText4: "Plattformübergreifende Unterstützung: Angular ist nicht nur auf Webanwendungen beschränkt, sondern ermöglicht auch die Entwicklung von mobilen Anwendungen für iOS und Android. Mit Tools wie Ionic oder NativeScript können Entwickler plattformübergreifende mobile Anwendungen erstellen und dabei dieselbe Codebasis nutzen.",
+		AngularText2: "Angular ist ein beliebtes JavaScript-Framework für Webentwicklung. Es bietet eine strukturierte Herangehensweise und ermöglicht den Bau robuster und skalierbarer Webanwendungen. Mit Funktionen wie Datenbindung und Routing ist Angular ideal für dynamische und interaktive Anwendungen.",
+// Vue.js
+VueTitle: "Vue.js",
+VueText1: "Vue.js ist ein Open-Source-JavaScript-Framework zur Entwicklung von benutzerfreundlichen und reaktionsfähigen Webanwendungen. Es legt den Fokus auf eine einfache Integration und bietet eine flexible Architektur.",
+VueSmallText1: "Einfache Integration: Vue.js zeichnet sich durch eine einfache Integration aus. Es kann schrittweise in bestehende Projekte integriert werden, ohne dass ein vollständiger Rewrite erforderlich ist. Entwickler können Vue.js auch als einzelnes Widget in einer bestehenden Webseite verwenden.",
+VueSmallText2: "Leichtgewichtig und schnell: Vue.js ist ein schlankes Framework, das schnell geladen wird und eine reaktionsschnelle Benutzererfahrung bietet. Im Vergleich zu anderen Frameworks ist Vue.js leichter und hat eine geringere Einstiegshürde, was die Entwicklung beschleunigt.",
+VueSmallText3: "Flexibilität und Anpassungsfähigkeit: Vue.js bietet eine flexible Architektur, die es Entwicklern ermöglicht, die Funktionalität und Komplexität ihrer Anwendungen je nach Bedarf anzupassen. Die Komponentenstruktur ermöglicht eine modulare Entwicklung und Wiederverwendbarkeit von Code.",
+VueSmallText4: "Gemeinschaft und Dokumentation: Vue.js hat eine wachsende Entwicklergemeinschaft und umfangreiche Dokumentation, die den Einstieg erleichtert und Unterstützung bietet. Es gibt eine große Anzahl von Ressourcen, Tutorials und Beispielen, die helfen, Vue.js zu erlernen und effektiv einzusetzen.",
+VueText2: "Vue.js ist ein fortschrittliches JavaScript-Framework für Benutzeroberflächen. Es ist einfach zu integrieren und ermöglicht die Erstellung reaktiver und interaktiver Interfaces. Vue.js bietet eine intuitive Template-Syntax und eignet sich für kleine bis große Webprojekte.",
+
+
 		// JS
 		JSTitle: "Javascript",
 		JSText1: "JavaScript ist eine hochrangige, interpretierte Programmiersprache, die hauptsächlich für die Entwicklung dynamischer und interaktiver Webanwendungen verwendet wird. Sie wird oft als die Sprache des Webs bezeichnet, da sie Entwicklern ermöglicht, Funktionalität und Interaktivität zu Websites hinzuzufügen.",
@@ -934,6 +983,11 @@ AngularText2: "Angular ist ein beliebtes JavaScript-Framework für Webentwicklun
 		JSSmallText3: "Vielseitigkeit: JavaScript ist eine vielseitige Sprache, die für eine Vielzahl von Anwendungen verwendet werden kann, einschließlich Webentwicklung, Entwicklung von mobilen Apps, Spieleentwicklung, serverseitigem Skripting und vielem mehr.",
 		JSSmallText4: "Clientseitiges Skripting: JavaScript-Code wird auf der Clientseite (im Webbrowser des Benutzers) ausgeführt und kann mit dem Document Object Model (DOM) interagieren, um Webseitenelemente zu manipulieren, Benutzerereignisse zu verarbeiten und den Inhalt von Webseiten dynamisch zu aktualisieren.",
 		JSText2: "JavaScript entwickelt sich ständig weiter und wird regelmäßig um neue Funktionen und Erweiterungen ergänzt. Es ist eine leistungsstarke Sprache für die Webentwicklung, die es Entwicklern ermöglicht, interaktive und ansprechende Webanwendungen zu erstellen.",
+
+
+
+
+
 		// Microsoft_Azure
 		Microsoft_AzureText1: "GCP ist eine Cloud-Computing-Plattform von Google, die eine Vielzahl von Diensten und Tools zur Verfügung stellt, darunter Computing, Speicherung, Datenbanken, künstliche Intelligenz und vieles mehr, um Anwendungen und Websites zu hosten und zu betreiben.",
 		Microsoft_AzureSmallText1: "Skalierbarkeit und Flexibilität: GCP bietet eine hoch skalierbare und flexible Infrastruktur, die es Unternehmen ermöglicht, ihre Ressourcen nach Bedarf zu erweitern oder zu reduzieren. Dadurch können E-Commerce-Unternehmen auf sich ändernde Anforderungen reagieren und die Leistung ihrer Anwendungen optimieren.",
@@ -942,14 +996,6 @@ AngularText2: "Angular ist ein beliebtes JavaScript-Framework für Webentwicklun
 		Microsoft_AzureSmallText3: "Zuverlässigkeit und Sicherheit: GCP legt großen Wert auf Zuverlässigkeit und Sicherheit. Die Plattform bietet eine hohe Verfügbarkeit mit SLAs (Service Level Agreements) und ermöglicht die redundante Speicherung von Daten. Darüber hinaus werden fortschrittliche Sicherheitsmaßnahmen wie Verschlüsselung,Zugriffskontrollen, Firewalls und Überwachungstools bereitgestellt, um die Datenintegrität und den Datenschutz zu gewährleisten. GCP erfüllt auch verschiedene Compliance-Standards und bietet Tools zur Überwachung und Verwaltung der Sicherheit von Anwendungen.",
 		Microsoft_AzureSmallText4: "Integration mit anderen Google-Diensten: GCP lässt sich nahtlos in andere Google-Dienste wie Google Analytics, Google Ads und Google Maps integrieren. Diese Integration ermöglicht es E-Commerce-Unternehmen, umfassende Lösungen zu schaffen, die Analytik, Werbung und geografische Funktionen nutzen, um das Kundenerlebnis zu verbessern und Geschäftsergebnisse zu optimieren.",
 		Microsoft_AzureText2: "Die GCP bietet eine hohe Skalierbarkeit, Zuverlässigkeit und Sicherheit durch ihre globale Infrastruktur von Rechenzentren. Mit Services wie Compute Engine, Cloud Storage, BigQuery und Machine Learning ermöglicht die GCP die Verarbeitung großer Datenmengen, die Entwicklung intelligenter Anwendungen und vieles mehr.",
-// Angular
-AngularTitle: "",
-AngularText1: "",
-AngularSmallText1: "",
-AngularSmallText2: "",
-AngularSmallText3: "",
-AngularSmallText4: "",
-AngularText2: "",
 
 
 

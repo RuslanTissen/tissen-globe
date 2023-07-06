@@ -16,6 +16,7 @@ import UX_UI from '../components/RoutesByServices/UX_UI'
 import JS from '../components/RoutesByTechnologies/JS.jsx'
 import GCP from '../components/RoutesByTechnologies/Microsoft_Azure'
 import Angular from '../components/RoutesByTechnologies/Angular'
+import Vue from '../components/RoutesByTechnologies/Vue'
 
 function Main() {
 	return (
@@ -36,6 +37,7 @@ function Main() {
 				<Route path='JS' element={<JS />} />
 				<Route path='Microsoft_Azure' element={<GCP />} />
 				<Route path='Angular' element={<Angular />} />
+				<Route path='Vue' element={<Vue />} />
 			</Routes>
 
 			{/* <Outlet />  */}
