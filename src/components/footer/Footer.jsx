@@ -21,7 +21,7 @@ function Footer() {
 					<div className="footer__container__section__1__column">
 						<h2>{trans[lang].footerServices}</h2>
 						<NavLink to="SoftwareDevelopment" onClick={scrollToTheTop}>{trans[lang].footerSoftware}</NavLink>
-						<NavLink to="NetworkSecurity" onClick={scrollToTheTop}>{trans[lang].footerSecurity}</NavLink>
+						<NavLink to="E_Commerce" onClick={scrollToTheTop}>{trans[lang].e_commerceDevelopment}</NavLink>
 						<NavLink to="CloudHosting" onClick={scrollToTheTop}>{trans[lang].footerCloud} </NavLink>
 						<NavLink to="WebDevelopment" onClick={scrollToTheTop}>{trans[lang].footerWeb}</NavLink>
 						<NavLink to="MobileDevelopment" onClick={scrollToTheTop}>{trans[lang].footerMobile}</NavLink>
@@ -35,7 +35,7 @@ function Footer() {
 						<NavLink to="JS" onClick={scrollToTheTop}>JavaScript</NavLink>
 						<NavLink to="AWS" onClick={scrollToTheTop}>AWS</NavLink>
 						<NavLink to="Microsoft_Azure" onClick={scrollToTheTop}>Microsoft Azure</NavLink>
-						<NavLink to="#" onClick={scrollToTheTop}>Figma</NavLink>
+						<NavLink to="Figma" onClick={scrollToTheTop}>Figma</NavLink>
 						<NavLink to="#" onClick={scrollToTheTop}>Python</NavLink>
 						<NavLink to="#" onClick={scrollToTheTop}>Material-UI</NavLink>
 						<NavLink to="#" onClick={scrollToTheTop}>Swift</NavLink>
@@ -45,10 +45,10 @@ function Footer() {
 					<div className="footer__container__section__1__column">
 						<h2>{trans[lang].footerCompany}</h2>
 						<NavLink to="services" onClick={scrollToTheTop}>{trans[lang].services}</NavLink>
-						<NavLink to="#" onClick={scrollToTheTop}>{trans[lang].how}</NavLink>
-						<NavLink to="#" onClick={scrollToTheTop}>{trans[lang].footerCarrers}</NavLink>
-						<NavLink to='about' onClick={scrollToTheTop}>{trans[lang].footerAbout}</NavLink>
-						<NavLink to="contact" onClick={scrollToTheTop}>{trans[lang].footerContact}</NavLink>
+						<NavLink to="How" onClick={scrollToTheTop}>{trans[lang].how}</NavLink>
+						<NavLink to="Careers" onClick={scrollToTheTop}>{trans[lang].footerCarrers}</NavLink>
+						<NavLink to='About' onClick={scrollToTheTop}>{trans[lang].footerAbout}</NavLink>
+						<NavLink to="Contact" onClick={scrollToTheTop}>{trans[lang].footerContact}</NavLink>
 					</div>
 				</div>
 

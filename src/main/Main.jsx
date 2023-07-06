@@ -19,6 +19,7 @@ import Angular from '../components/RoutesByTechnologies/Angular'
 import Vue from '../components/RoutesByTechnologies/Vue'
 import React_Native from '../components/RoutesByTechnologies/React_Native'
 import AWS from '../components/RoutesByTechnologies/AWS'
+import Figma from '../components/RoutesByTechnologies/Figma'
 
 function Main() {
 	return (
@@ -42,6 +43,8 @@ function Main() {
 				<Route path='Vue' element={<Vue />} />
 				<Route path='React_Native' element={<React_Native />} />
 				<Route path='AWS' element={<AWS />} />
+				<Route path='AWS' element={<AWS />} />
+				<Route path='Figma' element={<Figma />} />
 			</Routes>
 
 			{/* <Outlet />  */}

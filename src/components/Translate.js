@@ -321,7 +321,14 @@ AWSText2: "With AWS, businesses can access a scalable and flexible infrastructur
 		Microsoft_AzureSmallText3: "Global Presence: Azure has an extensive network of data centers worldwide, enabling global availability and low latency. Companies can host their applications and services close to their users or customers to ensure optimal performance.",
 		Microsoft_AzureSmallText4: "Integrated Services and Tools: Azure offers a wide range of integrated services and tools, including databases, artificial intelligence, analytics, security, and identity management. These services allow businesses to efficiently develop, deploy, and manage their applications and business processes.",
 		Microsoft_AzureText2: "With a robust infrastructure, strong security measures, and a wide range of services, Azure is a powerful solution for companies looking to drive their digital transformation and improve their business outcomes.",
-
+// Figma
+FigmaTitle: "Figma",
+FigmaText1: "Figma is a browser-based design and prototyping tool that allows designers to collaborate, create UI designs, prototype interactions, and seamlessly share the design with developers.",
+FigmaSmallText1: "Collaborative Design Platform: Figma is a collaborative design platform that allows designers to collaborate in real-time. Multiple users can work on a project simultaneously, provide feedback, and make changes, enhancing collaboration and efficiency.",
+FigmaSmallText2: "Prototyping and Interactions: Figma offers powerful prototyping features that enable designers to create interactive and user-friendly interfaces. By creating prototypes, users can test the design before development and optimize the user experience.",
+FigmaSmallText3: "User-Friendly Interface: Figma has a user-friendly interface and intuitive operation. The tool is easy to learn and provides a variety of features that facilitate design work, such as pre-built UI components, automatic adjustments, and drawing tools.",
+FigmaSmallText4: "Cross-Platform Availability: Figma is a browser-based application and can be used on various operating systems and devices. It allows access and collaboration from anywhere as long as there is an internet connection, providing flexibility for designers to work and collaborate from different locations.",
+FigmaText2: "Figma offers a variety of design features, including vector editing, layout grids, interactive components, and design libraries. It enables designers to create interactive prototypes and animations to test and validate their design ideas.",
 
 
 
@@ -681,7 +688,14 @@ AWSText2: "",
 		Microsoft_AzureSmallText3: "JavaScript en el servidor: Node.js permite a los desarrolladores usar JavaScript tanto en el lado del cliente (en el navegador) como en el lado del servidor, lo que brinda coherencia y agiliza el proceso de desarrollo.",
 		Microsoft_AzureSmallText4: "Asincrónico y basado en eventos: Node.js opera en una arquitectura sin bloqueos y basada en eventos, lo que le permite manejar una gran cantidad de conexiones simultáneas sin bloquearse. Esto lo hace ideal para crear aplicaciones en tiempo real y manejar tareas intensivas de E/S.",
 		Microsoft_AzureText2: "Node.js es ampliamente adoptado en la industria y se ha utilizado para crear muchas aplicaciones y marcos populares, incluidos Express.js, Nest.js y Socket.io. Permite a los desarrolladores crear aplicaciones del lado del servidor escalables y de alto rendimiento utilizando JavaScript.",
-
+// Figma
+FigmaTitle: "",
+FigmaText1: "",
+FigmaSmallText1: "",
+FigmaSmallText2: "",
+FigmaSmallText3: "",
+FigmaSmallText4: "",
+FigmaText2: "",
 
 
 
@@ -1022,7 +1036,14 @@ AWSText2: " Mit AWS können Unternehmen auf eine skalierbare und flexible Infras
 		Microsoft_AzureSmallText3: "Zuverlässigkeit und Sicherheit: GCP legt großen Wert auf Zuverlässigkeit und Sicherheit. Die Plattform bietet eine hohe Verfügbarkeit mit SLAs (Service Level Agreements) und ermöglicht die redundante Speicherung von Daten. Darüber hinaus werden fortschrittliche Sicherheitsmaßnahmen wie Verschlüsselung,Zugriffskontrollen, Firewalls und Überwachungstools bereitgestellt, um die Datenintegrität und den Datenschutz zu gewährleisten. GCP erfüllt auch verschiedene Compliance-Standards und bietet Tools zur Überwachung und Verwaltung der Sicherheit von Anwendungen.",
 		Microsoft_AzureSmallText4: "Integration mit anderen Google-Diensten: GCP lässt sich nahtlos in andere Google-Dienste wie Google Analytics, Google Ads und Google Maps integrieren. Diese Integration ermöglicht es E-Commerce-Unternehmen, umfassende Lösungen zu schaffen, die Analytik, Werbung und geografische Funktionen nutzen, um das Kundenerlebnis zu verbessern und Geschäftsergebnisse zu optimieren.",
 		Microsoft_AzureText2: "Die GCP bietet eine hohe Skalierbarkeit, Zuverlässigkeit und Sicherheit durch ihre globale Infrastruktur von Rechenzentren. Mit Services wie Compute Engine, Cloud Storage, BigQuery und Machine Learning ermöglicht die GCP die Verarbeitung großer Datenmengen, die Entwicklung intelligenter Anwendungen und vieles mehr.",
-
+// Figma
+FigmaTitle: "Figma",
+FigmaText1: "Figma ist ein browserbasiertes Design- und Prototyping-Tool, das es Designern ermöglicht, zusammenzuarbeiten, UI-Designs zu erstellen, Interaktionen zu prototypen und das Design nahtlos mit Entwicklern zu teilen.",
+FigmaSmallText1: "Kollaborative Designplattform: Figma ist eine kollaborative Designplattform, die es Designern ermöglicht, in Echtzeit zusammenzuarbeiten. Mehrere Benutzer können gleichzeitig an einem Projekt arbeiten, Feedback geben und Änderungen vornehmen, was die Zusammenarbeit und Effizienz verbessert.",
+FigmaSmallText2: "Prototyping und Interaktionen: Figma bietet leistungsstarke Prototyping-Funktionen, mit denen Designer interaktive und benutzerfreundliche Benutzeroberflächen erstellen können. Durch die Erstellung von Prototypen können Benutzer das Design vor der Entwicklung testen und das Benutzererlebnis optimieren.",
+FigmaSmallText3: "Benutzerfreundliche Oberfläche: Figma verfügt über eine benutzerfreundliche Oberfläche und eine intuitive Bedienung. Das Tool ist einfach zu erlernen und bietet eine Vielzahl von Funktionen, die die Designarbeit erleichtern, wie beispielsweise vorgefertigte UI-Komponenten, automatische Anpassungen und Zeichenwerkzeuge.",
+FigmaSmallText4: "Plattformübergreifende Verfügbarkeit: Figma ist eine browserbasierte Anwendung und kann auf verschiedenen Betriebssystemen und Geräten verwendet werden. Es ermöglicht den Zugriff und die Zusammenarbeit von überall aus, solange eine Internetverbindung besteht. Dadurch können Designer flexibel arbeiten und von verschiedenen Standorten aus zusammenarbeiten.",
+FigmaText2: "Figma verfügt über eine Vielzahl von Designfunktionen, darunter Vektorbearbeitung, Layoutraster, interaktive Komponenten und Design-Bibliotheken. Es ermöglicht Designern die Erstellung interaktiver Prototypen und Animationen, um ihre Designideen zu testen und zu validieren. ",
 
 
 
