@@ -4,7 +4,7 @@ const FourBlocksWithPic = styled.div`
 background-color: black;
 section{
 	max-width: 1500px;
-	margin: clamp(1rem, 5vw, 3rem) auto;
+	margin: clamp(1rem, 5vw, 2rem) auto;
 	padding: clamp(1rem, 2vw, 3rem) clamp(1rem, 10vw, 7rem);
 	background-image: url("../../../../images/techPicture2Background.png");
 	background-position: center;
@@ -27,9 +27,9 @@ section{
 			}
 		}
 		p {
-			height: 100%;
+			height: 50%;
 			font-family: "Tomorrow", sans-serif;
-			font-size: clamp(0.8rem, 2vw, 1.2rem);
+			font-size: clamp(0.8rem, 2vw, 1rem);
 			color: white;
 			text-align: center;
 			padding: 0 clamp(1rem, 5vw, 3rem);

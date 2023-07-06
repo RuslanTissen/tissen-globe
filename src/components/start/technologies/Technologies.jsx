@@ -25,9 +25,9 @@ function Technologies() {
 				<NavLink to="Angular" onClick={scrollToTheTop} className="technologies__boxes"><TbBrandAngular /></NavLink>
 				<NavLink onClick={scrollToTheTop} className="technologies__boxes"><FaSwift /></NavLink>
 				<NavLink to="Vue" onClick={scrollToTheTop} className="technologies__boxes"><TbBrandVue /></NavLink>
-				<NavLink onClick={scrollToTheTop} className="technologies__boxes"><TbBrandReactNative /></NavLink>
+				<NavLink to="React_Native" onClick={scrollToTheTop} className="technologies__boxes"><TbBrandReactNative /></NavLink>
 				<NavLink to="JS" onClick={scrollToTheTop} className="technologies__boxes"><TbBrandJavascript /></NavLink>
-				<NavLink onClick={scrollToTheTop} className="technologies__boxes"><FaAws /></NavLink>
+				<NavLink to="AWS" onClick={scrollToTheTop} className="technologies__boxes"><FaAws /></NavLink>
 				<NavLink onClick={scrollToTheTop} className="technologies__boxes"><TbBrandFigma /></NavLink>
 				<NavLink onClick={scrollToTheTop} className="technologies__boxes"><SiMui /></NavLink>
 				<NavLink to="Microsoft_Azure" onClick={scrollToTheTop} className="technologies__boxes"><SiMicrosoftazure /></NavLink>

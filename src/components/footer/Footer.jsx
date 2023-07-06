@@ -31,9 +31,9 @@ function Footer() {
 						<h2>{trans[lang].footerTechnologies}</h2>
 						<NavLink to="Angular" onClick={scrollToTheTop}>Angular</NavLink>
 						<NavLink to="Vue" onClick={scrollToTheTop}>Vue.js</NavLink>
-						<NavLink to="#" onClick={scrollToTheTop}>React Native</NavLink>
+						<NavLink to="React_Native" onClick={scrollToTheTop}>React Native</NavLink>
 						<NavLink to="JS" onClick={scrollToTheTop}>JavaScript</NavLink>
-						<NavLink to="#" onClick={scrollToTheTop}>AWS</NavLink>
+						<NavLink to="AWS" onClick={scrollToTheTop}>AWS</NavLink>
 						<NavLink to="Microsoft_Azure" onClick={scrollToTheTop}>Microsoft Azure</NavLink>
 						<NavLink to="#" onClick={scrollToTheTop}>Figma</NavLink>
 						<NavLink to="#" onClick={scrollToTheTop}>Python</NavLink>

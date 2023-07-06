@@ -280,17 +280,22 @@ const trans = {
 		AngularSmallText3: "Powerful Ecosystem: Angular has a large and active ecosystem maintained by Google and the developer community. There are a variety of extensions, libraries, and tools that simplify and extend development with Angular. Additionally, there is extensive documentation and an active community that provides support for questions and issues.",
 		AngularSmallText4: "Cross-Platform Support: Angular is not limited to web applications; it also allows for the development of mobile applications for iOS and Android. With tools like Ionic or NativeScript, developers can create cross-platform mobile applications using the same codebase.",
 		AngularText2: "Angular is a popular JavaScript framework for web development. It provides a structured approach and enables the construction of robust and scalable web applications. With features like data binding and routing, Angular is ideal for building dynamic and interactive applications.",
-// Vue.js
-VueTitle: "Vue.js",
-VueText1: "Vue.js is an open-source JavaScript framework for developing user-friendly and responsive web applications. It focuses on easy integration and offers a flexible architecture.",
-VueSmallText1: "Easy Integration: Vue.js excels in easy integration. It can be incrementally introduced into existing projects without requiring a complete rewrite. Developers can also use Vue.js as a single widget within an existing web page.",
-VueSmallText2: "Lightweight and Fast: Vue.js is a lightweight framework that loads quickly and provides a responsive user experience. Compared to other frameworks, Vue.js is lighter and has a lower learning curve, which speeds up development.",
-VueSmallText3: "Flexibility and Adaptability: Vue.js offers a flexible architecture that allows developers to adjust the functionality and complexity of their applications as needed. The component-based structure enables modular development and code reusability.",
-VueSmallText4: "Community and Documentation: Vue.js has a growing developer community and extensive documentation, making it easier to get started and receive support. There are a wealth of resources, tutorials, and examples to help learn and effectively use Vue.js.",
-VueText2: "Vue.js is an open-source JavaScript framework for developing user-friendly and responsive web applications. It emphasizes easy integration and offers a flexible architecture.",
-
-
-
+		// Vue.js
+		VueTitle: "Vue.js",
+		VueText1: "Vue.js is an open-source JavaScript framework for developing user-friendly and responsive web applications. It focuses on easy integration and offers a flexible architecture.",
+		VueSmallText1: "Easy Integration: Vue.js excels in easy integration. It can be incrementally introduced into existing projects without requiring a complete rewrite. Developers can also use Vue.js as a single widget within an existing web page.",
+		VueSmallText2: "Lightweight and Fast: Vue.js is a lightweight framework that loads quickly and provides a responsive user experience. Compared to other frameworks, Vue.js is lighter and has a lower learning curve, which speeds up development.",
+		VueSmallText3: "Flexibility and Adaptability: Vue.js offers a flexible architecture that allows developers to adjust the functionality and complexity of their applications as needed. The component-based structure enables modular development and code reusability.",
+		VueSmallText4: "Community and Documentation: Vue.js has a growing developer community and extensive documentation, making it easier to get started and receive support. There are a wealth of resources, tutorials, and examples to help learn and effectively use Vue.js.",
+		VueText2: "Vue.js is an open-source JavaScript framework for developing user-friendly and responsive web applications. It emphasizes easy integration and offers a flexible architecture.",
+		// React Native
+		React_NativeTitle: "React Native",
+		React_NativeText1: "React Native is an open-source framework developed by Facebook that allows developers to build mobile applications using JavaScript and the React library. It provides a way to create native-like mobile apps for both iOS and Android platforms using a single codebase, saving development time and effort.",
+		React_NativeSmallText1: "Hot Reloading: React Native offers a useful feature called hot reloading, which allows developers to see the changes they make to the code instantly reflected in the running app. This accelerates the development process and facilitates rapid iteration and debugging.",
+		React_NativeSmallText2: "Native-Like Performance: React Native uses native components and APIs to render UI elements, resulting in a native-like user experience. It achieves this by translating the app's JavaScript code into native components, allowing it to leverage the device's GPU and other hardware capabilities for efficient rendering and performance.",
+		React_NativeSmallText3: "JavaScript and React-Based: React Native utilizes JavaScript, a widely-used programming language, along with the React library. Developers with JavaScript and React experience can leverage their existing skills to build mobile apps, minimizing the learning curve and allowing for faster development.",
+		React_NativeSmallText4: "Cross-Platform Development: React Native enables developers to build mobile apps that can run on multiple platforms, including iOS and Android, using a single codebase. This code-sharing capability eliminates the need to write separate code for each platform, making development more efficient and cost-effective.",
+		React_NativeText2: "React Native is widely adopted by developers and companies worldwide for building mobile apps due to its efficiency, cross-platform compatibility, and native-like performance. It enables developers to leverage their existing skills and resources to create high-quality mobile applications quickly and efficiently.",
 		// JS
 		JSTitle: "Javascript",
 		JSText1: "JavaScript is a high-level, interpreted programming language that is primarily used for developing dynamic and interactive web applications. It is often referred to as the language of the web because it enables developers to add functionality and interactivity to websites.",
@@ -300,11 +305,14 @@ VueText2: "Vue.js is an open-source JavaScript framework for developing user-fri
 		JSSmallText3: "Versatility: JavaScript is a versatile language that can be used for a wide range of applications, including web development, mobile app development, game development, server-side scripting, and more.",
 		JSSmallText4: "Client-side scripting: JavaScript code runs on the client-side (in the user's web browser) and can interact with the Document Object Model (DOM) to manipulate webpage elements, handle user events, and dynamically update the content of web pages.",
 		JSText2: "JavaScript continues to evolve with new features and enhancements being added regularly. It is a powerful language for web development, enabling developers to create interactive and engaging web applications.",
-
-
-
-
-
+// AWS
+AWSTitle: "AWS",
+AWSText1: "AWS is a comprehensive cloud computing platform provided by Amazon, offering a variety of services, including computing, storage, databases, artificial intelligence, analytics, and more. It enables businesses to host and manage their applications and services in the cloud.",
+AWSSmallText1: "Scalability and Flexibility: AWS offers a scalable infrastructure that allows e-commerce companies to adjust their resources based on demand. By leveraging cloud computing services, businesses can easily scale their applications and workloads while saving costs.",
+AWSSmallText2: "Wide Range of Services: AWS provides a wide range of services, including computing, storage, databases, content delivery, artificial intelligence, and security. These services offer extensive capabilities for e-commerce application development and help businesses meet their requirements.",
+AWSSmallText3: "Reliability and High Availability: AWS places a strong emphasis on reliability and high availability. Through AWS's global infrastructure, businesses can host their applications in multiple regions, ensuring fault tolerance and high availability.",
+AWSSmallText4: "Security: AWS offers robust security measures to ensure data integrity and privacy. These include data encryption, access controls, firewalls, DDoS protection, identity and access management, and compliance certifications. AWS also provides tools and services for monitoring, analyzing, and responding to security incidents.",
+AWSText2: "With AWS, businesses can access a scalable and flexible infrastructure to efficiently manage their workloads. The platform is known for its high reliability, security, and global availability, thanks to its extensive network of data centers worldwide.",
 		// Microsoft_Azure
 		Microsoft_AzureTitle: "Microsoft Azure",
 		Microsoft_AzureText1: "Microsoft Azure is a cloud computing platform provided by Microsoft that offers a variety of cloud services such as virtual machines, storage, databases, and artificial intelligence. Businesses can use Azure to develop, deploy, and scale applications and manage their IT infrastructure in the cloud.",
@@ -632,17 +640,22 @@ VueText2: "Vue.js is an open-source JavaScript framework for developing user-fri
 		AngularSmallText3: "",
 		AngularSmallText4: "",
 		AngularText2: "",
-// Vue.js
-VueTitle: "",
-VueText1: "",
-VueSmallText1: "",
-VueSmallText2: "",
-VueSmallText3: "",
-VueSmallText4: "",
-VueText2: "",
-
-
-
+		// Vue.js
+		VueTitle: "",
+		VueText1: "",
+		VueSmallText1: "",
+		VueSmallText2: "",
+		VueSmallText3: "",
+		VueSmallText4: "",
+		VueText2: "",
+		// React Native
+		React_NativeTitle: "React Native",
+		React_NativeText1: "React Native es un marco de código abierto desarrollado por Facebook que permite a los desarrolladores crear aplicaciones móviles utilizando JavaScript y la biblioteca React. Proporciona una forma de crear aplicaciones móviles similares a las nativas para las plataformas iOS y Android utilizando una única base de código, lo que ahorra tiempo y esfuerzo de desarrollo.",
+		React_NativeSmallText1: "Recarga en caliente: React Native ofrece una función útil llamada recarga en caliente, que permite a los desarrolladores ver los cambios que realizan en el código reflejados instantáneamente en la aplicación en ejecución. Esto acelera el proceso de desarrollo y facilita la iteración y la depuración rápidas.",
+		React_NativeSmallText2: "Rendimiento similar al nativo: React Native utiliza componentes nativos y API para representar elementos de la interfaz de usuario, lo que da como resultado una experiencia de usuario similar a la nativa. Lo logra al traducir el código JavaScript de la aplicación en componentes nativos, lo que le permite aprovechar la GPU del dispositivo y otras capacidades de hardware para una representación y un rendimiento eficientes.",
+		React_NativeSmallText3: "Basado en JavaScript y React: React Native utiliza JavaScript, un lenguaje de programación ampliamente utilizado, junto con la biblioteca React. Los desarrolladores con experiencia en JavaScript y React pueden aprovechar sus habilidades existentes para crear aplicaciones móviles, minimizando la curva de aprendizaje y permitiendo un desarrollo más rápido.",
+		React_NativeSmallText4: "Desarrollo multiplataforma: React Native permite a los desarrolladores crear aplicaciones móviles que pueden ejecutarse en múltiples plataformas, incluidos iOS y Android, utilizando una base de código única. Esta capacidad de compartir código elimina la necesidad de escribir código separado para cada plataforma, lo que hace que el desarrollo sea más eficiente y rentable.",
+		React_NativeText2: "React Native es ampliamente adoptado por desarrolladores y empresas de todo el mundo para crear aplicaciones móviles debido a su eficiencia, compatibilidad multiplataforma y rendimiento nativo. Permite a los desarrolladores aprovechar sus habilidades y recursos existentes para crear aplicaciones móviles de alta calidad de manera rápida y eficiente.",
 		// JS
 		JSTitle: "Javascript",
 		JSText1: "JavaScript es un lenguaje de programación interpretado de alto nivel que se utiliza principalmente para desarrollar aplicaciones web dinámicas e interactivas. A menudo se lo conoce como el lenguaje de la web porque permite a los desarrolladores agregar funcionalidad e interactividad a los sitios web.",
@@ -652,10 +665,14 @@ VueText2: "",
 		JSSmallText3: "Versatilidad: JavaScript es un lenguaje versátil que se puede usar para una amplia gama de aplicaciones, incluido el desarrollo web, el desarrollo de aplicaciones móviles, el desarrollo de juegos, las secuencias de comandos del lado del servidor y más.",
 		JSSmallText4: "Secuencias de comandos del lado del cliente: el código JavaScript se ejecuta en el lado del cliente (en el navegador web del usuario) y puede interactuar con el modelo de objetos de documento (DOM) para manipular elementos de la página web, manejar eventos del usuario y actualizar dinámicamente el contenido de las páginas web.",
 		JSText2: "JavaScript continúa evolucionando con nuevas características y mejoras que se agregan regularmente. Es un lenguaje poderoso para el desarrollo web, que permite a los desarrolladores crear aplicaciones web interactivas y atractivas.",
-
-
-
-
+// AWS
+AWSTitle: "",
+AWSText1: "",
+AWSSmallText1: "",
+AWSSmallText2: "",
+AWSSmallText3: "",
+AWSSmallText4: "",
+AWSText2: "",
 		// Microsoft_Azure
 		Microsoft_AzureTitle: "GCP",
 		Microsoft_AzureText1: "Node.js es un entorno de tiempo de ejecución del lado del servidor de código abierto que permite a los desarrolladores ejecutar código JavaScript en el servidor. Utiliza el motor JavaScript V8, que es el mismo motor que impulsa Google Chrome, para ejecutar código JavaScript fuera del contexto del navegador. Node.js permite a los desarrolladores crear aplicaciones escalables, eficientes y de alto rendimiento, especialmente servidores web y herramientas de red.",
@@ -964,16 +981,22 @@ VueText2: "",
 		AngularSmallText3: "Leistungsstarkes Ökosystem: Angular verfügt über ein großes und aktives Ökosystem, das von Google und der Entwicklergemeinschaft gepflegt wird. Es gibt eine Vielzahl von Erweiterungen, Bibliotheken und Tools, die die Entwicklung mit Angular vereinfachen und erweitern. Außerdem gibt es eine umfangreiche Dokumentation und eine aktive Community, die bei Fragen und Problemen Unterstützung bietet.",
 		AngularSmallText4: "Plattformübergreifende Unterstützung: Angular ist nicht nur auf Webanwendungen beschränkt, sondern ermöglicht auch die Entwicklung von mobilen Anwendungen für iOS und Android. Mit Tools wie Ionic oder NativeScript können Entwickler plattformübergreifende mobile Anwendungen erstellen und dabei dieselbe Codebasis nutzen.",
 		AngularText2: "Angular ist ein beliebtes JavaScript-Framework für Webentwicklung. Es bietet eine strukturierte Herangehensweise und ermöglicht den Bau robuster und skalierbarer Webanwendungen. Mit Funktionen wie Datenbindung und Routing ist Angular ideal für dynamische und interaktive Anwendungen.",
-// Vue.js
-VueTitle: "Vue.js",
-VueText1: "Vue.js ist ein Open-Source-JavaScript-Framework zur Entwicklung von benutzerfreundlichen und reaktionsfähigen Webanwendungen. Es legt den Fokus auf eine einfache Integration und bietet eine flexible Architektur.",
-VueSmallText1: "Einfache Integration: Vue.js zeichnet sich durch eine einfache Integration aus. Es kann schrittweise in bestehende Projekte integriert werden, ohne dass ein vollständiger Rewrite erforderlich ist. Entwickler können Vue.js auch als einzelnes Widget in einer bestehenden Webseite verwenden.",
-VueSmallText2: "Leichtgewichtig und schnell: Vue.js ist ein schlankes Framework, das schnell geladen wird und eine reaktionsschnelle Benutzererfahrung bietet. Im Vergleich zu anderen Frameworks ist Vue.js leichter und hat eine geringere Einstiegshürde, was die Entwicklung beschleunigt.",
-VueSmallText3: "Flexibilität und Anpassungsfähigkeit: Vue.js bietet eine flexible Architektur, die es Entwicklern ermöglicht, die Funktionalität und Komplexität ihrer Anwendungen je nach Bedarf anzupassen. Die Komponentenstruktur ermöglicht eine modulare Entwicklung und Wiederverwendbarkeit von Code.",
-VueSmallText4: "Gemeinschaft und Dokumentation: Vue.js hat eine wachsende Entwicklergemeinschaft und umfangreiche Dokumentation, die den Einstieg erleichtert und Unterstützung bietet. Es gibt eine große Anzahl von Ressourcen, Tutorials und Beispielen, die helfen, Vue.js zu erlernen und effektiv einzusetzen.",
-VueText2: "Vue.js ist ein fortschrittliches JavaScript-Framework für Benutzeroberflächen. Es ist einfach zu integrieren und ermöglicht die Erstellung reaktiver und interaktiver Interfaces. Vue.js bietet eine intuitive Template-Syntax und eignet sich für kleine bis große Webprojekte.",
-
-
+		// Vue.js
+		VueTitle: "Vue.js",
+		VueText1: "Vue.js ist ein Open-Source-JavaScript-Framework zur Entwicklung von benutzerfreundlichen und reaktionsfähigen Webanwendungen. Es legt den Fokus auf eine einfache Integration und bietet eine flexible Architektur.",
+		VueSmallText1: "Einfache Integration: Vue.js zeichnet sich durch eine einfache Integration aus. Es kann schrittweise in bestehende Projekte integriert werden, ohne dass ein vollständiger Rewrite erforderlich ist. Entwickler können Vue.js auch als einzelnes Widget in einer bestehenden Webseite verwenden.",
+		VueSmallText2: "Leichtgewichtig und schnell: Vue.js ist ein schlankes Framework, das schnell geladen wird und eine reaktionsschnelle Benutzererfahrung bietet. Im Vergleich zu anderen Frameworks ist Vue.js leichter und hat eine geringere Einstiegshürde, was die Entwicklung beschleunigt.",
+		VueSmallText3: "Flexibilität und Anpassungsfähigkeit: Vue.js bietet eine flexible Architektur, die es Entwicklern ermöglicht, die Funktionalität und Komplexität ihrer Anwendungen je nach Bedarf anzupassen. Die Komponentenstruktur ermöglicht eine modulare Entwicklung und Wiederverwendbarkeit von Code.",
+		VueSmallText4: "Gemeinschaft und Dokumentation: Vue.js hat eine wachsende Entwicklergemeinschaft und umfangreiche Dokumentation, die den Einstieg erleichtert und Unterstützung bietet. Es gibt eine große Anzahl von Ressourcen, Tutorials und Beispielen, die helfen, Vue.js zu erlernen und effektiv einzusetzen.",
+		VueText2: "Vue.js ist ein fortschrittliches JavaScript-Framework für Benutzeroberflächen. Es ist einfach zu integrieren und ermöglicht die Erstellung reaktiver und interaktiver Interfaces. Vue.js bietet eine intuitive Template-Syntax und eignet sich für kleine bis große Webprojekte.",
+		// React Native
+		React_NativeTitle: "React Native",
+		React_NativeText1: "React Native ist ein von Facebook entwickeltes Open-Source-Framework, mit dem Entwickler mobile Anwendungen mit JavaScript und der React-Bibliothek erstellen können. Es bietet die Möglichkeit, mit einer einzigen Codebasis nativ-ähnliche mobile Anwendungen für iOS- und Android-Plattformen zu erstellen und so Entwicklungszeit und -aufwand zu sparen.",
+		React_NativeSmallText1: "Hot Reloading: React Native bietet eine nützliche Funktion namens Hot Reloading, die es Entwicklern ermöglicht, die Änderungen, die sie am Code vornehmen, sofort in der laufenden App zu sehen. Dies beschleunigt den Entwicklungsprozess und erleichtert die schnelle Iteration und Fehlersuche.",
+		React_NativeSmallText2: "Native-ähnliche Leistung: React Native verwendet native Komponenten und APIs zum Rendern von UI-Elementen, was zu einem nativen Benutzererlebnis führt. Dies wird durch die Übersetzung des JavaScript-Codes der App in native Komponenten erreicht, wodurch die GPU des Geräts und andere Hardwarefunktionen für effizientes Rendering und Leistung genutzt werden können.",
+		React_NativeSmallText3: "JavaScript und React-basiert: React Native nutzt JavaScript, eine weit verbreitete Programmiersprache, zusammen mit der React-Bibliothek. Entwickler mit JavaScript- und React-Erfahrung können ihre vorhandenen Kenntnisse für die Erstellung mobiler Apps nutzen, was die Lernkurve minimiert und eine schnellere Entwicklung ermöglicht.",
+		React_NativeSmallText4: "Plattformübergreifende Entwicklung: React Native ermöglicht es Entwicklern, mobile Apps zu erstellen, die auf mehreren Plattformen, einschließlich iOS und Android, mit einer einzigen Codebasis ausgeführt werden können. Durch die gemeinsame Nutzung von Code entfällt die Notwendigkeit, für jede Plattform separaten Code zu schreiben, was die Entwicklung effizienter und kostengünstiger macht.",
+		React_NativeText2: "React Native wird aufgrund seiner Effizienz, plattformübergreifenden Kompatibilität und nativen Leistung von vielen Entwicklern und Unternehmen weltweit für die Erstellung mobiler Anwendungen eingesetzt. Es ermöglicht Entwicklern, ihre vorhandenen Fähigkeiten und Ressourcen zu nutzen, um schnell und effizient hochwertige mobile Anwendungen zu erstellen.",
 		// JS
 		JSTitle: "Javascript",
 		JSText1: "JavaScript ist eine hochrangige, interpretierte Programmiersprache, die hauptsächlich für die Entwicklung dynamischer und interaktiver Webanwendungen verwendet wird. Sie wird oft als die Sprache des Webs bezeichnet, da sie Entwicklern ermöglicht, Funktionalität und Interaktivität zu Websites hinzuzufügen.",
@@ -983,11 +1006,14 @@ VueText2: "Vue.js ist ein fortschrittliches JavaScript-Framework für Benutzerob
 		JSSmallText3: "Vielseitigkeit: JavaScript ist eine vielseitige Sprache, die für eine Vielzahl von Anwendungen verwendet werden kann, einschließlich Webentwicklung, Entwicklung von mobilen Apps, Spieleentwicklung, serverseitigem Skripting und vielem mehr.",
 		JSSmallText4: "Clientseitiges Skripting: JavaScript-Code wird auf der Clientseite (im Webbrowser des Benutzers) ausgeführt und kann mit dem Document Object Model (DOM) interagieren, um Webseitenelemente zu manipulieren, Benutzerereignisse zu verarbeiten und den Inhalt von Webseiten dynamisch zu aktualisieren.",
 		JSText2: "JavaScript entwickelt sich ständig weiter und wird regelmäßig um neue Funktionen und Erweiterungen ergänzt. Es ist eine leistungsstarke Sprache für die Webentwicklung, die es Entwicklern ermöglicht, interaktive und ansprechende Webanwendungen zu erstellen.",
-
-
-
-
-
+// AWS
+AWSTitle: "AWS",
+AWSText1: "Mit AWS können Unternehmen auf eine skalierbare und flexible Infrastruktur zugreifen, um ihre Workloads effizient zu verwalten. Die Plattform zeichnet sich durch hohe Zuverlässigkeit, Sicherheit und globale Verfügbarkeit aus, da sie über ein umfangreiches Netzwerk von Rechenzentren auf der ganzen Welt verfügt.",
+AWSSmallText1: "Skalierbarkeit und Flexibilität: AWS bietet eine skalierbare Infrastruktur, mit der E-Commerce-Unternehmen ihre Ressourcen je nach Bedarf anpassen können. Durch die Nutzung von Cloud Computing-Diensten können Unternehmen ihre Anwendungen und Workloads problemlos skalieren und gleichzeitig Kosten sparen.",
+AWSSmallText2: "Breites Dienstangebot: AWS stellt eine breite Palette von Diensten bereit, darunter Computing, Speicherung, Datenbanken, Content Delivery, künstliche Intelligenz und Sicherheit. Diese Dienste bieten umfangreiche Möglichkeiten für die Entwicklung und den Betrieb von E-Commerce-Anwendungen und unterstützen Unternehmen dabei, ihre Anforderungen zu erfüllen.",
+AWSSmallText3: "Zuverlässigkeit und Hochverfügbarkeit: AWS legt großen Wert auf Zuverlässigkeit und Hochverfügbarkeit. Durch die globale Infrastruktur von AWS können Unternehmen ihre Anwendungen in verschiedenen Regionen hosten und so Ausfallsicherheit und eine hohe Verfügbarkeit gewährleisten.",
+AWSSmallText4: "Sicherheit: AWS bietet robuste Sicherheitsmaßnahmen, um die Datenintegrität und den Datenschutz zu gewährleisten. Dazu gehören Verschlüsselung von Daten, Zugriffskontrollen, Firewalls, DDoS-Schutz, Identitäts- und Zugriffsmanagement sowie Compliance-Zertifizierungen. AWS stellt auch Tools und Services bereit, um Sicherheitsvorfälle zu überwachen, zu analysieren und darauf zu reagieren.",
+AWSText2: " Mit AWS können Unternehmen auf eine skalierbare und flexible Infrastruktur zugreifen, um ihre Workloads effizient zu verwalten. Die Plattform zeichnet sich durch hohe Zuverlässigkeit, Sicherheit und globale Verfügbarkeit aus, da sie über ein umfangreiches Netzwerk von Rechenzentren auf der ganzen Welt verfügt.",
 		// Microsoft_Azure
 		Microsoft_AzureText1: "GCP ist eine Cloud-Computing-Plattform von Google, die eine Vielzahl von Diensten und Tools zur Verfügung stellt, darunter Computing, Speicherung, Datenbanken, künstliche Intelligenz und vieles mehr, um Anwendungen und Websites zu hosten und zu betreiben.",
 		Microsoft_AzureSmallText1: "Skalierbarkeit und Flexibilität: GCP bietet eine hoch skalierbare und flexible Infrastruktur, die es Unternehmen ermöglicht, ihre Ressourcen nach Bedarf zu erweitern oder zu reduzieren. Dadurch können E-Commerce-Unternehmen auf sich ändernde Anforderungen reagieren und die Leistung ihrer Anwendungen optimieren.",

@@ -17,6 +17,8 @@ import JS from '../components/RoutesByTechnologies/JS.jsx'
 import GCP from '../components/RoutesByTechnologies/Microsoft_Azure'
 import Angular from '../components/RoutesByTechnologies/Angular'
 import Vue from '../components/RoutesByTechnologies/Vue'
+import React_Native from '../components/RoutesByTechnologies/React_Native'
+import AWS from '../components/RoutesByTechnologies/AWS'
 
 function Main() {
 	return (
@@ -38,6 +40,8 @@ function Main() {
 				<Route path='Microsoft_Azure' element={<GCP />} />
 				<Route path='Angular' element={<Angular />} />
 				<Route path='Vue' element={<Vue />} />
+				<Route path='React_Native' element={<React_Native />} />
+				<Route path='AWS' element={<AWS />} />
 			</Routes>
 
 			{/* <Outlet />  */}
