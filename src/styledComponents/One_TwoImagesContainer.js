@@ -13,7 +13,7 @@ background-color: white;
 			h3 {
 				flex: 1 1 100%;
 				font-family: "Tomorrow", sans-serif;
-				font-size: clamp(1rem, 4vw, 3rem);
+				font-size: clamp(1rem, 4vw, 2rem);
 				font-weight: 400;
 				text-align: center;
 				padding: clamp(.5rem, 2vw, 3rem) clamp(1rem, 5vw, 5rem);

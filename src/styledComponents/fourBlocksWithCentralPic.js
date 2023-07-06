@@ -29,7 +29,7 @@ section{
 		p {
 			height: 100%;
 			font-family: "Tomorrow", sans-serif;
-			font-size: clamp(0.8rem, 2vw, 1.4rem);
+			font-size: clamp(0.8rem, 2vw, 1.2rem);
 			color: white;
 			text-align: center;
 			padding: 0 clamp(1rem, 5vw, 3rem);
