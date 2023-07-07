@@ -29,7 +29,7 @@ function Technologies() {
 				<NavLink to="JS" onClick={scrollToTheTop} className="technologies__boxes"><TbBrandJavascript /></NavLink>
 				<NavLink to="AWS" onClick={scrollToTheTop} className="technologies__boxes"><FaAws /></NavLink>
 				<NavLink to="Figma" onClick={scrollToTheTop} className="technologies__boxes"><TbBrandFigma /></NavLink>
-				<NavLink onClick={scrollToTheTop} className="technologies__boxes"><SiMui /></NavLink>
+				<NavLink to="MUI" onClick={scrollToTheTop} className="technologies__boxes"><SiMui /></NavLink>
 				<NavLink to="Microsoft_Azure" onClick={scrollToTheTop} className="technologies__boxes"><SiMicrosoftazure /></NavLink>
 				<NavLink onClick={scrollToTheTop} className="technologies__boxes"><SiTableau /></NavLink>
 				<NavLink to="Python" onClick={scrollToTheTop} className="technologies__boxes"><FaPython /></NavLink>

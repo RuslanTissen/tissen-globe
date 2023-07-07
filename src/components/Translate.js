@@ -337,7 +337,14 @@ const trans = {
 		PythonSmallText3: "Extensive Standard Library: Python comes with a vast standard library that provides a wide range of pre-built modules and functions. These modules cover various areas such as string manipulation, file handling, networking, database access, and more. The standard library allows developers to leverage existing code and accelerate development.",
 		PythonSmallText4: "Easy to Learn and Readable Syntax: Python has a clean and intuitive syntax that emphasizes readability. Its code structure is designed to be easily understood, making it a beginner-friendly language and allowing developers to write code more quickly and efficiently.",
 		PythonText2: "Python is supported by a large and active community that continuously develops new modules and tools and provides a wealth of resources and support. It offers extensive libraries and frameworks that enable developers to efficiently build applications, analyze data, implement machine learning, and much more.",
-
+// MUI
+MUITitle: "",
+MUIText1: "",
+MUISmallText1: "",
+MUISmallText2: "",
+MUISmallText3: "",
+MUISmallText4: "",
+MUIText2: "",
 
 
 
@@ -710,7 +717,14 @@ PythonSmallText2: "Amplia gama de aplicaciones: Python es un lenguaje de program
 PythonSmallText3: "Amplia biblioteca estándar: Python viene con una amplia biblioteca estándar que proporciona una amplia gama de módulos y funciones preconstruidos. Estos módulos cubren varias áreas, como manipulación de cadenas, manejo de archivos, redes, acceso a bases de datos y más. La biblioteca estándar permite a los desarrolladores aprovechar el código existente y acelerar el desarrollo.",
 PythonSmallText4: "Sintaxis fácil de aprender y legible: Python tiene una sintaxis limpia e intuitiva que enfatiza la legibilidad. Su estructura de código está diseñada para que se entienda fácilmente, lo que lo convierte en un lenguaje fácil de usar para principiantes y permite a los desarrolladores escribir código de manera más rápida y eficiente.",
 PythonText2: "Python cuenta con una comunidad grande y activa que desarrolla continuamente nuevos módulos y herramientas y brinda una gran cantidad de recursos y soporte. Ofrece amplias bibliotecas y frameworks que permiten a los desarrolladores construir aplicaciones de manera eficiente, analizar datos, implementar aprendizaje automático y mucho más.",
-
+// MUI
+MUITitle: "",
+MUIText1: "",
+MUISmallText1: "",
+MUISmallText2: "",
+MUISmallText3: "",
+MUISmallText4: "",
+MUIText2: "",
 
 
 
@@ -1065,7 +1079,14 @@ PythonSmallText2: "Breites Spektrum an Anwendungen: Python ist eine Allzweckprog
 PythonSmallText3: "Umfangreiche Standardbibliothek: Python verfügt über eine umfangreiche Standardbibliothek, die eine breite Palette an vorgefertigten Modulen und Funktionen bietet. Diese Module decken verschiedene Bereiche wie String-Manipulation, Dateiverarbeitung, Netzwerke, Datenbankzugriff und mehr ab. Die Standardbibliothek ermöglicht es Entwicklern, vorhandenen Code zu nutzen und die Entwicklung zu beschleunigen.",
 PythonSmallText4: "Leicht zu erlernende und lesbare Syntax: Python hat eine saubere und intuitive Syntax, bei der die Lesbarkeit im Vordergrund steht. Die Codestruktur ist so konzipiert, dass sie leicht zu verstehen ist, was sie zu einer anfängerfreundlichen Sprache macht und es Entwicklern ermöglicht, Code schneller und effizienter zu schreiben.",
 PythonText2: "Python wird von einer großen und aktiven Community unterstützt, die kontinuierlich neue Module und Tools entwickelt und eine Fülle von Ressourcen und Support bietet. Es bietet umfangreiche Bibliotheken und Frameworks, die Entwicklern ermöglichen, effizient Anwendungen zu entwickeln, Daten zu analysieren, maschinelles Lernen zu implementieren und vieles mehr.",
-
+// MUI
+MUITitle: "",
+MUIText1: "",
+MUISmallText1: "",
+MUISmallText2: "",
+MUISmallText3: "",
+MUISmallText4: "",
+MUIText2: "",
 
 
 

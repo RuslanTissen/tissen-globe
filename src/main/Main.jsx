@@ -21,6 +21,7 @@ import React_Native from '../components/RoutesByTechnologies/React_Native'
 import AWS from '../components/RoutesByTechnologies/AWS'
 import Figma from '../components/RoutesByTechnologies/Figma'
 import Python from '../components/RoutesByTechnologies/Python'
+import MUI from '../components/RoutesByTechnologies/MUI'
 
 function Main() {
 	return (
@@ -47,6 +48,7 @@ function Main() {
 				<Route path='AWS' element={<AWS />} />
 				<Route path='Figma' element={<Figma />} />
 				<Route path='Python' element={<Python />} />
+				<Route path='MUI' element={<MUI />} />
 			</Routes>
 
 			{/* <Outlet />  */}
