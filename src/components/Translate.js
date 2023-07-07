@@ -345,8 +345,22 @@ MUISmallText2: "",
 MUISmallText3: "",
 MUISmallText4: "",
 MUIText2: "",
-
-
+// Swift
+SwiftTitle: "",
+SwiftText1: "",
+SwiftSmallText1: "",
+SwiftSmallText2: "",
+SwiftSmallText3: "",
+SwiftSmallText4: "",
+SwiftText2: "",
+// MySQL
+MySQLTitle: "",
+MySQLText1: "",
+MySQLSmallText1: "",
+MySQLSmallText2: "",
+MySQLSmallText3: "",
+MySQLSmallText4: "",
+MySQLText2: "",
 
 
 
@@ -725,7 +739,22 @@ MUISmallText2: "",
 MUISmallText3: "",
 MUISmallText4: "",
 MUIText2: "",
-
+// Swift
+SwiftTitle: "",
+SwiftText1: "",
+SwiftSmallText1: "",
+SwiftSmallText2: "",
+SwiftSmallText3: "",
+SwiftSmallText4: "",
+SwiftText2: "",
+// MySQL
+MySQLTitle: "",
+MySQLText1: "",
+MySQLSmallText1: "",
+MySQLSmallText2: "",
+MySQLSmallText3: "",
+MySQLSmallText4: "",
+MySQLText2: "",
 
 
 
@@ -1087,7 +1116,22 @@ MUISmallText2: "",
 MUISmallText3: "",
 MUISmallText4: "",
 MUIText2: "",
-
+// Swift
+SwiftTitle: "",
+SwiftText1: "",
+SwiftSmallText1: "",
+SwiftSmallText2: "",
+SwiftSmallText3: "",
+SwiftSmallText4: "",
+SwiftText2: "",
+// MySQL
+MySQLTitle: "",
+MySQLText1: "",
+MySQLSmallText1: "",
+MySQLSmallText2: "",
+MySQLSmallText3: "",
+MySQLSmallText4: "",
+MySQLText2: "",
 
 
 

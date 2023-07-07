@@ -39,8 +39,8 @@ function Footer() {
 						<NavLink to="Figma" onClick={scrollToTheTop}>Figma</NavLink>
 						<NavLink to="Python" onClick={scrollToTheTop}>Python</NavLink>
 						<NavLink to="MUI" onClick={scrollToTheTop}>Material-UI</NavLink>
-						<NavLink to="#" onClick={scrollToTheTop}>Swift</NavLink>
-						<NavLink to="#" onClick={scrollToTheTop}>MySQL</NavLink>
+						<NavLink to="Swift" onClick={scrollToTheTop}>Swift</NavLink>
+						<NavLink to="MySQL" onClick={scrollToTheTop}>MySQL</NavLink>
 						<NavLink to="#" onClick={scrollToTheTop}>Tableau</NavLink>
 					</div>
 					<div className="footer__container__section__1__column">

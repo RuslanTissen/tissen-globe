@@ -23,7 +23,7 @@ function Technologies() {
 					<h2 className='title__picture__include'>{trans[lang].byTechnologie}</h2>
 				</div>
 				<NavLink to="Angular" onClick={scrollToTheTop} className="technologies__boxes"><TbBrandAngular /></NavLink>
-				<NavLink onClick={scrollToTheTop} className="technologies__boxes"><FaSwift /></NavLink>
+				<NavLink to="Swift" onClick={scrollToTheTop} className="technologies__boxes"><FaSwift /></NavLink>
 				<NavLink to="Vue" onClick={scrollToTheTop} className="technologies__boxes"><TbBrandVue /></NavLink>
 				<NavLink to="React_Native" onClick={scrollToTheTop} className="technologies__boxes"><TbBrandReactNative /></NavLink>
 				<NavLink to="JS" onClick={scrollToTheTop} className="technologies__boxes"><TbBrandJavascript /></NavLink>
@@ -33,7 +33,7 @@ function Technologies() {
 				<NavLink to="Microsoft_Azure" onClick={scrollToTheTop} className="technologies__boxes"><SiMicrosoftazure /></NavLink>
 				<NavLink onClick={scrollToTheTop} className="technologies__boxes"><SiTableau /></NavLink>
 				<NavLink to="Python" onClick={scrollToTheTop} className="technologies__boxes"><FaPython /></NavLink>
-				<NavLink onClick={scrollToTheTop} className="technologies__boxes"><GrMysql /></NavLink>
+				<NavLink to="MySQL" onClick={scrollToTheTop} className="technologies__boxes"><GrMysql /></NavLink>
 			</div>
 		</div>
 	)

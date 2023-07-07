@@ -22,6 +22,8 @@ import AWS from '../components/RoutesByTechnologies/AWS'
 import Figma from '../components/RoutesByTechnologies/Figma'
 import Python from '../components/RoutesByTechnologies/Python'
 import MUI from '../components/RoutesByTechnologies/MUI'
+import Swift from '../components/RoutesByTechnologies/Swift'
+import MySQL from '../components/RoutesByTechnologies/MySQL'
 
 function Main() {
 	return (
@@ -49,6 +51,8 @@ function Main() {
 				<Route path='Figma' element={<Figma />} />
 				<Route path='Python' element={<Python />} />
 				<Route path='MUI' element={<MUI />} />
+				<Route path='Swift' element={<Swift />} />
+				<Route path='MySQL' element={<MySQL />} />
 			</Routes>
 
 			{/* <Outlet />  */}
