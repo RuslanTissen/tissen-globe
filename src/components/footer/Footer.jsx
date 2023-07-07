@@ -1,5 +1,4 @@
 import React, { useContext } from 'react'
-import "./Footer.scss"
 import { NavLink } from 'react-router-dom'
 import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa'
 import logo from "../../images/logo.png"
@@ -7,8 +6,10 @@ import { BsLinkedin } from "react-icons/bs"
 import trans from '../Translate.js';
 import { Context } from '../Context'
 
+import "./Footer.scss"
+
 function Footer() {
-	const { lang, setLang } = useContext(Context)
+	const { lang } = useContext(Context)
 
 	const scrollToTheTop = () => {
 		window.scroll(0, 0)
