@@ -99,8 +99,8 @@ export default Header
 
 
 
-					{/* <li className='first-li humburgerMenu__container--link'><NavLink onClick={scrollToTheTop}>{trans[lang].what}</NavLink> </li> */}
-						{/* <li className='li2 lis'><NavLink onClick={scrollToTheTop}>{trans[lang].what}</NavLink></li> */}
+{/* <li className='first-li humburgerMenu__container--link'><NavLink onClick={scrollToTheTop}>{trans[lang].what}</NavLink> </li> */ }
+{/* <li className='li2 lis'><NavLink onClick={scrollToTheTop}>{trans[lang].what}</NavLink></li> */ }
 
 
 
