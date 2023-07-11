@@ -11,7 +11,7 @@ import ModelTechPicture from './modelsForTech/modelTechPicture/ModelTechPicture'
 import ModelVideoTech from './modelsForTech/modelVideoTech/ModelVideoTech'
 import ModelTechPicture2 from './modelsForTech/modelTechPicture2/ModelTechPicture2'
 import ModelLastBlock from './modelsForTech/modelLastBlock/ModelLastBlock'
-import { GrMysql } from 'react-icons/gr'
+import { SiMysql } from 'react-icons/si'
 
 function MySQL() {
 	const { lang } = useContext(Context)
@@ -43,7 +43,7 @@ function MySQL() {
 			<ModelLastBlock
 				h3Text={`${trans[lang].MySQLText2}`}
 				chart={chart}
-				logo={<GrMysql />}
+				logo={<SiMysql />}
 			/>
 
 	 </div>
