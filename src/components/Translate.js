@@ -1109,13 +1109,13 @@ PythonSmallText3: "Umfangreiche Standardbibliothek: Python verfügt über eine u
 PythonSmallText4: "Leicht zu erlernende und lesbare Syntax: Python hat eine saubere und intuitive Syntax, bei der die Lesbarkeit im Vordergrund steht. Die Codestruktur ist so konzipiert, dass sie leicht zu verstehen ist, was sie zu einer anfängerfreundlichen Sprache macht und es Entwicklern ermöglicht, Code schneller und effizienter zu schreiben.",
 PythonText2: "Python wird von einer großen und aktiven Community unterstützt, die kontinuierlich neue Module und Tools entwickelt und eine Fülle von Ressourcen und Support bietet. Es bietet umfangreiche Bibliotheken und Frameworks, die Entwicklern ermöglichen, effizient Anwendungen zu entwickeln, Daten zu analysieren, maschinelles Lernen zu implementieren und vieles mehr.",
 // MUI
-MUITitle: "",
-MUIText1: "",
-MUISmallText1: "",
-MUISmallText2: "",
-MUISmallText3: "",
-MUISmallText4: "",
-MUIText2: "",
+MUITitle: "Material-UI",
+MUIText1: "Material-UI ist eine React-basierte Bibliothek, die vorgefertigte UI-Komponenten im Material Design-Stil zur Verfügung stellt. Es ermöglicht die schnelle Entwicklung ästhetisch ansprechender und konsistenter Benutzeroberflächen.",
+MUISmallText1: "Modernes Design: Material-UI bietet vorgefertigte UI-Komponenten im beliebten Material Design-Stil von Google. Dieses moderne und ästhetisch ansprechende Design hilft Entwicklern, ansprechende Benutzeroberflächen zu erstellen und dem neuesten Design-Trend zu folgen.",
+MUISmallText2: "Anpassungsfähigkeit: Material-UI bietet eine hohe Anpassungsfähigkeit, um den spezifischen Anforderungen eines Projekts gerecht zu werden. Entwickler können Farben, Schriftarten, Stile und Layouts leicht anpassen, um eine einzigartige visuelle Identität zu schaffen.",
+MUISmallText3: "Responsives Design: Material-UI unterstützt reaktionsfähiges Design, sodass Benutzeroberflächen nahtlos auf verschiedenen Geräten und Bildschirmgrößen gut funktionieren. Dies ermöglicht eine konsistente Benutzererfahrung auf Desktops, Tablets und Smartphones.",
+MUISmallText4: "Aktive Community und Ressourcen: Material-UI hat eine große und aktive Community von Entwicklern, die regelmäßig neue Komponenten, Themes und Erweiterungen erstellt. Es gibt auch umfangreiche Dokumentationen, Beispiele und Tutorials, die den Einstieg erleichtern und Unterstützung bei der Verwendung von Material-UI bieten.",
+MUIText2: "Material-UI ist eine beliebte Bibliothek, die das Material Design von Google umsetzt. Sie bietet vorgefertigte UI-Komponenten für moderne Webanwendungen. Material-UI ermöglicht ein responsives Design und eine einfache Anpassung des visuellen Erscheinungsbildes.",
 // Swift
 SwiftTitle: "Swift",
 SwiftText1: "Swift ist eine von Apple entwickelte Programmiersprache für die Entwicklung von iOS-, macOS-, watchOS- und tvOS-Anwendungen. Sie ist modern, sicher und wurde entwickelt, um die Entwicklung von Apps effizienter und benutzerfreundlicher zu machen.",
@@ -1125,13 +1125,13 @@ SwiftSmallText3: "Leistungsstark und ausdrucksstark: Swift bietet eine leistungs
 SwiftSmallText4: "Rückwärtskompatibilität: Swift unterstützt die nahtlose Integration von Swift-Code mit vorhandenem Objective-C-Code. Dies ermöglicht eine schrittweise Migration bestehender Anwendungen auf Swift und erleichtert die Aktualisierung und Erweiterung von Projekten.",
 SwiftText2: "Swift ist eine moderne Programmiersprache mit fortschrittlichen Funktionen wie Typinferenz, optionalen Werten und Musterabgleich. Sie bietet Zugriff auf eine breite Palette von Apple-Frameworks und -Bibliotheken, um die Entwicklung hochwertiger Apps zu unterstützen. Swift ist ideal für Entwickler, die schnell qualitativ hochwertige Anwendungen für Apple-Plattformen erstellen möchten.",
 // MySQL
-MySQLTitle: "",
-MySQLText1: "",
-MySQLSmallText1: "",
-MySQLSmallText2: "",
-MySQLSmallText3: "",
-MySQLSmallText4: "",
-MySQLText2: "",
+MySQLTitle: "MySQL",
+MySQLText1: "MySQL ist ein Open-Source-Relationales-Datenbankmanagementsystem, das weit verbreitet ist und für die Speicherung und Verwaltung von Daten in einer Vielzahl von Anwendungen verwendet wird. Es bietet eine robuste, zuverlässige und skalierbare Lösung für die Datenbankverwaltung.",
+MySQLSmallText1: "Flexibilität: MySQL unterstützt verschiedene Datenformate und kann große Datenmengen effizient verwalten. Es bietet Flexibilität in Bezug auf Speicher- und Abrufoptionen.",
+MySQLSmallText2: "Leistung: MySQL zeichnet sich durch hohe Performance und schnelle Antwortzeiten aus. Es ist für Geschwindigkeit optimiert und kann effektiv mit gleichzeitigen Transaktionen umgehen, was es für hoch frequentierte Anwendungen geeignet macht.",
+MySQLSmallText3: "Zuverlässigkeit: MySQL ist eine zuverlässige Datenbanklösung mit integrierten Funktionen wie Datenreplikation und Backup-Optionen. Es gewährleistet die Datenintegrität und bietet Mechanismen zur Datenwiederherstellung bei Ausfällen.",
+MySQLSmallText4: "Gemeinschaft und Support: MySQL verfügt über eine große und aktive Gemeinschaft von Benutzern und Entwicklern, die Unterstützung bieten, Wissen teilen und zur Verbesserung der Plattform beitragen. Diese von der Gemeinschaft getragene Unterstützung erleichtert die Lösung von Problemen und den Zugriff auf Ressourcen.",
+MySQLText2: "MySQL zeichnet sich durch seine Benutzerfreundlichkeit und einfache Installation aus, was es zu einer bevorzugten Wahl für Entwickler macht. Es unterstützt eine Vielzahl von Plattformen und Sprachen, was eine nahtlose Integration in bestehende Systeme ermöglicht.",
 
 
 
