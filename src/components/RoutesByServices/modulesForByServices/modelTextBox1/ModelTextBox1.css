@@ -1,0 +1,29 @@
+.softwareTextBox1 {
+  background-color: white;
+}
+.softwareTextBox1 .softwareTextBox1__container {
+  padding: 3rem 1rem;
+  gap: 2rem;
+}
+.softwareTextBox1 .softwareTextBox1__container .softwareTextBox1__container__box {
+  flex: 1 1 46%;
+  min-width: 300px;
+  text-align: center;
+  display: grid;
+  align-items: center;
+}
+.softwareTextBox1 .softwareTextBox1__container .softwareTextBox1__container__box h3,
+.softwareTextBox1 .softwareTextBox1__container .softwareTextBox1__container__box p {
+  font-family: "Tomorrow", sans-serif;
+  padding: 0 1rem;
+}
+.softwareTextBox1 .softwareTextBox1__container .softwareTextBox1__container__box h2 {
+  font-family: "Gruppo", sans-serif;
+  padding: 0 3rem;
+  font-weight: 500;
+}
+@media (min-width: 1200px) {
+  .softwareTextBox1 .softwareTextBox1__container {
+    gap: 4rem;
+  }
+}/*# sourceMappingURL=ModelTextBox1.css.map */

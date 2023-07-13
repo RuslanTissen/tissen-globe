@@ -1,0 +1,18 @@
+.softwareTextBox2 {
+  background-color: black;
+}
+.softwareTextBox2 .softwareTextBox2__container {
+  padding: 3rem;
+}
+.softwareTextBox2 .softwareTextBox2__container h2 {
+  background-color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 400;
+}
+@media (min-width: 1200px) {
+  .softwareTextBox2 .softwareTextBox2__container {
+    padding: 4rem;
+  }
+}/*# sourceMappingURL=ModelTextBox2.css.map */

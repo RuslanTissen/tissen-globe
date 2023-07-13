@@ -1,0 +1,10 @@
+.softwareVideo {
+  background-color: white;
+}
+.softwareVideo .softwareVideo__container {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.softwareVideo .softwareVideo__container ol li {
+  padding-right: 2rem;
+}/*# sourceMappingURL=ModelVideo.css.map */

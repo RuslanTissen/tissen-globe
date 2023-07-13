@@ -1,0 +1,7 @@
+.pointsSoftware {
+  background-color: black;
+  padding: 2rem 1rem clamp(0.5rem, 2vw, 2rem);
+}
+.pointsSoftware .pointsSoftware__container {
+  background-image: url("../../../../images/pointsSoftware.png");
+}/*# sourceMappingURL=ModelPicture.css.map */

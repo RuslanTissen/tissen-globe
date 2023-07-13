@@ -17,9 +17,9 @@
   flex: 1 1 100%;
   width: inherit;
   font-family: "Gruppo", sans-serif;
-  font-size: 2.5rem;
   color: rgb(6, 27, 176);
   font-weight: 500;
+  margin: 1rem auto;
   text-align: center;
   transition: all 0.3s ease-in-out;
 }
@@ -62,9 +62,6 @@
   .location .location__container {
     gap: 1.5rem;
   }
-  .location .location__container h2 {
-    font-size: 3rem;
-  }
   .location .location__container .location__container__boxes {
     flex: 1 1 48%;
     height: -moz-fit-content;
@@ -89,10 +86,6 @@
 @media (min-width: 1100px) {
   .location .location__container {
     gap: 2rem;
-  }
-  .location .location__container h2 {
-    font-size: 5rem;
-    margin-bottom: 0;
   }
   .location .location__container .location__container__boxes {
     flex: 1 1 31%;

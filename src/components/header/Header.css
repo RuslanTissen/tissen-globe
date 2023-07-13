@@ -223,15 +223,14 @@
     justify-content: center;
     padding: 5px;
     background-color: transparent;
-    color: white;
+    color: rgb(250, 4, 4);
     border: none;
-    text-shadow: black 0px 0px 1px;
   }
   .header .header__big-container .ul__container .first-ul .li1 a:hover,
   .header .header__big-container .ul__container .first-ul .lis a:hover,
   .header .header__big-container .ul__container .first-ul .lis button:hover,
   .header .header__big-container .ul__container .first-ul .dropdown .link:hover,
   .header .header__big-container .ul__container .first-ul .dropdown-menu button:hover {
-    opacity: 0.5;
+    opacity: 0.7;
   }
 }/*# sourceMappingURL=Header.css.map */

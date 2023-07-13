@@ -1,0 +1,8 @@
+.softwareLastPicture {
+  background-color: black;
+  padding: 2rem 1rem;
+}
+.softwareLastPicture .softwareLastPicture__container {
+  color: white;
+  background-image: url("../../../../images/softwareLastPicture.png");
+}/*# sourceMappingURL=ModelLastPicture.css.map */

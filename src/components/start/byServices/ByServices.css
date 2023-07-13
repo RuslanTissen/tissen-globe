@@ -1,0 +1,44 @@
+.stepsMain .stepsMain__container {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem 0 3rem;
+  gap: clamp(1rem, 1vw, 2rem);
+}
+.stepsMain .stepsMain__container .stepsMain__container__title_box {
+  flex: 1 1 100%;
+}
+.stepsMain .stepsMain__container .stepsMain__container__title_box h2 {
+  color: white;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 1rem auto;
+  text-align: center;
+  font-family: "Gruppo", sans-serif;
+  font-weight: 500;
+  transition: all 0.3s ease-out;
+}
+.stepsMain .stepsMain__container .stepsMain__container__title_box h2:hover {
+  scale: 1.05;
+}
+.stepsMain .stepsMain__container .stepsMain__container__boxes {
+  flex: 1 1 31%;
+  min-width: 280px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+}
+.stepsMain .stepsMain__container .stepsMain__container__boxes img {
+  width: clamp(4rem, 10vw, 7rem);
+  margin: auto;
+  display: block;
+}
+.stepsMain .stepsMain__container .stepsMain__container__boxes p {
+  color: white;
+}
+.stepsMain .stepsMain__container__boxes:hover {
+  background-color: rgb(31, 30, 30);
+}/*# sourceMappingURL=ByServices.css.map */
