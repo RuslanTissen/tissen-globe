@@ -361,19 +361,14 @@ const trans = {
 		MySQLSmallText3: "Reliability: MySQL is a reliable database solution with built-in features such as data replication and backup options. It ensures data integrity and provides mechanisms for data recovery in case of failures.",
 		MySQLSmallText4: "Community and Support: MySQL has a large and active community of users and developers who offer support, share knowledge, and contribute to the platform's improvement. This community-driven support facilitates problem-solving and access to resources.",
 		MySQLText2: "MySQL is known for its user-friendliness and easy installation, making it a preferred choice for developers. It supports a variety of platforms and languages, enabling seamless integration into existing systems.",
-
-
-
-
-
-		//
-		Title: "",
-		Text1: "",
-		SmallText1: "",
-		SmallText2: "",
-		SmallText3: "",
-		SmallText4: "",
-		Text2: "",
+		// CPlusPlus
+		CPlusPlusTitle: "C++",
+		CPlusPlusText1: "C++ is a powerful and versatile programming language that supports both low-level hardware applications and complex software solutions. With C++, developers can write efficient and cross-platform code that can be deployed on microcontrollers as well as high-performance computers.",
+		CPlusPlusSmallText1: "High Performance: C++ allows for efficient resource utilization and offers the possibility to develop high-performance applications. By having direct control over memory and resources, developers can write optimized code that runs faster and consumes fewer resources.",
+		CPlusPlusSmallText2: "Versatility: C++ is a versatile programming language that can be used in different types of applications. It is suitable for both low-level programming and complex software solutions. C++ offers flexibility and scalability to adapt to the requirements of different projects.",
+		CPlusPlusSmallText3: "Object-Oriented Programming: C++ supports object-oriented programming, enabling modular and structured code development. By using classes, objects, inheritance, and polymorphism, code can be reused, maintained, and extended efficiently. Object-oriented programming promotes clear organization and facilitates collaboration in development teams.",
+		CPlusPlusSmallText4: "Rich Libraries: C++ has a wide range of libraries that cover various functionalities. These libraries provide pre-defined solutions for areas such as mathematics, network programming, graphics, database access, and more. Using these libraries saves development time and allows for efficient implementation of functions and features.",
+		CPlusPlusText2: "Thanks to object-oriented programming (OOP), C++ allows for a modular and well-structured codebase. This promotes code reusability and facilitates maintenance and expansion of projects. C++ also provides support for other programming paradigms such as generic programming and procedural programming, further enhancing the versatility of the language.",
 
 
 
@@ -755,7 +750,14 @@ const trans = {
 		MySQLSmallText3: "Confiabilidad: MySQL es una solución de base de datos confiable con características integradas como la replicación de datos y opciones de respaldo. Garantiza la integridad de los datos y proporciona mecanismos para la recuperación de datos en caso de fallos.",
 		MySQLSmallText4: "Comunidad y Soporte: MySQL cuenta con una comunidad grande y activa de usuarios y desarrolladores que ofrecen soporte, comparten conocimientos y contribuyen a la mejora de la plataforma. Este soporte impulsado por la comunidad facilita la resolución de problemas y el acceso a recursos.",
 		MySQLText2: "MySQL se destaca por su facilidad de uso y fácil instalación, lo que lo convierte en una opción preferida para los desarrolladores. Admite una variedad de plataformas e idiomas, lo que permite una integración perfecta en sistemas existentes.",
-
+	// CPlusPlus
+	CPlusPlusTitle: "C++",
+	CPlusPlusText1: "C++ es un lenguaje de programación potente y versátil que admite aplicaciones tanto a nivel de hardware como soluciones de software complejas. Con C++, los desarrolladores pueden escribir código eficiente y multiplataforma que se puede implementar en microcontroladores y computadoras de alto rendimiento.",
+	CPlusPlusSmallText1: "Alto rendimiento: C++ permite utilizar eficientemente los recursos y ofrece la posibilidad de desarrollar aplicaciones de alto rendimiento. Al tener control directo sobre la memoria y los recursos, los desarrolladores pueden escribir código optimizado que funcione más rápido y consuma menos recursos.",
+	CPlusPlusSmallText2: "Versatilidad: C++ es un lenguaje de programación versátil que se puede utilizar en diferentes tipos de aplicaciones. Es adecuado tanto para programación de bajo nivel como para soluciones de software complejas. C++ ofrece flexibilidad y escalabilidad para adaptarse a los requisitos de diferentes proyectos.",
+	CPlusPlusSmallText3: "Programación orientada a objetos: C++ admite la programación orientada a objetos (POO) y permite el desarrollo modular y estructurado de código. Mediante el uso de clases, objetos, herencia y polimorfismo, se puede reutilizar, mantener y ampliar el código de manera eficiente. La POO fomenta una organización clara y facilita la colaboración en equipos de desarrollo.",
+	CPlusPlusSmallText4: "Amplias bibliotecas: C++ cuenta con una amplia selección de bibliotecas que abarcan diversas funcionalidades. Estas bibliotecas ofrecen soluciones predefinidas para áreas como matemáticas, programación de redes, gráficos, acceso a bases de datos y más. Utilizar estas bibliotecas ahorra tiempo de desarrollo y permite una implementación eficiente de funciones y características.",
+	CPlusPlusText2: "Gracias a la programación orientada a objetos (OOP), C++ permite una base de código modular y bien estructurada. Esto fomenta la reutilización de código y facilita el mantenimiento y la expansión de proyectos. C++ también ofrece soporte para otros paradigmas de programación como la programación genérica y la programación procedural, lo que aumenta aún más la versatilidad del lenguaje.",
 
 
 
@@ -1132,7 +1134,14 @@ const trans = {
 		MySQLSmallText3: "Zuverlässigkeit: MySQL ist eine zuverlässige Datenbanklösung mit integrierten Funktionen wie Datenreplikation und Backup-Optionen. Es gewährleistet die Datenintegrität und bietet Mechanismen zur Datenwiederherstellung bei Ausfällen.",
 		MySQLSmallText4: "Gemeinschaft und Support: MySQL verfügt über eine große und aktive Gemeinschaft von Benutzern und Entwicklern, die Unterstützung bieten, Wissen teilen und zur Verbesserung der Plattform beitragen. Diese von der Gemeinschaft getragene Unterstützung erleichtert die Lösung von Problemen und den Zugriff auf Ressourcen.",
 		MySQLText2: "MySQL zeichnet sich durch seine Benutzerfreundlichkeit und einfache Installation aus, was es zu einer bevorzugten Wahl für Entwickler macht. Es unterstützt eine Vielzahl von Plattformen und Sprachen, was eine nahtlose Integration in bestehende Systeme ermöglicht.",
-
+	// CPlusPlus
+	CPlusPlusTitle: "C++",
+	CPlusPlusText1: "C++ ist eine leistungsstarke und vielseitige Programmiersprache, die sowohl hardwarenahe Anwendungen als auch komplexe Softwarelösungen unterstützt. Mit C++ können Entwickler effizienten und plattformübergreifenden Code schreiben, der sowohl auf Mikrocontrollern als auch auf Hochleistungscomputern eingesetzt werden kann.",
+	CPlusPlusSmallText1: "Hohe Leistung: C++ ermöglicht eine effiziente Nutzung von Ressourcen und bietet die Möglichkeit, leistungsstarke Anwendungen zu entwickeln. Durch die direkte Kontrolle über Speicher und Ressourcen können Entwickler optimierten Code schreiben, der schneller und ressourcenschonender arbeitet.",
+	CPlusPlusSmallText2: "Vielseitigkeit: C++ ist eine vielseitige Programmiersprache, die für verschiedene Anwendungen eingesetzt werden kann. Es eignet sich sowohl für hardwarenahe Programmierung als auch für komplexe Softwarelösungen. C++ bietet Flexibilität und Skalierbarkeit, um den Anforderungen unterschiedlicher Projekte gerecht zu werden.",
+	CPlusPlusSmallText3: "Objektorientierte Programmierung: C++ unterstützt die objektorientierte Programmierung (OOP) und ermöglicht eine modulare und strukturierte Entwicklung von Code. Durch die Verwendung von Klassen, Objekten, Vererbung und Polymorphismus kann Code wiederverwendet, gewartet und erweitert werden. OOP fördert eine klare Organisierung und erleichtert die Zusammenarbeit in Entwicklerteams.",
+	CPlusPlusSmallText4: "Umfangreiche Bibliotheken: C++ verfügt über eine große Auswahl an Bibliotheken, die eine breite Palette von Funktionen abdecken. Diese Bibliotheken bieten vorgefertigte Lösungen für verschiedene Aufgabenbereiche wie Mathematik, Netzwerkprogrammierung, Grafik, Datenbankzugriff und mehr. Die Verwendung dieser Bibliotheken spart Entwicklungszeit und ermöglicht eine effiziente Implementierung von Funktionen und Features.",
+	CPlusPlusText2: "Dank der objektorientierten Programmierung (OOP) ermöglicht C++ eine modulare und gut strukturierte Codebasis. Dies fördert die Wiederverwendbarkeit von Code und erleichtert die Wartung und Erweiterung von Projekten. C++ bietet auch Unterstützung für andere Programmierparadigmen wie generische Programmierung und prozedurale Programmierung, was die Vielseitigkeit der Sprache weiter erhöht.",
 
 
 

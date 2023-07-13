@@ -24,6 +24,7 @@ import Python from '../components/RoutesByTechnologies/Python'
 import MUI from '../components/RoutesByTechnologies/MUI'
 import Swift from '../components/RoutesByTechnologies/Swift'
 import MySQL from '../components/RoutesByTechnologies/MySQL'
+import CPlusPlus from '../components/RoutesByTechnologies/CPlusPlus'
 
 function Main() {
 	return (
@@ -53,6 +54,7 @@ function Main() {
 				<Route path='MUI' element={<MUI />} />
 				<Route path='Swift' element={<Swift />} />
 				<Route path='MySQL' element={<MySQL />} />
+				<Route path='CPlusPlus' element={<CPlusPlus />} />
 			</Routes>
 
 			{/* <Outlet />  */}

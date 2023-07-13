@@ -41,7 +41,7 @@ function Footer() {
 						<NavLink to="MUI" onClick={scrollToTheTop}>Material-UI</NavLink>
 						<NavLink to="Swift" onClick={scrollToTheTop}>Swift</NavLink>
 						<NavLink to="MySQL" onClick={scrollToTheTop}>MySQL</NavLink>
-						<NavLink to="#" onClick={scrollToTheTop}>Tableau</NavLink>
+						<NavLink to="CPlusPlus" onClick={scrollToTheTop}>C++</NavLink>
 					</div>
 					<div className="footer__container__section__1__column">
 						<h2>{trans[lang].footerCompany}</h2>
