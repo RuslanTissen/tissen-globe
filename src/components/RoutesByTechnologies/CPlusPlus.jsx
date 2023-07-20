@@ -11,15 +11,15 @@ import ModelTechPicture from './modelsForTech/modelTechPicture/ModelTechPicture'
 import ModelVideoTech from './modelsForTech/modelVideoTech/ModelVideoTech'
 import ModelTechPicture2 from './modelsForTech/modelTechPicture2/ModelTechPicture2'
 import ModelLastBlock from './modelsForTech/modelLastBlock/ModelLastBlock'
-import { CgCPlusPlus } from 'react-icons/cg'
+import { SiCplusplus } from 'react-icons/si'
 
 function CPlusPlus() {
 	const { lang } = useContext(Context)
 
-  return (
-	 <div>
-		
-		<ModelTechPicture
+	return (
+		<div>
+
+			<ModelTechPicture
 				title={`${trans[lang].CPlusPlusTitle}`}
 			/>
 
@@ -43,11 +43,11 @@ function CPlusPlus() {
 			<ModelLastBlock
 				h3Text={`${trans[lang].CPlusPlusText2}`}
 				chart={chart}
-				logo={<CgCPlusPlus />}
+				logo={<SiCplusplus />}
 			/>
 
-	 </div>
-  )
+		</div>
+	)
 }
 
 export default CPlusPlus
