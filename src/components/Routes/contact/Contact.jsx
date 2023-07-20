@@ -62,7 +62,7 @@ function Contact() {
 				<div className="contact__email__and__whatsapp">
 					<h3>Or</h3>
 					<h4>Simply send a message by:</h4>
-					<button><a href="mailto:rthyssen73@gmail.com">Click to Send an Email</a></button>
+					<button><a href="mailto:info@tissen.tech">Click to Send an Email</a></button>
 					{/* <br /> */}
 					<a href={`https://wa.me/541164210650?text=Hi`} target="_blank">
 						<BsWhatsapp />
@@ -72,7 +72,7 @@ function Contact() {
 				<div className="contact__conatiner__phone__container">
 					<h2>Of couse you can call directly:</h2>
 					{/* <h4>USA: </h4> */}
-					<h4>Argentina: (+54) 11-6601-4163</h4>
+					<h4>Argentina: (+54) 11-5763-9301</h4>
 					<h4>Germany:  (+49) 176-8315-7254</h4>
 				</div>
 
