@@ -1,13 +1,13 @@
 import React, { useContext } from 'react'
 import "./HowSteps.scss"
-import howIcons1 from "../../../../images/howIcons1.jpg"
-import howIcons2 from "../../../../images/howIcons2.jpg"
-import howIcons3 from "../../../../images/howIcons3.jpg"
-import howIcons4 from "../../../../images/howIcons4.jpg"
-import howIcons5 from "../../../../images/howIcons5.jpg"
-import howIcons6 from "../../../../images/howIcons6.jpg"
-import howIcons7 from "../../../../images/howIcons7.jpg"
-import howIcons8 from "../../../../images/howIcons8.jpg"
+import howIcons1 from "../../../../images/Steps-req.png"
+import howIcons2 from "../../../../images/Steps-sys.png"
+import howIcons3 from "../../../../images/Steps-dev.png"
+import howIcons4 from "../../../../images/Steps-test.png"
+import howIcons5 from "../../../../images/Steps-dep.png"
+import howIcons6 from "../../../../images/Steps-main.png"
+import howIcons7 from "../../../../images/Steps-doc.png"
+import howIcons8 from "../../../../images/Steps-cont.png"
 import { NavLink } from 'react-router-dom';
 import trans from '../../../Translate'
 import { Context } from '../../../Context'
