@@ -10,7 +10,7 @@ function ModelLastBlock(props) {
 				<h3>{h3Text}</h3>
 
 				<div className="modelLastBlock__container__chart_box">
-					<img className='chartTechnologies' src={chart} alt="" />
+					<img className='chartTechnologies' src={chart} alt='Ups, image is lost'  />
 				</div>
 
 				<div className="modelLastBlock__container__logo_box">

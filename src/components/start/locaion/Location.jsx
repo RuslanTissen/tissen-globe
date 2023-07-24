@@ -15,17 +15,17 @@ function Location() {
 			<div className="location__container">
 				<h2 className='title__picture__include'>{trans[lang].whereAreWe}</h2>
 				<div className="location__container__boxes">
-					<img src={south_america} />
+					<img src={south_america} alt='Ups, image is lost'/>
 					<p>{trans[lang].theTissen}</p>
 					<h5>{trans[lang].southAmerica}</h5>
 				</div>
 				<div className="location__container__boxes">
-					<img src={north_america} />
+					<img src={north_america} alt='Ups, image is lost'/>
 					<p>{trans[lang].GermanIT}</p>
 					<h5>{trans[lang].northAmerica}</h5>
 				</div>
 				<div className="location__container__boxes">
-					<img src={europa} />
+					<img src={europa} alt='Ups, image is lost'/>
 					<p>{trans[lang].weAre}</p>
 					<h5>{trans[lang].europe}</h5>
 				</div>

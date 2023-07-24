@@ -8,8 +8,8 @@ function Animation() {
 	return (
 		<div className='wrapper'>
 			<header>
-				<img src={parallax1} className='background' />
-				<img src={parallax2} className='foreground' />
+				<img src={parallax1} alt='Ups, image is lost' className='background' />
+				<img src={parallax2} alt='Ups, image is lost' className='foreground' />
 				<h2 className='title'>Welcome!</h2>
 			</header>
 		</div>

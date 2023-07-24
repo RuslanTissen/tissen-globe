@@ -22,7 +22,7 @@ function Help() {
 
 			<div className="help__sort__container">
 				<div className="help__sort__container__box">
-					<div className="help__sort__image__container"><img src={image1} alt="" /></div>
+					<div className="help__sort__image__container"><img src={image1} alt='Ups, image is lost' /></div>
 					<div className="help__sort__text__container">
 						<h3>You have a limited budget.</h3>
 						<h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, ratione inventore maxime molestiae a modi!</h4>
@@ -31,7 +31,7 @@ function Help() {
 				</div>
 
 				<div className="help__sort__container__box">
-					<div className="help__sort__image__container"><img src={image2} alt="" /></div>
+					<div className="help__sort__image__container"><img src={image2} alt='Ups, image is lost' /></div>
 					<div className="help__sort__text__container">
 						<h3>You project needs to be expedited.</h3>
 						<h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, ratione inventore maxime molestiae a modi!</h4>
@@ -40,7 +40,7 @@ function Help() {
 				</div>
 
 				<div className="help__sort__container__box">
-					<div className="help__sort__image__container"><img src={image3} alt="" /></div>
+					<div className="help__sort__image__container"><img src={image3} alt='Ups, image is lost' /></div>
 					<div className="help__sort__text__container">
 						<h3>Project requirements needs special specialist.</h3>
 						<h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, ratione inventore maxime molestiae a modi!</h4>
@@ -49,7 +49,7 @@ function Help() {
 				</div>
 
 				<div className="help__sort__container__box">
-					<div className="help__sort__image__container"><img src={image4} alt="" /></div>
+					<div className="help__sort__image__container"><img src={image4} alt='Ups, image is lost' /></div>
 					<div className="help__sort__text__container">
 						<h3>You need enhance your team for certain project.</h3>
 						<h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, ratione inventore maxime molestiae a modi!</h4>
@@ -58,7 +58,7 @@ function Help() {
 				</div>
 
 				<div className="help__sort__container__box">
-					<div className="help__sort__image__container"><img src={image5} alt="" /></div>
+					<div className="help__sort__image__container"><img src={image5} alt='Ups, image is lost' /></div>
 					<div className="help__sort__text__container">
 						<h3>You have an idea and you need a strategy.</h3>
 						<h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, ratione inventore maxime molestiae a modi!</h4>

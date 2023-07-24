@@ -16,32 +16,32 @@ function ServicesBranches() {
 		<div className='services__branches'>
 			<div className="services__branches__coontainer">
 				<div className="services__branches__coontainer__boxes">
-					<img src={card1} />
+					<img src={card1} alt='Ups, image is lost' />
 					<h3 className='title__include'>{trans[lang].servicesSoftwareDevelopmentTitle}</h3>
 					<p className='text__include'>{trans[lang].servicesSoftwareDevelopmentText}</p>
 				</div>
 				<div className="services__branches__coontainer__boxes">
-					<img src={card2} />
+					<img src={card2} alt='Ups, image is lost' />
 					<h3 className='title__include'>{trans[lang].servicesWebDevelpomentTitle}</h3>
 					<p className='text__include'>{trans[lang].servicesWebDevelpomentText}</p>
 				</div>
 				<div className="services__branches__coontainer__boxes">
-					<img src={card3} />
+					<img src={card3} alt='Ups, image is lost' />
 					<h3 className='title__include'>{trans[lang].servicesMobileDevelopmentTitle}</h3>
 					<p className='text__include'>	{trans[lang].servicesMobileDevelopmentText}</p>
 				</div>
 				<div className="services__branches__coontainer__boxes">
-					<img src={card4} />
+					<img src={card4} alt='Ups, image is lost' />
 					<h3 className='title__include'>{trans[lang].servicesNetworkSecuretyTitle}</h3>
 					<p className='text__include'>{trans[lang].servicesNetworkSecuretyText}	</p>
 				</div>
 				<div className="services__branches__coontainer__boxes">
-					<img src={card5} />
+					<img src={card5} alt='Ups, image is lost' />
 					<h3 className='title__include'>{trans[lang].servicesCloudHostingTitle}</h3>
 					<p className='text__include'>{trans[lang].servicesCloudHostingText}</p>
 				</div>
 				<div className="services__branches__coontainer__boxes">
-					<img src={card6} />
+					<img src={card6} alt='Ups, image is lost' />
 					<h3 className='title__include'>{trans[lang].servicesUXTitle}</h3>
 					<p className='text__include'>{trans[lang].servicesUXText}	</p>
 				</div>

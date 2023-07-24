@@ -10,25 +10,25 @@ function ModelTechPicture2(props) {
 			<section className="modelTechPicture2__container">
 				<div className="modelTechPicture2__container__blocks">
 					<div className="modelTechPicture2__container__blocks_img_box">
-						<img src={pic1} alt="" />
+						<img src={pic1} alt='Ups, image is lost' />
 					</div>
 					<p> {text1}</p>
 				</div>
 				<div className="modelTechPicture2__container__blocks">
 					<div className="modelTechPicture2__container__blocks_img_box">
-						<img src={pic2} alt="" />
+						<img src={pic2} alt='Ups, image is lost' />
 					</div>
 					<p>{text2}</p>
 				</div>
 				<div className="modelTechPicture2__container__blocks">
 					<div className="modelTechPicture2__container__blocks_img_box">
-						<img src={pic3} alt="" />
+						<img src={pic3} alt='Ups, image is lost' />
 					</div>
 					<p>{text3}</p>
 				</div>
 				<div className="modelTechPicture2__container__blocks">
 					<div className="modelTechPicture2__container__blocks_img_box">
-						<img src={pic4} alt="" />
+						<img src={pic4} alt='Ups, image is lost' />
 					</div>
 					<p>{text4}</p>
 				</div>
