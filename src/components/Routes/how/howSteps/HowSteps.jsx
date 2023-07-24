@@ -26,56 +26,56 @@ function HowSteps(props) {
 			<div className="howSteps__coontainer">
 				<h2 className='title__picture__include'>{trans[lang].howStepsTitle}</h2>
 				<div className="howSteps__coontainer__boxes">
-					<img src={howIcons1} />
+					<img src={howIcons1} alt='Ups, image is lost' />
 					<div className="howSteps__coontainer__boxes__text__containers">
 						<h3 className='text__include'>{trans[lang].howRequirementsGatheringTitle}</h3>
 						<p className='text__include'>{trans[lang].howRequirementsGatheringText}</p>
 					</div>
 				</div>
 				<div className="howSteps__coontainer__boxes">
-					<img src={howIcons2} />
+					<img src={howIcons2} alt='Ups, image is lost' />
 					<div className="howSteps__coontainer__boxes__text__containers">
 						<h3 className='text__include'>{trans[lang].howSystemDesignTitle}</h3>
 						<p className='text__include'>{trans[lang].howSystemDesignText}					</p>
 					</div>
 				</div>
 				<div className="howSteps__coontainer__boxes">
-					<img src={howIcons3} />
+					<img src={howIcons3} alt='Ups, image is lost' />
 					<div className="howSteps__coontainer__boxes__text__containers">
 						<h3 className='text__include'>{trans[lang].howDevelopmentTitle}</h3>
 						<p className='text__include'>	{trans[lang].howDevelopmentText}</p>
 					</div>
 				</div>
 				<div className="howSteps__coontainer__boxes">
-					<img src={howIcons4} />
+					<img src={howIcons4} alt='Ups, image is lost' />
 					<div className="howSteps__coontainer__boxes__text__containers">
 						<h3 className='text__include'>{trans[lang].howTestingTitle}</h3>
 						<p className='text__include'>{trans[lang].howTestingText}			</p>
 					</div>
 				</div>
 				<div className="howSteps__coontainer__boxes">
-					<img src={howIcons5} />
+					<img src={howIcons5} alt='Ups, image is lost' />
 					<div className="howSteps__coontainer__boxes__text__containers">
 						<h3 className='text__include'>{trans[lang].howDeploymentTitle}</h3>
 						<p className='text__include'>{trans[lang].howDeploymentText}	</p>
 					</div>
 				</div>
 				<div className="howSteps__coontainer__boxes">
-					<img src={howIcons6} />
+					<img src={howIcons6} alt='Ups, image is lost' />
 					<div className="howSteps__coontainer__boxes__text__containers">
 						<h3 className='text__include'>{trans[lang].howMaintenanceSupportTitle}</h3>
 						<p className='text__include'>{trans[lang].howMaintenanceSupportText}</p>
 					</div>
 				</div>
 				<div className="howSteps__coontainer__boxes">
-					<img src={howIcons7} />
+					<img src={howIcons7} alt='Ups, image is lost' />
 					<div className="howSteps__coontainer__boxes__text__containers">
 						<h3 className='text__include'>{trans[lang].howDocumentationTitle}</h3>
 						<p className='text__include'>{trans[lang].howDocumentationText}	</p>
 					</div>
 				</div>
 				<div className="howSteps__coontainer__boxes">
-					<img src={howIcons8} />
+					<img src={howIcons8} alt='Ups, image is lost' />
 					<div className="howSteps__coontainer__boxes__text__containers">
 						<h3 className='text__include'>{trans[lang].howContinuousImprovementTitle}</h3>
 						<p className='text__include'>{trans[lang].howContinuousImprovementText}</p>

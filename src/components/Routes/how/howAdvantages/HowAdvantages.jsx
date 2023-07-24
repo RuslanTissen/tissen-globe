@@ -16,32 +16,32 @@ function HowAdvantages() {
 			<div className="howAdvantages__container">
 				<h2 className='title__picture__include'>{trans[lang].howAdvantagesTitle}</h2>
 				<div className="howAdvantages__container__boxes">
-					<img src={howAdvant1} />
+					<img src={howAdvant1} alt='Ups, image is lost'/>
 					<h3>{trans[lang].howCostSavingsTitle}</h3>
 					<p>{trans[lang].howCostSavingsText}</p>
 				</div>
 				<div className="howAdvantages__container__boxes">
-					<img src={howAdvant2} />
+					<img src={howAdvant2} alt='Ups, image is lost'/>
 					<h3>{trans[lang].howCoreBusinessTitle}</h3>
 					<p> {trans[lang].howCoreBusinessText}				</p>
 				</div>
 				<div className="howAdvantages__container__boxes">
-					<img src={howAdvant3} />
+					<img src={howAdvant3} alt='Ups, image is lost'/>
 					<h3>{trans[lang].howRiskManagementTitle}</h3>
 					<p>	 {trans[lang].howRiskManagementText}</p>
 				</div>
 				<div className="howAdvantages__container__boxes">
-					<img src={howAdvant6} />
+					<img src={howAdvant6} alt='Ups, image is lost'/>
 					<h3>{trans[lang].howServiceLevelsTitle}</h3>
 					<p> {trans[lang].howServiceLevelsText}	</p>
 				</div>
 				<div className="howAdvantages__container__boxes">
-					<img src={howAdvant5} />
+					<img src={howAdvant5} alt='Ups, image is lost'/>
 					<h3>{trans[lang].howScalabilityFlexibilityTitle}</h3>
 					<p>	{trans[lang].howScalabilityFlexibilityText}</p>
 				</div>
 				<div className="howAdvantages__container__boxes">
-					<img src={howAdvant4} />
+					<img src={howAdvant4} alt='Ups, image is lost'/>
 					<h3>{trans[lang].howSpecializedSkillsTitle}</h3>
 					<p> {trans[lang].howSpecializedSkillsText}			</p>
 				</div>

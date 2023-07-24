@@ -11,8 +11,8 @@ const {lang} = useContext(Context)
 		<div className='lamp'>
 			<div className="lamp__container">
 				
-				<div className="lamp__container__animation__box">
-					<img src={gif} alt="" />
+				<div className="lamp__container--animation-box">
+					<img src={gif} alt="lamp image" />
 				</div>
 
 				<q>{trans[lang].carreersStrongerTogether}</q>
