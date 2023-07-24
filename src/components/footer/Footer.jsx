@@ -63,7 +63,7 @@ function Footer() {
 					</div>
 					<div className="footer__container__section__2__email">
 						<h3>{trans[lang].footerEmail}</h3>
-						<a href="mailto:info@tissen.tech">info@tissen.com</a>
+						<a href="mailto:info@tissen.tech">info@tissen.tech</a>
 					</div>
 					<div className="footer__container__section__2__phone">
 						<h3>{trans[lang].footerPhone}</h3>
