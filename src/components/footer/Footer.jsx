@@ -67,7 +67,7 @@ function Footer() {
 					</div>
 					<div className="footer__container__section__2__phone">
 						<h3>{trans[lang].footerPhone}</h3>
-						<p>AR (+54) 11-57639301 </p>
+						<p>AR (+54) 11-5763-9301 </p>
 						<p>DE (+49) 176-8315-7254 </p>
 					</div>
 				</div>

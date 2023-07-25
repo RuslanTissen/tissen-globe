@@ -8,43 +8,48 @@ import card5 from "../../../../images/services-card5.png"
 import card6 from "../../../../images/services-card6.png"
 import trans from '../../../Translate'
 import { Context } from '../../../Context'
+import { NavLink } from 'react-router-dom'
 
 function ServicesBranches() {
-	const { lang, setLang } = useContext(Context)
+	const { lang } = useContext(Context)
+
+	const scrollToTheTop = () => {
+		window.scroll(0, 0)
+	}
 
 	return (
 		<div className='services__branches'>
 			<div className="services__branches__coontainer">
-				<div className="services__branches__coontainer__boxes">
+				<NavLink to="/SoftwareDevelopment" onClick={scrollToTheTop} className="services__branches__coontainer__boxes">
 					<img src={card1} alt='Ups, image is lost' />
 					<h3 className='title__include'>{trans[lang].servicesSoftwareDevelopmentTitle}</h3>
 					<p className='text__include'>{trans[lang].servicesSoftwareDevelopmentText}</p>
-				</div>
-				<div className="services__branches__coontainer__boxes">
+				</NavLink>
+				<NavLink  to="/WebDevelopment" onClick={scrollToTheTop}  className="services__branches__coontainer__boxes">
 					<img src={card2} alt='Ups, image is lost' />
 					<h3 className='title__include'>{trans[lang].servicesWebDevelpomentTitle}</h3>
 					<p className='text__include'>{trans[lang].servicesWebDevelpomentText}</p>
-				</div>
-				<div className="services__branches__coontainer__boxes">
+				</NavLink>
+				<NavLink to="/MobileDevelopment" onClick={scrollToTheTop} className="services__branches__coontainer__boxes">
 					<img src={card3} alt='Ups, image is lost' />
 					<h3 className='title__include'>{trans[lang].servicesMobileDevelopmentTitle}</h3>
 					<p className='text__include'>	{trans[lang].servicesMobileDevelopmentText}</p>
-				</div>
-				<div className="services__branches__coontainer__boxes">
+				</NavLink>
+				<NavLink to="/E_Commerce" onClick={scrollToTheTop}  className="services__branches__coontainer__boxes">
 					<img src={card4} alt='Ups, image is lost' />
-					<h3 className='title__include'>{trans[lang].servicesNetworkSecuretyTitle}</h3>
-					<p className='text__include'>{trans[lang].servicesNetworkSecuretyText}	</p>
-				</div>
-				<div className="services__branches__coontainer__boxes">
+					<h3 className='title__include'>{trans[lang].servicesECommerceTitle}</h3>
+					<p className='text__include'>{trans[lang].servicesECommerceText}	</p>
+				</NavLink>
+				<NavLink to="/CloudHosting" onClick={scrollToTheTop}  className="services__branches__coontainer__boxes">
 					<img src={card5} alt='Ups, image is lost' />
 					<h3 className='title__include'>{trans[lang].servicesCloudHostingTitle}</h3>
 					<p className='text__include'>{trans[lang].servicesCloudHostingText}</p>
-				</div>
-				<div className="services__branches__coontainer__boxes">
+				</NavLink>
+				<NavLink o="/UX_UI" onClick={scrollToTheTop} className="services__branches__coontainer__boxes">
 					<img src={card6} alt='Ups, image is lost' />
 					<h3 className='title__include'>{trans[lang].servicesUXTitle}</h3>
 					<p className='text__include'>{trans[lang].servicesUXText}	</p>
-				</div>
+				</NavLink>
 
 			</div>
 
