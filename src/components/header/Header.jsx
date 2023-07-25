@@ -56,13 +56,13 @@ function Header() {
 				<li className='hamburger-box' onClick={() => myFunction()} >
 					{active ? <RxHamburgerMenu /> : < RxCross1 />}
 				</li>
-				{show && <ul className="humburgerMenu__container" onClick={() => myFunction()}>
-					<li className='first-li humburgerMenu__container--link'><NavLink to="Services" onClick={scrollToTheTop}>{trans[lang].services}</NavLink> </li>
-					<li className='second-li humburgerMenu__container--link'><NavLink to="How" onClick={scrollToTheTop}>{trans[lang].how}</NavLink> </li>
-					<li className='li__career humburgerMenu__container--link'><NavLink to="Careers" onClick={scrollToTheTop}>{trans[lang].carreers}</NavLink> </li>
-					<li className='li__about humburgerMenu__container--link'><NavLink to='About' onClick={scrollToTheTop}>{trans[lang].about}</NavLink></li>
-					<li className='li__contact humburgerMenu__container--link'><NavLink to="Contact" onClick={scrollToTheTop}>{trans[lang].contact}</NavLink> </li>
-					<li className='li__burger sprachen humburgerMenu__container--link'>
+				{show && <ul className="humburger-menu__container" onClick={() => myFunction()}>
+					<li className='first-li humburger-menu__container--link'><NavLink to="Services" onClick={scrollToTheTop}>{trans[lang].services}</NavLink> </li>
+					<li className='second-li humburger-menu__container--link'><NavLink to="How" onClick={scrollToTheTop}>{trans[lang].how}</NavLink> </li>
+					<li className='li__career humburger-menu__container--link'><NavLink to="Careers" onClick={scrollToTheTop}>{trans[lang].carreers}</NavLink> </li>
+					<li className='li__about humburger-menu__container--link'><NavLink to='About' onClick={scrollToTheTop}>{trans[lang].about}</NavLink></li>
+					<li className='li__contact humburger-menu__container--link'><NavLink to="Contact" onClick={scrollToTheTop}>{trans[lang].contact}</NavLink> </li>
+					<li className='li__burger sprachen humburger-menu__container--link'>
 						<button className="button-esp" value="es" onClick={(e) => setLang(e.target.value)}>ES</button>
 						<button className="button-eng" value="en" onClick={(e) => setLang(e.target.value)}>EN</button>
 						<button className="button-ger" value="gr" onClick={(e) => setLang(e.target.value)}>DE</button>
