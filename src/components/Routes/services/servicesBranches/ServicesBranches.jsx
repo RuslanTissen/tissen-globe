@@ -19,33 +19,33 @@ function ServicesBranches() {
 
 	return (
 		<div className='services__branches'>
-			<div className="services__branches__coontainer">
-				<NavLink to="/SoftwareDevelopment" onClick={scrollToTheTop} className="services__branches__coontainer__boxes">
+			<div className="services__branches--coontainer">
+				<NavLink to="/SoftwareDevelopment" onClick={scrollToTheTop} className="services__branches--coontainer-boxes">
 					<img src={card1} alt='Ups, image is lost' />
 					<h3 className='title__include'>{trans[lang].servicesSoftwareDevelopmentTitle}</h3>
 					<p className='text__include'>{trans[lang].servicesSoftwareDevelopmentText}</p>
 				</NavLink>
-				<NavLink  to="/WebDevelopment" onClick={scrollToTheTop}  className="services__branches__coontainer__boxes">
+				<NavLink  to="/WebDevelopment" onClick={scrollToTheTop}  className="services__branches--coontainer-boxes">
 					<img src={card2} alt='Ups, image is lost' />
 					<h3 className='title__include'>{trans[lang].servicesWebDevelpomentTitle}</h3>
 					<p className='text__include'>{trans[lang].servicesWebDevelpomentText}</p>
 				</NavLink>
-				<NavLink to="/MobileDevelopment" onClick={scrollToTheTop} className="services__branches__coontainer__boxes">
+				<NavLink to="/MobileDevelopment" onClick={scrollToTheTop} className="services__branches--coontainer-boxes">
 					<img src={card3} alt='Ups, image is lost' />
 					<h3 className='title__include'>{trans[lang].servicesMobileDevelopmentTitle}</h3>
 					<p className='text__include'>	{trans[lang].servicesMobileDevelopmentText}</p>
 				</NavLink>
-				<NavLink to="/E_Commerce" onClick={scrollToTheTop}  className="services__branches__coontainer__boxes">
+				<NavLink to="/E_Commerce" onClick={scrollToTheTop}  className="services__branches--coontainer-boxes">
 					<img src={card4} alt='Ups, image is lost' />
 					<h3 className='title__include'>{trans[lang].servicesECommerceTitle}</h3>
 					<p className='text__include'>{trans[lang].servicesECommerceText}	</p>
 				</NavLink>
-				<NavLink to="/CloudHosting" onClick={scrollToTheTop}  className="services__branches__coontainer__boxes">
+				<NavLink to="/CloudHosting" onClick={scrollToTheTop}  className="services__branches--coontainer-boxes">
 					<img src={card5} alt='Ups, image is lost' />
 					<h3 className='title__include'>{trans[lang].servicesCloudHostingTitle}</h3>
 					<p className='text__include'>{trans[lang].servicesCloudHostingText}</p>
 				</NavLink>
-				<NavLink o="/UX_UI" onClick={scrollToTheTop} className="services__branches__coontainer__boxes">
+				<NavLink o="/UX_UI" onClick={scrollToTheTop} className="services__branches--coontainer-boxes">
 					<img src={card6} alt='Ups, image is lost' />
 					<h3 className='title__include'>{trans[lang].servicesUXTitle}</h3>
 					<p className='text__include'>{trans[lang].servicesUXText}	</p>

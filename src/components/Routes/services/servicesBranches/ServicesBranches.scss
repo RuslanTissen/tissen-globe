@@ -1,6 +1,6 @@
 .services__branches {
 	background-color: white;
-	.services__branches__coontainer {
+	.services__branches--coontainer {
 		max-width: 1500px;
 		margin: 0 auto;
 		padding: 2rem;
@@ -8,13 +8,15 @@
 		flex-wrap: wrap;
 		// row-gap: 1rem;
 		// column-gap: 5rem;
-		.services__branches__coontainer__boxes {
+		.services__branches--coontainer-boxes {
 			flex: 1 1 48%;
 			min-width: 280px;
 			border: none;
 			transition: all 0.3s ease-out;
 			text-align: center;
 			padding: 5%;
+			text-decoration: none;
+			color: black;
 			img {
 				margin:  0 auto 1rem;
 				width: 22%;
@@ -37,7 +39,7 @@
 				}
 			// }
 		}
-		.services__branches__coontainer__boxes:hover{
+		.services__branches--coontainer-boxes:hover{
 			background-color: rgb(245, 244, 244);
 		}
 	}
