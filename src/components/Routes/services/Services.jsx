@@ -29,7 +29,7 @@ function Services() {
 
 			<LetsContact
 				contactTitle={`${trans[lang].servicesExcellenceInServiceTitle}`}
-				contactButton={"Lets meet"}
+				contactButton={`${trans[lang].servicesLetsMeet}`}
 			/>
 
 		</div>
