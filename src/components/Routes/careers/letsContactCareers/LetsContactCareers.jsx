@@ -11,8 +11,8 @@ function LetsContactCareers(props) {
 let {contactTitle, contactButton} = props
 
 	return (
-		<div className="letContact__image__container">
-			<div className="letContact__image__box">
+		<div className="lets-contact__image--container">
+			<div className="lets-contact__image--box">
 				<h2>{contactTitle}</h2>
 				<NavLink to="/Contact" onClick={scrollToTheTop}>{contactButton}</NavLink>
 			</div>

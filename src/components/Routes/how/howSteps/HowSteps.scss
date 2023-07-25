@@ -15,7 +15,7 @@
 			font-weight: 500;
 			transition: all 0.3s ease-out;
 		}
-		h2:hover{
+		h2:hover {
 			scale: 1.05;
 		}
 		.howSteps__coontainer__boxes {
@@ -53,8 +53,9 @@
 		a {
 			text-transform: uppercase;
 			font-family: "Tomorrow", sans-serif;
-			padding: 0.7rem 5rem;
+			padding: clamp(.5rem, 2vw, 0.7rem) clamp(1rem, 5vw, 5rem);
 			font-weight: 500;
+			font-size: clamp(.8rem, 1.5vw, 1.5rem);
 			text-decoration: none;
 			background-color: #0a62d0;
 			color: white;
@@ -63,6 +64,7 @@
 		}
 		a:hover {
 			background-color: #4a87d0;
+			scale: 1.05;
 		}
 	}
 	@media (min-width: 600px) {
