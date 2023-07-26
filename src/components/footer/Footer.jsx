@@ -18,8 +18,8 @@ function Footer() {
 	return (
 		<div className='footer'>
 			<div className="footer__container">
-				<div className="footer__container__section__1">
-					<div className="footer__container__section__1__column">
+				<div className="footer__container--section-1">
+					<div className="footer__container--section-1-column">
 						<h2>{trans[lang].footerServices}</h2>
 						<NavLink to="SoftwareDevelopment" onClick={scrollToTheTop}>{trans[lang].footerSoftware}</NavLink>
 						<NavLink to="E_Commerce" onClick={scrollToTheTop}>{trans[lang].e_commerceDevelopment}</NavLink>
@@ -28,7 +28,7 @@ function Footer() {
 						<NavLink to="MobileDevelopment" onClick={scrollToTheTop}>{trans[lang].footerMobile}</NavLink>
 						<NavLink to="UX_UI" onClick={scrollToTheTop}>UX/UI</NavLink>
 					</div>
-					<div className="footer__container__section__1__column">
+					<div className="footer__container--section-1-column">
 						<h2>{trans[lang].footerTechnologies}</h2>
 						<NavLink to="Angular" onClick={scrollToTheTop}>Angular</NavLink>
 						<NavLink to="Vue" onClick={scrollToTheTop}>Vue.js</NavLink>
@@ -43,7 +43,7 @@ function Footer() {
 						<NavLink to="MySQL" onClick={scrollToTheTop}>MySQL</NavLink>
 						<NavLink to="CPlusPlus" onClick={scrollToTheTop}>C++</NavLink>
 					</div>
-					<div className="footer__container__section__1__column">
+					<div className="footer__container--section-1-column">
 						<h2>{trans[lang].footerCompany}</h2>
 						<NavLink to="services" onClick={scrollToTheTop}>{trans[lang].services}</NavLink>
 						<NavLink to="How" onClick={scrollToTheTop}>{trans[lang].how}</NavLink>
@@ -53,19 +53,19 @@ function Footer() {
 					</div>
 				</div>
 
-				<div className="footer__container__section__2">
-					<div className="footer__container__section__2__logos">
+				<div className="footer__container--section-2">
+					<div className="footer__container--section-2-logos">
 						<NavLink to="*" onClick={scrollToTheTop}><img src={logo} alt=' Tissen Logo'/></NavLink>
 						<a href='https://www.instagram.com/tissentech/' target='_blank'><FaInstagram /></a>
 						<a href='https://twitter.com/tissentech' target='_blank'><FaTwitter /></a>
 						<a href='https://www.facebook.com/profile.php?id=100095302290653&is_tour_completed=true' target='_blank'><FaFacebookF /></a>
 						<a href='https://www.linkedin.com/company/tissen/about/?viewAsMember=true' target='_blank'><BsLinkedin /></a>
 					</div>
-					<div className="footer__container__section__2__email">
+					<div className="footer__container--section-2-email">
 						<h3>{trans[lang].footerEmail}</h3>
 						<a href="mailto:info@tissen.tech">info@tissen.tech</a>
 					</div>
-					<div className="footer__container__section__2__phone">
+					<div className="footer__container--section-2-phone">
 						<h3>{trans[lang].footerPhone}</h3>
 						<p>AR (+54) 11-5763-9301 </p>
 						<p>DE (+49) 176-8315-7254 </p>
