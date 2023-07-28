@@ -12,10 +12,8 @@
 		list-style-type: none;
 		display: flex;
 		background-color: black;
-		// opacity: .8;
 		.logo-box {
 			width: 50%;
-			// font-family: "Geologica", sans-serif;
 			font-family: "Gruppo", sans-serif;
 			font-size: 1.8rem;
 			display: flex;
@@ -58,7 +56,6 @@
 			top: 65px;
 			left: 0;
 			.humburger-menu__container--link {
-				// transition: all 0.3s ease-in-out;
 				a {
 					height: inherit;
 					display: flex;
@@ -224,12 +221,9 @@
 								background-color: transparent;
 								color: gray;
 								border: none;
-								// text-shadow: black 0px 0px 1px;
-
 							}
 						}
 					}
-
 					.li1 a:hover,
 					.lis a:hover,
 					.lis button:hover,
@@ -242,66 +236,3 @@
 		}
 	}
 }
-
-// svg {
-// 	color: white;
-// 	font-size: 2rem;
-// }
-// button {
-// 	height: inherit;
-// 	width: fit-content;
-// 	background-color: black;
-// 	border: none;
-// 	color: white;
-// 	font-size: 1rem;
-// 	cursor: pointer;
-// 	display: flex;
-// 	justify-content: flex-end;
-// 	align-items: center;
-// 	transition: all 0.3s ease-in-out;
-// 	padding: 0 2px;
-// }
-
-// .dropdown {
-// 	position: relative;
-// 	.active > .link,
-// 	.link:hover {
-// 		color: black;
-// 	}
-// 	.dropdown-menu {
-// 		width: 100%;
-// 		height: fit-content;
-// 		position: absolute;
-// 		left: 0;
-// 		top: calc(100% + 0.25rem);
-// 		padding-top: 0.75rem;
-// 		// box-shadow: 0 2px 5px 0 rgba(238, 235, 235, 0.1);
-// 		// background-color: white;
-// 		// align-items: center;
-// 		opacity: 0;
-// 		pointer-events: none;
-// 		transform: translateY(-10px);
-// 		transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
-// 		button {
-// 			width: inherit;
-// 			display: flex;
-// 			align-items: center;
-// 			justify-content: center;
-// 			padding: 5px;
-// 			// background-color: white;
-// 			// color: black;
-// 		}
-// 		// button:hover {
-// 		// 	opacity: 0.5;
-// 		// }
-// 	}
-// }
-// .dropdown.active {
-// 	.link {
-// 	}
-// 	.dropdown-menu {
-// 		opacity: 1;
-// 		transform: translateY(0);
-// 		pointer-events: auto;
-// 	}
-// }

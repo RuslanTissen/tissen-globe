@@ -1,6 +1,5 @@
 import React from 'react'
 import { Routes, Route, Outlet } from "react-router-dom"
-import "./Main.scss"
 import Start from '../components/start/Start'
 import About from '../components/Routes/about/About'
 import Contact from '../components/Routes/contact/Contact'
