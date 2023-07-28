@@ -11,7 +11,7 @@ const {lang} = useContext(Context)
 			<div className="aboutVision__container">
 				<div className="aboutVision__container__boxes aboutVision__container__boxes1">
 					<div className="aboutVision__container__boxes_img"></div>
-					<h2 className='title__picture__include'>{trans[lang].aboutOurVisionTitle}</h2>
+					<h2 className='title__picture--include'>{trans[lang].aboutOurVisionTitle}</h2>
 				</div>
 				<div className="aboutVision__container__boxes aboutVision__container__boxes2">
 					<p>{trans[lang].aboutOurVisionText}</p>

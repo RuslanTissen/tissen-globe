@@ -22,7 +22,7 @@ function Steps() {
 
 			<div className="stepsMain__container">
 				<div className="stepsMain__container__title_box">
-					<h2 className='title__picture__include'>{trans[lang].byServices}</h2>
+					<h2 className='title__picture--include'>{trans[lang].byServices}</h2>
 				</div>
 
 				<NavLink to="/SoftwareDevelopment" onClick={scrollToTheTop} className="stepsMain__container__boxes">

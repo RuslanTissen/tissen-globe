@@ -16,11 +16,11 @@
   }
 }
 
-.title__picture__include {
+.title__picture--include {
   font-size: calc(1.625rem + 4.5vw);
 }
 @media (min-width: 1200px) {
-  .title__picture__include {
+  .title__picture--include {
     font-size: 5rem;
   }
 }

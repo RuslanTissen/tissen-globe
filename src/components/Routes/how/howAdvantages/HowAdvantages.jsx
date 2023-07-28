@@ -14,7 +14,7 @@ function HowAdvantages() {
 	return (
 		<div className='howAdvantages'>
 			<div className="howAdvantages__container">
-				<h2 className='title__picture__include'>{trans[lang].howAdvantagesTitle}</h2>
+				<h2 className='title__picture--include'>{trans[lang].howAdvantagesTitle}</h2>
 				<div className="howAdvantages__container__boxes">
 					<img src={howAdvant1} alt='Ups, image is lost'/>
 					<h3>{trans[lang].howCostSavingsTitle}</h3>

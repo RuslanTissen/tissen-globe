@@ -9,7 +9,7 @@ const {lang} = useContext(Context)
   return (
 	 <div className='aboutWorking'>
 		<div className="aboutWorking__container">
-		<h2 className='title__picture__include'>{trans[lang].aboutWorkingTitle}</h2>
+		<h2 className='title__picture--include'>{trans[lang].aboutWorkingTitle}</h2>
 				<div className="aboutWorking__container__boxes1 aboutWorking__container__boxes">
 					<div className="aboutWorkingbox"></div>
 					<p>{trans[lang].aboutWorkingText}</p>

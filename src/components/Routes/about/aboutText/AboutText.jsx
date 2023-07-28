@@ -9,7 +9,7 @@ function AboutText() {
 	return (
 		<div className='aboutText'>
 			<div className="aboutText__container">
-				<h2 className='title__picture__include'>{trans[lang].aboutOurMissionTitle}</h2>
+				<h2 className='title__picture--include'>{trans[lang].aboutOurMissionTitle}</h2>
 				<div className="aboutText__container__boxes1 aboutText__container__boxes">
 					<p>{trans[lang].aboutOurMissionText}</p>
 					<div className="aboutImagebox"></div>

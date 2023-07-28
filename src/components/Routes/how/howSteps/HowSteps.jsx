@@ -24,7 +24,7 @@ function HowSteps(props) {
 	return (
 		<div className='howSteps'>
 			<div className="howSteps__coontainer">
-				<h2 className='title__picture__include'>{trans[lang].howStepsTitle}</h2>
+				<h2 className='title__picture--include'>{trans[lang].howStepsTitle}</h2>
 				<div className="howSteps__coontainer__boxes">
 					<img src={howIcons1} alt='Ups, image is lost' />
 					<div className="howSteps__coontainer__boxes__text__containers">

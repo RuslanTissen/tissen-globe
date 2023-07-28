@@ -19,7 +19,7 @@ function Technologies() {
 		<div className="technologies">
 			<div className="technologies__container">
 				<div className="technologies__container__title_box">
-					<h2 className='title__picture__include'>{trans[lang].byTechnologie}</h2>
+					<h2 className='title__picture--include'>{trans[lang].byTechnologie}</h2>
 				</div>
 				<NavLink to="Angular" onClick={scrollToTheTop} className="technologies__boxes"><TbBrandAngular /></NavLink>
 				<NavLink to="Swift" onClick={scrollToTheTop} className="technologies__boxes"><FaSwift /></NavLink>
