@@ -11,21 +11,19 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	.introdiuction__box__1 {
+	.ntrodiuction__box--1 {
 		flex: 1 1 100%;
-		height: 250px;
+		height: clamp(250px, calc(100vw - 400px), 350px);
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;
 		align-items: center;
-		.introdiuction__box__1__title__container {
+		.ntrodiuction__box--1-title-container {
 			text-align: center;
 			h1 {
-				// font-family: "Kanit", sans-serif;
 				font-family: "Gruppo", sans-serif;
 				font-weight: 500;
-				font-size: 2.5rem;
-				// line-height: 5px;
+				font-size: clamp(2.5rem, 4vw, 4.5rem);
 				transition: all 0.3s ease-in-out;
 				margin: 2.5rem 0 0;
 			}
@@ -33,7 +31,7 @@
 				scale: 1.05;
 			}
 		}
-		.introdiuction__box__1__button__container {
+		.introdiuction__box--1-button-container {
 			display: flex;
 			justify-content: center;
 			align-items: center;
@@ -42,11 +40,9 @@
 				text-decoration: none;
 				font-weight: 500;
 				text-transform: uppercase;
-				padding: 0.7rem 3rem;
-				font-size: 1rem;
-				display: flex;
-				justify-content: center;
-				align-items: center;
+				padding: clamp(0.4rem, 1.5vw, .9rem) clamp(1.5rem, 6vw, 4rem);
+				font-size: clamp(.8rem, 1.2vw, 1.2rem);
+				text-align: center;
 				color: rgb(6, 27, 176);
 				border: none;
 				transition: all 0.3s ease-out;
@@ -58,17 +54,18 @@
 			}
 		}
 	}
-	.introdiuction__box__2 {
+	.introdiuction__box--2 {
 		flex: 1 1 100%;
-		height: 150px;
+		height: clamp(150px,  calc(100vw - 500px), 280px);
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		.introdiuction__contact__container {
+		.introdiuction__contact-container {
 			font-family: "Tomorrow", sans-serif;
 			font-weight: 400;
 			height: 40%;
 			li {
+				font-size:clamp( 1rem, 1.5vw, 1.4rem);
 				mark {
 					background-color: transparent;
 					font-weight: 700;
@@ -77,104 +74,16 @@
 			}
 		}
 	}
-	@media (min-width: 600px) {
-		.introdiuction__box__1 {
-			height: 350px;
-			.introdiuction__box__1__title__container {
-				h1 {
-					font-size: 3.5rem;
-				}
-			}
-			.introdiuction__box__1__button__container{
-				a{
-					padding: 0.8rem 3rem;
-					font-size: 1.1rem;
-				}
-			}
-		}
-		.introdiuction__box__2 {
-			height: 250px;
-			.introdiuction__contact__container {
-				li {
-					font-size: 1.1rem;
-				}
-			}
-		}
-	}
-	@media (min-width: 700px) {
-		.introdiuction__box__1 {
-			height: 400px;
-			.introdiuction__box__1__title__container {
-				h1 {
-					font-size: 4rem;
-				}
-			}
-			.introdiuction__box__1__button__container{
-				a{
-					font-size: 1.2rem;
-				}
-			}
-		}
-		.introdiuction__box__2 {
-			height: 300px;
-			.introdiuction__contact__container {
-				li {
-					font-size: 1.2rem;
-				}
-			}
-		}
-	}
-	@media (min-width: 800px) {
-		.introdiuction__box__1 {
-			height: 450px;
-			.introdiuction__box__1__title__container {
-				h1 {
-					font-size: 4.5rem;
-				}
-			}
-			.introdiuction__box__1__button__container{
-				a{
-					padding: 0.9rem 3.5rem;
-				}
-			}
-		}
-		.introdiuction__box__2 {
-			height: 350px;
-			.introdiuction__contact__container {
-				li {
-					font-size: 1.3rem;
-				}
-			}
-		}
-	}
-	@media (min-width: 900px) {
-		.introdiuction__box__1 {
-			height: 500px;
-			.introdiuction__box__1__title__container {
-				h1 {
-					font-size: 4.5rem;
-				}
-			}
-		}
-		.introdiuction__box__2 {
-			height: 400px;
-			.introdiuction__contact__container {
-				li {
-					font-size: 1.4rem;
-				}
-			}
-		}
-	}
 	@media (min-width: 1060px) {
 		background-image: none;
 		height: 600px;
-		.introdiuction__box__1 {
+		.ntrodiuction__box--1 {
 			flex: 1 1 42%;
 			height: inherit;
 			order: 2;
 			padding: 4rem 0;
 		}
-		.introdiuction__box__2 {
+		.introdiuction__box--2 {
 			flex: 1 1 55%;
 			height: inherit;
 			background-image: url("../../images/points.jpg");
@@ -182,7 +91,7 @@
 			background-repeat: no-repeat;
 			background-size: cover;
 			align-items: flex-end;
-			.introdiuction__contact__container {
+			.introdiuction__contact-container {
 				height: 27%;
 			}
 		}

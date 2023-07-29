@@ -14,21 +14,17 @@ function Introduction() {
 
 	return (
 		<div className='introdiuction'>
-			<div className="introdiuction__box__1">
-				<div className="introdiuction__box__1__title__container">
+			<div className="introdiuction__box--1">
+				<div className="ntrodiuction__box--1-title-container">
 					<h1>Global IT <br /> Outsourcing</h1>
-					{/* <h1></h1> */}
-					{/* <h1>Company</h1> */}
 				</div>
-				<div className="introdiuction__box__1__button__container">
-					{/* <button>{trans[lang].estimate}</button> */}
+				<div className="introdiuction__box--1-button-container">
 					<NavLink to="Contact" onClick={scrollToTheTop}>{trans[lang].estimate}</NavLink>
 				</div>
 			</div>
 
-			<div className="introdiuction__box__2">
-				{/* <div className="introdiuction__benefits__container">	</div> */}
-				<ul className="introdiuction__contact__container">
+			<div className="introdiuction__box--2">
+				<ul className="introdiuction__contact-container">
 					<li>{trans[lang].save1}<mark>{trans[lang].save2} </mark> {trans[lang].save3}</li>
 					<li>{trans[lang].project1} <mark>{trans[lang].project2}</mark> {trans[lang].project3}</li>
 					<li>{trans[lang].technologies1} <mark>{trans[lang].technologies2}</mark> </li>
