@@ -15,7 +15,7 @@ function Introduction() {
 	return (
 		<div className='introdiuction'>
 			<div className="introdiuction__box--1">
-				<div className="ntrodiuction__box--1-title-container">
+				<div className="introdiuction__box--1-title--container">
 					<h1>Global IT <br /> Outsourcing</h1>
 				</div>
 				<div className="introdiuction__box--1-button-container">

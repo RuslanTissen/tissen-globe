@@ -11,14 +11,14 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	.ntrodiuction__box--1 {
+	.introdiuction__box--1 {
 		flex: 1 1 100%;
 		height: clamp(250px, calc(100vw - 400px), 350px);
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;
 		align-items: center;
-		.ntrodiuction__box--1-title-container {
+		.introdiuction__box--1-title--container {
 			text-align: center;
 			h1 {
 				font-family: "Gruppo", sans-serif;
@@ -77,7 +77,7 @@
 	@media (min-width: 1060px) {
 		background-image: none;
 		height: 600px;
-		.ntrodiuction__box--1 {
+		.introdiuction__box--1 {
 			flex: 1 1 42%;
 			height: inherit;
 			order: 2;
