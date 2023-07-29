@@ -11,8 +11,8 @@ function Statement() {
 	return (
 		<div className="statement">
 			<div className="statement__container">
-				<div className="statement__container__img"><img src={statement} alt='Ups, image is lost' /></div>
-				<div className="statement__container__text">
+				<div className="statement__container--img"><img src={statement} alt='Ups, image is lost' /></div>
+				<div className="statement__container--text">
 					<p>{trans[lang].IT_Outsourcing}</p>
 				</div>
 			</div>
