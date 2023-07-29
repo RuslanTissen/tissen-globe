@@ -18,34 +18,34 @@ function Steps() {
 	}
 
 	return (
-		<div className='stepsMain'>
+		<div className='steps__main'>
 
-			<div className="stepsMain__container">
-				<div className="stepsMain__container__title_box">
+			<div className="steps__main--container">
+				<div className="steps__main--container--title-box">
 					<h2 className='title__picture--include'>{trans[lang].byServices}</h2>
 				</div>
 
-				<NavLink to="/SoftwareDevelopment" onClick={scrollToTheTop} className="stepsMain__container__boxes">
+				<NavLink to="/SoftwareDevelopment" onClick={scrollToTheTop} className="steps__main--container--boxes">
 					<img src={offer1} alt='Ups, image is lost'/>
 					<p className='text__include'>{trans[lang].softwareDevelopment}</p>
 				</NavLink>
-				<NavLink to="/E_Commerce" onClick={scrollToTheTop} className="stepsMain__container__boxes">
+				<NavLink to="/E_Commerce" onClick={scrollToTheTop} className="steps__main--container--boxes">
 					<img src={offer2} alt='Ups, image is lost'/>
 					<p className='text__include'>{trans[lang].e_commerceDevelopment}</p>
 				</NavLink>
-				<NavLink to="/CloudHosting" onClick={scrollToTheTop} className="stepsMain__container__boxes">
+				<NavLink to="/CloudHosting" onClick={scrollToTheTop} className="steps__main--container--boxes">
 					<img src={offer3} alt='Ups, image is lost'/>
 					<p className='text__include'>{trans[lang].cloudHosting}</p>
 				</NavLink>
-				<NavLink to="/WebDevelopment" onClick={scrollToTheTop} className="stepsMain__container__boxes">
+				<NavLink to="/WebDevelopment" onClick={scrollToTheTop} className="steps__main--container--boxes">
 					<img src={offer4} alt='Ups, image is lost'/>
 					<p className='text__include'>{trans[lang].desarrolloWeb}</p>
 				</NavLink>
-				<NavLink to="/MobileDevelopment" onClick={scrollToTheTop} className="stepsMain__container__boxes">
+				<NavLink to="/MobileDevelopment" onClick={scrollToTheTop} className="steps__main--container--boxes">
 					<img src={offer5} alt='Ups, image is lost'/>
 					<p className='text__include'>{trans[lang].desarrolloMobile}</p>
 				</NavLink>
-				<NavLink to="/UX_UI" onClick={scrollToTheTop} className="stepsMain__container__boxes">
+				<NavLink to="UX_UI" onClick={scrollToTheTop} className="steps__main--container--boxes">
 					<img src={offer6} alt='Ups, image is lost'/>
 					<p className='text__include'>UX/UI</p>
 				</NavLink>

@@ -18,7 +18,7 @@ function Technologies() {
 	return (
 		<div className="technologies">
 			<div className="technologies__container">
-				<div className="technologies__container__title_box">
+				<div className="technologies__container--title-box">
 					<h2 className='title__picture--include'>{trans[lang].byTechnologie}</h2>
 				</div>
 				<NavLink to="Angular" onClick={scrollToTheTop} className="technologies__boxes"><TbBrandAngular /></NavLink>
@@ -29,10 +29,10 @@ function Technologies() {
 				<NavLink to="AWS" onClick={scrollToTheTop} className="technologies__boxes"><FaAws /></NavLink>
 				<NavLink to="Figma" onClick={scrollToTheTop} className="technologies__boxes"><TbBrandFigma /></NavLink>
 				<NavLink to="MUI" onClick={scrollToTheTop} className="technologies__boxes"><SiMui /></NavLink>
-				<NavLink to="Microsoft_Azure" onClick={scrollToTheTop} className="technologies__boxes"><SiMicrosoftazure /></NavLink>
 				<NavLink to="CPlusPlus" onClick={scrollToTheTop} className="technologies__boxes"><SiCplusplus /></NavLink>
-				<NavLink to="Python" onClick={scrollToTheTop} className="technologies__boxes"><FaPython /></NavLink>
 				<NavLink to="MySQL" onClick={scrollToTheTop} className="technologies__boxes"><GrMysql /></NavLink>
+				<NavLink to="Python" onClick={scrollToTheTop} className="technologies__boxes"><FaPython /></NavLink>
+				<NavLink to="Microsoft_Azure" onClick={scrollToTheTop} className="technologies__boxes"><SiMicrosoftazure /></NavLink>
 			</div>
 		</div>
 	)

@@ -1,12 +1,12 @@
-.stepsMain {
-	.stepsMain__container {
+.steps__main {
+	.steps__main--container {
 		max-width: 1500px;
 		margin: 0 auto;
 		display: flex;
 		flex-wrap: wrap;
 		padding: 1rem 0 3rem;
 		gap: clamp(1rem, 1vw, 2rem);
-		.stepsMain__container__title_box {
+		.steps__main--container--title-box {
 			flex: 1 1 100%;
 			h2 {
 				color: white;
@@ -21,7 +21,7 @@
 				scale: 1.05;
 			}
 		}
-		.stepsMain__container__boxes {
+		.steps__main--container--boxes {
 			flex: 1 1 31%;
 			min-width: 280px;
 			text-decoration: none;
@@ -29,6 +29,7 @@
 			flex-direction: column;
 			text-align: center;
 			padding: 1rem;
+			transition: all 0.3s ease-out;
 			img {
 				width: clamp(4rem, 10vw, 7rem);
 				margin: auto;
@@ -39,7 +40,7 @@
 			}
 		}
 	}
-	.stepsMain__container__boxes:hover {
+	.steps__main--container--boxes:hover {
 		background-color: rgb(31, 30, 30);
 	}
 }
