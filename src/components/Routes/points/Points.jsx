@@ -5,7 +5,7 @@ function Points(props) {
 	let { textTitle, textP } = props
 	return (
 		<div className="points">
-			<div className="points__image__container">
+			<div className="points__image-container">
 				<h2>{textTitle}</h2>
 			</div>
 		</div>
