@@ -80,25 +80,25 @@
   }
 }
 
-.h3_mixin_bold {
+.h3__mixin--bold {
   font-size: 1.125rem;
   font-weight: 600;
   font-family: "Tomorrow", sans-serif;
 }
 @media (min-width: 480px) {
-  .h3_mixin_bold {
+  .h3__mixin--bold {
     font-size: calc(
 			18px + (24 - 18) * ((100vw - 480px) / (1024 - 480))
 		);
   }
 }
 @media (min-width: 1024px) {
-  .h3_mixin_bold {
+  .h3__mixin--bold {
     font-size: 1.5rem;
   }
 }
 
-.h3_mixin_bold_with_padding {
+.h3__mixin--bold--with-padding {
   font-size: 1.125rem;
   padding-top: 3rem;
   padding-bottom: 1rem;
@@ -107,51 +107,51 @@
   font-family: "Tomorrow", sans-serif;
 }
 @media (min-width: 480px) {
-  .h3_mixin_bold_with_padding {
+  .h3__mixin--bold--with-padding {
     font-size: calc(
 			18px + (24 - 18) * ((100vw - 480px) / (1024 - 480))
 		);
   }
 }
 @media (min-width: 1024px) {
-  .h3_mixin_bold_with_padding {
+  .h3__mixin--bold--with-padding {
     font-size: 1.5rem;
   }
 }
 
-.regular_text_mixin {
+.regular-text__mixin {
   font-size: 1rem;
   font-weight: 300;
   font-family: "Tomorrow", sans-serif;
 }
 @media (min-width: 480px) {
-  .regular_text_mixin {
+  .regular-text__mixin {
     font-size: calc(
 			16px + (20 - 16) * ((100vw - 480px) / (1024 - 480))
 		);
   }
 }
 @media (min-width: 1024px) {
-  .regular_text_mixin {
+  .regular-text__mixin {
     font-size: 1.25rem;
   }
 }
 
-.regular_text_mixin_With_padding {
+.regular-text__mixin--with-padding {
   font-size: 1rem;
   padding: 0.5rem;
   font-weight: 300;
   font-family: "Tomorrow", sans-serif;
 }
 @media (min-width: 480px) {
-  .regular_text_mixin_With_padding {
+  .regular-text__mixin--with-padding {
     font-size: calc(
 			16px + (20 - 16) * ((100vw - 480px) / (1024 - 480))
 		);
   }
 }
 @media (min-width: 1024px) {
-  .regular_text_mixin_With_padding {
+  .regular-text__mixin--with-padding {
     font-size: 1.25rem;
   }
 }/*# sourceMappingURL=App.css.map */

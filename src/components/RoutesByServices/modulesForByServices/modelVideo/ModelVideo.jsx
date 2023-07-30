@@ -15,7 +15,7 @@ function SoftwareVideo(props) {
 					width="100%"
 					height="100%"
 				/>
-				<h3 className='h3_mixin_bold'>{titleH3}</h3>
+				<h3 className='h3__mixin--bold'>{titleH3}</h3>
 				<ol>
 					<li className='regular_text_mixin'>{text1} </li>
 					<li className='regular_text_mixin'>{text2} </li>
