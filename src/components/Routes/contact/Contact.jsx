@@ -1,7 +1,8 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import "./Contact.scss"
 import { BsWhatsapp } from "react-icons/bs"
 import emailjs from '@emailjs/browser';
+import { IoIosMail } from "react-icons/io"
 
 function Contact() {
 	// const form = useRef();
@@ -18,62 +19,56 @@ function Contact() {
 			});
 		formToReset.reset()
 		alert("Form submitted successfully!")
-
-		// formToReset.addEventListener("submit", (e) => {
-		// 	e.preventDefault()
-		// })
 	};
 
 	return (
 		<div className='contact'>
 			<div className="contact__conatiner">
-
-				<h2>Give us some detales about your project.</h2>
-
-				<form onSubmit={sendEmail} id='contact__form'>
-					<div className="form__name__container form__field">
-						<label htmlFor="name">Name</label>
-						<input type="text" name='name' id='name'></input>
-					</div>
-
-					<div className="form__email__container form__field">
-						<label htmlFor="email">Email</label>
-						<input type="text" name='email' id='email' />
-					</div>
-
-					<div className="form__phone__container form__field">
-						<label htmlFor="phone">Phone number</label>
-						<input type="text" name='phone' id='phone' />
-					</div>
-
-					<div className="form__detales__container form__field">
-						<label htmlFor="details">Details</label>
-						<textarea name="details" id="details"></textarea>
-					</div>
-
-					<div className="form__button__container form__field">
-						<label></label>
-						<button id="submit" type="submit">Submit</button>
-						{/* <button id="reset" type="reset"> Reste</button> */}
-					</div>
-					<p id="output"></p>
-				</form>
-
-				<div className="contact__email__and__whatsapp">
-					<h3>Or</h3>
-					<h4>Simply send a message by:</h4>
-					<button><a href="mailto:info@tissen.tech">Click to Send an Email</a></button>
-					{/* <br /> */}
-					<a href={`https://wa.me/541164210650?text=Hi`} target="_blank">
+				<div className="contact__email-and-whatsapp">
+					{/* <h3>Or</h3>
+					<h4>Simply send a message by:</h4> */}
+					<a className='email__link' href="mailto:info@tissen.tech"><IoIosMail /></a>
+					{/* <button><a href="mailto:info@tissen.tech"><IoIosMail /></a></button> */}
+					<a className='whats-app__link' href={`https://wa.me/541164210650?text=Hi`} target="_blank" rel="noreferrer">
 						<BsWhatsapp />
 					</a>
 				</div>
 
-				<div className="contact__conatiner__phone__container">
-					<h2>Of couse you can call directly:</h2>
-					{/* <h4>USA: </h4> */}
-					<h4>Argentina: (+54) 11-5763-9301</h4>
-					<h4>Germany:  (+49) 176-8315-7254</h4>
+				<h2 className='form-statement'>Give us some detales about your project.</h2>
+
+				<form onSubmit={sendEmail} id='contact__form'>
+					<div className="form__name-container form__field">
+						<label htmlFor="name">Name</label>
+						<input type="text" name='name' id='name'></input>
+					</div>
+
+					<div className="form__email-container form__field">
+						<label htmlFor="email">Email</label>
+						<input type="text" name='email' id='email' />
+					</div>
+
+					<div className="form__phone-container form__field">
+						<label htmlFor="phone">Phone number</label>
+						<input type="text" name='phone' id='phone' />
+					</div>
+
+					<div className="form__detales-container form__field">
+						<label htmlFor="details">Details</label>
+						<textarea name="details" id="details"></textarea>
+					</div>
+
+					<div className="form__button-container form__field">
+						<label></label>
+						<button id="submit" type="submit">Submit</button>
+					</div>
+					<p id="output"></p>
+				</form>
+
+
+				<div className="contact__conatiner--phone-container">
+					<h2 className='contact__conatiner--statement'>Of couse you can call directly:</h2>
+					<h4 className='contact__conatiner--phons'>Germany:  (+49) 176-8315-7254</h4>
+					<h4 className='contact__conatiner--phons'>Argentina: (+54) 11-5763-9301</h4>
 				</div>
 
 			</div>
