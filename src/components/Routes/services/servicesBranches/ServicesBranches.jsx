@@ -45,7 +45,7 @@ function ServicesBranches() {
 					<h3 className='title__include'>{trans[lang].servicesCloudHostingTitle}</h3>
 					<p className='text__include'>{trans[lang].servicesCloudHostingText}</p>
 				</NavLink>
-				<NavLink o="/UX_UI" onClick={scrollToTheTop} className="services__branches--coontainer-boxes">
+				<NavLink to="/UX_UI" onClick={scrollToTheTop} className="services__branches--coontainer-boxes">
 					<img src={card6} alt='Ups, image is lost' />
 					<h3 className='title__include'>{trans[lang].servicesUXTitle}</h3>
 					<p className='text__include'>{trans[lang].servicesUXText}	</p>
