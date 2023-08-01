@@ -7,8 +7,8 @@ function HowPicture() {
 	const { lang } = useContext(Context)
 
 	return (
-		<div className='howPicture'>
-			<div className="howPicture__container">
+		<div className='how__picture'>
+			<div className="how__picture--container">
 				<h2 className='title__picture--include'>{trans[lang].howTitle}</h2>
 			</div>
 		</div>
