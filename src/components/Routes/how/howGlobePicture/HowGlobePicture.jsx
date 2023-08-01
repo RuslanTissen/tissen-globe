@@ -6,8 +6,8 @@ import { Context } from '../../../Context'
 function HowGlobePicture() {
 	const {lang, setLang} = useContext(Context)
 	return (
-		<div className='howGlobePicture'>
-			<div className="howGlobePicture__container">
+		<div className='how-globe__picture'>
+			<div className="how-globe__picture--container">
 				<h2>{trans[lang].howAccording} <mark>{trans[lang].howAccording53} </mark>  {trans[lang].howOrganizations}  <mark>{trans[lang].howOutsource} </mark>  {trans[lang].howSourceDeloitte} </h2>
 			</div>
 		</div>
