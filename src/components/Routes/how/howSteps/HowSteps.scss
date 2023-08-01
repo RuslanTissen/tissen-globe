@@ -19,13 +19,13 @@
 			scale: 1.05;
 		}
 		.how-steps__coontainer--boxes {
-			flex: 1 1 48%;
+			flex: 1 1 49%;
 			border: none;
 			transition: all 0.3s ease-out;
 			padding: 5%;
 			display: flex;
 			flex-wrap: wrap;
-			gap: 2rem;
+			gap: clamp(1.5rem, 3vw, 3rem);
 			img {
 				margin: auto;
 				width: clamp(5rem, 6.5vw, 6.5rem);
@@ -51,21 +51,25 @@
 		.how-steps__coontainer--boxes:hover {
 			background-color: rgb(245, 244, 244);
 		}
-		a {
-			text-transform: uppercase;
-			font-family: "Tomorrow", sans-serif;
-			padding: clamp(.5rem, 2vw, 0.7rem) clamp(1rem, 5vw, 5rem);
-			font-weight: 500;
-			font-size: clamp(.8rem, 1.5vw, 1.5rem);
-			text-decoration: none;
-			background-color: #0a62d0;
-			color: white;
-			transition: all 0.3s ease-in-out;
-			margin: 2rem auto;
-		}
-		a:hover {
-			background-color: #4a87d0;
-			scale: 1.05;
+		.how-steps__coontainer--link-box {
+			flex: 1 1 100%;
+			display: flex;
+			a {
+				text-transform: uppercase;
+				font-family: "Tomorrow", sans-serif;
+				padding: clamp(0.5rem, 2vw, 0.7rem) clamp(1rem, 5vw, 5rem);
+				font-weight: 500;
+				font-size: clamp(0.8rem, 1.5vw, 1.5rem);
+				text-decoration: none;
+				background-color: #0a62d0;
+				color: white;
+				transition: all 0.3s ease-in-out;
+				margin: clamp(1rem, 2vw, 2rem) auto;
+			}
+			a:hover {
+				background-color: #4a87d0;
+				scale: 1.05;
+			}
 		}
 	}
 }

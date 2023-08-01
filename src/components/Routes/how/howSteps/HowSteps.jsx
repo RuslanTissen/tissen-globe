@@ -81,7 +81,9 @@ function HowSteps(props) {
 						<p className='text__include'>{trans[lang].howContinuousImprovementText}</p>
 					</div>
 				</div>
-				<NavLink to="/Contact" onClick={scrollToTheTop}>{contactButton}</NavLink>
+				<div className="how-steps__coontainer--link-box">
+					<NavLink to="/Contact" onClick={scrollToTheTop}>{contactButton}</NavLink>
+				</div>
 			</div>
 		</div>
 	)
