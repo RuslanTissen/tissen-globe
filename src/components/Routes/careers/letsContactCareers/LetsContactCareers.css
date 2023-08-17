@@ -5,7 +5,8 @@
 .lets-contact__image--container .lets-contact__image--box {
   max-width: 1500px;
   margin: 0 auto;
-  height: 300px;
+  padding: clamp(0.5rem, 5vw, 5rem);
+  height: clamp(250px, 40vw, 700px);
   background-image: url("../../../../images/whirlpool_transparent.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -19,7 +20,7 @@
   max-width: 1250px;
   color: white;
   font-weight: 400;
-  font-size: 1.8rem;
+  font-size: clamp(1.8rem, 3.5vw, 3.5rem);
   text-align: center;
   font-family: "Gruppo", sans-serif;
 }
@@ -52,42 +53,8 @@
   transform-origin: left;
   scale: 1 1;
 }
-@media (min-width: 700px) {
-  .lets-contact__image--container .letContact__image__box {
-    padding: 2.3rem;
-    height: 450px;
-  }
-  .lets-contact__image--container h2 {
-    font-size: 2.5rem;
-  }
-}
-@media (min-width: 800px) {
-  .lets-contact__image--container .lets-contact__image--box {
-    padding: 2.5rem;
-    height: 500px;
-  }
-  .lets-contact__image--container h2 {
-    font-size: 2.7rem;
-  }
-}
-@media (min-width: 900px) {
-  .lets-contact__image--container .lets-contact__image--box {
-    padding: 5rem;
-    height: 550px;
-  }
-  .lets-contact__image--container h2 {
-    font-size: 2.8rem;
-  }
-}
 @media (min-width: 1100px) {
   .lets-contact__image--container {
     padding: 4rem 1rem 5rem;
-  }
-  .lets-contact__image--container .lets-contact__image--box {
-    padding: 5rem;
-    height: 700px;
-  }
-  .lets-contact__image--container h2 {
-    font-size: 3.5rem;
   }
 }/*# sourceMappingURL=LetsContactCareers.css.map */

@@ -75,17 +75,32 @@
   border: 1px solid rgb(177, 176, 176);
 }
 .contact .contact__conatiner form .form__button-container button {
+  --color: hsl(208, 72%, 39%);
   padding: clamp(0.5rem, 0.8vw, 0.8rem) clamp(3rem, 5.5vw, 5.5rem);
-  background-color: #0a62d0;
+  background-color: hsl(208, 33%, 78%);
   margin: 0 auto;
-  color: white;
+  color: black;
   font-size: clamp(1.2rem, 1.5vw, 1.5rem);
-  border: none;
+  border: 3px solid var(--color);
+  border-radius: 0.25em;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  position: relative;
+  isolation: isolate;
 }
-.contact .contact__conatiner form .form__button-container button:hover {
-  background-color: #4a87d0;
+.contact .contact__conatiner form .form__button-container button::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  inset: 0;
+  scale: 0 1;
+  transform-origin: right;
+  transition: scale 450ms;
+}
+.contact .contact__conatiner form .form__button-container button:hover::after,
+.contact .contact__conatiner form .form__button-container button:focus-visible::after {
+  transform-origin: left;
+  scale: 1 1;
 }
 .contact .contact__conatiner .contact__conatiner--phone-container {
   width: 100%;

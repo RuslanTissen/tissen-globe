@@ -58,18 +58,33 @@
   display: flex;
 }
 .how-steps .how-steps__coontainer .how-steps__coontainer--link-box a {
+  --color: hsl(208, 72%, 39%);
   text-transform: uppercase;
   font-family: "Tomorrow", sans-serif;
   padding: clamp(0.5rem, 2vw, 0.7rem) clamp(1rem, 5vw, 5rem);
   font-weight: 500;
   font-size: clamp(0.8rem, 1.5vw, 1.5rem);
   text-decoration: none;
-  background-color: #0a62d0;
-  color: white;
-  transition: all 0.3s ease-in-out;
+  border: 3px solid var(--color);
+  color: black;
+  border-radius: 0.25em;
   margin: clamp(1rem, 2vw, 2rem) auto;
+  background-color: hsl(208, 33%, 78%);
+  position: relative;
+  isolation: isolate;
 }
-.how-steps .how-steps__coontainer .how-steps__coontainer--link-box a:hover {
-  background-color: #4a87d0;
-  scale: 1.05;
+.how-steps .how-steps__coontainer .how-steps__coontainer--link-box a::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  inset: 0;
+  scale: 0 1;
+  transform-origin: right;
+  transition: scale 450ms;
+}
+.how-steps .how-steps__coontainer .how-steps__coontainer--link-box a:hover::after,
+.how-steps .how-steps__coontainer .how-steps__coontainer--link-box a:focus-visible::after {
+  transform-origin: left;
+  scale: 1 1;
 }/*# sourceMappingURL=HowSteps.css.map */

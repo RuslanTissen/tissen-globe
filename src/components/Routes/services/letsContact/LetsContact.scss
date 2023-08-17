@@ -25,19 +25,51 @@
 		text-wrap: balance;
 	}
 	a {
+		--color: hsl(208, 72%, 39%);
 		text-transform: uppercase;
 		font-family: "Tomorrow", sans-serif;
-		padding: clamp(.5rem, 2vw, 0.7rem) clamp(1rem, 5vw, 5rem);
+		padding: clamp(0.5rem, 2vw, 0.7rem) clamp(1rem, 5vw, 5rem);
 		font-weight: 500;
-		font-size: clamp(.8rem, 1.5vw, 1.5rem);
+		font-size: clamp(0.8rem, 1.5vw, 1.5rem);
 		text-decoration: none;
-		background-color: #0a62d0;
-		color: white;
-		transition: all 0.3s ease-in-out;
-		text-align: center;
+		border: 3px solid var(--color);
+		color: black;
+		border-radius: 0.25em;
+		background-color:  hsl(208, 33%, 78%);
+
+		position: relative;
+		isolation: isolate;
 	}
-	a:hover {
-		background-color: #4a87d0;
-		scale: 1.05;
+	a::after{
+		content: "";
+		position: absolute;
+		z-index: -1;
+		background: var(--color);
+		inset: 0;
+
+		scale: 0 1;
+		transform-origin: right;
+		transition: scale 450ms;
 	}
+	a:hover::after,
+	a:focus-visible::after{
+		transform-origin: left;
+		scale: 1 1;
+	}
+	// a {
+	// 	text-transform: uppercase;
+	// 	font-family: "Tomorrow", sans-serif;
+	// 	padding: clamp(.5rem, 2vw, 0.7rem) clamp(1rem, 5vw, 5rem);
+	// 	font-weight: 500;
+	// 	font-size: clamp(.8rem, 1.5vw, 1.5rem);
+	// 	text-decoration: none;
+	// 	background-color: #0a62d0;
+	// 	color: white;
+	// 	transition: all 0.3s ease-in-out;
+	// 	text-align: center;
+	// }
+	// a:hover {
+	// 	background-color: #4a87d0;
+	// 	scale: 1.05;
+	// }
 }
