@@ -1,8 +1,8 @@
-.letContact__image__container {
+.lets-contact__image--container {
   background-color: black;
   padding: 2rem 1rem;
 }
-.letContact__image__container .letContact__image__box {
+.lets-contact__image--container .lets-contact__image--box {
   max-width: 1500px;
   margin: 0 auto;
   height: 300px;
@@ -15,7 +15,7 @@
   align-items: center;
   justify-content: space-around;
 }
-.letContact__image__container h2 {
+.lets-contact__image--container h2 {
   max-width: 1250px;
   color: white;
   font-weight: 400;
@@ -23,56 +23,71 @@
   text-align: center;
   font-family: "Gruppo", sans-serif;
 }
-.letContact__image__container a {
+.lets-contact__image--container a {
+  --color: hsl(208, 72%, 39%);
   text-transform: uppercase;
   font-family: "Tomorrow", sans-serif;
-  padding: 0.7rem 5rem;
+  padding: clamp(0.5rem, 2vw, 0.7rem) clamp(1rem, 5vw, 5rem);
   font-weight: 500;
+  font-size: clamp(0.8rem, 1.5vw, 1.5rem);
   text-decoration: none;
-  background-color: #0a62d0;
+  border: 3px solid var(--color);
   color: white;
-  transition: all 0.3s ease-in-out;
-  margin: 2rem auto;
+  border-radius: 0.25em;
+  position: relative;
+  isolation: isolate;
 }
-.letContact__image__container a:hover {
-  background-color: #4a87d0;
+.lets-contact__image--container a::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  inset: 0;
+  scale: 0 1;
+  transform-origin: right;
+  transition: scale 450ms;
+}
+.lets-contact__image--container a:hover::after,
+.lets-contact__image--container a:focus-visible::after {
+  transform-origin: left;
+  scale: 1 1;
 }
 @media (min-width: 700px) {
-  .letContact__image__container .letContact__image__box {
+  .lets-contact__image--container .letContact__image__box {
     padding: 2.3rem;
     height: 450px;
   }
-  .letContact__image__container h2 {
+  .lets-contact__image--container h2 {
     font-size: 2.5rem;
   }
 }
 @media (min-width: 800px) {
-  .letContact__image__container .letContact__image__box {
+  .lets-contact__image--container .lets-contact__image--box {
     padding: 2.5rem;
     height: 500px;
   }
-  .letContact__image__container h2 {
+  .lets-contact__image--container h2 {
     font-size: 2.7rem;
   }
 }
 @media (min-width: 900px) {
-  .letContact__image__container .letContact__image__box {
+  .lets-contact__image--container .lets-contact__image--box {
     padding: 5rem;
     height: 550px;
   }
-  .letContact__image__container h2 {
+  .lets-contact__image--container h2 {
     font-size: 2.8rem;
   }
 }
 @media (min-width: 1100px) {
-  .letContact__image__container {
+  .lets-contact__image--container {
     padding: 4rem 1rem 5rem;
   }
-  .letContact__image__container .letContact__image__box {
+  .lets-contact__image--container .lets-contact__image--box {
     padding: 5rem;
     height: 700px;
   }
-  .letContact__image__container h2 {
+  .lets-contact__image--container h2 {
     font-size: 3.5rem;
   }
 }/*# sourceMappingURL=LetsContactCareers.css.map */

@@ -1,4 +1,4 @@
-.pointsCareers__image__container {
+.points-careers__image-container {
   max-width: 1500px;
   margin: 4rem auto 1rem;
   height: 300px;
@@ -12,86 +12,86 @@
   justify-content: center;
   color: white;
 }
-.pointsCareers__image__container h2 {
+.points-careers__image-container h2 {
   font-weight: 500;
   font-size: 2.5rem;
   margin-bottom: 1rem;
   font-family: "Gruppo", sans-serif;
   transition: all 0.3s ease-in-out;
 }
-.pointsCareers__image__container h2:hover {
+.points-careers__image-container h2:hover {
   scale: 1.05;
 }
-.pointsCareers__image__container p {
+.points-careers__image-container p {
   width: 70%;
   font-size: 0.6rem;
   text-align: center;
   font-family: "Tomorrow", sans-serif;
 }
 @media (min-width: 600px) {
-  .pointsCareers__image__container {
+  .points-careers__image-container {
     height: 400px;
   }
-  .pointsCareers__image__container h2 {
+  .points-careers__image-container h2 {
     font-size: 3rem;
   }
-  .pointsCareers__image__container p {
+  .points-careers__image-container p {
     font-size: 0.7rem;
   }
 }
 @media (min-width: 700px) {
-  .pointsCareers__image__container {
+  .points-careers__image-container {
     height: 450px;
   }
-  .pointsCareers__image__container h2 {
+  .points-careers__image-container h2 {
     font-size: 3.5rem;
   }
-  .pointsCareers__image__container p {
+  .points-careers__image-container p {
     font-size: 0.8rem;
   }
 }
 @media (min-width: 800px) {
-  .pointsCareers__image__container {
+  .points-careers__image-container {
     height: 500px;
   }
-  .pointsCareers__image__container h2 {
+  .points-careers__image-container h2 {
     font-size: 3.7rem;
     font-weight: 500;
   }
-  .pointsCareers__image__container p {
+  .points-careers__image-container p {
     font-size: 0.9rem;
   }
 }
 @media (min-width: 900px) {
-  .pointsCareers__image__container {
+  .points-careers__image-container {
     height: 550px;
   }
-  .pointsCareers__image__container h2 {
+  .points-careers__image-container h2 {
     font-size: 4rem;
   }
-  .pointsCareers__image__container p {
+  .points-careers__image-container p {
     font-size: 1rem;
   }
 }
 @media (min-width: 1000px) {
-  .pointsCareers__image__container {
+  .points-careers__image-container {
     height: 600px;
   }
-  .pointsCareers__image__container h2 {
+  .points-careers__image-container h2 {
     font-size: 4.5rem;
   }
-  .pointsCareers__image__container p {
+  .points-careers__image-container p {
     font-size: 1.1rem;
   }
 }
 @media (min-width: 1100px) {
-  .pointsCareers__image__container {
+  .points-careers__image-container {
     height: 700px;
   }
-  .pointsCareers__image__container h2 {
+  .points-careers__image-container h2 {
     font-size: 5rem;
   }
-  .pointsCareers__image__container p {
+  .points-careers__image-container p {
     font-size: 1.2rem;
   }
 }/*# sourceMappingURL=PointsCareers.css.map */

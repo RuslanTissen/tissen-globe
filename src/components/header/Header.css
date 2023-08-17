@@ -49,7 +49,7 @@
   margin: 5px;
   transition: all 0.2s ease-in-out;
 }
-.header .header__logo--container .humburgerMenu__container {
+.header .header__logo--container .humburger-menu__container {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -58,7 +58,7 @@
   top: 65px;
   left: 0;
 }
-.header .header__logo--container .humburgerMenu__container .humburgerMenu__container--link a {
+.header .header__logo--container .humburger-menu__container .humburger-menu__container--link a {
   height: inherit;
   display: flex;
   justify-content: center;
@@ -68,7 +68,7 @@
   color: white;
   word-spacing: 4px;
 }
-.header .header__logo--container .humburgerMenu__container li {
+.header .header__logo--container .humburger-menu__container li {
   height: 2.2rem;
   background-color: black;
   display: flex;
@@ -77,15 +77,15 @@
   border: 1px black solid;
   text-transform: uppercase;
 }
-.header .header__logo--container .humburgerMenu__container .li__contact a {
+.header .header__logo--container .humburger-menu__container .li__contact a {
   color: black;
   background-color: white;
   font-weight: 700;
 }
-.header .header__logo--container .humburgerMenu__container .sprachen {
+.header .header__logo--container .humburger-menu__container .sprachen {
   display: flex;
 }
-.header .header__logo--container .humburgerMenu__container .sprachen button {
+.header .header__logo--container .humburger-menu__container .sprachen button {
   border: none;
   background-color: black;
   color: white;
@@ -95,7 +95,7 @@
   display: none;
 }
 @media (min-width: 1060px) {
-  .header .humburgerMenu__container {
+  .header .humburger-menu__container {
     display: none;
   }
   .header .header__logo--container {
@@ -105,8 +105,7 @@
     display: block;
   }
   .header .header__big-container .ul__container {
-    padding-top: 1.3rem;
-    padding-bottom: 0.2rem;
+    padding-block: 1rem;
     position: fixed;
     top: 0;
     width: 100%;
@@ -223,7 +222,7 @@
     justify-content: center;
     padding: 5px;
     background-color: transparent;
-    color: rgb(250, 4, 4);
+    color: gray;
     border: none;
   }
   .header .header__big-container .ul__container .first-ul .li1 a:hover,

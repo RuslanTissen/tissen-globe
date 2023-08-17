@@ -5,7 +5,8 @@
 .contact__image__container .image__box {
   max-width: 1500px;
   margin: 0 auto;
-  height: 300px;
+  height: clamp(300px, 33vw, 700px);
+  padding: 0 clamp(1rem, 5vw, 5rem) clamp(1rem, 5vw, 5rem);
   background-image: url("../../../../images/whirlpool_transparent.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -20,58 +21,23 @@
   max-width: 1250px;
   color: black;
   font-weight: 400;
-  font-size: 1.8rem;
+  font-size: clamp(1.8rem, 3.5vw, 3.5rem);
   text-align: center;
+  text-wrap: balance;
 }
 .contact__image__container a {
   text-transform: uppercase;
   font-family: "Tomorrow", sans-serif;
-  padding: 0.7rem 5rem;
+  padding: clamp(0.5rem, 2vw, 0.7rem) clamp(1rem, 5vw, 5rem);
   font-weight: 500;
+  font-size: clamp(0.8rem, 1.5vw, 1.5rem);
   text-decoration: none;
   background-color: #0a62d0;
   color: white;
   transition: all 0.3s ease-in-out;
+  text-align: center;
 }
 .contact__image__container a:hover {
   background-color: #4a87d0;
-}
-@media (min-width: 700px) {
-  .contact__image__container .image__box {
-    padding: 2.3rem;
-    height: 450px;
-  }
-  .contact__image__container h2 {
-    font-size: 2.5rem;
-  }
-}
-@media (min-width: 800px) {
-  .contact__image__container .image__box {
-    padding: 2.5rem;
-    height: 500px;
-  }
-  .contact__image__container h2 {
-    font-size: 2.7rem;
-  }
-}
-@media (min-width: 900px) {
-  .contact__image__container .image__box {
-    padding: 5rem;
-    height: 550px;
-  }
-  .contact__image__container h2 {
-    font-size: 2.8rem;
-  }
-}
-@media (min-width: 1100px) {
-  .contact__image__container {
-    padding: 4rem 1rem 5rem;
-  }
-  .contact__image__container .image__box {
-    padding: 5rem;
-    height: 700px;
-  }
-  .contact__image__container h2 {
-    font-size: 3.5rem;
-  }
+  scale: 1.05;
 }/*# sourceMappingURL=LetsContact.css.map */

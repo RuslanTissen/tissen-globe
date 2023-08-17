@@ -1,7 +1,7 @@
-.howSteps {
+.how-steps {
   background-color: white;
 }
-.howSteps .howSteps__coontainer {
+.how-steps .how-steps__coontainer {
   max-width: 1500px;
   margin: 0 auto;
   padding: 1rem;
@@ -9,7 +9,7 @@
   flex-wrap: wrap;
   gap: 1rem;
 }
-.howSteps .howSteps__coontainer h2 {
+.how-steps .how-steps__coontainer h2 {
   flex: 1 1 100%;
   text-align: center;
   font-family: "Gruppo", sans-serif;
@@ -17,70 +17,59 @@
   font-weight: 500;
   transition: all 0.3s ease-out;
 }
-.howSteps .howSteps__coontainer h2:hover {
+.how-steps .how-steps__coontainer h2:hover {
   scale: 1.05;
 }
-.howSteps .howSteps__coontainer .howSteps__coontainer__boxes {
-  flex: 1 1 48%;
+.how-steps .how-steps__coontainer .how-steps__coontainer--boxes {
+  flex: 1 1 49%;
   border: none;
   transition: all 0.3s ease-out;
   padding: 5%;
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: clamp(1.5rem, 3vw, 3rem);
 }
-.howSteps .howSteps__coontainer .howSteps__coontainer__boxes img {
+.how-steps .how-steps__coontainer .how-steps__coontainer--boxes img {
   margin: auto;
-  width: 5rem;
-  height: 5rem;
+  width: clamp(5rem, 6.5vw, 6.5rem);
+  height: clamp(5rem, 6.5vw, 6.5rem);
   display: block;
 }
-.howSteps .howSteps__coontainer .howSteps__coontainer__boxes .howSteps__coontainer__boxes__text__containers {
+.how-steps .how-steps__coontainer .how-steps__coontainer--boxes .how-steps__coontainer--boxes--text-containers {
   flex: 1 1 75%;
   text-align: center;
 }
-.howSteps .howSteps__coontainer .howSteps__coontainer__boxes .howSteps__coontainer__boxes__text__containers h3 {
+.how-steps .how-steps__coontainer .how-steps__coontainer--boxes .how-steps__coontainer--boxes--text-containers h3 {
   font-weight: 500;
   font-family: "Tomorrow", sans-serif;
   margin: 0;
 }
-.howSteps .howSteps__coontainer .howSteps__coontainer__boxes .howSteps__coontainer__boxes__text__containers p {
+.how-steps .how-steps__coontainer .how-steps__coontainer--boxes .how-steps__coontainer--boxes--text-containers p {
   font-family: "Tomorrow", sans-serif;
   line-height: 1.1em;
   font-weight: 300;
+  text-wrap: balance;
 }
-.howSteps .howSteps__coontainer .howSteps__coontainer__boxes:hover {
+.how-steps .how-steps__coontainer .how-steps__coontainer--boxes:hover {
   background-color: rgb(245, 244, 244);
 }
-.howSteps .howSteps__coontainer a {
+.how-steps .how-steps__coontainer .how-steps__coontainer--link-box {
+  flex: 1 1 100%;
+  display: flex;
+}
+.how-steps .how-steps__coontainer .how-steps__coontainer--link-box a {
   text-transform: uppercase;
   font-family: "Tomorrow", sans-serif;
-  padding: 0.7rem 5rem;
+  padding: clamp(0.5rem, 2vw, 0.7rem) clamp(1rem, 5vw, 5rem);
   font-weight: 500;
+  font-size: clamp(0.8rem, 1.5vw, 1.5rem);
   text-decoration: none;
   background-color: #0a62d0;
   color: white;
   transition: all 0.3s ease-in-out;
-  margin: 2rem auto;
+  margin: clamp(1rem, 2vw, 2rem) auto;
 }
-.howSteps .howSteps__coontainer a:hover {
+.how-steps .how-steps__coontainer .how-steps__coontainer--link-box a:hover {
   background-color: #4a87d0;
-}
-@media (min-width: 600px) {
-  .howSteps .howSteps__coontainer .howSteps__coontainer__boxes img {
-    width: 5.5rem;
-    height: 5.5rem;
-  }
-}
-@media (min-width: 700px) {
-  .howSteps .howSteps__coontainer .howSteps__coontainer__boxes img {
-    width: 6rem;
-    height: 6rem;
-  }
-}
-@media (min-width: 800px) {
-  .howSteps .howSteps__coontainer .howSteps__coontainer__boxes img {
-    width: 6.5rem;
-    height: 6.5rem;
-  }
+  scale: 1.05;
 }/*# sourceMappingURL=HowSteps.css.map */

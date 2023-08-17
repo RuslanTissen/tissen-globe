@@ -4,55 +4,31 @@
 }
 .statement .statement__container {
   max-width: 1500px;
-  padding: 1.5rem 1rem;
+  padding: clamp(1.5rem, 3vw, 3rem) 1rem clamp(0rem, 1.5vw, 1.5rem);
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
 }
-.statement .statement__container .statement__container__img {
+.statement .statement__container .statement__container--img {
   flex: 1 1 100%;
-  height: 200px;
+  height: clamp(200px, 100vw - 400px, 400px);
   text-align: center;
 }
-.statement .statement__container .statement__container__img img {
+.statement .statement__container .statement__container--img img {
   height: 100%;
 }
-.statement .statement__container .statement__container__text {
+.statement .statement__container .statement__container--text {
   flex: 1 1 100%;
   height: -moz-fit-content;
   height: fit-content;
   padding: 1rem 2rem;
 }
-.statement .statement__container .statement__container__text p {
+.statement .statement__container .statement__container--text p {
   max-width: 770px;
   margin: 1rem auto;
   color: white;
   text-align: center;
   font-family: "Tomorrow", sans-serif;
-}
-@media (min-width: 600px) {
-  .statement .statement__container .statement__container__img {
-    height: 250px;
-  }
-  .statement .statement__container .statement__container__text p {
-    font-size: 1.2rem;
-  }
-}
-@media (min-width: 700px) {
-  .statement .statement__container .statement__container__img {
-    height: 300px;
-  }
-}
-@media (min-width: 700px) {
-  .statement .statement__container .statement__container__img {
-    height: 350px;
-  }
-}
-@media (min-width: 900px) {
-  .statement .statement__container .statement__container__img {
-    height: 400px;
-  }
-  .statement .statement__container .statement__container__text p {
-    font-size: 2rem;
-  }
+  font-size: clamp(1rem, 2vw, 2rem);
+  text-wrap: balance;
 }/*# sourceMappingURL=Statement.css.map */

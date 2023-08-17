@@ -12,12 +12,47 @@
   min-height: 500px;
   padding: 0 1rem 40px;
 }
-.contact .contact__conatiner h2 {
-  padding: 3rem 0 0;
-  margin: 0;
+.contact .contact__conatiner .contact__email-and-whatsapp {
+  width: 70%;
+  margin: clamp(0.5rem, 3.5vw, 3.5rem) auto clamp(2rem, 5vw, 5rem);
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact .contact__conatiner .contact__email-and-whatsapp .email__link {
+  flex: 1 1 50%;
+  font-size: clamp(3.3rem, 6.5vw, 6.5rem);
+  display: grid;
+  place-items: center;
+  color: #0a62d0;
+}
+.contact .contact__conatiner .contact__email-and-whatsapp .email__link svg {
+  transition: all 0.3s ease-in-out;
+}
+.contact .contact__conatiner .contact__email-and-whatsapp .whats-app__link {
+  flex: 1 1 50%;
+  display: grid;
+  place-items: center;
+  font-size: clamp(2.5rem, 5vw, 5rem);
+  color: rgb(36, 204, 99);
+}
+.contact .contact__conatiner .contact__email-and-whatsapp .whats-app__link svg {
+  transition: all 0.3s ease-in-out;
+}
+.contact .contact__conatiner .contact__email-and-whatsapp .email__link:hover svg:hover,
+.contact .contact__conatiner .contact__email-and-whatsapp .whats-app__link:hover svg:hover {
+  scale: 1.2;
+  z-index: 1;
+}
+.contact .contact__conatiner .form-statement {
+  font-size: clamp(1.3rem, 3vw, 3rem);
+  margin-bottom: 0;
+  text-align: center;
   font-weight: 600;
 }
 .contact .contact__conatiner form {
+  max-width: 1060px;
   margin: 0 auto;
 }
 .contact .contact__conatiner form .form__field {
@@ -29,115 +64,44 @@
 }
 .contact .contact__conatiner form .form__field input {
   width: 100%;
-  max-width: 1060px;
-  height: 3rem;
+  line-height: clamp(2rem, 3vw, 3rem);
+  font-size: clamp(1rem, 1.5vw, 1.5rem);
   border: 1px solid rgb(177, 176, 176);
 }
 .contact .contact__conatiner form .form__field textarea {
   width: 100%;
-  max-width: 1060px;
   height: 150px;
+  font-size: clamp(1rem, 1.5vw, 1.5rem);
   border: 1px solid rgb(177, 176, 176);
 }
-.contact .contact__conatiner form .form__button__container {
-  max-width: 1060px;
-}
-.contact .contact__conatiner form .form__button__container button {
-  width: 200px;
-  height: 3rem;
+.contact .contact__conatiner form .form__button-container button {
+  padding: clamp(0.5rem, 0.8vw, 0.8rem) clamp(3rem, 5.5vw, 5.5rem);
   background-color: #0a62d0;
   margin: 0 auto;
   color: white;
-  font-size: 1.2rem;
+  font-size: clamp(1.2rem, 1.5vw, 1.5rem);
   border: none;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-.contact .contact__conatiner form .form__button__container button:hover {
+.contact .contact__conatiner form .form__button-container button:hover {
   background-color: #4a87d0;
 }
-.contact .contact__conatiner .contact__email__and__whatsapp {
-  max-width: 1060px;
-  height: -moz-fit-content;
-  height: fit-content;
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 2rem;
-}
-.contact .contact__conatiner .contact__email__and__whatsapp h3 {
-  flex: 1 1 100%;
-  margin: 5px 0;
-  text-align: center;
-  font-weight: 400;
-}
-.contact .contact__conatiner .contact__email__and__whatsapp h4 {
-  flex: 1 1 100%;
-  margin: 5px 0 2rem;
-  text-align: center;
-  font-weight: 400;
-  text-decoration: underline;
-}
-.contact .contact__conatiner .contact__email__and__whatsapp button {
-  flex: 1 1 100%;
-  font-size: 1.2rem;
-  border: none;
-  background-color: white;
-  display: grid;
-  place-items: center;
-}
-.contact .contact__conatiner .contact__email__and__whatsapp button a {
-  background-color: #0a62d0;
-  text-decoration: none;
-  color: white;
-  padding: 1rem 4rem;
-  transition: all 0.3s ease-in-out;
-}
-.contact .contact__conatiner .contact__email__and__whatsapp button a:hover {
-  background-color: #4a87d0;
-}
-.contact .contact__conatiner .contact__email__and__whatsapp a {
-  flex: 1 1 100%;
-  display: grid;
-  place-items: center;
-  margin: 1rem 0;
-}
-.contact .contact__conatiner .contact__email__and__whatsapp a svg {
-  font-size: 2.5rem;
-  color: rgb(36, 204, 99);
-  transition: all 0.3s ease-in-out;
-}
-.contact .contact__conatiner .contact__email__and__whatsapp a svg:hover {
-  scale: 1.2;
-  z-index: 1;
-}
-.contact .contact__conatiner .contact__conatiner__phone__container {
+.contact .contact__conatiner .contact__conatiner--phone-container {
   width: 100%;
   border-top: 1px solid rgb(149, 148, 148);
-  margin-top: 3rem;
+  margin-top: clamp(1.5rem, 3vw, 3rem);
 }
-.contact .contact__conatiner .contact__conatiner__phone__container h2 {
-  margin: 0 0 2.5rem 0;
-  font-weight: 300;
+.contact .contact__conatiner .contact__conatiner--phone-container .contact__conatiner--statement {
+  font-size: clamp(1.3rem, 3vw, 3rem);
+  margin-top: clamp(1.5rem, 3vw, 3rem);
+  margin-bottom: 0;
+  text-align: center;
+  font-weight: 600;
 }
-@media (min-width: 1060px) {
-  .contact .contact__conatiner {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-  }
-  .contact .contact__conatiner h2 {
-    flex: 1 1 100%;
-  }
-  .contact .contact__conatiner form {
-    flex: 1 1 65%;
-  }
-  .contact .contact__conatiner .contact__email__and__whatsapp {
-    flex: 1 1 30%;
-  }
-  .contact .contact__conatiner .contact__email__and__whatsapp h3 {
-    font-size: 1.5rem;
-  }
-  .contact .contact__conatiner .contact__email__and__whatsapp h4 {
-    font-size: 1.1rem;
-  }
+.contact .contact__conatiner .contact__conatiner--phone-container .contact__conatiner--phons {
+  text-align: center;
+  font-size: clamp(1rem, 1.5vw, 1.5rem);
+  font-weight: 500;
+  margin-block: clamp(0.5rem, 1vw, 1rem);
 }/*# sourceMappingURL=Contact.css.map */

@@ -6,33 +6,35 @@
   height: fit-content;
   display: flex;
   flex-direction: column;
+  gap: clamp(1rem, 2vw, 2rem);
   color: white;
 }
 .steps .steps__container h2 {
   text-align: center;
   font-weight: 500;
   transition: all 0.3s ease-in-out;
+  text-wrap: balance;
 }
 .steps .steps__container h2:hover {
   scale: 1.05;
 }
-.steps .steps__container .steps__container__boxes {
+.steps .steps__container .steps__container--boxes {
   display: flex;
   flex-wrap: wrap;
 }
-.steps .steps__container .steps__container__boxes .steps__container__boxes__count {
+.steps .steps__container .steps__container--boxes .steps__container--boxes-count {
   flex: 1 1 30%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.steps .steps__container .steps__container__boxes .steps__container__boxes__count .animation__span {
+.steps .steps__container .steps__container--boxes .steps__container--boxes-count .animation__span {
   display: block;
   width: clamp(4rem, 10vw, 6rem);
   height: clamp(4rem, 10vw, 6rem);
-  font-size: clamp(2.5rem, 5vw, 5rem);
+  font-size: clamp(2.5rem, 4vw, 4rem);
   font-weight: 900;
-  border: clamp(4px, 5vw, 7px) solid white;
+  border: clamp(2px, 5vw, 5px) solid white;
   border-radius: 50%;
   margin: 0 auto;
   display: flex;
@@ -43,7 +45,7 @@
   animation-iteration-count: infinite;
   animation-play-state: paused;
 }
-.steps .steps__container .steps__container__boxes .steps__container__boxes__count .rotate {
+.steps .steps__container .steps__container--boxes .steps__container--boxes-count .rotate {
   animation-play-state: running;
 }
 @keyframes rotate {
@@ -54,18 +56,18 @@
     transform: rotateY(360deg);
   }
 }
-.steps .steps__container .steps__container__boxes .steps__container__boxes__text {
+.steps .steps__container .steps__container--boxes .steps__container--boxes-text {
   flex: 1 1 70%;
 }
-.steps .steps__container .steps__container__boxes .steps__container__boxes__text h2 {
+.steps .steps__container .steps__container--boxes .steps__container--boxes-text h2 {
   line-height: 0.7;
   font-family: "Gruppo", sans-serif;
 }
-.steps .steps__container .steps__container__boxes .steps__container__boxes__text h3 {
+.steps .steps__container .steps__container--boxes .steps__container--boxes-text h3 {
   margin: 1rem 0 0;
   font-family: "Tomorrow", sans-serif;
 }
-.steps .steps__container .steps__container__boxes .steps__container__boxes__text p {
-  margin: 0.3rem 0;
+.steps .steps__container .steps__container--boxes .steps__container--boxes-text p {
+  margin: 0.3rem 10% 0.3rem 0;
   font-family: "Tomorrow", sans-serif;
 }/*# sourceMappingURL=StepsForServices.css.map */

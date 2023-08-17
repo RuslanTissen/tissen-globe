@@ -11,10 +11,10 @@
   flex-wrap: wrap;
   gap: clamp(1rem, 3vw, 4rem);
 }
-.technologies .technologies__container .technologies__container__title_box {
+.technologies .technologies__container .technologies__container--title-box {
   flex: 1 1 100%;
 }
-.technologies .technologies__container .technologies__container__title_box h2 {
+.technologies .technologies__container .technologies__container--title-box h2 {
   width: -moz-fit-content;
   width: fit-content;
   margin: 1rem auto;

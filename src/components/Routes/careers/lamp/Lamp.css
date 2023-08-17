@@ -9,13 +9,13 @@
   padding: 1rem 1rem;
   color: black;
 }
-.lamp .lamp__container .lamp__container__animation__box {
+.lamp .lamp__container .lamp__container--animation-box {
   flex: 1 1 100%;
   height: 300px;
   display: grid;
   place-items: center;
 }
-.lamp .lamp__container .lamp__container__animation__box img {
+.lamp .lamp__container .lamp__container--animation-box img {
   height: inherit;
 }
 .lamp .lamp__container q {
@@ -28,7 +28,7 @@
   margin: 1rem auto;
 }
 @media (min-width: 500px) {
-  .lamp .lamp__container .lamp__container__animation__box {
+  .lamp .lamp__container .lamp__container--animation-box {
     height: 325px;
   }
   .lamp .lamp__container q {
@@ -36,7 +36,7 @@
   }
 }
 @media (min-width: 600px) {
-  .lamp .lamp__container .lamp__container__animation__box {
+  .lamp .lamp__container .lamp__container--animation-box {
     height: 350px;
   }
   .lamp .lamp__container q {
@@ -44,7 +44,7 @@
   }
 }
 @media (min-width: 700px) {
-  .lamp .lamp__container .lamp__container__animation__box {
+  .lamp .lamp__container .lamp__container--animation-box {
     height: 375px;
   }
   .lamp .lamp__container q {
@@ -52,7 +52,7 @@
   }
 }
 @media (min-width: 800px) {
-  .lamp .lamp__container .lamp__container__animation__box {
+  .lamp .lamp__container .lamp__container--animation-box {
     height: 400px;
   }
   .lamp .lamp__container q {
@@ -60,7 +60,7 @@
   }
 }
 @media (min-width: 900px) {
-  .lamp .lamp__container .lamp__container__animation__box {
+  .lamp .lamp__container .lamp__container--animation-box {
     height: 450px;
   }
   .lamp .lamp__container q {

@@ -1,39 +1,42 @@
 .services__branches {
   background-color: white;
 }
-.services__branches .services__branches__coontainer {
+.services__branches .services__branches--coontainer {
   max-width: 1500px;
   margin: 0 auto;
   padding: 2rem;
   display: flex;
   flex-wrap: wrap;
 }
-.services__branches .services__branches__coontainer .services__branches__coontainer__boxes {
+.services__branches .services__branches--coontainer .services__branches--coontainer-boxes {
   flex: 1 1 48%;
   min-width: 280px;
   border: none;
   transition: all 0.3s ease-out;
   text-align: center;
   padding: 5%;
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease-in-out;
 }
-.services__branches .services__branches__coontainer .services__branches__coontainer__boxes img {
+.services__branches .services__branches--coontainer .services__branches--coontainer-boxes img {
   margin: 0 auto 1rem;
   width: 22%;
   min-width: 4rem;
   max-width: 7rem;
   display: block;
 }
-.services__branches .services__branches__coontainer .services__branches__coontainer__boxes h3 {
+.services__branches .services__branches--coontainer .services__branches--coontainer-boxes h3 {
   font-weight: 600;
   font-family: "Gruppo", sans-serif;
   margin: 0;
 }
-.services__branches .services__branches__coontainer .services__branches__coontainer__boxes p {
+.services__branches .services__branches--coontainer .services__branches--coontainer-boxes p {
   max-width: 600px;
   font-family: "Tomorrow", sans-serif;
   line-height: 1.1em;
   font-weight: 300;
 }
-.services__branches .services__branches__coontainer .services__branches__coontainer__boxes:hover {
+.services__branches .services__branches--coontainer .services__branches--coontainer-boxes:hover {
   background-color: rgb(245, 244, 244);
 }/*# sourceMappingURL=ServicesBranches.css.map */
