@@ -58,7 +58,7 @@ function Footer() {
 						<NavLink to="*" onClick={scrollToTheTop}><img src={logo} alt=' Tissen Logo'/></NavLink>
 						<a href='https://www.instagram.com/tissentechnologies/?igshid=MzRlODBiNWFlZA%3D%3D/' target='_blank'><FaInstagram /></a>
 						<a href='https://twitter.com/tissentech' target='_blank'><FaTwitter /></a>
-						<a href='https://www.facebook.com/profile.php?id=100095302290653&is_tour_completed=true' target='_blank'><FaFacebookF /></a>
+						<a href='https://www.facebook.com/profile.php?id=61550480973075' target='_blank'><FaFacebookF /></a>
 						<a href='https://www.linkedin.com/company/tissen/about/?viewAsMember=true' target='_blank'><BsLinkedin /></a>
 					</div>
 					<div className="footer__container--section-2-email">
