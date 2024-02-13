@@ -19,6 +19,7 @@ function Header() {
 		setActive(!active)
 		setShow(!show)
 	}
+	
 	let menuRef = useRef()
 	useEffect(() => {
 		let handler = (e) => {
